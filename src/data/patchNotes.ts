@@ -1,0 +1,115 @@
+export interface PatchUpdate {
+  id: string;
+  type: 'addition' | 'fix' | 'change' | 'balance' | 'content';
+  description: string;
+}
+
+export interface PatchNote {
+  id: string;
+  version: string;
+  date: string;
+  title: string;
+  updates: PatchUpdate[];
+}
+
+export interface MonthPatchNotes {
+  month: string;
+  patches: PatchNote[];
+}
+
+export interface YearPatchNotes {
+  year: string;
+  months: MonthPatchNotes[];
+}
+
+const patchNotes: YearPatchNotes[] = [
+  {
+    year: '2025',
+    months: [
+      {
+        month: 'May',
+        patches: [
+          {
+            id: '2025-05-20',
+            version: '2.3.1',
+            date: 'May 20, 2025',
+            title: 'Quality of Life Improvements',
+            updates: [
+              { id: '1', type: 'addition', description: 'Added new Mandalorian armor sets to the crafting system' },
+              { id: '2', type: 'fix', description: 'Fixed an issue where Jedi Knight trials were not properly tracking Tusken Raider kills' },
+              { id: '3', type: 'change', description: 'Improved shuttle travel times between planets' },
+              { id: '4', type: 'balance', description: 'Adjusted PvP damage values for certain combat professions' },
+              { id: '5', type: 'content', description: 'Introduced the Chiss Poacher Base dungeon on Hoth' },
+            ],
+          },
+          {
+            id: '2025-05-05',
+            version: '2.3.0',
+            date: 'May 5, 2025',
+            title: 'Major Combat Update',
+            updates: [
+              { id: '6', type: 'addition', description: 'Added 3 new weapon types for Commando and Bounty Hunter professions' },
+              { id: '7', type: 'change', description: 'Revamped the combat targeting system for improved performance' },
+              { id: '8', type: 'balance', description: 'Rebalanced damage output for all Jedi lightsaber forms' },
+              { id: '9', type: 'content', description: 'Added new PvP battleground in the Tatooine Dune Sea' },
+            ],
+          },
+        ],
+      },
+      {
+        month: 'April',
+        patches: [
+          {
+            id: '2025-04-18',
+            version: '2.2.5',
+            date: 'April 18, 2025',
+            title: 'Crafting Enhancements',
+            updates: [
+              { id: '10', type: 'addition', description: 'Added new crafting schematics for high-end armor attachments' },
+              { id: '11', type: 'fix', description: 'Fixed resource harvester efficiency calculations' },
+              { id: '12', type: 'change', description: 'Improved crafting interface with better resource quality indicators' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    year: '2024',
+    months: [
+      {
+        month: 'December',
+        patches: [
+          {
+            id: '2024-12-15',
+            version: '2.2.0',
+            date: 'December 15, 2024',
+            title: 'Winter Festival Update',
+            updates: [
+              { id: '13', type: 'content', description: 'Life Day celebration event with special rewards' },
+              { id: '14', type: 'addition', description: 'New player housing decorations themed for Life Day' },
+              { id: '15', type: 'fix', description: 'Multiple stability improvements for player cities' },
+            ],
+          },
+        ],
+      },
+      {
+        month: 'October',
+        patches: [
+          {
+            id: '2024-10-31',
+            version: '2.1.5',
+            date: 'October 31, 2024',
+            title: 'Halloween Event',
+            updates: [
+              { id: '16', type: 'content', description: 'Special Halloween themed quests and rewards' },
+              { id: '17', type: 'addition', description: 'Added Nightsister themed costumes and decorations' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export default patchNotes;
