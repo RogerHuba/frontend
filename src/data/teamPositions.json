@@ -1,0 +1,47 @@
+[
+  {
+    "id": "web-content-writer",
+    "title": "Web Content Writer",
+    "icon": "Brush",
+    "description": "The web content writer is responsible for the website pages such as guides and patch notes. New content on the website boosts our page rankings on search engines and helps our players to learn SWG.",
+    "requirements": [
+      "Utilise our WordPress back-end for managing content",
+      "Update patch notes, written as blog posts in a readable format",
+      "Write detailed, thorough guides with the support of other players",
+      "Pay attention to detail when it comes to video/image content",
+      "Post new content regularly – ideally weekly"
+    ],
+    "applicationEmail": "devs@swginfinity.com",
+    "applicationNote": "Apply by emailing devs@swginfinity.com with examples of your work and why you'd be suitable for this position."
+  },
+  {
+    "id": "youtube-content-manager",
+    "title": "YouTube Content Manager",
+    "icon": "MessageCircle",
+    "description": "Infinity has a YouTube channel which lacks content. New players can find us from youtube videos, and some players find it easier watching youtube videos for guides and tips.",
+    "requirements": [
+      "Create a content plan",
+      "Record and produce videos with Infinity watermark and post to the Infinity YouTube Channel",
+      "Add voice over that is clear to understand",
+      "Post regular videos on a range of topics, such as new starter guides, content walkthroughs and event videos",
+      "Interact with players and influencers to obtain player-made content for productions"
+    ],
+    "applicationEmail": "devs@swginfinity.com",
+    "applicationNote": "Apply by emailing devs@swginfinity.com with examples of your work and why you'd be suitable for this position."
+  },
+  {
+    "id": "social-media-manager",
+    "title": "Social Media Manager",
+    "icon": "Users",
+    "description": "Infinity gains new players from Facebook, Reddit, X and YouTube, as a Social Media Manager you will be responsible for managing our public-facing social media pages.",
+    "requirements": [
+      "Post new content regularly",
+      "Plan new content with players that create videos/images",
+      "Engage with the public",
+      "Retain a positive and friendly persona",
+      "Help to grow the inbound new player rate"
+    ],
+    "applicationEmail": "devs@swginfinity.com",
+    "applicationNote": "Apply by emailing devs@swginfinity.com with examples of your work and why you'd be suitable for this position."
+  }
+]

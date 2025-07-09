@@ -25,7 +25,7 @@ const navItems: NavItem[] = [
     name: "ABOUT INFINITY",
     href: "/about-infinity",
     submenu: [
-      { name: "Latest Patch Notes", href: "/blog" },
+      { name: "Latest Patch Notes", href: "/patchupdates" },
       { name: "Infinity Specific Rules", href: "/about-infinity/infinity-specific-rules" },
       { name: "Roadmap", href: "/about-infinity/roadmap" },
       { name: "Vision and Mantras", href: "/about-infinity/vision-and-mantras" },
@@ -87,12 +87,12 @@ export function Navigation() {
   };
 
   return (
-    <header className="main-nav sticky top-0 z-50 py-2 md:py-3">
+    <header className="main-nav fixed top-0 left-0 right-0 z-50 py-2 md:py-3">
       <div className="container mx-auto px-2 sm:px-3 md:px-4 max-w-full">
         {/* Mobile Layout (sm and below) */}
         <div className="flex md:hidden items-center justify-between w-full">
           {/* Logo + Discord */}
-          <div className="flex items-center space-x-1 flex-shrink-0 min-w-0">
+          <div className="flex items-center space-x-1 flex-shrink-0 min-w-0 ml-4">
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"
@@ -130,7 +130,7 @@ export function Navigation() {
         {/* Tablet Layout (md to lg) */}
         <div className="hidden md:flex lg:hidden items-center justify-between w-full">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 ml-5">
             <Link href="/">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"
@@ -241,7 +241,7 @@ export function Navigation() {
         {/* Desktop Layout (lg and above) */}
         <div className="hidden lg:flex items-center justify-between w-full">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 ml-6">
             <Link href="/">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"

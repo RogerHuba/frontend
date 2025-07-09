@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
     name: "ABOUT INFINITY",
     href: "/about-infinity",
     submenu: [
-      { name: "Latest Patch Notes", href: "/blog" },
+      { name: "Latest Patch Notes", href: "/patchupdates" },
       { name: "Infinity Specific Rules", href: "/about-infinity/infinity-specific-rules" },
       { name: "Roadmap", href: "/about-infinity/roadmap" },
       { name: "Vision and Mantras", href: "/about-infinity/vision-and-mantras" },

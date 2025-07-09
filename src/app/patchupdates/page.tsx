@@ -1,5 +1,5 @@
 import { PatchNotesPage } from "@/components/PatchNotesPage";
 
-export default function Blog() {
+export default function PatchUpdates() {
   return <PatchNotesPage />;
 }

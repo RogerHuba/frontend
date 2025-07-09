@@ -1,0 +1,23 @@
+{
+  "status": "online",
+  "playerCount": 847,
+  "maxPlayers": 1500,
+  "serverName": "SWG Infinity",
+  "lastUpdated": "2025-07-09T15:35:00Z",
+  "maintenanceMessage": null,
+  "motd": "Welcome to Star Wars Galaxies Infinity! Experience the Pre-CU galaxy as it was meant to be.",
+  "events": [
+    {
+      "name": "Double XP Weekend",
+      "active": false,
+      "startTime": "2025-07-12T18:00:00Z",
+      "endTime": "2025-07-14T23:59:59Z"
+    }
+  ],
+  "serverInfo": {
+    "uptime": "99.8%",
+    "version": "2.0.97",
+    "location": "US East",
+    "timezone": "EST"
+  }
+}

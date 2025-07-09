@@ -3,33 +3,12 @@
 import { useState } from "react";
 import { PageLayout } from "@/components/PageLayout";
 import { ChevronRight, ChevronDown } from "lucide-react";
-import patchNotes from '@/data/patchNotes';
-
-interface PatchUpdate {
-  id: string;
-  type: "addition" | "fix" | "change" | "balance" | "content";
-  description: string;
-}
-
-interface PatchNote {
-  id: string;
-  version: string;
-  date: string;
-  title: string;
-  updates: PatchUpdate[];
-}
-
-interface MonthPatchNotes {
-  month: string;
-  patches: PatchUpdate[];
-}
-
-interface YearPatchNotes {
-  year: string;
-  months: MonthPatchNotes[];
-}
+import patchNotesData from '@/data/patchNotes.json';
+import { PatchUpdate, PatchCategory, PatchNote, MonthPatchNotes, YearPatchNotes } from '@/data/patchNotes';
 
 export function PatchNotesPage() {
+  // Cast the imported JSON data to the proper type
+  const patchNotes = patchNotesData as YearPatchNotes[];
   // State to track which sections are open
   const [openYears, setOpenYears] = useState<string[]>(["2025"]);
   const [openMonths, setOpenMonths] = useState<string[]>(["2025-May"]);
@@ -52,8 +31,13 @@ export function PatchNotesPage() {
     );
   };
 
+  // Function to generate formatted patch title
+  const formatPatchTitle = (version: string, date: string) => {
+    return `Infinity ${version} Patch Notes - ${date}`;
+  };
+
   // Function to render patch update with appropriate styling by type
-  const renderPatchUpdate = (update: PatchUpdate) => {
+  const renderPatchUpdate = (update: PatchUpdate, index: number) => {
     let badgeColor = "";
     let badgeText = "";
 
@@ -81,7 +65,7 @@ export function PatchNotesPage() {
     }
 
     return (
-      <div key={update.id} className="flex items-start mb-3">
+      <div key={index} className="flex items-start mb-3">
         <span className={`inline-block rounded px-2 py-1 text-xs font-medium mr-3 ${badgeColor}`}>
           {badgeText}
         </span>
@@ -106,14 +90,11 @@ export function PatchNotesPage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
             <div>
               <h3 className="text-white font-bold text-xl">
-                {patchNotes[0].months[0].patches[0].title}
+                {formatPatchTitle(patchNotes[0].months[0].patches[0].version, patchNotes[0].months[0].patches[0].date)}
               </h3>
               <div className="flex items-center mt-1">
-                <span className="text-[hsl(var(--swg-accent-gold))] text-sm mr-3">
-                  Version {patchNotes[0].months[0].patches[0].version}
-                </span>
-                <span className="text-gray-400 text-sm">
-                  {patchNotes[0].months[0].patches[0].date}
+                <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
+                  Original Title: {patchNotes[0].months[0].patches[0].title}
                 </span>
               </div>
             </div>
@@ -122,8 +103,17 @@ export function PatchNotesPage() {
             </span>
           </div>
 
-          <div className="mt-4 space-y-3">
-            {patchNotes[0].months[0].patches[0].updates.map(renderPatchUpdate)}
+          <div className="mt-4 space-y-6">
+            {patchNotes[0].months[0].patches[0].categories?.map((category, categoryIndex) => (
+              <div key={categoryIndex} className="space-y-3">
+                <h4 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-lg border-b border-[#1a1a4a] pb-2">
+                  {category.area}
+                </h4>
+                <div className="space-y-3">
+                  {category.updates.map(renderPatchUpdate)}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       )}
@@ -170,20 +160,28 @@ export function PatchNotesPage() {
                           <div key={patch.id} className="border-b border-[#1a1a4a] pb-6 last:border-0 last:pb-0">
                             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
                               <div>
-                                <h5 className="text-white font-bold text-lg">{patch.title}</h5>
+                                <h5 className="text-white font-bold text-lg">
+                                  {formatPatchTitle(patch.version, patch.date)}
+                                </h5>
                                 <div className="flex items-center mt-1">
-                                  <span className="text-[hsl(var(--swg-accent-gold))] text-sm mr-3">
-                                    Version {patch.version}
-                                  </span>
-                                  <span className="text-gray-400 text-sm">
-                                    {patch.date}
+                                  <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
+                                    Original Title: {patch.title}
                                   </span>
                                 </div>
                               </div>
                             </div>
 
-                            <div className="mt-4 space-y-3">
-                              {patch.updates.map(renderPatchUpdate)}
+                            <div className="mt-4 space-y-6">
+                              {patch.categories?.map((category, categoryIndex) => (
+                                <div key={categoryIndex} className="space-y-3">
+                                  <h5 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-base border-b border-[#1a1a4a] pb-2">
+                                    {category.area}
+                                  </h5>
+                                  <div className="space-y-3">
+                                    {category.updates.map(renderPatchUpdate)}
+                                  </div>
+                                </div>
+                              ))}
                             </div>
                           </div>
                         ))}

@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { Check, AlertTriangle, X, Clock, RefreshCw } from "lucide-react";
+import { ServerStatusData } from "@/types/serverStatus";
+import serverStatusData from "@/data/serverStatus.json";
 
 type ServerState = "online" | "offline" | "maintenance" | "high-traffic" | "loading";
 
@@ -16,37 +18,31 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
   const [lastUpdated, setLastUpdated] = useState<Date>(new Date());
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [maintenanceMessage, setMaintenanceMessage] = useState<string | null>(null);
 
-  // In a real implementation, this would fetch from an API
-  // For demo purposes, we're simulating with some sample data
+  // Load server status from JSON file
   const fetchServerStatus = useCallback(async () => {
     setIsRefreshing(true);
 
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    // Simulate a small delay to show loading state
+    await new Promise(resolve => setTimeout(resolve, 500));
 
-    // For demo, we'll randomly choose a status with weighted probability
-    const random = Math.random();
-    let newStatus: ServerState;
-    let newPlayerCount: number;
-
-    if (random < 0.7) { // 70% chance server is online
-      newStatus = "online";
-      newPlayerCount = Math.floor(Math.random() * 500) + 300; // 300-800 players
-    } else if (random < 0.85) { // 15% chance high traffic
-      newStatus = "high-traffic";
-      newPlayerCount = Math.floor(Math.random() * 300) + 800; // 800-1100 players
-    } else if (random < 0.95) { // 10% chance maintenance
-      newStatus = "maintenance";
-      newPlayerCount = 0;
-    } else { // 5% chance offline
-      newStatus = "offline";
-      newPlayerCount = 0;
+    try {
+      // In a real implementation, you might fetch from an API
+      // For now, we'll use the static JSON data
+      const data = serverStatusData as ServerStatusData;
+      
+      setStatus(data.status);
+      setPlayerCount(data.playerCount);
+      setLastUpdated(new Date(data.lastUpdated));
+      setMaintenanceMessage(data.maintenanceMessage);
+    } catch (error) {
+      console.error('Failed to fetch server status:', error);
+      setStatus("offline");
+      setPlayerCount(0);
+      setLastUpdated(new Date());
     }
 
-    setStatus(newStatus);
-    setPlayerCount(newPlayerCount);
-    setLastUpdated(new Date());
     setIsRefreshing(false);
   }, []);
 
@@ -133,6 +129,10 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
             {status === "online" || status === "high-traffic" ? (
               <span className="text-xs text-gray-400">
                 {playerCount} players online
+              </span>
+            ) : status === "maintenance" && maintenanceMessage ? (
+              <span className="text-xs text-gray-400">
+                {maintenanceMessage}
               </span>
             ) : (
               <span className="text-xs text-gray-400">
