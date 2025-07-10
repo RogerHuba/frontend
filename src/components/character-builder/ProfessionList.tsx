@@ -129,6 +129,8 @@ export function ProfessionList({
       {/* Search input */}
       <div className="mb-3">
         <input
+          id="profession-search"
+          name="professionSearch"
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}

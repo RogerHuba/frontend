@@ -71,6 +71,8 @@ export function ProfessionComparison({
           <div>
             <label className="text-white text-sm mb-2 block">Compare with:</label>
             <select
+              id="comparison-profession-select"
+              name="comparisonProfessionSelect"
               className="w-full bg-[#04444a] border border-[#056473] text-[#b8dce3] rounded px-2 py-1 text-sm"
               value={comparisonProfession?.id || ''}
               onChange={(e) => {

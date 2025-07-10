@@ -537,6 +537,8 @@ export function CharacterBuilder() {
             <div className="flex flex-col md:flex-row justify-between items-center mb-4">
               <div className="flex items-center mb-2 md:mb-0">
                 <select
+                  id="species-select"
+                  name="speciesSelect"
                   className="bg-[#04444a] border border-[#056473] text-[#b8dce3] rounded px-2 py-1"
                   value={selectedSpecies.id}
                   onChange={(e) => handleSpeciesChange(e.target.value)}
@@ -632,6 +634,8 @@ export function CharacterBuilder() {
           <div className="bg-[#068ba3] p-6 rounded-md w-96">
             <h3 className="text-white font-bold text-lg mb-4">Save Character Build</h3>
             <input
+              id="template-name"
+              name="templateName"
               type="text"
               value={templateName}
               onChange={(e) => setTemplateName(e.target.value)}
@@ -733,6 +737,8 @@ export function CharacterBuilder() {
               {shareData && (
                 <div className="space-y-2">
                   <textarea
+                    id="build-share-code"
+                    name="buildShareCode"
                     className="w-full bg-[#04444a] border border-[#056473] text-[#b8dce3] rounded p-2 text-xs h-20 resize-none"
                     value={shareData}
                     readOnly

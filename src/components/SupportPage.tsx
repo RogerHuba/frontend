@@ -180,6 +180,8 @@ export function SupportPage() {
                 <div className="mb-8">
                   <div className="relative mb-6">
                     <input
+                      id="faq-search"
+                      name="faqSearch"
                       type="text"
                       className="w-full bg-[rgba(13,13,30,0.6)] pl-10 pr-4 py-3 rounded-lg border border-gray-700 text-white focus:outline-none focus:border-blue-500"
                       placeholder="Search for answers..."

@@ -176,6 +176,8 @@ export function BuildExportImport({ currentBuild, onImportBuild }: BuildExportIm
               {exportData && (
                 <div className="space-y-2">
                   <textarea
+                    id="build-export-data"
+                    name="buildExportData"
                     className="w-full bg-[#063a4a] border border-[#056473] text-[#b8dce3] rounded p-2 text-xs h-20 resize-none"
                     value={exportData}
                     readOnly
@@ -249,6 +251,8 @@ export function BuildExportImport({ currentBuild, onImportBuild }: BuildExportIm
               <div>
                 <label className="text-white text-sm mb-2 block">Build Code:</label>
                 <textarea
+                  id="build-import-data"
+                  name="buildImportData"
                   value={importData}
                   onChange={(e) => setImportData(e.target.value)}
                   placeholder="Paste build code here (SWG-BUILD-...)..."

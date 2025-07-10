@@ -352,6 +352,8 @@ export function FAQPage() {
             <Search className="h-5 w-5 text-gray-400" />
           </div>
           <input
+            id="faq-search-input"
+            name="faqSearchInput"
             type="text"
             placeholder="Search FAQ..."
             className="w-full py-2 pl-10 pr-4 bg-[rgba(13,20,40,0.8)] border border-[#1a1a4a] rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[hsl(var(--swg-accent-gold))/50%] focus:border-[hsl(var(--swg-accent-gold))]"

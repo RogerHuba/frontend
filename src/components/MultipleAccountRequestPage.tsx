@@ -240,6 +240,8 @@ export function MultipleAccountRequestPage() {
                               Username <span className="text-red-500">*</span>
                             </label>
                             <input
+                              id={`additional-account-username-${index}`}
+                              name={`additionalAccountUsername_${index}`}
                               type="text"
                               className="w-full bg-[rgba(13,13,30,0.6)] p-3 rounded-lg border border-gray-700 text-white focus:outline-none focus:border-blue-500"
                               placeholder="Additional account username"
@@ -253,6 +255,8 @@ export function MultipleAccountRequestPage() {
                               Email <span className="text-red-500">*</span>
                             </label>
                             <input
+                              id={`additional-account-email-${index}`}
+                              name={`additionalAccountEmail_${index}`}
                               type="email"
                               className="w-full bg-[rgba(13,13,30,0.6)] p-3 rounded-lg border border-gray-700 text-white focus:outline-none focus:border-blue-500"
                               placeholder="Email for this account"
@@ -268,6 +272,8 @@ export function MultipleAccountRequestPage() {
                             Reason for Additional Account <span className="text-red-500">*</span>
                           </label>
                           <textarea
+                            id={`additional-account-reason-${index}`}
+                            name={`additionalAccountReason_${index}`}
                             className="w-full bg-[rgba(13,13,30,0.6)] p-3 rounded-lg border border-gray-700 text-white focus:outline-none focus:border-blue-500 min-h-[100px]"
                             placeholder="Please explain why you need this additional account (e.g., dedicated crafter, family member, etc.)"
                             value={account.reason}

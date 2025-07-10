@@ -237,7 +237,7 @@
 
 /* Character Builder hero section */
 .hero-section-character {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/character-creation-hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/swg-cantina-ingame.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -248,7 +248,7 @@
 
 /* Character Builder minimal hero section */
 .hero-section-character-minimal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/character-creation-hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), linear-gradient(to bottom, hsl(var(--swg-dark-blue)), hsl(var(--swg-deep-blue)));
   background-size: cover;
   background-position: center;
   min-height: 120px;
@@ -259,7 +259,7 @@
 
 /* Guides hero section */
 .hero-section-guides {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/force-lightning-hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/swg-cantina-ingame.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -270,7 +270,7 @@
 
 /* Community hero section */
 .hero-section-community {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/community-cantina-hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/swg-cantina-ingame.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
