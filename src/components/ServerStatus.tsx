@@ -46,11 +46,12 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
     setIsRefreshing(false);
   }, []);
 
+  // Single useEffect to prevent duplicate calls
   useEffect(() => {
     setIsMounted(true);
     fetchServerStatus();
 
-    // Setup a refresh every 5 minutes (in a real implementation)
+    // Setup a refresh every 5 minutes
     const intervalId = setInterval(fetchServerStatus, 5 * 60 * 1000);
 
     return () => clearInterval(intervalId);
@@ -105,14 +106,17 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
 
   return (
     <div className={`flex flex-col ${className}`}>
-      <div className={`rounded-md border px-3 py-2 ${config.border} ${config.bgColor}`}>
+      <div 
+        className={`rounded-md border px-3 py-2 ${config.border} ${config.bgColor} relative group cursor-default`}
+        title={isMounted ? `Last updated: ${lastUpdated.toLocaleTimeString()}` : 'Loading...'}
+      >
         <div className="flex items-center gap-2">
           <div className={`${config.color}`}>
             {config.icon}
           </div>
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
-              <span className={`text-sm font-medium ${config.color}`}>
+              <span className={`text-xs font-medium ${config.color}`}>
                 Server: {config.text}
               </span>
               {showRefresh && (
@@ -141,9 +145,12 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
             )}
           </div>
         </div>
-      </div>
-      <div className="text-xs text-gray-500 text-right mt-1">
-        Last updated: {isMounted ? lastUpdated.toLocaleTimeString() : 'Loading...'}
+        
+        {/* Tooltip for last updated time */}
+        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-50">
+          Last updated: {isMounted ? lastUpdated.toLocaleTimeString() : 'Loading...'}
+          <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800"></div>
+        </div>
       </div>
     </div>
   );

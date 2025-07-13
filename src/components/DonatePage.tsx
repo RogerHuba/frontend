@@ -2,7 +2,7 @@
 
 import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
-import { Footer } from "@/components/Footer";
+import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 
@@ -185,7 +185,7 @@ export function DonatePage() {
       </div>
 
       <DiscordSection />
-      <Footer />
+      <ServerInfoFooter />
     </main>
   );
 }

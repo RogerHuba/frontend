@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, MessageCircle, Play, ChevronDown } from "lucide-react";
@@ -73,7 +73,11 @@ export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
-  const toggleDropdown = (itemName: string) => {
+  const toggleDropdown = (itemName: string, e?: React.MouseEvent) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     if (activeDropdown === itemName) {
       setActiveDropdown(null);
     } else {
@@ -86,8 +90,20 @@ export function Navigation() {
     setActiveDropdown(null);
   };
 
+  // Close dropdowns when clicking anywhere
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setActiveDropdown(null);
+    };
+
+    if (activeDropdown) {
+      document.addEventListener('click', handleClickOutside);
+      return () => document.removeEventListener('click', handleClickOutside);
+    }
+  }, [activeDropdown]);
+
   return (
-    <header className="main-nav fixed top-0 left-0 right-0 z-50 py-2 md:py-3">
+    <header className="main-nav fixed top-0 left-0 right-0 z-[100] py-2 md:py-3">
       <div className="container mx-auto px-2 sm:px-3 md:px-4 max-w-full">
         {/* Mobile Layout (sm and below) */}
         <div className="flex md:hidden items-center justify-between w-full">
@@ -143,15 +159,14 @@ export function Navigation() {
             </Link>
           </div>
           {/* Compact Navigation */}
-          <div className="flex items-center space-x-1 flex-1 justify-center mx-2 min-w-0 overflow-hidden">
-            {navItems.map((item) => (
-              <div key={item.name} className="relative flex-shrink-0">
-                {item.submenu ? (
-                  <>
-                    <button
-                      onClick={() => toggleDropdown(item.name)}
-                      className="text-white hover:text-gray-300 cursor-pointer text-xs font-semibold py-1 px-1 flex items-center tracking-tight whitespace-nowrap"
-                    >
+          <div className="flex items-center space-x-1 flex-1 justify-center mx-2 min-w-0 overflow-visible relative">                {navItems.map((item) => (
+                  <div key={item.name} className="relative flex-shrink-0 z-50">
+                    {item.submenu ? (
+                      <>
+                        <button
+                          onClick={(e) => toggleDropdown(item.name, e)}
+                          className="text-white hover:text-gray-300 cursor-pointer text-xs font-semibold py-1 px-1 flex items-center tracking-tight whitespace-nowrap relative z-50"
+                        >
                       {item.name.includes(' ') ? item.name.split(' ')[0] : item.name}
                       <ChevronDown
                         className={`ml-1 h-3 w-3 text-gray-400 transition-transform duration-200 ${
@@ -161,17 +176,18 @@ export function Navigation() {
                     </button>
                     {activeDropdown === item.name && (
                       <div
-                        className="dropdown-menu left-0 mt-1 w-44 py-1"
+                        className="dropdown-menu absolute left-0 mt-1 w-44 py-1 z-[9999]"
                         style={{
                           position: 'absolute',
                           top: '100%',
                           left: '0',
-                          zIndex: 9999,
+                          zIndex: 99999,
                           backgroundColor: '#0d0d30',
                           border: '1px solid #1a1a4a',
                           borderRadius: '6px',
                           display: 'block',
-                          minHeight: '100px'
+                          minHeight: '100px',
+                          boxShadow: '0 10px 25px rgba(0, 0, 0, 0.5)'
                         }}
                       >
                         {item.submenu.map((subItem) =>
@@ -222,7 +238,7 @@ export function Navigation() {
           </div>
           {/* Tablet Status Panel */}
           <div className="flex items-center space-x-1 flex-shrink-0">
-            <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2 py-1 w-[120px] flex items-center justify-center">
+            <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2 py-1 w-[140px] flex items-center justify-center">
               <ServerStatus showRefresh={false} />
             </div>
             <div className="flex flex-col space-y-1">
@@ -241,51 +257,52 @@ export function Navigation() {
         {/* Desktop Layout (lg and above) */}
         <div className="hidden lg:flex items-center justify-between w-full">
           {/* Logo */}
-          <div className="flex-shrink-0 ml-6">
+          <div className="flex-shrink-0 ml-3 lg:ml-3 xl:ml-4 2xl:ml-4">
             <Link href="/">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"
                 alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
-                width={106}
-                height={56}
-                className="xl:w-[120px] xl:h-[64px]"
+                width={75}
+                height={40}
+                className="lg:w-[80px] lg:h-[42px] xl:w-[90px] xl:h-[48px] 2xl:w-[100px] 2xl:h-[53px]"
                 priority
               />
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="flex items-center flex-1 justify-between ml-6 xl:ml-8 min-w-0">
-            <div className="border-l border-gray-600 h-12 pl-6 xl:pl-8 flex-1 min-w-0 flex items-center">
-              <ul className="flex space-x-2 lg:space-x-4 xl:space-x-8 justify-center w-full">
+          <nav className="flex items-center flex-1 justify-between ml-3 lg:ml-4 xl:ml-5 2xl:ml-6 min-w-0">
+            <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6 flex-1 min-w-0 flex items-center overflow-visible">
+              <ul className="flex space-x-0.5 lg:space-x-1 xl:space-x-2 2xl:space-x-3 justify-center w-full min-w-0 relative">
                 {navItems.map((item) => (
-                  <li key={item.name} className="relative flex-shrink-0">
+                  <li key={item.name} className="relative flex-shrink-0 min-w-0 z-50">
                     {item.submenu ? (
                       <>
                         <button
-                          onClick={() => toggleDropdown(item.name)}
-                          className="text-white hover:text-gray-300 cursor-pointer text-sm xl:text-base font-semibold py-2 px-1 flex items-center tracking-wide whitespace-nowrap"
+                          onClick={(e) => toggleDropdown(item.name, e)}
+                          className="text-white hover:text-gray-300 cursor-pointer text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1.5 2xl:px-2 flex items-center tracking-tight whitespace-nowrap min-w-0 relative z-50"
                         >
-                          {item.name}
+                          <span className="truncate">{item.name}</span>
                           <ChevronDown
-                            className={`ml-1 h-4 w-4 text-gray-400 transition-transform duration-200 ${
+                            className={`ml-1 h-3 lg:h-4 w-3 lg:w-4 text-gray-400 transition-transform duration-200 flex-shrink-0 ${
                               activeDropdown === item.name ? 'rotate-180' : ''
                             }`}
                           />
                         </button>
                         {activeDropdown === item.name && (
                           <div
-                            className="dropdown-menu left-0 mt-1 w-56 py-1"
+                            className="dropdown-menu absolute left-0 mt-1 w-56 py-1 z-[9999]"
                             style={{
                               position: 'absolute',
                               top: '100%',
                               left: '0',
-                              zIndex: 9999,
+                              zIndex: 99999,
                               backgroundColor: '#0d0d30',
                               border: '1px solid #1a1a4a',
                               borderRadius: '6px',
                               display: 'block',
-                              minHeight: '100px'
+                              minHeight: '100px',
+                              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.5)'
                             }}
                           >
                             {item.submenu.map((subItem) =>
@@ -327,8 +344,8 @@ export function Navigation() {
                         )}
                       </>
                     ) : (
-                      <Link href={item.href} className="text-white hover:text-gray-300 text-sm xl:text-base font-semibold py-2 px-1 tracking-wide transition-colors whitespace-nowrap flex items-center">
-                        {item.name}
+                      <Link href={item.href} className="text-white hover:text-gray-300 text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1.5 2xl:px-2 tracking-tight transition-colors whitespace-nowrap flex items-center min-w-0">
+                        <span className="truncate">{item.name}</span>
                       </Link>
                     )}
                   </li>
@@ -337,17 +354,17 @@ export function Navigation() {
             </div>
 
             {/* Desktop Status Panel */}
-            <div className="border-l border-gray-600 h-12 pl-6 xl:pl-8 flex items-center space-x-3 xl:space-x-4 flex-shrink-0">
-              <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-4 xl:px-6 py-2 xl:py-3 w-[180px] xl:w-[220px] flex items-center justify-center">
+            <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6 flex items-center space-x-1.5 lg:space-x-2 xl:space-x-3 2xl:space-x-4 flex-shrink-0">
+              <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2.5 lg:px-3 xl:px-4 2xl:px-5 py-2 w-[155px] lg:w-[165px] xl:w-[180px] 2xl:w-[195px] flex items-center justify-center flex-shrink-0 h-10">
                 <ServerStatus showRefresh={false} />
               </div>
-              <div className="flex flex-col space-y-2">
-                <a href="https://discord.gg/jyakeRJ" target="_blank" rel="noopener noreferrer" className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-3 xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[110px] xl:w-[130px] text-sm">
-                  <MessageCircle className="h-4 w-4" />
+              <div className="flex flex-row space-x-1 lg:space-x-1.5 xl:space-x-2 2xl:space-x-3 flex-shrink-0 h-10 items-center">
+                <a href="https://discord.gg/jyakeRJ" target="_blank" rel="noopener noreferrer" className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1.5 xl:space-x-1.5 2xl:space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[70px] lg:w-[78px] xl:w-[88px] 2xl:w-[98px] text-xs lg:text-sm h-10">
+                  <MessageCircle className="h-3 lg:h-4 w-3 lg:w-4" />
                   <span>Discord</span>
                 </a>
-                <Link href="/play-now" className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-3 xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[110px] xl:w-[130px] text-sm">
-                  <Play className="h-4 w-4" />
+                <Link href="/play-now" className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1.5 xl:space-x-1.5 2xl:space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[70px] lg:w-[78px] xl:w-[88px] 2xl:w-[98px] text-xs lg:text-sm h-10">
+                  <Play className="h-3 lg:h-4 w-3 lg:w-4" />
                   <span>Play Now</span>
                 </Link>
               </div>
@@ -397,7 +414,7 @@ export function Navigation() {
                 {item.submenu ? (
                   <div className="py-2">
                     <button
-                      onClick={() => toggleDropdown(item.name)}
+                      onClick={(e) => toggleDropdown(item.name, e)}
                       className="w-full flex justify-between items-center text-white font-medium px-3 py-2"
                     >
                       <span>{item.name}</span>

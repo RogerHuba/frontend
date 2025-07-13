@@ -2,7 +2,7 @@
 
 import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
-import { Footer } from "@/components/Footer";
+import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import { useState } from "react";
 import Link from "next/link";
 import { CheckCircle2, AlertCircle, ChevronDown, ChevronUp, Search, HelpCircle, DownloadCloud, Shield, Users, MessageSquare } from "lucide-react";
@@ -420,7 +420,7 @@ export function SupportPage() {
       </div>
 
       <DiscordSection />
-      <Footer />
+      <ServerInfoFooter />
     </main>
   );
 }

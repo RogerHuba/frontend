@@ -2,7 +2,7 @@
 
 import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
-import { Footer } from "@/components/Footer";
+import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import { useState } from "react";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 
@@ -333,7 +333,7 @@ export function MultipleAccountRequestPage() {
       </div>
 
       <DiscordSection />
-      <Footer />
+      <ServerInfoFooter />
     </main>
   );
 }

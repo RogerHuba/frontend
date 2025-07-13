@@ -74,31 +74,6 @@
 }
 
 /* Custom styles for SWG Infinity */
-.hero-section-cantina {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/cantina-hero.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-}
-
-.hexagon-pattern {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.1;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(255, 255, 255, 0.1) 2px,
-    rgba(255, 255, 255, 0.1) 4px
-  );
-}
 .hexagon-pattern {
   background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSJyZ2JhKDAsMCwwLDAuMikiIGhlaWdodD0iMTk0cHgiIHdpZHRoPSIxMTJweCIgdmlld0JveD0iMCAwIDExMiAxOTQiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMTg3LjVMNTYgMTk0VjExOUw1NiA9Mi44VjgwLjRWMEg0Ny4zSDI4SDBWMTg3LjVaIi8+PHBhdGggZD0iTTExMiAxODcuNUw1NiAxOTRWMTE5VjkyLjhWODAuNFYwSDY0LjdIODRIMTEyVjE4Ny41WiIvPjwvc3ZnPg==');
   background-position: center center;
@@ -215,18 +190,46 @@
 
 /* Hero section styles */
 .hero-section {
-  background-image: url('https://ext.same-assets.com/906812322/2240799338.jpeg');
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-  position: relative;
-  display: flex;
-  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  min-height: 600px !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
-/* New cantina hero section */
+/* Individual hero backgrounds with higher specificity */
+body .hero-section.hero-1 {
+  background-image: url('/hero1.jpg') !important;
+}
+
+body .hero-section.hero-2 {
+  background-image: url('/hero2.jpg') !important;
+}
+
+body .hero-section.hero-3 {
+  background-image: url('/hero3.jpg') !important;
+}
+
+body .hero-section.hero-4 {
+  background-image: url('/hero4.jpg') !important;
+}
+
+body .hero-section.hero-5 {
+  background-image: url('/hero5.jpg') !important;
+}
+
+body .hero-section.hero-6 {
+  background-image: url('/hero6.jpg') !important;
+}
+
+body .hero-section.hero-7 {
+  background-image: url('/hero7.jpg') !important;
+}
+
+/* Update the cantina hero section to use a fallback hero image */
 .hero-section-cantina {
-  background-image: url('/swg-cantina-ingame.jpg');
+  background-image: url('/hero1.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -235,9 +238,9 @@
   align-items: center;
 }
 
-/* Character Builder hero section */
+/* Character Builder hero section - use fallback */
 .hero-section-character {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/swg-cantina-ingame.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/hero1.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -257,9 +260,9 @@
   align-items: center;
 }
 
-/* Guides hero section */
+/* Guides hero section - use fallback */
 .hero-section-guides {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/swg-cantina-ingame.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/hero1.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;
@@ -268,9 +271,20 @@
   align-items: center;
 }
 
-/* Community hero section */
+/* Community hero section - use fallback */
 .hero-section-community {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/swg-cantina-ingame.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/hero1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Play hero section - use fallback */
+.hero-section-play {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/hero2.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;

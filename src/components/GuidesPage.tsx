@@ -3,7 +3,7 @@
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { DiscordSection } from "@/components/DiscordSection";
-import { Footer } from "@/components/Footer";
+import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import Link from "next/link";
 
 export function GuidesPage() {
@@ -124,7 +124,7 @@ export function GuidesPage() {
       </div>
 
       <DiscordSection />
-      <Footer />
+      <ServerInfoFooter />
     </main>
   );
 }
