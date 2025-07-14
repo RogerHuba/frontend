@@ -1,11 +1,18 @@
-const path = require('path');
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'out',
+  // Remove static export for Vercel deployment to enable server features
+  // output: 'export',
+  // distDir: 'out',
+  
   images: {
-    unoptimized: true,
+    // Keep unoptimized true if you want to use static export later
+    unoptimized: false,
     domains: [
       "source.unsplash.com",
       "images.unsplash.com",
@@ -35,13 +42,25 @@ const nextConfig = {
       },
     ],
   },
+  
   eslint: {
     ignoreDuringBuilds: true,
   },
+  
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  
   webpack: (config) => {
     config.resolve.alias['@'] = path.resolve(__dirname, 'src');
     return config;
   },
+  
+  // Enable experimental features for better performance
+  experimental: {
+    // optimizeCss: true, // Disabled - requires critters package
+    optimizeServerReact: true,
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

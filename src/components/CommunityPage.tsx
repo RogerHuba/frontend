@@ -10,7 +10,7 @@ export function CommunityPage() {
     <PageLayout
       title="Community"
       subtitle="Join our active and welcoming SWG community"
-      heroClassName="hero-section-community"
+      heroClass="hero-section-community"
     >
       <h2 className="section-title mb-6">SWG Infinity Community</h2>
 

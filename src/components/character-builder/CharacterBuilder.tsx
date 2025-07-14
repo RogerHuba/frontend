@@ -516,7 +516,7 @@ export function CharacterBuilder() {
     <PageLayout
       title="Character Builder"
       subtitle="Plan your character's profession and skills"
-      heroClassName="hero-section-character-minimal"
+      heroClass="hero-section-character-minimal"
     >
       <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
         {/* Sidebar - Professions */}

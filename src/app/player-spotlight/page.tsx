@@ -1,5 +1,5 @@
-import { PlayerSpotlightPage } from "@/components/PlayerSpotlightPage";
+import { MonthlySpotlightPage } from "@/components/MonthlySpotlightPage";
 
 export default function PlayerSpotlight() {
-  return <PlayerSpotlightPage />;
+  return <MonthlySpotlightPage />;
 }
