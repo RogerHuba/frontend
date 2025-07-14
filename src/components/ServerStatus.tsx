@@ -117,45 +117,45 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
   return (
     <div className={`${className}`}>
       <div 
-        className={`flex items-center gap-2 relative group cursor-default`}
+        className={`flex items-center gap-2 relative group cursor-default transition-all duration-300`}
         title={isMounted ? `Last updated: ${lastUpdated.toLocaleTimeString()}` : 'Loading...'}
       >
-        <div className={`${config.color} flex-shrink-0`}>
+        <div className={`${config.color} flex-shrink-0 transition-all duration-300 group-hover:scale-110`}>
           {config.icon}
         </div>
         <div className="flex flex-col min-w-0">
           <div className="flex items-center gap-2">
-            <span className={`text-xs font-medium ${config.color} whitespace-nowrap`}>
+            <span className={`text-xs font-medium ${config.color} whitespace-nowrap transition-all duration-300 group-hover:text-green-400`}>
               Server: {config.text}
             </span>
             {showRefresh && (
               <button
                 onClick={handleRefresh}
                 disabled={isRefreshing}
-                className="text-gray-400 hover:text-gray-300 disabled:opacity-50 flex-shrink-0"
+                className="text-gray-400 hover:text-gray-300 disabled:opacity-50 flex-shrink-0 transition-all duration-300 hover:scale-110 hover:rotate-180"
                 title="Refresh server status"
               >
-                <RefreshCw className={`h-3.5 w-3.5 ${isRefreshing ? 'animate-spin' : ''}`} />
+                <RefreshCw className={`h-3.5 w-3.5 transition-all duration-500 ${isRefreshing ? 'animate-spin' : ''}`} />
               </button>
             )}
           </div>
           {status === "online" || status === "high-traffic" ? (
-            <span className="text-xs text-gray-400 whitespace-nowrap">
+            <span className="text-xs text-gray-400 whitespace-nowrap transition-all duration-300 group-hover:text-green-300">
               Up Time: {calculateUptime()}
             </span>
           ) : status === "maintenance" && maintenanceMessage ? (
-            <span className="text-xs text-gray-400">
+            <span className="text-xs text-gray-400 transition-colors duration-300">
               {maintenanceMessage}
             </span>
           ) : (
-            <span className="text-xs text-gray-400">
+            <span className="text-xs text-gray-400 transition-colors duration-300">
               {status === "maintenance" ? "Scheduled maintenance" : "Please try again later"}
             </span>
           )}
         </div>
         
         {/* Tooltip for last updated time */}
-        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-50">
+        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none whitespace-nowrap z-50 scale-95 group-hover:scale-100">
           Last updated: {isMounted ? lastUpdated.toLocaleTimeString() : 'Loading...'}
           <div className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800"></div>
         </div>

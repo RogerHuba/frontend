@@ -104,7 +104,7 @@ export function Navigation() {
   }, [activeDropdown]);
 
   return (
-    <header className="main-nav fixed top-0 left-0 right-0 z-[100] py-2 md:py-3">
+    <header className="main-nav fixed top-0 left-0 right-0 z-[100] py-2 md:py-3 backdrop-blur-sm bg-black/90 transition-all duration-300">
       <div className="container mx-auto px-2 sm:px-3 md:px-4 max-w-full">
         {/* Mobile Layout (sm and below) */}
         <div className="flex md:hidden items-center justify-between w-full">
@@ -259,13 +259,13 @@ export function Navigation() {
         <div className="hidden lg:flex items-center w-full gap-2 lg:gap-3 xl:gap-4">
           {/* Logo Section - Fixed width */}
           <div className="flex-shrink-0">
-            <Link href="/">
+            <Link href="/" className="group">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"
                 alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                 width={75}
                 height={40}
-                className="lg:w-[80px] lg:h-[42px] xl:w-[90px] xl:h-[48px] 2xl:w-[100px] 2xl:h-[53px]"
+                className="lg:w-[80px] lg:h-[42px] xl:w-[90px] xl:h-[48px] 2xl:w-[100px] 2xl:h-[53px] transition-transform duration-300 group-hover:scale-105"
                 priority
               />
             </Link>
@@ -282,12 +282,12 @@ export function Navigation() {
                         <>
                           <button
                             onClick={(e) => toggleDropdown(item.name, e)}
-                            className="text-white hover:text-gray-300 cursor-pointer text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 flex items-center tracking-tight whitespace-nowrap min-w-0 relative z-50"
+                            className="text-white hover:text-gray-300 cursor-pointer text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 flex items-center tracking-tight whitespace-nowrap min-w-0 relative z-50 transition-all duration-200 hover:scale-105 group"
                           >
-                            <span className="truncate text-xs lg:text-sm xl:text-sm 2xl:text-base">{item.name}</span>
+                            <span className="truncate text-xs lg:text-sm xl:text-sm 2xl:text-base group-hover:text-yellow-400 transition-colors duration-200">{item.name}</span>
                             <ChevronDown
-                              className={`ml-0.5 lg:ml-1 h-3 lg:h-3.5 w-3 lg:w-3.5 text-gray-400 transition-transform duration-200 flex-shrink-0 ${
-                                activeDropdown === item.name ? 'rotate-180' : ''
+                              className={`ml-0.5 lg:ml-1 h-3 lg:h-3.5 w-3 lg:w-3.5 text-gray-400 transition-all duration-300 flex-shrink-0 group-hover:text-yellow-400 ${
+                                activeDropdown === item.name ? 'rotate-180 text-yellow-400' : ''
                               }`}
                             />
                           </button>
@@ -346,8 +346,11 @@ export function Navigation() {
                           )}
                         </>
                       ) : (
-                        <Link href={item.href} className="text-white hover:text-gray-300 text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 tracking-tight transition-colors whitespace-nowrap flex items-center min-w-0">
-                          <span className="truncate">{item.name}</span>
+                        <Link href={item.href} className="text-white hover:text-gray-300 text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 tracking-tight transition-all duration-200 whitespace-nowrap flex items-center min-w-0 hover:scale-105 hover:text-yellow-400 group">
+                          <span className="truncate relative">
+                            {item.name}
+                            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                          </span>
                         </Link>
                       )}
                     </li>
@@ -360,7 +363,7 @@ export function Navigation() {
           {/* Status Panel Section - Fixed width */}
           <div className="flex-shrink-0 flex items-center space-x-1 lg:space-x-1.5 xl:space-x-2 2xl:space-x-3">
             {/* Server Status */}
-            <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 flex items-center justify-center h-10 min-w-[140px] lg:min-w-[150px] xl:min-w-[160px] 2xl:min-w-[170px]">
+            <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 flex items-center justify-center h-10 min-w-[140px] lg:min-w-[150px] xl:min-w-[160px] 2xl:min-w-[170px] transition-all duration-300 hover:border-green-500/40 hover:bg-[#0d0d30]/80 hover:shadow-lg hover:shadow-green-500/20 group">
               <ServerStatus showRefresh={false} />
             </div>
             
@@ -370,17 +373,18 @@ export function Navigation() {
                 href="https://discord.gg/jyakeRJ" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10"
+                className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-300 font-medium shadow-lg hover:shadow-xl hover:shadow-[#5865F2]/30 transform hover:scale-110 hover:-translate-y-0.5 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10 group"
               >
-                <MessageCircle className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0" />
+                <MessageCircle className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0 group-hover:animate-pulse" />
                 <span className="hidden lg:inline">Discord</span>
               </a>
               <Link 
                 href="/play-now" 
-                className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10"
+                className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-300 font-medium shadow-lg hover:shadow-xl hover:shadow-yellow-500/40 transform hover:scale-110 hover:-translate-y-0.5 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10 group relative overflow-hidden"
               >
-                <Play className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0" />
-                <span className="hidden lg:inline">Play</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <Play className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0 relative z-10 group-hover:animate-bounce" />
+                <span className="hidden lg:inline relative z-10">Play</span>
               </Link>
             </div>
           </div>
