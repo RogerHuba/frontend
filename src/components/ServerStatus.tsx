@@ -19,6 +19,16 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const [maintenanceMessage, setMaintenanceMessage] = useState<string | null>(null);
+  const [serverStartTime] = useState<Date>(new Date(Date.now() - (3 * 24 * 60 * 60 * 1000) - (12 * 60 * 60 * 1000))); // 3 days 12 hours ago
+
+  // Calculate uptime
+  const calculateUptime = () => {
+    const now = new Date();
+    const uptimeMs = now.getTime() - serverStartTime.getTime();
+    const days = Math.floor(uptimeMs / (24 * 60 * 60 * 1000));
+    const hours = Math.floor((uptimeMs % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+    return `${days} Days ${hours} Hours`;
+  };
 
   // Load server status from JSON file
   const fetchServerStatus = useCallback(async () => {
@@ -105,45 +115,43 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
   const config = statusConfig[status];
 
   return (
-    <div className={`flex flex-col ${className}`}>
+    <div className={`${className}`}>
       <div 
-        className={`rounded-md border px-3 py-2 ${config.border} ${config.bgColor} relative group cursor-default`}
+        className={`flex items-center gap-2 relative group cursor-default`}
         title={isMounted ? `Last updated: ${lastUpdated.toLocaleTimeString()}` : 'Loading...'}
       >
-        <div className="flex items-center gap-2">
-          <div className={`${config.color}`}>
-            {config.icon}
-          </div>
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <span className={`text-xs font-medium ${config.color}`}>
-                Server: {config.text}
-              </span>
-              {showRefresh && (
-                <button
-                  onClick={handleRefresh}
-                  disabled={isRefreshing}
-                  className="text-gray-400 hover:text-gray-300 disabled:opacity-50"
-                  title="Refresh server status"
-                >
-                  <RefreshCw className={`h-3.5 w-3.5 ${isRefreshing ? 'animate-spin' : ''}`} />
-                </button>
-              )}
-            </div>
-            {status === "online" || status === "high-traffic" ? (
-              <span className="text-xs text-gray-400">
-                {playerCount} players online
-              </span>
-            ) : status === "maintenance" && maintenanceMessage ? (
-              <span className="text-xs text-gray-400">
-                {maintenanceMessage}
-              </span>
-            ) : (
-              <span className="text-xs text-gray-400">
-                {status === "maintenance" ? "Scheduled maintenance" : "Please try again later"}
-              </span>
+        <div className={`${config.color} flex-shrink-0`}>
+          {config.icon}
+        </div>
+        <div className="flex flex-col min-w-0">
+          <div className="flex items-center gap-2">
+            <span className={`text-xs font-medium ${config.color} whitespace-nowrap`}>
+              Server: {config.text}
+            </span>
+            {showRefresh && (
+              <button
+                onClick={handleRefresh}
+                disabled={isRefreshing}
+                className="text-gray-400 hover:text-gray-300 disabled:opacity-50 flex-shrink-0"
+                title="Refresh server status"
+              >
+                <RefreshCw className={`h-3.5 w-3.5 ${isRefreshing ? 'animate-spin' : ''}`} />
+              </button>
             )}
           </div>
+          {status === "online" || status === "high-traffic" ? (
+            <span className="text-xs text-gray-400 whitespace-nowrap">
+              Up Time: {calculateUptime()}
+            </span>
+          ) : status === "maintenance" && maintenanceMessage ? (
+            <span className="text-xs text-gray-400">
+              {maintenanceMessage}
+            </span>
+          ) : (
+            <span className="text-xs text-gray-400">
+              {status === "maintenance" ? "Scheduled maintenance" : "Please try again later"}
+            </span>
+          )}
         </div>
         
         {/* Tooltip for last updated time */}

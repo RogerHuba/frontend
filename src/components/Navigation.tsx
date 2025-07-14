@@ -256,9 +256,9 @@ export function Navigation() {
         </div>
 
         {/* Desktop Layout (lg and above) */}
-        <div className="hidden lg:flex items-center justify-between w-full">
-          {/* Logo */}
-          <div className="flex-shrink-0 ml-3 lg:ml-3 xl:ml-4 2xl:ml-4">
+        <div className="hidden lg:flex items-center w-full gap-2 lg:gap-3 xl:gap-4">
+          {/* Logo Section - Fixed width */}
+          <div className="flex-shrink-0">
             <Link href="/">
               <Image
                 src="https://ext.same-assets.com/906812322/2537617269.png"
@@ -271,106 +271,119 @@ export function Navigation() {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="flex items-center flex-1 justify-between ml-3 lg:ml-4 xl:ml-5 2xl:ml-6 min-w-0">
-            <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6 flex-1 min-w-0 flex items-center overflow-visible">
-              <ul className="flex space-x-0.5 lg:space-x-1 xl:space-x-2 2xl:space-x-3 justify-center w-full min-w-0 relative">
-                {navItems.map((item) => (
-                  <li key={item.name} className="relative flex-shrink-0 min-w-0 z-50">
-                    {item.submenu ? (
-                      <>
-                        <button
-                          onClick={(e) => toggleDropdown(item.name, e)}
-                          className="text-white hover:text-gray-300 cursor-pointer text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1.5 2xl:px-2 flex items-center tracking-tight whitespace-nowrap min-w-0 relative z-50"
-                        >
-                          <span className="truncate">{item.name}</span>
-                          <ChevronDown
-                            className={`ml-1 h-3 lg:h-4 w-3 lg:w-4 text-gray-400 transition-transform duration-200 flex-shrink-0 ${
-                              activeDropdown === item.name ? 'rotate-180' : ''
-                            }`}
-                          />
-                        </button>
-                        {activeDropdown === item.name && (
-                          <div
-                            className="dropdown-menu absolute left-0 mt-1 w-56 py-1 z-[9999]"
-                            style={{
-                              position: 'absolute',
-                              top: '100%',
-                              left: '0',
-                              zIndex: 99999,
-                              backgroundColor: '#0d0d30',
-                              border: '1px solid #1a1a4a',
-                              borderRadius: '6px',
-                              display: 'block',
-                              minHeight: '100px',
-                              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.5)'
-                            }}
+          {/* Navigation Section - Flexible but constrained */}
+          <div className="flex-1 flex justify-center min-w-0 max-w-[600px] lg:max-w-[700px] xl:max-w-[800px] 2xl:max-w-[900px] mx-auto">
+            <nav className="flex items-center">
+              <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6">
+                <ul className="flex space-x-0.5 lg:space-x-1 xl:space-x-1.5 2xl:space-x-2 min-w-0 flex-wrap justify-center">
+                  {navItems.map((item) => (
+                    <li key={item.name} className="relative flex-shrink-0 min-w-0 z-50">
+                      {item.submenu ? (
+                        <>
+                          <button
+                            onClick={(e) => toggleDropdown(item.name, e)}
+                            className="text-white hover:text-gray-300 cursor-pointer text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 flex items-center tracking-tight whitespace-nowrap min-w-0 relative z-50"
                           >
-                            {item.submenu.map((subItem) =>
-                              subItem.external ? (
-                                <a
-                                  key={subItem.name}
-                                  href={subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#1a1a4a] hover:text-white"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  onClick={closeDropdowns}
-                                  style={{
-                                    display: 'block',
-                                    color: '#e5e7eb',
-                                    textDecoration: 'none',
-                                    padding: '8px 16px'
-                                  }}
-                                >
-                                  {subItem.name}
-                                </a>
-                              ) : (
-                                <Link
-                                  key={subItem.name}
-                                  href={subItem.href}
-                                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#1a1a4a] hover:text-white"
-                                  onClick={closeDropdowns}
-                                  style={{
-                                    display: 'block',
-                                    color: '#e5e7eb',
-                                    textDecoration: 'none',
-                                    padding: '8px 16px'
-                                  }}
-                                >
-                                  {subItem.name}
-                                </Link>
-                              )
-                            )}
-                          </div>
-                        )}
-                      </>
-                    ) : (
-                      <Link href={item.href} className="text-white hover:text-gray-300 text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1.5 2xl:px-2 tracking-tight transition-colors whitespace-nowrap flex items-center min-w-0">
-                        <span className="truncate">{item.name}</span>
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+                            <span className="truncate text-xs lg:text-sm xl:text-sm 2xl:text-base">{item.name}</span>
+                            <ChevronDown
+                              className={`ml-0.5 lg:ml-1 h-3 lg:h-3.5 w-3 lg:w-3.5 text-gray-400 transition-transform duration-200 flex-shrink-0 ${
+                                activeDropdown === item.name ? 'rotate-180' : ''
+                              }`}
+                            />
+                          </button>
+                          {activeDropdown === item.name && (
+                            <div
+                              className="dropdown-menu absolute left-0 mt-1 w-56 py-1 z-[9999]"
+                              style={{
+                                position: 'absolute',
+                                top: '100%',
+                                left: '0',
+                                zIndex: 99999,
+                                backgroundColor: '#0d0d30',
+                                border: '1px solid #1a1a4a',
+                                borderRadius: '6px',
+                                display: 'block',
+                                minHeight: '100px',
+                                boxShadow: '0 10px 25px rgba(0, 0, 0, 0.5)'
+                              }}
+                            >
+                              {item.submenu.map((subItem) =>
+                                subItem.external ? (
+                                  <a
+                                    key={subItem.name}
+                                    href={subItem.href}
+                                    className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#1a1a4a] hover:text-white"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={closeDropdowns}
+                                    style={{
+                                      display: 'block',
+                                      color: '#e5e7eb',
+                                      textDecoration: 'none',
+                                      padding: '8px 16px'
+                                    }}
+                                  >
+                                    {subItem.name}
+                                  </a>
+                                ) : (
+                                  <Link
+                                    key={subItem.name}
+                                    href={subItem.href}
+                                    className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#1a1a4a] hover:text-white"
+                                    onClick={closeDropdowns}
+                                    style={{
+                                      display: 'block',
+                                      color: '#e5e7eb',
+                                      textDecoration: 'none',
+                                      padding: '8px 16px'
+                                    }}
+                                  >
+                                    {subItem.name}
+                                  </Link>
+                                )
+                              )}
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <Link href={item.href} className="text-white hover:text-gray-300 text-xs lg:text-sm xl:text-sm 2xl:text-base font-semibold py-2 px-0.5 lg:px-1 xl:px-1 2xl:px-1.5 tracking-tight transition-colors whitespace-nowrap flex items-center min-w-0">
+                          <span className="truncate">{item.name}</span>
+                        </Link>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </nav>
+          </div>
 
-            {/* Desktop Status Panel */}
-            <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6 flex items-center space-x-1.5 lg:space-x-2 xl:space-x-3 2xl:space-x-4 flex-shrink-0">
-              <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2.5 lg:px-3 xl:px-4 2xl:px-5 py-2 w-[155px] lg:w-[165px] xl:w-[180px] 2xl:w-[195px] flex items-center justify-center flex-shrink-0 h-10">
-                <ServerStatus showRefresh={false} />
-              </div>
-              <div className="flex flex-row space-x-1 lg:space-x-1.5 xl:space-x-2 2xl:space-x-3 flex-shrink-0 h-10 items-center">
-                <a href="https://discord.gg/jyakeRJ" target="_blank" rel="noopener noreferrer" className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1.5 xl:space-x-1.5 2xl:space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[70px] lg:w-[78px] xl:w-[88px] 2xl:w-[98px] text-xs lg:text-sm h-10">
-                  <MessageCircle className="h-3 lg:h-4 w-3 lg:w-4" />
-                  <span>Discord</span>
-                </a>
-                <Link href="/play-now" className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1.5 xl:space-x-1.5 2xl:space-x-2 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 w-[70px] lg:w-[78px] xl:w-[88px] 2xl:w-[98px] text-xs lg:text-sm h-10">
-                  <Play className="h-3 lg:h-4 w-3 lg:w-4" />
-                  <span>Play Now</span>
-                </Link>
-              </div>
+          {/* Status Panel Section - Fixed width */}
+          <div className="flex-shrink-0 flex items-center space-x-1 lg:space-x-1.5 xl:space-x-2 2xl:space-x-3">
+            {/* Server Status */}
+            <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-2 lg:px-2.5 xl:px-3 2xl:px-4 py-2 flex items-center justify-center h-10 min-w-[140px] lg:min-w-[150px] xl:min-w-[160px] 2xl:min-w-[170px]">
+              <ServerStatus showRefresh={false} />
             </div>
-          </nav>
+            
+            {/* Action Buttons */}
+            <div className="flex space-x-1 lg:space-x-1 xl:space-x-1.5 2xl:space-x-2 h-10 items-center">
+              <a 
+                href="https://discord.gg/jyakeRJ" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10"
+              >
+                <MessageCircle className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0" />
+                <span className="hidden lg:inline">Discord</span>
+              </a>
+              <Link 
+                href="/play-now" 
+                className="bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-white px-1.5 lg:px-2 xl:px-2.5 2xl:px-3 py-2 rounded-lg flex items-center justify-center space-x-1 lg:space-x-1 xl:space-x-1.5 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 min-w-[60px] lg:min-w-[65px] xl:min-w-[75px] 2xl:min-w-[85px] text-xs lg:text-sm h-10"
+              >
+                <Play className="h-3 lg:h-3.5 w-3 lg:w-3.5 flex-shrink-0" />
+                <span className="hidden lg:inline">Play</span>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 

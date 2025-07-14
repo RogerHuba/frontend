@@ -75,6 +75,20 @@ const teamMembers: TeamMember[] = [
     liveserver: "Wanderhome",
     imageUrl: "/siymon.jpg",
   },
+  {
+    name: "Volinor",
+    role: "Volinor",
+    bio: "",
+    liveserver: "",
+    imageUrl: "https://ext.same-assets.com/906812322/2240799338.jpeg",
+  },
+  {
+    name: "Firekeeper",
+    role: "Firekeeper",
+    bio: "",
+    liveserver: "",
+    imageUrl: "https://ext.same-assets.com/906812322/2240799338.jpeg",
+  },
 ];
 
 export function MeetTheTeamPage() {
