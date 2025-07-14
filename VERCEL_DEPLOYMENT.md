@@ -3,23 +3,28 @@
 ## 🚀 Deploying to Vercel
 
 ### Prerequisites
+
 - A Vercel account (free tier available at [vercel.com](https://vercel.com))
 - Your code pushed to a Git repository (GitHub, GitLab, or Bitbucket)
 
 ### Quick Deploy Options
 
 #### Option 1: Deploy via Vercel CLI
+
 1. Install Vercel CLI globally:
+
    ```bash
    npm i -g vercel
    ```
 
 2. Login to Vercel:
+
    ```bash
    vercel login
    ```
 
 3. Deploy from your project directory:
+
    ```bash
    vercel
    ```
@@ -27,6 +32,7 @@
 4. Follow the prompts to configure your project
 
 #### Option 2: Deploy via Vercel Dashboard
+
 1. Go to [vercel.com](https://vercel.com) and login
 2. Click "New Project"
 3. Import your Git repository
@@ -54,7 +60,7 @@ If you need environment variables in production:
 
 ### 📁 Project Structure
 
-```
+```text
 ├── public/                 # Static assets
 ├── src/
 │   ├── app/               # Next.js App Router pages
@@ -70,6 +76,7 @@ If you need environment variables in production:
 ### 🔧 Build Configuration
 
 Your project is configured with:
+
 - **Framework**: Next.js 15 with App Router
 - **Styling**: Tailwind CSS
 - **Package Manager**: npm (recommended for Vercel)
@@ -94,6 +101,7 @@ Your project is configured with:
 ### 🔄 Automatic Deployments
 
 Once connected to Git:
+
 - **Production**: Deploys automatically when you push to `main` branch
 - **Preview**: Creates preview deployments for pull requests
 - **Development**: Use `npm run dev` for local development
@@ -101,6 +109,7 @@ Once connected to Git:
 ### 📝 Build Scripts
 
 Available npm scripts:
+
 ```bash
 npm run dev        # Local development server
 npm run build      # Production build
@@ -112,16 +121,19 @@ npm run format     # Format code
 ### 🐛 Troubleshooting
 
 **Build Errors:**
+
 - Check TypeScript errors: `npm run build`
 - Verify all imports are correct
 - Ensure all environment variables are set
 
 **Deployment Issues:**
+
 - Check Vercel Function Logs in dashboard
 - Verify Node.js version compatibility
 - Review build output for errors
 
 **Performance:**
+
 - Use Vercel Analytics to monitor performance
 - Check Core Web Vitals in the dashboard
 - Optimize images and reduce bundle size
@@ -129,6 +141,7 @@ npm run format     # Format code
 ### 📈 Monitoring
 
 Vercel provides built-in monitoring:
+
 - **Real User Monitoring (RUM)**
 - **Core Web Vitals**
 - **Function Logs**
