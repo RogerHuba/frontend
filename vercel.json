@@ -2,15 +2,8 @@
   "version": 2,
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "regions": ["iad1"],
-  "functions": {
-    "app/**/*.{js,ts,jsx,tsx}": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
@@ -37,12 +30,6 @@
           "value": "public, max-age=3600, s-maxage=86400"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/events",
-      "destination": "/data/events.json"
     }
   ]
 }
