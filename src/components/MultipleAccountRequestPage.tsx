@@ -1,10 +1,12 @@
 "use client";
 
 import { Navigation } from "@/components/Navigation";
+import { RandomHeroSection } from "@/components/RandomHeroSection";
 import { DiscordSection } from "@/components/DiscordSection";
 import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import { useState } from "react";
 import { CheckCircle2, AlertCircle } from "lucide-react";
+import Link from "next/link";
 
 export function MultipleAccountRequestPage() {
   const [formData, setFormData] = useState({
@@ -91,14 +93,11 @@ export function MultipleAccountRequestPage() {
       <div className="flex-grow relative">
         <div className="hexagon-pattern" />
 
-        <div className="bg-[url('https://ext.same-assets.com/906812322/2240799338.jpeg')] bg-cover bg-center py-16">
-          <div className="container mx-auto px-4">
-            <div className="bg-black/70 p-8 rounded-lg">
-              <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">Multiple Account Request</h1>
-              <p className="text-gray-300">Apply to link additional SWG Infinity accounts to your primary account</p>
-            </div>
-          </div>
-        </div>
+        <RandomHeroSection
+          title="Multiple Account Request"
+          subtitle="Apply to link additional SWG Infinity accounts to your primary account"
+          showLogo={true}
+        />
 
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -115,20 +114,17 @@ export function MultipleAccountRequestPage() {
                   <div className="bg-[rgba(20,30,60,0.6)] p-6 rounded-lg">
                     <h3 className="text-xl font-bold text-white mb-4">Legitimate Reasons for Multiple Accounts:</h3>
                     <ul className="swg-bullet-list">
-                      <li>Family members sharing the same household/IP</li>
-                      <li>Dedicated crafting or harvesting accounts</li>
-                      <li>Roleplay purposes (different character stories)</li>
-                      <li>Event hosting and management</li>
+                      <li>Individuals in the same household sharing the same IP address.</li>
                     </ul>
                   </div>
-                  <div className="bg-[rgba(60,20,20,0.6)] p-6 rounded-lg">
-                    <h3 className="text-xl font-bold text-white mb-4">Prohibited Uses for Multiple Accounts:</h3>
-                    <ul className="swg-bullet-list">
-                      <li>Exploiting game mechanics</li>
-                      <li>Manipulating the in-game economy</li>
-                      <li>Evading sanctions or restrictions</li>
-                      <li>Harassing other players</li>
-                    </ul>
+                  <div className="bg-[rgba(60,20,20,0.6)] p-6 rounded-lg border border-red-500/30">
+                    <h3 className="text-xl font-bold text-white mb-4 flex items-center">
+                      <AlertCircle className="h-6 w-6 text-red-400 mr-2" />
+                      Important Warning
+                    </h3>
+                    <p className="text-gray-300">
+                      <strong className="text-red-400">Connecting to the server through a VPN is not allowed and can result in an immediate ban.</strong> All account connections are monitored for VPN usage. If you need multiple accounts for legitimate reasons listed above, please ensure all connections are made from your actual IP address.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -145,9 +141,9 @@ export function MultipleAccountRequestPage() {
                     Thank you for submitting your multiple account request. Our team will review your application and respond within 24-48 hours via the Discord username you provided.
                   </p>
                   <div className="text-center">
-                    <a href="/" className="play-button">
+                    <Link href="/" className="play-button">
                       Return to Home
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ) : (

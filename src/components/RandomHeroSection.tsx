@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { getRandomHeroClass } from "@/utils/heroService";
+import { useRandomHero } from "@/hooks/useRandomHero";
 
 interface RandomHeroSectionProps {
   title: string;
@@ -14,11 +14,9 @@ interface RandomHeroSectionProps {
 
 export function RandomHeroSection({ title, subtitle, children, className = "", showLogo = true }: RandomHeroSectionProps) {
   const [mounted, setMounted] = useState(false);
-  const [heroClass, setHeroClass] = useState('hero-1');
+  const heroClass = useRandomHero();
   
   useEffect(() => {
-    // Use the singleton service to ensure same hero across all components
-    setHeroClass(getRandomHeroClass());
     setMounted(true);
   }, []);
 

@@ -1,0 +1,214 @@
+{
+  "guilds": [
+    {
+      "name": "Imperial Elite Guard",
+      "leader": "Commander_Vex",
+      "faction": "Imperial",
+      "memberCount": 28,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Rebel Alliance Squadron",
+      "leader": "Captain_Phoenix",
+      "faction": "Rebel",
+      "memberCount": 24,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Corellian Trade Federation",
+      "leader": "Merchant_King",
+      "faction": "Neutral",
+      "memberCount": 35,
+      "lastActive": "2025-01-12"
+    },
+    {
+      "name": "Shadow Hunters",
+      "leader": "Nightstalker",
+      "faction": "Neutral",
+      "memberCount": 15,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "501st Legion",
+      "leader": "Colonel_Rex",
+      "faction": "Imperial",
+      "memberCount": 42,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Rogue Squadron",
+      "leader": "Wedge_Antilles",
+      "faction": "Rebel",
+      "memberCount": 18,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Bounty Hunters Guild",
+      "leader": "Boba_Fett_Clone",
+      "faction": "Neutral",
+      "memberCount": 22,
+      "lastActive": "2025-01-11"
+    },
+    {
+      "name": "Galactic Mining Corporation",
+      "leader": "Mining_Boss",
+      "faction": "Neutral",
+      "memberCount": 31,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Imperial Intelligence",
+      "leader": "Agent_Kallus",
+      "faction": "Imperial",
+      "memberCount": 19,
+      "lastActive": "2025-01-12"
+    },
+    {
+      "name": "Rebel Spec Ops",
+      "leader": "Cassian_Andor",
+      "faction": "Rebel",
+      "memberCount": 16,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Jedi Remnant",
+      "leader": "Master_Kenobi",
+      "faction": "Rebel",
+      "memberCount": 8,
+      "lastActive": "2025-01-10"
+    },
+    {
+      "name": "Sith Eternal",
+      "leader": "Lord_Vader",
+      "faction": "Imperial",
+      "memberCount": 12,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Smugglers Alliance",
+      "leader": "Han_Solo_Fan",
+      "faction": "Neutral",
+      "memberCount": 27,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Tatooine Moisture Farmers",
+      "leader": "Uncle_Owen",
+      "faction": "Neutral",
+      "memberCount": 14,
+      "lastActive": "2025-01-09"
+    },
+    {
+      "name": "Naboo Royal Guard",
+      "leader": "Captain_Panaka",
+      "faction": "Neutral",
+      "memberCount": 21,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Death Star Engineers",
+      "leader": "Director_Krennic",
+      "faction": "Imperial",
+      "memberCount": 33,
+      "lastActive": "2025-01-12"
+    },
+    {
+      "name": "Ewok Village Council",
+      "leader": "Chief_Chirpa",
+      "faction": "Rebel",
+      "memberCount": 9,
+      "lastActive": "2025-01-08"
+    },
+    {
+      "name": "Mandalorian Clan",
+      "leader": "Din_Djarin",
+      "faction": "Neutral",
+      "memberCount": 11,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Imperial Navy",
+      "leader": "Admiral_Thrawn",
+      "faction": "Imperial",
+      "memberCount": 38,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Rebel Medical Corps",
+      "leader": "Dr_Kalonia",
+      "faction": "Rebel",
+      "memberCount": 13,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Hutt Cartel",
+      "leader": "Jabba_Successor",
+      "faction": "Neutral",
+      "memberCount": 29,
+      "lastActive": "2025-01-11"
+    },
+    {
+      "name": "Clone Veterans",
+      "leader": "Commander_Cody",
+      "faction": "Imperial",
+      "memberCount": 25,
+      "lastActive": "2025-01-12"
+    },
+    {
+      "name": "Rebel Pilots",
+      "leader": "Luke_Skywalker_Fan",
+      "faction": "Rebel",
+      "memberCount": 20,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Cantina Musicians",
+      "leader": "Figrin_Dan",
+      "faction": "Neutral",
+      "memberCount": 7,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Imperial Stormtroopers",
+      "leader": "TK421",
+      "faction": "Imperial",
+      "memberCount": 45,
+      "lastActive": "2025-01-13"
+    },
+    {
+      "name": "Rebel Commandos",
+      "leader": "General_Solo",
+      "faction": "Rebel",
+      "memberCount": 17,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Scavenger Guild",
+      "leader": "Rey_Successor",
+      "faction": "Neutral",
+      "memberCount": 23,
+      "lastActive": "2025-01-12"
+    },
+    {
+      "name": "Imperial Inquisitors",
+      "leader": "Grand_Inquisitor",
+      "faction": "Imperial",
+      "memberCount": 6,
+      "lastActive": "2025-01-11"
+    },
+    {
+      "name": "Rebel Intelligence",
+      "leader": "Mon_Mothma_Agent",
+      "faction": "Rebel",
+      "memberCount": 15,
+      "lastActive": "2025-01-14"
+    },
+    {
+      "name": "Independent Traders",
+      "leader": "Lando_Calrissian_Fan",
+      "faction": "Neutral",
+      "memberCount": 26,
+      "lastActive": "2025-01-13"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "categories": [
+    {
+      "name": "Battle Series",
+      "description": "Epic collectible artwork depicting major galactic conflicts",
+      "collections": [
+        {
+          "name": "The Battle of Hoth",
+          "totalPieces": 6,
+          "description": "Complete collection showing the Imperial assault on Echo Base",
+          "frameVariations": ["Gold", "Black", "Gray"],
+          "rarity": "Rare",
+          "pictures": [
+            {
+              "name": "The Battle of Hoth [Set 1/6]",
+              "description": "Opening assault on Echo Base with AT-AT walkers emerging from the snow",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/hoth-battle-1-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 1]"]
+                },
+                {
+                  "type": "Black Frame", 
+                  "imageUrl": "/pictures/hoth-battle-1-black.jpg",
+                  "materials": ["Picture Canvas", "Black Frame", "Junk Pile [Style 1]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Hoth [Set 2/6]",
+              "description": "AT-AT walkers advancing on Echo Base defense shields",
+              "frames": [
+                {
+                  "type": "Black Frame",
+                  "imageUrl": "/pictures/hoth-battle-2-black.jpg",
+                  "materials": ["Picture Canvas", "Black Frame", "Junk Pile [Style 2]"]
+                },
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/hoth-battle-2-gray.jpg", 
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 2]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Hoth [Set 3/6]",
+              "description": "Rebel speeders attacking AT-AT walker legs with tow cables",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/hoth-battle-3-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 3]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Hoth [Set 4/6]",
+              "description": "Luke Skywalker's grappling hook assault on AT-AT underbelly",
+              "frames": [
+                {
+                  "type": "Black Frame",
+                  "imageUrl": "/pictures/hoth-battle-4-black.jpg",
+                  "materials": ["Picture Canvas", "Black Frame", "Junk Pile [Style 4]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Hoth [Set 5/6]",
+              "description": "Rebel evacuation as Imperial forces breach Echo Base",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/hoth-battle-5-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 5]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Hoth [Set 6/6]",
+              "description": "Final escape with Millennium Falcon departing through asteroid field",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/hoth-battle-6-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 6]"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "The Battle of Yavin",
+          "totalPieces": 12,
+          "description": "Death Star assault above Yavin 4 - the Rebellion's first major victory",
+          "frameVariations": ["Gray", "Grey/Black", "Gold"],
+          "rarity": "Rare",
+          "pictures": [
+            {
+              "name": "The Battle of Yavin [Set 1/12]",
+              "description": "Death Star approaching Yavin 4 with rebel base in sight",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/yavin-battle-1-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 1]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Yavin [Set 2/12]",
+              "description": "Rebel briefing room with Death Star plans and attack strategy",
+              "frames": [
+                {
+                  "type": "Grey/Black Frame",
+                  "imageUrl": "/pictures/yavin-battle-2-grey-black.jpg",
+                  "materials": ["Picture Canvas", "Grey/Black Frame", "Junk Pile [Style 2]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Yavin [Set 3/12]",
+              "description": "X-wing squadrons launching from Yavin 4 base hangar",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/yavin-battle-3-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 3]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Yavin [Set 4/12]",
+              "description": "Initial X-wing assault on Death Star surface turrets",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/yavin-battle-4-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 4]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Yavin [Set 5/12]",
+              "description": "Luke's trench run approaching the thermal exhaust port",
+              "frames": [
+                {
+                  "type": "Grey/Black Frame",
+                  "imageUrl": "/pictures/yavin-battle-5-grey-black.jpg",
+                  "materials": ["Picture Canvas", "Grey/Black Frame", "Junk Pile [Style 5]"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Yavin [Set 6/12]",
+              "description": "TIE fighters pursuing Luke through the Death Star trench",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/yavin-battle-6-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 6]"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "The Battle of Coruscant",
+          "totalPieces": 30,
+          "description": "Epic Clone Wars space battle over the galactic capital - most prestigious collection",
+          "frameVariations": ["Black/Gold", "Gold", "Gray"],
+          "rarity": "Legendary",
+          "pictures": [
+            {
+              "name": "The Battle of Coruscant [Set 1/30]",
+              "description": "Massive Republic and Separatist fleets engaging above Coruscant",
+              "frames": [
+                {
+                  "type": "Black/Gold Frame",
+                  "imageUrl": "/pictures/coruscant-battle-1-black-gold.jpg",
+                  "materials": ["Picture Canvas", "Black/Gold Frame", "Premium Materials"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Coruscant [Set 2/30]",
+              "description": "Venator-class Star Destroyers launching fighter squadrons",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/coruscant-battle-2-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Premium Materials"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Coruscant [Set 15/30]",
+              "description": "Anakin and Obi-Wan's starfighters approaching Invisible Hand",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/coruscant-battle-15-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Premium Materials"]
+                }
+              ]
+            },
+            {
+              "name": "The Battle of Coruscant [Set 30/30]",
+              "description": "Final victory with Invisible Hand crashing into Coruscant surface",
+              "frames": [
+                {
+                  "type": "Black/Gold Frame",
+                  "imageUrl": "/pictures/coruscant-battle-30-black-gold.jpg",
+                  "materials": ["Picture Canvas", "Black/Gold Frame", "Premium Materials"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perspective Series",
+      "description": "Iconic moments shown from different points of view",
+      "collections": [
+        {
+          "name": "From A Certain Point of View",
+          "totalPieces": 6,
+          "description": "Key galactic events as seen through different character perspectives",
+          "frameVariations": ["Gray", "Black", "Gold"],
+          "rarity": "Rare",
+          "pictures": [
+            {
+              "name": "From A Certain Point of View [Set 1/6]",
+              "description": "Obi-Wan's perspective: First encounter with Anakin on Tatooine",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/certain-point-1-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 1]"]
+                }
+              ]
+            },
+            {
+              "name": "From A Certain Point of View [Set 2/6]",
+              "description": "Anakin's perspective: The choice that led to becoming Vader",
+              "frames": [
+                {
+                  "type": "Black Frame",
+                  "imageUrl": "/pictures/certain-point-2-black.jpg",
+                  "materials": ["Picture Canvas", "Black Frame", "Junk Pile [Style 2]"]
+                }
+              ]
+            },
+            {
+              "name": "From A Certain Point of View [Set 3/6]",
+              "description": "Luke's perspective: Learning the truth about his father",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/certain-point-3-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 3]"]
+                }
+              ]
+            },
+            {
+              "name": "From A Certain Point of View [Set 4/6]",
+              "description": "Vader's perspective: The moment of redemption",
+              "frames": [
+                {
+                  "type": "Black Frame",
+                  "imageUrl": "/pictures/certain-point-4-black.jpg",
+                  "materials": ["Picture Canvas", "Black Frame", "Junk Pile [Style 4]"]
+                }
+              ]
+            },
+            {
+              "name": "From A Certain Point of View [Set 5/6]",
+              "description": "Leia's perspective: A new hope for the galaxy",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/certain-point-5-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Junk Pile [Style 5]"]
+                }
+              ]
+            },
+            {
+              "name": "From A Certain Point of View [Set 6/6]",
+              "description": "Palpatine's perspective: The rise and fall of the Empire",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/certain-point-6-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Junk Pile [Style 6]"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Event Commemoratives",
+      "description": "Limited edition artwork from special server events",
+      "collections": [
+        {
+          "name": "Major Event Commemoratives",
+          "totalPieces": 12,
+          "description": "Ultra-rare pictures from milestone server events",
+          "frameVariations": ["Gold", "Black/Gold", "Gray", "Grey/Black"],
+          "rarity": "Legendary",
+          "pictures": [
+            {
+              "name": "Jedi Temple Memorial",
+              "description": "Rare commemorative from the Jedi Memorial Event honoring fallen Jedi",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/jedi-memorial-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Memorial Stone Fragment"]
+                }
+              ]
+            },
+            {
+              "name": "Emperor's Throne Room",
+              "description": "Ultra-rare picture from the Sith Conclave event",
+              "frames": [
+                {
+                  "type": "Black/Gold Frame",
+                  "imageUrl": "/pictures/throne-room-black-gold.jpg",
+                  "materials": ["Picture Canvas", "Black/Gold Frame", "Sith Artifact Fragment"]
+                }
+              ]
+            },
+            {
+              "name": "Cantina Musicians",
+              "description": "Nostalgic picture from the Tatooine Music Festival",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/cantina-musicians-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Music Note Fragment"]
+                }
+              ]
+            },
+            {
+              "name": "Podrace Victory",
+              "description": "Limited edition from the Boonta Eve Classic racing event",
+              "frames": [
+                {
+                  "type": "Grey/Black Frame",
+                  "imageUrl": "/pictures/podrace-victory-grey-black.jpg",
+                  "materials": ["Picture Canvas", "Grey/Black Frame", "Racing Trophy Fragment"]
+                }
+              ]
+            },
+            {
+              "name": "Senate Chamber Gathering",
+              "description": "Rare picture from the Galactic Senate Restoration event",
+              "frames": [
+                {
+                  "type": "Gold Frame",
+                  "imageUrl": "/pictures/senate-chamber-gold.jpg",
+                  "materials": ["Picture Canvas", "Gold Frame", "Senate Seal Fragment"]
+                }
+              ]
+            },
+            {
+              "name": "Ewok Village Celebration",
+              "description": "Commemorative from the Endor Forest Festival",
+              "frames": [
+                {
+                  "type": "Gray Frame",
+                  "imageUrl": "/pictures/ewok-celebration-gray.jpg",
+                  "materials": ["Picture Canvas", "Gray Frame", "Ewok Craft Fragment"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community Captures",
+      "description": "Player-submitted screenshots from across the galaxy",
+      "collections": [
+        {
+          "name": "Planet Landscapes",
+          "totalPieces": 50,
+          "description": "Beautiful scenery from across SWG planets",
+          "frameVariations": ["Basic", "Enhanced"],
+          "rarity": "Common",
+          "pictures": [
+            {
+              "name": "Tatooine Twin Sunset",
+              "description": "Classic binary sunset over the Jundland Wastes",
+              "frames": [
+                {
+                  "type": "Basic Frame",
+                  "imageUrl": "/pictures/tatooine-sunset-basic.jpg",
+                  "materials": ["Screenshot Print", "Basic Frame"]
+                }
+              ]
+            },
+            {
+              "name": "Naboo Waterfalls",
+              "description": "Serene cascade in the Lake Country",
+              "frames": [
+                {
+                  "type": "Enhanced Frame",
+                  "imageUrl": "/pictures/naboo-waterfall-enhanced.jpg",
+                  "materials": ["Screenshot Print", "Enhanced Frame", "Nature Essence"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player Cities",
+          "totalPieces": 30,
+          "description": "Impressive player-built settlements and structures",
+          "frameVariations": ["Basic", "Enhanced"],
+          "rarity": "Common",
+          "pictures": [
+            {
+              "name": "Coronet Cityscape",
+              "description": "Bustling player city on Corellia",
+              "frames": [
+                {
+                  "type": "Enhanced Frame",
+                  "imageUrl": "/pictures/coronet-city-enhanced.jpg",
+                  "materials": ["Screenshot Print", "Enhanced Frame", "City Planning Document"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

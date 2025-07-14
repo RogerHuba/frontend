@@ -1,0 +1,316 @@
+{
+  "resources": [
+    {
+      "name": "Ditwafese",
+      "type": "Duralloy Steel",
+      "overallQuality": 810.80,
+      "stats": {
+        "coldResistance": 971,
+        "conductivity": 995,
+        "decayResistance": 779,
+        "heatResistance": 590,
+        "malleability": 963,
+        "overallQuality": 986,
+        "shockResistance": 388,
+        "unitToughness": 995,
+        "entangleResistance": 979
+      },
+      "lastSeen": "10/24/22",
+      "planet": "Mustafar"
+    },
+    {
+      "name": "Eber",
+      "type": "Mustafarian Steel",
+      "overallQuality": 364.80,
+      "stats": {
+        "coldResistance": 839,
+        "conductivity": 973,
+        "decayResistance": 800,
+        "heatResistance": 629,
+        "malleability": 984,
+        "overallQuality": 951,
+        "shockResistance": 395,
+        "unitToughness": 992,
+        "entangleResistance": 989
+      },
+      "lastSeen": "11/09/22",
+      "planet": "Mustafar"
+    },
+    {
+      "name": "Didaihiteuris",
+      "type": "Mustafarian Steel",
+      "overallQuality": 305.60,
+      "stats": {
+        "coldResistance": 832,
+        "conductivity": 991,
+        "decayResistance": 758,
+        "heatResistance": 642,
+        "malleability": 954,
+        "overallQuality": 958,
+        "shockResistance": 386,
+        "unitToughness": 963,
+        "entangleResistance": 1000
+      },
+      "lastSeen": "11/24/24",
+      "planet": "Mustafar"
+    },
+    {
+      "name": "Quadneofoporiris",
+      "type": "Class 4 Liquid Petro Fuel",
+      "overallQuality": 279.20,
+      "stats": {
+        "coldResistance": 694,
+        "conductivity": 1000,
+        "flavor": 100,
+        "nutrition": 590
+      },
+      "lastSeen": "06/10/22",
+      "planet": "Naboo"
+    },
+    {
+      "name": "Aiwiine",
+      "type": "Mustafarian Intrusive Ore",
+      "overallQuality": 212.40,
+      "stats": {
+        "coldResistance": 977,
+        "conductivity": 999,
+        "decayResistance": 982,
+        "malleability": 911,
+        "overallQuality": 994,
+        "shockResistance": 595,
+        "unitToughness": 968,
+        "entangleResistance": 996
+      },
+      "lastSeen": "09/29/24",
+      "planet": "Mustafar"
+    },
+    {
+      "name": "Bedigapoiam",
+      "type": "Kammris Iron",
+      "overallQuality": 193.00,
+      "stats": {
+        "coldResistance": 940,
+        "conductivity": 998,
+        "decayResistance": 730,
+        "heatResistance": 438,
+        "malleability": 903,
+        "overallQuality": 947,
+        "shockResistance": 545,
+        "unitToughness": 985,
+        "entangleResistance": 988
+      },
+      "lastSeen": "12/12/24",
+      "planet": "Corellia"
+    },
+    {
+      "name": "Ffinerine",
+      "type": "Polysteel Copper",
+      "overallQuality": 191.60,
+      "stats": {
+        "conductivity": 996,
+        "decayResistance": 778,
+        "heatResistance": 1000,
+        "malleability": 682,
+        "overallQuality": 595,
+        "shockResistance": 976,
+        "unitToughness": 748,
+        "entangleResistance": 739
+      },
+      "lastSeen": "06/14/24",
+      "planet": "Talus"
+    },
+    {
+      "name": "Omnibouced",
+      "type": "Dioxis Inert Gas",
+      "overallQuality": 188.80,
+      "stats": {
+        "coldResistance": 982,
+        "conductivity": 1000,
+        "malleability": 374
+      },
+      "lastSeen": "01/07/25",
+      "planet": "Mustafar"
+    },
+    {
+      "name": "Darkeihate",
+      "type": "Katrium Intrusive Ore",
+      "overallQuality": 182.00,
+      "stats": {
+        "coldResistance": 970,
+        "conductivity": 987,
+        "decayResistance": 940,
+        "malleability": 955,
+        "overallQuality": 998,
+        "shockResistance": 552,
+        "unitToughness": 1000,
+        "entangleResistance": 993
+      },
+      "lastSeen": "11/26/23",
+      "planet": "Lok"
+    },
+    {
+      "name": "Amibark",
+      "type": "High Grade Polymetric Radioactive",
+      "overallQuality": 169.40,
+      "stats": {
+        "coldResistance": 799,
+        "conductivity": 1000,
+        "malleability": 426,
+        "radioactivity": 970
+      },
+      "lastSeen": "08/10/24",
+      "planet": "Dantooine"
+    },
+    {
+      "name": "Aegaiw",
+      "type": "Lubricating Oil",
+      "overallQuality": 163.20,
+      "stats": {
+        "coldResistance": 600,
+        "conductivity": 1000,
+        "malleability": 200
+      },
+      "lastSeen": "06/13/24",
+      "planet": "Corellia"
+    },
+    {
+      "name": "Uvak",
+      "type": "Perovskitic Aluminum",
+      "overallQuality": 156.80,
+      "stats": {
+        "coldResistance": 702,
+        "conductivity": 957,
+        "decayResistance": 685,
+        "heatResistance": 989,
+        "malleability": 931,
+        "overallQuality": 648,
+        "shockResistance": 654,
+        "unitToughness": 41,
+        "entangleResistance": 709
+      },
+      "lastSeen": "01/13/22",
+      "planet": "Yavin4"
+    },
+    {
+      "name": "Ohis",
+      "type": "Lubricating Oil",
+      "overallQuality": 154.00,
+      "stats": {
+        "coldResistance": 754,
+        "conductivity": 1000,
+        "malleability": 508
+      },
+      "lastSeen": "10/26/23",
+      "planet": "Rori"
+    },
+    {
+      "name": "Iastomm",
+      "type": "Class 3 Liquid Petro Fuel",
+      "overallQuality": 149.60,
+      "stats": {
+        "coldResistance": 603,
+        "conductivity": 999,
+        "malleability": 339,
+        "flavor": 245
+      },
+      "lastSeen": "10/02/22",
+      "planet": "Tatooine"
+    },
+    {
+      "name": "Emowop",
+      "type": "Class 4 Radioactive",
+      "overallQuality": 146.80,
+      "stats": {
+        "coldResistance": 915,
+        "conductivity": 1000,
+        "malleability": 554,
+        "radioactivity": 715
+      },
+      "lastSeen": "10/28/24",
+      "planet": "Endor"
+    },
+    {
+      "name": "Oulite",
+      "type": "Phrik Aluminum",
+      "overallQuality": 144.80,
+      "stats": {
+        "coldResistance": 961,
+        "conductivity": 995,
+        "decayResistance": 771,
+        "heatResistance": 724,
+        "malleability": 780,
+        "overallQuality": 793,
+        "shockResistance": 913,
+        "unitToughness": 892,
+        "entangleResistance": 857
+      },
+      "lastSeen": "12/25/21",
+      "planet": "Kashyyyk"
+    },
+    {
+      "name": "Gachreebatra",
+      "type": "Corthel Inert Gas",
+      "overallQuality": 144.00,
+      "stats": {
+        "coldResistance": 953,
+        "conductivity": 1000,
+        "malleability": 240
+      },
+      "lastSeen": "12/02/24",
+      "planet": "Dathomir"
+    },
+    {
+      "name": "Eban",
+      "type": "Kammris Iron",
+      "overallQuality": 143.00,
+      "stats": {
+        "coldResistance": 928,
+        "conductivity": 1000,
+        "decayResistance": 756,
+        "heatResistance": 437,
+        "malleability": 972,
+        "overallQuality": 920,
+        "shockResistance": 527,
+        "unitToughness": 906,
+        "entangleResistance": 930
+      },
+      "lastSeen": "04/14/23",
+      "planet": "Corellia"
+    },
+    {
+      "name": "Gagira",
+      "type": "Kammris Iron",
+      "overallQuality": 125.80,
+      "stats": {
+        "coldResistance": 946,
+        "conductivity": 977,
+        "decayResistance": 710,
+        "heatResistance": 444,
+        "malleability": 916,
+        "overallQuality": 930,
+        "shockResistance": 595,
+        "unitToughness": 978,
+        "entangleResistance": 998
+      },
+      "lastSeen": "04/24/23",
+      "planet": "Corellia"
+    },
+    {
+      "name": "Mycidian",
+      "type": "Vintrium Extrusive Ore",
+      "overallQuality": 124.00,
+      "stats": {
+        "coldResistance": 855,
+        "conductivity": 279,
+        "decayResistance": 941,
+        "malleability": 1000,
+        "overallQuality": 934,
+        "shockResistance": 528,
+        "unitToughness": 993,
+        "entangleResistance": 960
+      },
+      "lastSeen": "04/21/23",
+      "planet": "Yavin4"
+    }
+  ]
+}

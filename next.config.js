@@ -13,12 +13,6 @@ const nextConfig = {
   images: {
     // Keep unoptimized true if you want to use static export later
     unoptimized: false,
-    domains: [
-      "source.unsplash.com",
-      "images.unsplash.com",
-      "ext.same-assets.com",
-      "ugc.same-assets.com",
-    ],
     remotePatterns: [
       {
         protocol: "https",

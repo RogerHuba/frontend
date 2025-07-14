@@ -518,6 +518,26 @@ export function CharacterBuilder() {
       subtitle="Plan your character's profession and skills"
       heroClass="hero-section-character-minimal"
     >
+      {/* Under Construction Notice */}
+      <div className="bg-gradient-to-r from-yellow-600/20 to-orange-600/20 border border-yellow-500/50 rounded-lg p-6 mb-8">
+        <div className="flex items-center justify-center">
+          <div className="text-center">
+            <div className="flex items-center justify-center mb-4">
+              <svg className="w-8 h-8 text-yellow-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+              </svg>
+              <h3 className="text-xl font-bold text-yellow-400">Under Construction</h3>
+            </div>
+            <p className="text-gray-300 mb-2">
+              The Character Builder is currently in development and may not function properly in its current state.
+            </p>
+            <p className="text-gray-400 text-sm">
+              We're working hard to bring you a fully functional character planning tool. Thank you for your patience!
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-10 gap-4">
         {/* Sidebar - Professions */}
         <div className="lg:col-span-2">

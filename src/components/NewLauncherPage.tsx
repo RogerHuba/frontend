@@ -248,7 +248,7 @@ export function NewLauncherPage() {
             Get Support on Discord
           </a>
           <Link
-            href="/support-2"
+            href="/support"
             className="play-button inline-flex items-center"
           >
             Support Center

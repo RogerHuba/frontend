@@ -1,0 +1,272 @@
+{
+  "planets": [
+    {
+      "name": "Corellia",
+      "description": "Industrial homeworld of the Corellian system",
+      "cities": [
+        {
+          "name": "New Coronet",
+          "rank": "Metropolis",
+          "specialization": "Trade & Commerce",
+          "location": "-137, -4735",
+          "mayor": "Corellian_Trader",
+          "population": 28
+        },
+        {
+          "name": "Kor Vella Trading Post",
+          "rank": "City",
+          "specialization": "Manufacturing",
+          "location": "-3138, 2808",
+          "mayor": "Industrial_King",
+          "population": 17
+        },
+        {
+          "name": "Tyrena Harbor",
+          "rank": "City",
+          "specialization": "Shipbuilding",
+          "location": "-5045, -2294",
+          "mayor": "Admiral_Korr",
+          "population": 19
+        },
+        {
+          "name": "Doaba Guerfel",
+          "rank": "Town",
+          "specialization": "Mining Operations",
+          "location": "3336, 5525",
+          "mayor": "Miner_Supreme",
+          "population": 9
+        },
+        {
+          "name": "Rebel's Rest",
+          "rank": "Town",
+          "specialization": "Resistance Base",
+          "location": "-6500, 6100",
+          "mayor": "Freedom_Fighter",
+          "population": 11
+        },
+        {
+          "name": "Imperial Stronghold",
+          "rank": "Outpost",
+          "specialization": "Military Base",
+          "location": "1200, -800",
+          "mayor": "Commander_Vex",
+          "population": 8
+        }
+      ]
+    },
+    {
+      "name": "Tatooine",
+      "description": "Desert world with twin suns and moisture farming",
+      "cities": [
+        {
+          "name": "Anchorhead Station",
+          "rank": "City",
+          "specialization": "Mining & Manufacturing",
+          "location": "65, -5365",
+          "mayor": "Desert_Baron",
+          "population": 16
+        },
+        {
+          "name": "Bestine Gardens",
+          "rank": "City",
+          "specialization": "Entertainment",
+          "location": "-1290, -3590",
+          "mayor": "Casino_Owner",
+          "population": 18
+        },
+        {
+          "name": "Mos Eisley Cantina District",
+          "rank": "Town",
+          "specialization": "Trade Hub",
+          "location": "3528, -4804",
+          "mayor": "Cantina_Master",
+          "population": 12
+        },
+        {
+          "name": "Jabba's Palace Resort",
+          "rank": "Town",
+          "specialization": "Entertainment",
+          "location": "-5797, -6176",
+          "mayor": "Hutt_Successor",
+          "population": 10
+        },
+        {
+          "name": "Moisture Farm Collective",
+          "rank": "Town",
+          "specialization": "Agriculture",
+          "location": "-2580, -5500",
+          "mayor": "Farm_Leader",
+          "population": 13
+        },
+        {
+          "name": "Krayt Dragon Outpost",
+          "rank": "Outpost",
+          "specialization": "Hunting Lodge",
+          "location": "7300, 4500",
+          "mayor": "Dragon_Hunter",
+          "population": 7
+        }
+      ]
+    },
+    {
+      "name": "Naboo",
+      "description": "Peaceful world known for its natural beauty",
+      "cities": [
+        {
+          "name": "Theed Gardens",
+          "rank": "City",
+          "specialization": "Entertainment & Culture",
+          "location": "-4864, 4162",
+          "mayor": "Royal_Advisor",
+          "population": 21
+        },
+        {
+          "name": "Lake Retreat",
+          "rank": "City",
+          "specialization": "Tourism",
+          "location": "-5516, -4449",
+          "mayor": "Resort_Manager",
+          "population": 15
+        },
+        {
+          "name": "Gungan Alliance",
+          "rank": "Town",
+          "specialization": "Amphibious Research",
+          "location": "-2177, -5500",
+          "mayor": "Gungan_Boss",
+          "population": 14
+        },
+        {
+          "name": "Royal Guard Academy",
+          "rank": "Town",
+          "specialization": "Military Training",
+          "location": "4600, -4700",
+          "mayor": "Guard_Captain",
+          "population": 8
+        },
+        {
+          "name": "Plasma Mining Facility",
+          "rank": "Outpost",
+          "specialization": "Energy Production",
+          "location": "6800, 2100",
+          "mayor": "Energy_Chief",
+          "population": 9
+        }
+      ]
+    },
+    {
+      "name": "Dantooine",
+      "description": "Agricultural world with ancient Jedi ruins",
+      "cities": [
+        {
+          "name": "Pirate Outpost",
+          "rank": "City",
+          "specialization": "Black Market",
+          "location": "1569, -6415",
+          "mayor": "Pirate_King",
+          "population": 20
+        },
+        {
+          "name": "Jedi Enclave Ruins",
+          "rank": "Town",
+          "specialization": "Archaeological Site",
+          "location": "-4200, 5200",
+          "mayor": "Archaeologist_Prime",
+          "population": 7
+        },
+        {
+          "name": "Farming Collective",
+          "rank": "Town",
+          "specialization": "Agriculture",
+          "location": "-1600, -6400",
+          "mayor": "Harvest_Master",
+          "population": 11
+        },
+        {
+          "name": "Crystal Cave Miners",
+          "rank": "Outpost",
+          "specialization": "Crystal Mining",
+          "location": "7000, 1500",
+          "mayor": "Crystal_Seeker",
+          "population": 8
+        }
+      ]
+    },
+    {
+      "name": "Rori",
+      "description": "Naboo's swamp moon with dense forests and wetlands",
+      "cities": [
+        {
+          "name": "Restuss Rebuild",
+          "rank": "City",
+          "specialization": "Reconstruction Hub",
+          "location": "5362, 5748",
+          "mayor": "Rebuild_Coordinator",
+          "population": 17
+        },
+        {
+          "name": "Narmle Trading Post",
+          "rank": "Town",
+          "specialization": "Swamp Commerce",
+          "location": "-2684, 3325",
+          "mayor": "Swamp_Trader",
+          "population": 11
+        },
+        {
+          "name": "Gungan Sacred Place",
+          "rank": "Town",
+          "specialization": "Cultural Site",
+          "location": "-1130, -4552",
+          "mayor": "Sacred_Keeper",
+          "population": 9
+        },
+        {
+          "name": "Imperial Research Station",
+          "rank": "Outpost",
+          "specialization": "Scientific Research",
+          "location": "3700, -6400",
+          "mayor": "Research_Chief",
+          "population": 8
+        }
+      ]
+    },
+    {
+      "name": "Talus",
+      "description": "Corellia's sister world with varied terrain and wildlife",
+      "cities": [
+        {
+          "name": "Dearic New District",
+          "rank": "City",
+          "specialization": "Urban Development",
+          "location": "470, -2960",
+          "mayor": "City_Planner",
+          "population": 19
+        },
+        {
+          "name": "Nashal Riverside",
+          "rank": "Town",
+          "specialization": "Fishing & Trade",
+          "location": "4300, 5200",
+          "mayor": "Harbor_Master",
+          "population": 13
+        },
+        {
+          "name": "Imperial Garrison",
+          "rank": "Town",
+          "specialization": "Military Base",
+          "location": "-2200, 2300",
+          "mayor": "Base_Commander",
+          "population": 10
+        },
+        {
+          "name": "Afarathu Cave Explorers",
+          "rank": "Outpost",
+          "specialization": "Cave Exploration",
+          "location": "-6500, -1200",
+          "mayor": "Cave_Explorer",
+          "population": 7
+        }
+      ]
+    }
+  ]
+}

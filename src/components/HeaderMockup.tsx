@@ -64,7 +64,7 @@ const navItems: NavItem[] = [
   },
   {
     name: "SUPPORT",
-    href: "/support-2",
+    href: "/support",
     submenu: [
       { name: "FAQ for New Players", href: "/faq" },
       { name: "New Infinity Launcher", href: "/new-launcher" },

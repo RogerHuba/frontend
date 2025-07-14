@@ -1,10 +1,5 @@
-import { ComingSoonPage } from "@/components/ComingSoonPage";
+import { GuildsPage } from "@/components/GuildsPage";
 
-export default function GuildsPage() {
-  return (
-    <ComingSoonPage
-      title="Guilds"
-      description="Browse active player guilds and organizations. Find communities focused on combat, crafting, role-playing, or general gameplay to enhance your SWG experience."
-    />
-  );
+export default function Guilds() {
+  return <GuildsPage />;
 }

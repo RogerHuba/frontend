@@ -50,7 +50,7 @@ export function ServerInfoFooter() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Support</h3>
             <div className="space-y-2">
-              <Link href="/support-2" className="block text-gray-300 hover:text-white text-sm transition-colors">
+              <Link href="/support" className="block text-gray-300 hover:text-white text-sm transition-colors">
                 Help Center
               </Link>
               <Link href="/multiple-account-request" className="block text-gray-300 hover:text-white text-sm transition-colors">

@@ -1,0 +1,392 @@
+{
+  "factionControl": [
+    {
+      "planet": "Corellia",
+      "imperial": 67.3,
+      "rebel": 32.7,
+      "imperialBases": 8,
+      "rebelBases": 5,
+      "lastUpdate": "2025-01-15T14:30:00Z",
+      "status": "Imperial Controlled"
+    },
+    {
+      "planet": "Naboo",
+      "imperial": 24.8,
+      "rebel": 75.2,
+      "imperialBases": 3,
+      "rebelBases": 9,
+      "lastUpdate": "2025-01-15T14:25:00Z",
+      "status": "Rebel Controlled"
+    },
+    {
+      "planet": "Tatooine",
+      "imperial": 51.4,
+      "rebel": 48.6,
+      "imperialBases": 6,
+      "rebelBases": 5,
+      "lastUpdate": "2025-01-15T14:28:00Z",
+      "status": "Contested"
+    },
+    {
+      "planet": "Dantooine",
+      "imperial": 18.9,
+      "rebel": 81.1,
+      "imperialBases": 2,
+      "rebelBases": 8,
+      "lastUpdate": "2025-01-15T14:22:00Z",
+      "status": "Rebel Controlled"
+    },
+    {
+      "planet": "Rori",
+      "imperial": 73.6,
+      "rebel": 26.4,
+      "imperialBases": 7,
+      "rebelBases": 3,
+      "lastUpdate": "2025-01-15T14:31:00Z",
+      "status": "Imperial Controlled"
+    },
+    {
+      "planet": "Talus",
+      "imperial": 45.7,
+      "rebel": 54.3,
+      "imperialBases": 4,
+      "rebelBases": 6,
+      "lastUpdate": "2025-01-15T14:26:00Z",
+      "status": "Contested"
+    },
+    {
+      "planet": "Yavin 4",
+      "imperial": 12.3,
+      "rebel": 87.7,
+      "imperialBases": 1,
+      "rebelBases": 10,
+      "lastUpdate": "2025-01-15T14:20:00Z",
+      "status": "Rebel Controlled"
+    },
+    {
+      "planet": "Endor",
+      "imperial": 89.2,
+      "rebel": 10.8,
+      "imperialBases": 11,
+      "rebelBases": 1,
+      "lastUpdate": "2025-01-15T14:33:00Z",
+      "status": "Imperial Controlled"
+    },
+    {
+      "planet": "Lok",
+      "imperial": 56.1,
+      "rebel": 43.9,
+      "imperialBases": 5,
+      "rebelBases": 4,
+      "lastUpdate": "2025-01-15T14:29:00Z",
+      "status": "Contested"
+    },
+    {
+      "planet": "Kashyyyk",
+      "imperial": 31.5,
+      "rebel": 68.5,
+      "imperialBases": 3,
+      "rebelBases": 7,
+      "lastUpdate": "2025-01-15T14:24:00Z",
+      "status": "Rebel Controlled"
+    }
+  ],
+  "recentPvPKills": [
+    {
+      "id": "pvp_001",
+      "timestamp": "2025-01-15T14:25:12Z",
+      "killer": "DarkLord_Sith",
+      "killerFaction": "Imperial",
+      "killerProfession": "Dark Jedi",
+      "victim": "JediMaster_Luke",
+      "victimFaction": "Rebel",
+      "victimProfession": "Jedi Master",
+      "planet": "Dantooine",
+      "location": "Jedi Enclave",
+      "killType": "Bounty Contract",
+      "bountyAmount": 2500000
+    },
+    {
+      "id": "pvp_002",
+      "timestamp": "2025-01-15T14:18:45Z",
+      "killer": "RebelCommando_X",
+      "killerFaction": "Rebel",
+      "killerProfession": "Commando",
+      "victim": "StormTrooper_77",
+      "victimFaction": "Imperial",
+      "victimProfession": "Rifleman",
+      "planet": "Corellia",
+      "location": "Coronet City Outskirts",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_003",
+      "timestamp": "2025-01-15T14:15:33Z",
+      "killer": "BountyHunter_Prime",
+      "killerFaction": "Neutral",
+      "killerProfession": "Bounty Hunter",
+      "victim": "PadawanSeeker",
+      "victimFaction": "Rebel",
+      "victimProfession": "Force Sensitive",
+      "planet": "Tatooine",
+      "location": "Mos Eisley Cantina",
+      "killType": "Bounty Contract",
+      "bountyAmount": 750000
+    },
+    {
+      "id": "pvp_004",
+      "timestamp": "2025-01-15T14:12:18Z",
+      "killer": "ImperialOfficer",
+      "killerFaction": "Imperial",
+      "killerProfession": "Officer",
+      "victim": "RebelSpy_007",
+      "victimFaction": "Rebel",
+      "victimProfession": "Smuggler",
+      "planet": "Naboo",
+      "location": "Imperial Outpost",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_005",
+      "timestamp": "2025-01-15T14:08:52Z",
+      "killer": "SithApprentice",
+      "killerFaction": "Imperial",
+      "killerProfession": "Dark Jedi",
+      "victim": "JediKnight_Obi",
+      "victimFaction": "Rebel",
+      "victimProfession": "Jedi Knight",
+      "planet": "Kashyyyk",
+      "location": "Shadowlands",
+      "killType": "Duel"
+    },
+    {
+      "id": "pvp_006",
+      "timestamp": "2025-01-15T14:05:27Z",
+      "killer": "RebelPilot_Red5",
+      "killerFaction": "Rebel",
+      "killerProfession": "Pilot",
+      "victim": "TIEPilot_Alpha",
+      "victimFaction": "Imperial",
+      "victimProfession": "Pilot",
+      "planet": "Yavin 4",
+      "location": "Rebel Base Perimeter",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_007",
+      "timestamp": "2025-01-15T14:02:14Z",
+      "killer": "EliteBountyHunter",
+      "killerFaction": "Neutral",
+      "killerProfession": "Bounty Hunter",
+      "victim": "HiddenJedi",
+      "victimFaction": "Neutral",
+      "victimProfession": "Jedi",
+      "planet": "Lok",
+      "location": "Kimogila Town",
+      "killType": "Bounty Contract",
+      "bountyAmount": 4200000
+    },
+    {
+      "id": "pvp_008",
+      "timestamp": "2025-01-15T13:58:41Z",
+      "killer": "ImperialGeneral",
+      "killerFaction": "Imperial",
+      "killerProfession": "Squad Leader",
+      "victim": "RebelGeneral_Mon",
+      "victimFaction": "Rebel",
+      "victimProfession": "Squad Leader",
+      "planet": "Rori",
+      "location": "Imperial Stronghold",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_009",
+      "timestamp": "2025-01-15T13:55:16Z",
+      "killer": "DarkSideMaster",
+      "killerFaction": "Imperial",
+      "killerProfession": "Dark Jedi Master",
+      "victim": "LightSideChampion",
+      "victimFaction": "Rebel",
+      "victimProfession": "Jedi Master",
+      "planet": "Endor",
+      "location": "Death Star Construction Site",
+      "killType": "Duel"
+    },
+    {
+      "id": "pvp_010",
+      "timestamp": "2025-01-15T13:51:33Z",
+      "killer": "RebelMarksman",
+      "killerFaction": "Rebel",
+      "killerProfession": "Marksman",
+      "victim": "ImperialSniper",
+      "victimFaction": "Imperial",
+      "victimProfession": "Marksman",
+      "planet": "Talus",
+      "location": "Dearic City",
+      "killType": "Duel"
+    },
+    {
+      "id": "pvp_011",
+      "timestamp": "2025-01-15T13:48:07Z",
+      "killer": "MandalorianMerc",
+      "killerFaction": "Neutral",
+      "killerProfession": "Bounty Hunter",
+      "victim": "YoungPadawan",
+      "victimFaction": "Rebel",
+      "victimProfession": "Force Sensitive",
+      "planet": "Corellia",
+      "location": "Vreni Island",
+      "killType": "Bounty Contract",
+      "bountyAmount": 1800000
+    },
+    {
+      "id": "pvp_012",
+      "timestamp": "2025-01-15T13:44:52Z",
+      "killer": "ImperialAgent",
+      "killerFaction": "Imperial",
+      "killerProfession": "Spy",
+      "victim": "RebelInformant",
+      "victimFaction": "Rebel",
+      "victimProfession": "Entertainer",
+      "planet": "Naboo",
+      "location": "Theed Palace",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_013",
+      "timestamp": "2025-01-15T13:41:28Z",
+      "killer": "JediHunter_X99",
+      "killerFaction": "Imperial",
+      "killerProfession": "Bounty Hunter",
+      "victim": "JediMaster_Yoda",
+      "victimFaction": "Rebel",
+      "victimProfession": "Jedi Master",
+      "planet": "Dagobah",
+      "location": "Swamp Hideout",
+      "killType": "Bounty Contract",
+      "bountyAmount": 5000000
+    },
+    {
+      "id": "pvp_014",
+      "timestamp": "2025-01-15T13:38:15Z",
+      "killer": "RebelCommander",
+      "killerFaction": "Rebel",
+      "killerProfession": "Squad Leader",
+      "victim": "ImperialLieutenant",
+      "victimFaction": "Imperial",
+      "victimProfession": "Squad Leader",
+      "planet": "Dantooine",
+      "location": "Imperial Mining Facility",
+      "killType": "PvP"
+    },
+    {
+      "id": "pvp_015",
+      "timestamp": "2025-01-15T13:35:03Z",
+      "killer": "SithLord_Vader",
+      "killerFaction": "Imperial",
+      "killerProfession": "Dark Jedi Master",
+      "victim": "JediCouncil_Windu",
+      "victimFaction": "Rebel",
+      "victimProfession": "Jedi Master",
+      "planet": "Coruscant",
+      "location": "Jedi Temple",
+      "killType": "Duel"
+    }
+  ],
+  "topPlayers": {
+    "imperial": [
+      {
+        "rank": 1,
+        "name": "DarkLord_Sith",
+        "profession": "Dark Jedi Master",
+        "kills": 47,
+        "deaths": 12,
+        "ratio": 3.92,
+        "lastActive": "2025-01-15T14:25:12Z"
+      },
+      {
+        "rank": 2,
+        "name": "ImperialGeneral",
+        "profession": "Squad Leader",
+        "kills": 38,
+        "deaths": 9,
+        "ratio": 4.22,
+        "lastActive": "2025-01-15T13:58:41Z"
+      },
+      {
+        "rank": 3,
+        "name": "SithLord_Vader",
+        "profession": "Dark Jedi Master",
+        "kills": 35,
+        "deaths": 5,
+        "ratio": 7.00,
+        "lastActive": "2025-01-15T13:35:03Z"
+      },
+      {
+        "rank": 4,
+        "name": "ImperialOfficer",
+        "profession": "Officer",
+        "kills": 31,
+        "deaths": 14,
+        "ratio": 2.21,
+        "lastActive": "2025-01-15T14:12:18Z"
+      },
+      {
+        "rank": 5,
+        "name": "StormTrooper_Commander",
+        "profession": "Rifleman",
+        "kills": 28,
+        "deaths": 18,
+        "ratio": 1.56,
+        "lastActive": "2025-01-15T12:45:33Z"
+      }
+    ],
+    "rebel": [
+      {
+        "rank": 1,
+        "name": "JediMaster_Luke",
+        "profession": "Jedi Master",
+        "kills": 42,
+        "deaths": 8,
+        "ratio": 5.25,
+        "lastActive": "2025-01-15T14:25:12Z"
+      },
+      {
+        "rank": 2,
+        "name": "RebelCommando_X",
+        "profession": "Commando",
+        "kills": 39,
+        "deaths": 11,
+        "ratio": 3.55,
+        "lastActive": "2025-01-15T14:18:45Z"
+      },
+      {
+        "rank": 3,
+        "name": "JediCouncil_Windu",
+        "profession": "Jedi Master",
+        "kills": 33,
+        "deaths": 7,
+        "ratio": 4.71,
+        "lastActive": "2025-01-15T13:35:03Z"
+      },
+      {
+        "rank": 4,
+        "name": "RebelGeneral_Mon",
+        "profession": "Squad Leader",
+        "kills": 29,
+        "deaths": 12,
+        "ratio": 2.42,
+        "lastActive": "2025-01-15T13:58:41Z"
+      },
+      {
+        "rank": 5,
+        "name": "RebelPilot_Red5",
+        "profession": "Pilot",
+        "kills": 26,
+        "deaths": 15,
+        "ratio": 1.73,
+        "lastActive": "2025-01-15T14:05:27Z"
+      }
+    ]
+  }
+}

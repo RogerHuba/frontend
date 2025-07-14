@@ -71,9 +71,9 @@ const teamMembers: TeamMember[] = [
   {
     name: "Siymon",
     role: "Website Master",
-    bio: "",
+    bio: "Started live on the Wanderhome Server. If you remember SiyBer Arms, you know who I am. Working to update and maintain the SWG Infinity website.",
     liveserver: "Wanderhome",
-    imageUrl: "https://ext.same-assets.com/906812322/2240799338.jpeg",
+    imageUrl: "/siymon.jpg",
   },
 ];
 

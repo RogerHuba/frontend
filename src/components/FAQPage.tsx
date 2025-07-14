@@ -256,7 +256,7 @@ export function FAQPage() {
             </li>
           </ul>
           <p>
-            If you're still having issues, please visit our <Link href="/support-2" className="text-[hsl(var(--swg-accent-gold))] hover:underline">Support</Link> page
+            If you're still having issues, please visit our <Link href="/support" className="text-[hsl(var(--swg-accent-gold))] hover:underline">Support</Link> page
             or ask for help in the #technical-help channel on our Discord.
           </p>
         </div>
@@ -433,7 +433,7 @@ export function FAQPage() {
             Check our <Link href="/guides" className="text-[hsl(var(--swg-accent-gold))] hover:underline">Guides</Link> section for more detailed information
           </li>
           <li className="text-gray-300">
-            Contact our support team through the <Link href="/support-2" className="text-[hsl(var(--swg-accent-gold))] hover:underline">Support</Link> page
+            Contact our support team through the <Link href="/support" className="text-[hsl(var(--swg-accent-gold))] hover:underline">Support</Link> page
           </li>
         </ul>
       </div>

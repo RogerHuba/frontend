@@ -1,0 +1,990 @@
+{
+  "categories": [
+    "All",
+    "Armor",
+    "Weapon", 
+    "Architect",
+    "Artisan",
+    "Bio-Engineer",
+    "Chef",
+    "Droid Engineer",
+    "Entertainer",
+    "Shipwright",
+    "Tailor",
+    "Misc"
+  ],
+  "schematics": [
+    {
+      "id": "advanced_battle_core",
+      "name": "Advanced Battle Core",
+      "category": "Armor",
+      "complexity": 28,
+      "xpReward": 1400,
+      "description": "A high-performance core component for advanced armor systems, providing superior protection and enhanced battlefield capabilities.",
+      "resources": [
+        {
+          "name": "Metal",
+          "amount": 65,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Armor Effectiveness"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 25,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Kinetic Protection"
+        },
+        {
+          "name": "Chemical",
+          "amount": 15,
+          "caps": ["OQ", "DR", "FL"],
+          "contribution": "Energy Protection"
+        }
+      ],
+      "components": [
+        {
+          "name": "Armor Segment",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Advanced Electronics",
+          "quantity": 2,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Armor Crafting Tool", "Armor Crafting Station"],
+      "skills": ["Armorsmith Master"]
+    },
+    {
+      "id": "advanced_blaster_rifle_barrel",
+      "name": "Advanced Blaster Rifle Barrel",
+      "category": "Weapon",
+      "complexity": 25,
+      "xpReward": 1250,
+      "description": "Precision-engineered barrel component that significantly improves weapon accuracy and damage output for blaster rifles.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 75,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Weapon Damage"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 30,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Weapon Speed"
+        },
+        {
+          "name": "Copper",
+          "amount": 20,
+          "caps": ["OQ", "CD", "SR"],
+          "contribution": "Energy Efficiency"
+        }
+      ],
+      "components": [
+        {
+          "name": "Weapon Barrel",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Reinforced Core",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Weapon Crafting Tool", "Weapon Crafting Station"],
+      "skills": ["Weaponsmith Master"]
+    },
+    {
+      "id": "bacta_spray_enhancer",
+      "name": "Bacta Spray Enhancer", 
+      "category": "Bio-Engineer",
+      "complexity": 22,
+      "xpReward": 1100,
+      "description": "Advanced enhancement component that improves the effectiveness and duration of bacta spray applications.",
+      "resources": [
+        {
+          "name": "Chemical",
+          "amount": 50,
+          "caps": ["OQ", "DR", "PE"],
+          "contribution": "Medicine Effectiveness"
+        },
+        {
+          "name": "Water",
+          "amount": 40,
+          "caps": ["OQ", "PE"],
+          "contribution": "Potency"
+        },
+        {
+          "name": "Organic",
+          "amount": 25,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Duration"
+        }
+      ],
+      "components": [
+        {
+          "name": "Bio-Component",
+          "quantity": 2,
+          "source": "crafted"
+        },
+        {
+          "name": "Chemical Stabilizer",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Bioanalysis Tool", "Bio-Engineer Crafting Station"],
+      "skills": ["Bio-Engineer Master"]
+    },
+    {
+      "id": "exo_protein_wafers",
+      "name": "Exo-Protein Wafers",
+      "category": "Chef", 
+      "complexity": 18,
+      "xpReward": 900,
+      "description": "High-nutrition food supplement providing enhanced stamina and endurance for extended missions.",
+      "resources": [
+        {
+          "name": "Cereal",
+          "amount": 60,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Nutrition"
+        },
+        {
+          "name": "Meat",
+          "amount": 35,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Protein Content"
+        },
+        {
+          "name": "Milk",
+          "amount": 20,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Taste"
+        }
+      ],
+      "components": [
+        {
+          "name": "Food Additive",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Seasoning",
+          "quantity": 2,
+          "source": "looted"
+        }
+      ],
+      "tools": ["Food Crafting Tool", "Food Crafting Station"],
+      "skills": ["Chef Master"]
+    },
+    {
+      "id": "mark_v_droid_interface",
+      "name": "Mark V Droid Interface",
+      "category": "Droid Engineer",
+      "complexity": 30,
+      "xpReward": 1500,
+      "description": "Advanced interface module enabling sophisticated droid control and enhanced AI capabilities.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 45,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Durability"
+        },
+        {
+          "name": "Copper", 
+          "amount": 35,
+          "caps": ["OQ", "CD", "SR"],
+          "contribution": "Conductivity"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 25,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Processing Speed"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 15,
+          "caps": ["OQ", "SR", "PE"],
+          "contribution": "Power Efficiency"
+        }
+      ],
+      "components": [
+        {
+          "name": "Electronics Module",
+          "quantity": 3,
+          "source": "crafted"
+        },
+        {
+          "name": "Control Circuits",
+          "quantity": 2,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Droid Crafting Tool", "Droid Crafting Station"],
+      "skills": ["Droid Engineer Master"]
+    },
+    {
+      "id": "advanced_weapon_scope",
+      "name": "Advanced Weapon Scope",
+      "category": "Weapon",
+      "complexity": 20,
+      "xpReward": 1000,
+      "description": "Precision optical targeting system that dramatically improves weapon accuracy and target acquisition.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 40,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Scope Durability"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 30,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Scope Weight"
+        },
+        {
+          "name": "Chemical",
+          "amount": 25,
+          "caps": ["OQ", "DR", "FL"],
+          "contribution": "Optical Clarity"
+        }
+      ],
+      "components": [
+        {
+          "name": "Optical Sensor",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Mounting Hardware",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Weapon Crafting Tool", "Weapon Crafting Station"],
+      "skills": ["Weaponsmith Master"]
+    },
+    {
+      "id": "element_processing_system_fuse",
+      "name": "Element Processing System Fuse",
+      "category": "Architect",
+      "complexity": 15,
+      "xpReward": 750,
+      "description": "Critical safety component for element processing systems, preventing overloads and system failures.",
+      "resources": [
+        {
+          "name": "Copper",
+          "amount": 50,
+          "caps": ["OQ", "CD", "SR"],
+          "contribution": "Conductivity"
+        },
+        {
+          "name": "Steel",
+          "amount": 30,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Structural Integrity"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 20,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Heat Dissipation"
+        }
+      ],
+      "components": [
+        {
+          "name": "Metal Casing",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Conductive Wire",
+          "quantity": 2,
+          "source": "looted"
+        }
+      ],
+      "tools": ["Structure Crafting Tool", "Structure Crafting Station"],
+      "skills": ["Architect Master"]
+    },
+    {
+      "id": "fifth_generation_lightsaber",
+      "name": "Fifth Generation Lightsaber",
+      "category": "Weapon",
+      "complexity": 35,
+      "xpReward": 1750,
+      "description": "The pinnacle of lightsaber technology, featuring enhanced blade stability and devastating combat effectiveness.",
+      "resources": [
+        {
+          "name": "Metal",
+          "amount": 80,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Weapon Damage"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 60,
+          "caps": ["OQ", "SR", "PE"],
+          "contribution": "Force Enhancement"
+        },
+        {
+          "name": "Gas",
+          "amount": 40,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Blade Quality"
+        },
+        {
+          "name": "Gemstone",
+          "amount": 30,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Color Crystal"
+        }
+      ],
+      "components": [
+        {
+          "name": "Lightsaber Crystal",
+          "quantity": 1,
+          "source": "quest"
+        },
+        {
+          "name": "Jedi Weapon Core",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Power Cell",
+          "quantity": 2,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Lightsaber Crafting Tool"],
+      "skills": ["Force Sensitive"]
+    },
+    {
+      "id": "starship_crafting_tool",
+      "name": "Starship Crafting Tool",
+      "category": "Artisan",
+      "complexity": 12,
+      "xpReward": 600,
+      "description": "Essential tool for constructing and maintaining starship components and systems.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 70,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Tool Durability"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 25,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Tool Weight"
+        },
+        {
+          "name": "Copper",
+          "amount": 15,
+          "caps": ["OQ", "CD", "SR"],
+          "contribution": "Precision"
+        }
+      ],
+      "components": [
+        {
+          "name": "Tool Handle",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Calibration Module",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Generic Crafting Tool"],
+      "skills": ["Artisan Master"]
+    },
+    {
+      "id": "b_wing_chassis_blueprints",
+      "name": "B-Wing Chassis Blueprints",
+      "category": "Shipwright",
+      "complexity": 32,
+      "xpReward": 1600,
+      "description": "Detailed construction plans for the B-Wing starfighter's revolutionary rotating cockpit design.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 1200,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Chassis Integrity"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 800,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Weight Reduction"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 400,
+          "caps": ["OQ", "SR", "PE"],
+          "contribution": "Power Systems"
+        },
+        {
+          "name": "Gas",
+          "amount": 200,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Engine Efficiency"
+        }
+      ],
+      "components": [
+        {
+          "name": "Starship Frame",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Rotating Assembly",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Control Systems",
+          "quantity": 2,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Starship Crafting Tool", "Starship Crafting Station"],
+      "skills": ["Shipwright Master"]
+    },
+    {
+      "id": "x_wing_chassis_blueprints",
+      "name": "X-Wing Chassis Blueprints",
+      "category": "Shipwright",
+      "complexity": 30,
+      "xpReward": 1500,
+      "description": "Construction blueprints for the iconic X-Wing starfighter, featuring the legendary S-foil wing configuration.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 1000,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Chassis Integrity"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 700,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Maneuverability"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 350,
+          "caps": ["OQ", "SR", "PE"],
+          "contribution": "Power Core"
+        },
+        {
+          "name": "Gas",
+          "amount": 180,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Engine Output"
+        }
+      ],
+      "components": [
+        {
+          "name": "Starship Frame",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "S-Foil Wing Assembly",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Incom T-65 Avionics",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Starship Crafting Tool", "Starship Crafting Station"],
+      "skills": ["Shipwright Master"]
+    },
+    {
+      "id": "composite_armor_chestplate",
+      "name": "Composite Armor Chestplate Appearance",
+      "category": "Armor",
+      "complexity": 26,
+      "xpReward": 1300,
+      "description": "Advanced composite armor design providing excellent protection while maintaining mobility and comfort.",
+      "resources": [
+        {
+          "name": "Metal",
+          "amount": 85,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Armor Rating"
+        },
+        {
+          "name": "Chemical",
+          "amount": 45,
+          "caps": ["OQ", "DR", "FL"],
+          "contribution": "Energy Protection"
+        },
+        {
+          "name": "Organic",
+          "amount": 35,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Comfort"
+        }
+      ],
+      "components": [
+        {
+          "name": "Armor Plating",
+          "quantity": 3,
+          "source": "crafted"
+        },
+        {
+          "name": "Padding System",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Armor Crafting Tool", "Armor Crafting Station"],
+      "skills": ["Armorsmith Master"]
+    },
+    {
+      "id": "mandalorian_wine",
+      "name": "Mandalorian Wine",
+      "category": "Chef",
+      "complexity": 16,
+      "xpReward": 800,
+      "description": "Traditional Mandalorian beverage known for its strength and distinctive flavor profile.",
+      "resources": [
+        {
+          "name": "Fruit",
+          "amount": 75,
+          "caps": ["OQ", "PE", "FL"],
+          "contribution": "Flavor"
+        },
+        {
+          "name": "Water",
+          "amount": 40,
+          "caps": ["OQ", "PE"],
+          "contribution": "Purity"
+        },
+        {
+          "name": "Chemical",
+          "amount": 20,
+          "caps": ["OQ", "DR", "PE"],
+          "contribution": "Alcohol Content"
+        }
+      ],
+      "components": [
+        {
+          "name": "Fermentation Agent",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Aging Barrel",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Food Crafting Tool", "Food Crafting Station"],
+      "skills": ["Chef Master"]
+    },
+    {
+      "id": "r2_astromech_droid",
+      "name": "R2 Droid",
+      "category": "Droid Engineer",
+      "complexity": 35,
+      "xpReward": 1750,
+      "description": "Versatile astromech droid capable of starship navigation, repair work, and computer interface operations.",
+      "resources": [
+        {
+          "name": "Steel",
+          "amount": 120,
+          "caps": ["OQ", "SR", "UT"],
+          "contribution": "Chassis Durability"
+        },
+        {
+          "name": "Aluminum",
+          "amount": 80,
+          "caps": ["OQ", "MA", "SR"],
+          "contribution": "Mobility"
+        },
+        {
+          "name": "Copper",
+          "amount": 60,
+          "caps": ["OQ", "CD", "SR"],
+          "contribution": "Processing Power"
+        },
+        {
+          "name": "Radioactive",
+          "amount": 40,
+          "caps": ["OQ", "SR", "PE"],
+          "contribution": "Power Cell"
+        }
+      ],
+      "components": [
+        {
+          "name": "Droid Chassis",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Manipulator Arms",
+          "quantity": 2,
+          "source": "crafted"
+        },
+        {
+          "name": "Sensor Package",
+          "quantity": 1,
+          "source": "crafted"
+        },
+        {
+          "name": "Motivator Unit",
+          "quantity": 1,
+          "source": "crafted"
+        }
+      ],
+      "tools": ["Droid Crafting Tool", "Droid Crafting Station"],
+      "skills": ["Droid Engineer Master"]
+    }
+  ],
+  "bestResources": {
+    "Metal": {
+      "name": "Corellia Iron",
+      "planet": "Corellia",
+      "stats": {
+        "OQ": 978,
+        "SR": 962,
+        "UT": 945
+      },
+      "spawned": "2025-01-10T08:30:00Z",
+      "concentration": "Heavy"
+    },
+    "Steel": {
+      "name": "Tatooinian Duralloy Steel",
+      "planet": "Tatooine", 
+      "stats": {
+        "OQ": 985,
+        "SR": 971,
+        "UT": 958
+      },
+      "spawned": "2025-01-12T14:20:00Z",
+      "concentration": "Good"
+    },
+    "Aluminum": {
+      "name": "Naboo Perovskitic Aluminum",
+      "planet": "Naboo",
+      "stats": {
+        "OQ": 962,
+        "MA": 987,
+        "SR": 941
+      },
+      "spawned": "2025-01-08T11:45:00Z",
+      "concentration": "Heavy"
+    },
+    "Copper": {
+      "name": "Dantooine Polysteel Copper",
+      "planet": "Dantooine",
+      "stats": {
+        "OQ": 943,
+        "CD": 991,
+        "SR": 967
+      },
+      "spawned": "2025-01-14T09:15:00Z",
+      "concentration": "Good"
+    },
+    "Radioactive": {
+      "name": "Yavin Radioactive",
+      "planet": "Yavin 4",
+      "stats": {
+        "OQ": 972,
+        "SR": 959,
+        "PE": 984
+      },
+      "spawned": "2025-01-11T16:00:00Z",
+      "concentration": "Fair"
+    },
+    "Chemical": {
+      "name": "Lok Organometallic Chemical",
+      "planet": "Lok",
+      "stats": {
+        "OQ": 966,
+        "DR": 979,
+        "FL": 952
+      },
+      "spawned": "2025-01-13T07:30:00Z",
+      "concentration": "Heavy"
+    },
+    "Gas": {
+      "name": "Rori Methane Gas",
+      "planet": "Rori",
+      "stats": {
+        "OQ": 951,
+        "PE": 988,
+        "FL": 963
+      },
+      "spawned": "2025-01-09T13:20:00Z",
+      "concentration": "Good"
+    },
+    "Water": {
+      "name": "Talus Pure Lake Water",
+      "planet": "Talus",
+      "stats": {
+        "OQ": 945,
+        "PE": 976
+      },
+      "spawned": "2025-01-07T10:00:00Z",
+      "concentration": "Heavy"
+    },
+    "Organic": {
+      "name": "Endor Avian Meat",
+      "planet": "Endor",
+      "stats": {
+        "OQ": 968,
+        "PE": 983,
+        "FL": 947
+      },
+      "spawned": "2025-01-15T05:45:00Z",
+      "concentration": "Fair"
+    },
+    "Cereal": {
+      "name": "Corellia Domesticated Oats",
+      "planet": "Corellia",
+      "stats": {
+        "OQ": 954,
+        "PE": 971,
+        "FL": 939
+      },
+      "spawned": "2025-01-12T12:30:00Z",
+      "concentration": "Good"
+    },
+    "Meat": {
+      "name": "Dathomir Wild Meat",
+      "planet": "Dathomir",
+      "stats": {
+        "OQ": 977,
+        "PE": 965,
+        "FL": 958
+      },
+      "spawned": "2025-01-10T14:15:00Z",
+      "concentration": "Heavy"
+    },
+    "Milk": {
+      "name": "Naboo Domesticated Milk",
+      "planet": "Naboo",
+      "stats": {
+        "OQ": 959,
+        "PE": 974,
+        "FL": 962
+      },
+      "spawned": "2025-01-11T08:00:00Z",
+      "concentration": "Good"
+    },
+    "Gemstone": {
+      "name": "Kashyyyk Crystalline Gemstone",
+      "planet": "Kashyyyk",
+      "stats": {
+        "OQ": 982,
+        "MA": 969,
+        "SR": 954
+      },
+      "spawned": "2025-01-06T17:20:00Z",
+      "concentration": "Fair"
+    },
+    "Fruit": {
+      "name": "Naboo Wild Fruit",
+      "planet": "Naboo",
+      "stats": {
+        "OQ": 967,
+        "PE": 981,
+        "FL": 954
+      },
+      "spawned": "2025-01-13T11:30:00Z",
+      "concentration": "Good"
+    }
+  }
+}
+      ]
+    },
+    {
+      "name": "Block Buildings",
+      "schematics": [
+        {
+          "name": "Block Building [Style 1]",
+          "description": "Modular building block for custom construction",
+          "category": "Block Buildings",
+          "subcategory": "Structural Elements",
+          "rarity": "Common",
+          "imageUrl": "/schematics/block-building-style1.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Rebar", "Concrete", "Steel"],
+          "stats": {
+            "size": "Medium",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        },
+        {
+          "name": "Block Building [Style 2]",
+          "description": "Advanced modular building block with decorative elements",
+          "category": "Block Buildings",
+          "subcategory": "Structural Elements",
+          "rarity": "Uncommon",
+          "imageUrl": "/schematics/block-building-style2.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Rebar", "Reinforced Concrete", "Decorative Stone"],
+          "stats": {
+            "size": "Medium",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vehicles & Large Structures",
+      "schematics": [
+        {
+          "name": "AT-AT",
+          "description": "Decorative All Terrain Armored Transport replica",
+          "category": "Vehicles & Large Structures",
+          "subcategory": "Imperial Decorations",
+          "rarity": "Legendary",
+          "imageUrl": "/schematics/at-at.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Durasteel", "Advanced Electronics", "Imperial Parts", "Rebar"],
+          "stats": {
+            "size": "Massive",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        },
+        {
+          "name": "Battle Droid",
+          "description": "Decorative battle droid statue",
+          "category": "Vehicles & Large Structures",
+          "subcategory": "Droid Decorations",
+          "rarity": "Rare",
+          "imageUrl": "/schematics/battle-droid.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Metal Alloy", "Electronics", "Junk Pile [Style 1]"],
+          "stats": {
+            "size": "Large",
+            "placement": "Ground",
+            "durability": "High"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Architectural Elements",
+      "schematics": [
+        {
+          "name": "Archway",
+          "description": "Decorative archway for entrances and passages",
+          "category": "Architectural Elements",
+          "subcategory": "Structural Decorations",
+          "rarity": "Uncommon",
+          "imageUrl": "/schematics/archway.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Stone", "Rebar", "Decorative Elements"],
+          "stats": {
+            "size": "Large",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        },
+        {
+          "name": "Bridge",
+          "description": "Decorative bridge structure for spanning areas",
+          "category": "Architectural Elements",
+          "subcategory": "Structural Decorations",
+          "rarity": "Rare",
+          "imageUrl": "/schematics/bridge.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Steel Beams", "Rebar", "Concrete", "Wood Panel [Style 1]"],
+          "stats": {
+            "size": "Very Large",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        },
+        {
+          "name": "City Gate",
+          "description": "Grand city gate structure for settlement entrances",
+          "category": "Architectural Elements",
+          "subcategory": "City Infrastructure",
+          "rarity": "Legendary",
+          "imageUrl": "/schematics/city-gate.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Reinforced Steel", "Rebar", "Decorative Stone", "Advanced Electronics"],
+          "stats": {
+            "size": "Massive",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        },
+        {
+          "name": "Church",
+          "description": "Decorative religious building structure",
+          "category": "Architectural Elements",
+          "subcategory": "Religious Buildings",
+          "rarity": "Rare",
+          "imageUrl": "/schematics/church.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Stone", "Wood Panel [Style 2]", "Stained Glass", "Rebar"],
+          "stats": {
+            "size": "Very Large",
+            "placement": "Ground",
+            "durability": "Very High"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Technology & Communications",
+      "schematics": [
+        {
+          "name": "Antennae",
+          "description": "Communication antenna array for settlements",
+          "category": "Technology & Communications",
+          "subcategory": "Communication Equipment",
+          "rarity": "Common",
+          "imageUrl": "/schematics/antennae.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Metal Rods", "Electronics", "Rebar"],
+          "stats": {
+            "size": "Large",
+            "placement": "Ground",
+            "durability": "Medium"
+          }
+        },
+        {
+          "name": "Billboard",
+          "description": "Large advertising or information display board",
+          "category": "Technology & Communications",
+          "subcategory": "Information Displays",
+          "rarity": "Uncommon",
+          "imageUrl": "/schematics/billboard.jpg",
+          "requirements": ["Master Architect"],
+          "materials": ["Steel Frame", "Display Screen", "Electronics", "Rebar"],
+          "stats": {
+            "size": "Very Large",
+            "placement": "Ground",
+            "durability": "Medium"
+          }
+        }
+      ]
+    }
+  ]
+}
