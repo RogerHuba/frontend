@@ -2,7 +2,7 @@
 
 import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
-import { Footer } from "@/components/Footer";
+import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -200,7 +200,7 @@ export function JediUnlockGuide() {
       </div>
 
       <DiscordSection />
-      <Footer />
+      <ServerInfoFooter />
     </main>
   );
 }

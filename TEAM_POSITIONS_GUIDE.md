@@ -1,6 +1,7 @@
 # Team Positions Management
 
 ## Overview
+
 The "Join the Team" page now pulls job positions from a JSON file located at `/src/data/teamPositions.json`. This allows for easy management of available positions without needing to modify the component code.
 
 ## Adding a New Position

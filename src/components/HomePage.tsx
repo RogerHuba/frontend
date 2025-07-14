@@ -36,13 +36,7 @@ export function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="/getting-started" 
-                  className="bg-[#D4AF37] hover:bg-[#B8941F] text-black px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-                >
-                  Start Your Journey
-                </a>
-                <a 
-                  href="/download" 
+                  href="/new-launcher" 
                   className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
                 >
                   Download Game

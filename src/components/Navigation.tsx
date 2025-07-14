@@ -26,6 +26,7 @@ const navItems: NavItem[] = [
     href: "/about-infinity",
     submenu: [
       { name: "Latest Patch Notes", href: "/patchupdates" },
+      { name: "Monthly Spotlight", href: "/monthly-spotlight" },
       { name: "Infinity Specific Rules", href: "/about-infinity/infinity-specific-rules" },
       { name: "Roadmap", href: "/about-infinity/roadmap" },
       { name: "Vision and Mantras", href: "/about-infinity/vision-and-mantras" },
@@ -34,12 +35,12 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    name: "GUIDES",
-    href: "/guides",
+    name: "GAMEPLAY ASSISTANCE",
+    href: "/gameplay-assistance",
     submenu: [
-      { name: "Jedi Unlock", href: "/guides/jedi-unlock" },
-      { name: "The Knight Trials", href: "/guides/the-knight-trials" },
-      { name: "The Warren", href: "/guides/the-warren" },
+      { name: "Profession Guides", href: "/guides/profession-guides" },
+      { name: "Quest Guides", href: "/guides/quest-guides" },
+      { name: "Dungeon Guides", href: "/guides/dungeon-guides" },
       { name: "Treasure Hunting", href: "/guides/treasure-hunting" },
       { name: "Character Builder", href: "/character-builder" },
     ],
