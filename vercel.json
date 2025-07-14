@@ -4,6 +4,11 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
+  "functions": {
+    "app/**": {
+      "memory": 1024
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
