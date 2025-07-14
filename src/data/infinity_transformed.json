@@ -1,9 +1,13 @@
 {
   "resources": [
     {
-      "name": "Reuffi",
-      "type": "Lokian Vegetable Fungus",
-      "overallQuality": 598,
+      "name": {
+        "value": "Reuffi"
+      },
+      "type": {
+        "value": "Lokian Vegetable Fungus"
+      },
+      "overallQuality": 598.0,
       "stats": {
         "decayResistance": 18,
         "flavor": 938,
@@ -14,9 +18,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Whiocoo",
-      "type": "Endorian Vegetable Tubers",
-      "overallQuality": 515,
+      "name": {
+        "value": "Whiocoo"
+      },
+      "type": {
+        "value": "Endorian Vegetable Tubers"
+      },
+      "overallQuality": 515.0,
       "stats": {
         "decayResistance": 637,
         "flavor": 720,
@@ -27,9 +35,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Keume",
-      "type": "Lokian Herbivore Meat",
-      "overallQuality": 470,
+      "name": {
+        "value": "Keume"
+      },
+      "type": {
+        "value": "Lokian Herbivore Meat"
+      },
+      "overallQuality": 470.0,
       "stats": {
         "decayResistance": 485,
         "flavor": 44,
@@ -40,9 +52,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Oathi",
-      "type": "Nabooian Domesticated Corn",
-      "overallQuality": 241,
+      "name": {
+        "value": "Oathi"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Corn"
+      },
+      "overallQuality": 241.0,
       "stats": {
         "decayResistance": 774,
         "flavor": 496,
@@ -53,9 +69,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Inachia",
-      "type": "Rori Horn",
-      "overallQuality": 456,
+      "name": {
+        "value": "Inachia"
+      },
+      "type": {
+        "value": "Rori Horn"
+      },
+      "overallQuality": 456.0,
       "stats": {
         "decayResistance": 929,
         "malleability": 67,
@@ -67,9 +87,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Dehie",
-      "type": "Rori Vegetable Greens",
-      "overallQuality": 900,
+      "name": {
+        "value": "Dehie"
+      },
+      "type": {
+        "value": "Rori Vegetable Greens"
+      },
+      "overallQuality": 900.0,
       "stats": {
         "decayResistance": 2,
         "flavor": 358,
@@ -80,9 +104,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Razitho",
-      "type": "Dantooine Vegetable Fungus",
-      "overallQuality": 120,
+      "name": {
+        "value": "Razitho"
+      },
+      "type": {
+        "value": "Dantooine Vegetable Fungus"
+      },
+      "overallQuality": 120.0,
       "stats": {
         "decayResistance": 494,
         "flavor": 337,
@@ -93,9 +121,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Ervo",
-      "type": "Endorian Domesticated Milk",
-      "overallQuality": 729,
+      "name": {
+        "value": "Ervo"
+      },
+      "type": {
+        "value": "Endorian Domesticated Milk"
+      },
+      "overallQuality": 729.0,
       "stats": {
         "decayResistance": 262,
         "flavor": 559,
@@ -106,9 +138,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Vosqevi",
-      "type": "Talusian Avian Meat",
-      "overallQuality": 64,
+      "name": {
+        "value": "Vosqevi"
+      },
+      "type": {
+        "value": "Talusian Avian Meat"
+      },
+      "overallQuality": 64.0,
       "stats": {
         "decayResistance": 873,
         "flavor": 157,
@@ -119,9 +155,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Himebo",
-      "type": "Corellian Mollusk Meat",
-      "overallQuality": 905,
+      "name": {
+        "value": "Himebo"
+      },
+      "type": {
+        "value": "Corellian Mollusk Meat"
+      },
+      "overallQuality": 905.0,
       "stats": {
         "decayResistance": 475,
         "flavor": 689,
@@ -132,9 +172,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Myavia",
-      "type": "Dathomirian Domesticated Milk",
-      "overallQuality": 895,
+      "name": {
+        "value": "Myavia"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Milk"
+      },
+      "overallQuality": 895.0,
       "stats": {
         "decayResistance": 56,
         "flavor": 285,
@@ -145,9 +189,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Gladoucka",
-      "type": "Nabooian Avian Meat",
-      "overallQuality": 415,
+      "name": {
+        "value": "Gladoucka"
+      },
+      "type": {
+        "value": "Nabooian Avian Meat"
+      },
+      "overallQuality": 415.0,
       "stats": {
         "decayResistance": 557,
         "flavor": 318,
@@ -158,9 +206,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Vawuroe",
-      "type": "Nabooian Scaley Hide",
-      "overallQuality": 329,
+      "name": {
+        "value": "Vawuroe"
+      },
+      "type": {
+        "value": "Nabooian Scaley Hide"
+      },
+      "overallQuality": 329.0,
       "stats": {
         "decayResistance": 6,
         "malleability": 724,
@@ -172,9 +224,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Voseism",
-      "type": "Perovskitic Aluminum",
-      "overallQuality": 717,
+      "name": {
+        "value": "Voseism"
+      },
+      "type": {
+        "value": "Perovskitic Aluminum"
+      },
+      "overallQuality": 717.0,
       "stats": {
         "coldResistance": 67,
         "conductivity": 238,
@@ -189,9 +245,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Ceppeegoo",
-      "type": "Rori Domesticated Corn",
-      "overallQuality": 960,
+      "name": {
+        "value": "Ceppeegoo"
+      },
+      "type": {
+        "value": "Rori Domesticated Corn"
+      },
+      "overallQuality": 960.0,
       "stats": {
         "decayResistance": 920,
         "flavor": 486,
@@ -202,9 +262,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Lagaga",
-      "type": "Tatooinian Fish Meat",
-      "overallQuality": 935,
+      "name": {
+        "value": "Lagaga"
+      },
+      "type": {
+        "value": "Tatooinian Fish Meat"
+      },
+      "overallQuality": 935.0,
       "stats": {
         "decayResistance": 62,
         "flavor": 152,
@@ -215,9 +279,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Rpepi",
-      "type": "Tatooinian Herbivore Meat",
-      "overallQuality": 159,
+      "name": {
+        "value": "Rpepi"
+      },
+      "type": {
+        "value": "Tatooinian Herbivore Meat"
+      },
+      "overallQuality": 159.0,
       "stats": {
         "decayResistance": 744,
         "flavor": 427,
@@ -228,9 +296,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Srooko",
-      "type": "Dantooine Mollusk Meat",
-      "overallQuality": 11,
+      "name": {
+        "value": "Srooko"
+      },
+      "type": {
+        "value": "Dantooine Mollusk Meat"
+      },
+      "overallQuality": 11.0,
       "stats": {
         "decayResistance": 149,
         "flavor": 647,
@@ -241,9 +313,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Theipeska",
-      "type": "Dathomirian Carnivore Meat",
-      "overallQuality": 502,
+      "name": {
+        "value": "Theipeska"
+      },
+      "type": {
+        "value": "Dathomirian Carnivore Meat"
+      },
+      "overallQuality": 502.0,
       "stats": {
         "decayResistance": 644,
         "flavor": 902,
@@ -254,9 +330,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Boscosroa",
-      "type": "Dathomirian Crustacean Meat",
-      "overallQuality": 228,
+      "name": {
+        "value": "Boscosroa"
+      },
+      "type": {
+        "value": "Dathomirian Crustacean Meat"
+      },
+      "overallQuality": 228.0,
       "stats": {
         "decayResistance": 980,
         "flavor": 66,
@@ -267,9 +347,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Disma",
-      "type": "Dathomirian Flower Fruit",
-      "overallQuality": 148,
+      "name": {
+        "value": "Disma"
+      },
+      "type": {
+        "value": "Dathomirian Flower Fruit"
+      },
+      "overallQuality": 148.0,
       "stats": {
         "decayResistance": 967,
         "flavor": 422,
@@ -280,9 +364,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Caobee",
-      "type": "High Grade Polymetric Radioactive",
-      "overallQuality": 760,
+      "name": {
+        "value": "Caobee"
+      },
+      "type": {
+        "value": "High Grade Polymetric Radioactive"
+      },
+      "overallQuality": 760.0,
       "stats": {
         "decayResistance": 843,
         "nutrition": 735,
@@ -292,9 +380,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Pavau",
-      "type": "Lokian Domesticated Oats",
-      "overallQuality": 544,
+      "name": {
+        "value": "Pavau"
+      },
+      "type": {
+        "value": "Lokian Domesticated Oats"
+      },
+      "overallQuality": 544.0,
       "stats": {
         "decayResistance": 846,
         "flavor": 47,
@@ -305,9 +397,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Timirfio",
-      "type": "Corellian Vegetable Beans",
-      "overallQuality": 823,
+      "name": {
+        "value": "Timirfio"
+      },
+      "type": {
+        "value": "Corellian Vegetable Beans"
+      },
+      "overallQuality": 823.0,
       "stats": {
         "decayResistance": 974,
         "flavor": 914,
@@ -318,9 +414,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Crolasta",
-      "type": "Nabooian Bristley Hide",
-      "overallQuality": 645,
+      "name": {
+        "value": "Crolasta"
+      },
+      "type": {
+        "value": "Nabooian Bristley Hide"
+      },
+      "overallQuality": 645.0,
       "stats": {
         "decayResistance": 476,
         "malleability": 404,
@@ -332,9 +432,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Nowoi",
-      "type": "Nabooian Herbivore Meat",
-      "overallQuality": 698,
+      "name": {
+        "value": "Nowoi"
+      },
+      "type": {
+        "value": "Nabooian Herbivore Meat"
+      },
+      "overallQuality": 698.0,
       "stats": {
         "decayResistance": 915,
         "flavor": 190,
@@ -345,9 +449,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Wagistoa",
-      "type": "Yavinian Avian Meat",
-      "overallQuality": 983,
+      "name": {
+        "value": "Wagistoa"
+      },
+      "type": {
+        "value": "Yavinian Avian Meat"
+      },
+      "overallQuality": 983.0,
       "stats": {
         "decayResistance": 47,
         "flavor": 599,
@@ -358,9 +466,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Scaoswa",
-      "type": "Yavinian Domesticated Oats",
-      "overallQuality": 44,
+      "name": {
+        "value": "Scaoswa"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Oats"
+      },
+      "overallQuality": 44.0,
       "stats": {
         "decayResistance": 264,
         "flavor": 175,
@@ -371,9 +483,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Weehesra",
-      "type": "Corellian Bristley Hide",
-      "overallQuality": 196,
+      "name": {
+        "value": "Weehesra"
+      },
+      "type": {
+        "value": "Corellian Bristley Hide"
+      },
+      "overallQuality": 196.0,
       "stats": {
         "decayResistance": 699,
         "malleability": 102,
@@ -385,9 +501,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Waemo",
-      "type": "Dantooine Vegetable Greens",
-      "overallQuality": 681,
+      "name": {
+        "value": "Waemo"
+      },
+      "type": {
+        "value": "Dantooine Vegetable Greens"
+      },
+      "overallQuality": 681.0,
       "stats": {
         "decayResistance": 55,
         "flavor": 462,
@@ -398,9 +518,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Giammae",
-      "type": "Dantooine Wild Corn",
-      "overallQuality": 686,
+      "name": {
+        "value": "Giammae"
+      },
+      "type": {
+        "value": "Dantooine Wild Corn"
+      },
+      "overallQuality": 686.0,
       "stats": {
         "decayResistance": 11,
         "flavor": 337,
@@ -411,9 +535,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Righao",
-      "type": "Dathomirian Wild Corn",
-      "overallQuality": 46,
+      "name": {
+        "value": "Righao"
+      },
+      "type": {
+        "value": "Dathomirian Wild Corn"
+      },
+      "overallQuality": 46.0,
       "stats": {
         "decayResistance": 316,
         "flavor": 663,
@@ -424,9 +552,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Asome",
-      "type": "Endorian Domesticated Meat",
-      "overallQuality": 239,
+      "name": {
+        "value": "Asome"
+      },
+      "type": {
+        "value": "Endorian Domesticated Meat"
+      },
+      "overallQuality": 239.0,
       "stats": {
         "decayResistance": 851,
         "flavor": 523,
@@ -437,9 +569,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Acebo",
-      "type": "Endorian Fruit",
-      "overallQuality": 442,
+      "name": {
+        "value": "Acebo"
+      },
+      "type": {
+        "value": "Endorian Fruit"
+      },
+      "overallQuality": 442.0,
       "stats": {
         "decayResistance": 233,
         "flavor": 607,
@@ -450,9 +586,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Nopli",
-      "type": "Nabooian Horn",
-      "overallQuality": 764,
+      "name": {
+        "value": "Nopli"
+      },
+      "type": {
+        "value": "Nabooian Horn"
+      },
+      "overallQuality": 764.0,
       "stats": {
         "decayResistance": 243,
         "malleability": 203,
@@ -464,9 +604,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Sobaba",
-      "type": "Nabooian Leathery Hide",
-      "overallQuality": 252,
+      "name": {
+        "value": "Sobaba"
+      },
+      "type": {
+        "value": "Nabooian Leathery Hide"
+      },
+      "overallQuality": 252.0,
       "stats": {
         "decayResistance": 606,
         "malleability": 410,
@@ -478,9 +622,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Smeya",
-      "type": "Rori Wild Wheat",
-      "overallQuality": 505,
+      "name": {
+        "value": "Smeya"
+      },
+      "type": {
+        "value": "Rori Wild Wheat"
+      },
+      "overallQuality": 505.0,
       "stats": {
         "decayResistance": 144,
         "flavor": 419,
@@ -491,9 +639,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Kawohe",
-      "type": "Talusian Wooly Hide",
-      "overallQuality": 513,
+      "name": {
+        "value": "Kawohe"
+      },
+      "type": {
+        "value": "Talusian Wooly Hide"
+      },
+      "overallQuality": 513.0,
       "stats": {
         "decayResistance": 688,
         "malleability": 520,
@@ -505,9 +657,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Napawoa",
-      "type": "Corellian Avian Meat",
-      "overallQuality": 812,
+      "name": {
+        "value": "Napawoa"
+      },
+      "type": {
+        "value": "Corellian Avian Meat"
+      },
+      "overallQuality": 812.0,
       "stats": {
         "decayResistance": 298,
         "flavor": 283,
@@ -518,9 +674,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Oerzi",
-      "type": "Dantooine Conifer Wood",
-      "overallQuality": 807,
+      "name": {
+        "value": "Oerzi"
+      },
+      "type": {
+        "value": "Dantooine Conifer Wood"
+      },
+      "overallQuality": 807.0,
       "stats": {
         "decayResistance": 129,
         "malleability": 710,
@@ -532,9 +692,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Siefe",
-      "type": "Dantooine Domesticated Wheat",
-      "overallQuality": 61,
+      "name": {
+        "value": "Siefe"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Wheat"
+      },
+      "overallQuality": 61.0,
       "stats": {
         "decayResistance": 542,
         "flavor": 105,
@@ -545,9 +709,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Loidlaesroo",
-      "type": "Dathomirian Conifer Wood",
-      "overallQuality": 169,
+      "name": {
+        "value": "Loidlaesroo"
+      },
+      "type": {
+        "value": "Dathomirian Conifer Wood"
+      },
+      "overallQuality": 169.0,
       "stats": {
         "decayResistance": 477,
         "malleability": 618,
@@ -559,9 +727,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Aoji",
-      "type": "Dathomirian Scaley Hide",
-      "overallQuality": 587,
+      "name": {
+        "value": "Aoji"
+      },
+      "type": {
+        "value": "Dathomirian Scaley Hide"
+      },
+      "overallQuality": 587.0,
       "stats": {
         "decayResistance": 110,
         "malleability": 735,
@@ -573,9 +745,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Zepou",
-      "type": "Lokian Domesticated Meat",
-      "overallQuality": 579,
+      "name": {
+        "value": "Zepou"
+      },
+      "type": {
+        "value": "Lokian Domesticated Meat"
+      },
+      "overallQuality": 579.0,
       "stats": {
         "decayResistance": 429,
         "flavor": 808,
@@ -586,9 +762,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Sigle",
-      "type": "Nabooian Vegetable Fungus",
-      "overallQuality": 557,
+      "name": {
+        "value": "Sigle"
+      },
+      "type": {
+        "value": "Nabooian Vegetable Fungus"
+      },
+      "overallQuality": 557.0,
       "stats": {
         "decayResistance": 437,
         "flavor": 589,
@@ -599,9 +779,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Wigno",
-      "type": "Nabooian Vegetable Greens",
-      "overallQuality": 460,
+      "name": {
+        "value": "Wigno"
+      },
+      "type": {
+        "value": "Nabooian Vegetable Greens"
+      },
+      "overallQuality": 460.0,
       "stats": {
         "decayResistance": 186,
         "flavor": 132,
@@ -612,9 +796,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Kodollae",
-      "type": "Rori Domesticated Oats",
-      "overallQuality": 585,
+      "name": {
+        "value": "Kodollae"
+      },
+      "type": {
+        "value": "Rori Domesticated Oats"
+      },
+      "overallQuality": 585.0,
       "stats": {
         "decayResistance": 90,
         "flavor": 267,
@@ -625,9 +813,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Simowri",
-      "type": "Rori Domesticated Wheat",
-      "overallQuality": 337,
+      "name": {
+        "value": "Simowri"
+      },
+      "type": {
+        "value": "Rori Domesticated Wheat"
+      },
+      "overallQuality": 337.0,
       "stats": {
         "decayResistance": 415,
         "flavor": 690,
@@ -638,9 +830,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Ciopu",
-      "type": "Rori Herbivore Meat",
-      "overallQuality": 53,
+      "name": {
+        "value": "Ciopu"
+      },
+      "type": {
+        "value": "Rori Herbivore Meat"
+      },
+      "overallQuality": 53.0,
       "stats": {
         "decayResistance": 56,
         "flavor": 39,
@@ -651,9 +847,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Chovibu",
-      "type": "Rori Wild Rice",
-      "overallQuality": 185,
+      "name": {
+        "value": "Chovibu"
+      },
+      "type": {
+        "value": "Rori Wild Rice"
+      },
+      "overallQuality": 185.0,
       "stats": {
         "decayResistance": 986,
         "flavor": 901,
@@ -664,9 +864,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Rrado",
-      "type": "Talusian Deciduous Wood",
-      "overallQuality": 653,
+      "name": {
+        "value": "Rrado"
+      },
+      "type": {
+        "value": "Talusian Deciduous Wood"
+      },
+      "overallQuality": 653.0,
       "stats": {
         "decayResistance": 738,
         "malleability": 401,
@@ -678,9 +882,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Lentoi",
-      "type": "Talusian Wild Corn",
-      "overallQuality": 204,
+      "name": {
+        "value": "Lentoi"
+      },
+      "type": {
+        "value": "Talusian Wild Corn"
+      },
+      "overallQuality": 204.0,
       "stats": {
         "decayResistance": 835,
         "flavor": 587,
@@ -691,9 +899,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Posvito",
-      "type": "Tatooinian Leathery Hide",
-      "overallQuality": 687,
+      "name": {
+        "value": "Posvito"
+      },
+      "type": {
+        "value": "Tatooinian Leathery Hide"
+      },
+      "overallQuality": 687.0,
       "stats": {
         "decayResistance": 175,
         "malleability": 181,
@@ -705,9 +917,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Tsime",
-      "type": "Yavinian Wild Oats",
-      "overallQuality": 480,
+      "name": {
+        "value": "Tsime"
+      },
+      "type": {
+        "value": "Yavinian Wild Oats"
+      },
+      "overallQuality": 480.0,
       "stats": {
         "decayResistance": 675,
         "flavor": 957,
@@ -718,9 +934,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Skillia",
-      "type": "Corellian Wild Rice",
-      "overallQuality": 291,
+      "name": {
+        "value": "Skillia"
+      },
+      "type": {
+        "value": "Corellian Wild Rice"
+      },
+      "overallQuality": 291.0,
       "stats": {
         "decayResistance": 762,
         "flavor": 452,
@@ -731,9 +951,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Gokkame",
-      "type": "Dantooine Animal Bones",
-      "overallQuality": 56,
+      "name": {
+        "value": "Gokkame"
+      },
+      "type": {
+        "value": "Dantooine Animal Bones"
+      },
+      "overallQuality": 56.0,
       "stats": {
         "decayResistance": 480,
         "malleability": 108,
@@ -745,9 +969,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Spiawe",
-      "type": "Dantooine Scaley Hide",
-      "overallQuality": 87,
+      "name": {
+        "value": "Spiawe"
+      },
+      "type": {
+        "value": "Dantooine Scaley Hide"
+      },
+      "overallQuality": 87.0,
       "stats": {
         "decayResistance": 955,
         "malleability": 858,
@@ -759,9 +987,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Wokei",
-      "type": "Dathomirian Avian Meat",
-      "overallQuality": 897,
+      "name": {
+        "value": "Wokei"
+      },
+      "type": {
+        "value": "Dathomirian Avian Meat"
+      },
+      "overallQuality": 897.0,
       "stats": {
         "decayResistance": 675,
         "flavor": 537,
@@ -772,9 +1004,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Teaga",
-      "type": "Dathomirian Domesticated Oats",
-      "overallQuality": 685,
+      "name": {
+        "value": "Teaga"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Oats"
+      },
+      "overallQuality": 685.0,
       "stats": {
         "decayResistance": 64,
         "flavor": 595,
@@ -785,9 +1021,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Gidie",
-      "type": "Dathomirian Horn",
-      "overallQuality": 955,
+      "name": {
+        "value": "Gidie"
+      },
+      "type": {
+        "value": "Dathomirian Horn"
+      },
+      "overallQuality": 955.0,
       "stats": {
         "decayResistance": 564,
         "malleability": 198,
@@ -799,9 +1039,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Hessakae",
-      "type": "Dathomirian Wild Oats",
-      "overallQuality": 378,
+      "name": {
+        "value": "Hessakae"
+      },
+      "type": {
+        "value": "Dathomirian Wild Oats"
+      },
+      "overallQuality": 378.0,
       "stats": {
         "decayResistance": 114,
         "flavor": 884,
@@ -812,9 +1056,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Bevapo",
-      "type": "Endorian Domesticated Oats",
-      "overallQuality": 87,
+      "name": {
+        "value": "Bevapo"
+      },
+      "type": {
+        "value": "Endorian Domesticated Oats"
+      },
+      "overallQuality": 87.0,
       "stats": {
         "decayResistance": 286,
         "flavor": 436,
@@ -825,9 +1073,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Reosmo",
-      "type": "Endorian Herbivore Meat",
-      "overallQuality": 755,
+      "name": {
+        "value": "Reosmo"
+      },
+      "type": {
+        "value": "Endorian Herbivore Meat"
+      },
+      "overallQuality": 755.0,
       "stats": {
         "decayResistance": 778,
         "flavor": 315,
@@ -838,9 +1090,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Priwa",
-      "type": "Endorian Wild Corn",
-      "overallQuality": 786,
+      "name": {
+        "value": "Priwa"
+      },
+      "type": {
+        "value": "Endorian Wild Corn"
+      },
+      "overallQuality": 786.0,
       "stats": {
         "decayResistance": 736,
         "flavor": 800,
@@ -851,9 +1107,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Faipoafio",
-      "type": "Endorian Wild Milk",
-      "overallQuality": 858,
+      "name": {
+        "value": "Faipoafio"
+      },
+      "type": {
+        "value": "Endorian Wild Milk"
+      },
+      "overallQuality": 858.0,
       "stats": {
         "decayResistance": 558,
         "flavor": 778,
@@ -864,9 +1124,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Tepagee",
-      "type": "Lokian Conifer Wood",
-      "overallQuality": 600,
+      "name": {
+        "value": "Tepagee"
+      },
+      "type": {
+        "value": "Lokian Conifer Wood"
+      },
+      "overallQuality": 600.0,
       "stats": {
         "decayResistance": 227,
         "malleability": 956,
@@ -878,9 +1142,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Touhai",
-      "type": "Nabooian Crustacean Meat",
-      "overallQuality": 301,
+      "name": {
+        "value": "Touhai"
+      },
+      "type": {
+        "value": "Nabooian Crustacean Meat"
+      },
+      "overallQuality": 301.0,
       "stats": {
         "decayResistance": 212,
         "flavor": 722,
@@ -891,9 +1159,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Wollu",
-      "type": "Rori Deciduous Wood",
-      "overallQuality": 448,
+      "name": {
+        "value": "Wollu"
+      },
+      "type": {
+        "value": "Rori Deciduous Wood"
+      },
+      "overallQuality": 448.0,
       "stats": {
         "decayResistance": 166,
         "malleability": 626,
@@ -905,9 +1177,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Icevi",
-      "type": "Tatooinian Wild Meat",
-      "overallQuality": 939,
+      "name": {
+        "value": "Icevi"
+      },
+      "type": {
+        "value": "Tatooinian Wild Meat"
+      },
+      "overallQuality": 939.0,
       "stats": {
         "decayResistance": 249,
         "flavor": 17,
@@ -918,9 +1194,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Eggai",
-      "type": "Corellian Avian Bones",
-      "overallQuality": 377,
+      "name": {
+        "value": "Eggai"
+      },
+      "type": {
+        "value": "Corellian Avian Bones"
+      },
+      "overallQuality": 377.0,
       "stats": {
         "decayResistance": 206,
         "malleability": 447,
@@ -932,9 +1212,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Venothe",
-      "type": "Corellian Fruit",
-      "overallQuality": 578,
+      "name": {
+        "value": "Venothe"
+      },
+      "type": {
+        "value": "Corellian Fruit"
+      },
+      "overallQuality": 578.0,
       "stats": {
         "decayResistance": 799,
         "flavor": 343,
@@ -945,9 +1229,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Esyiti",
-      "type": "Corellian Vegetable Tubers",
-      "overallQuality": 767,
+      "name": {
+        "value": "Esyiti"
+      },
+      "type": {
+        "value": "Corellian Vegetable Tubers"
+      },
+      "overallQuality": 767.0,
       "stats": {
         "decayResistance": 788,
         "flavor": 618,
@@ -958,9 +1246,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Phene",
-      "type": "Dantooine Wild Wheat",
-      "overallQuality": 219,
+      "name": {
+        "value": "Phene"
+      },
+      "type": {
+        "value": "Dantooine Wild Wheat"
+      },
+      "overallQuality": 219.0,
       "stats": {
         "decayResistance": 610,
         "flavor": 973,
@@ -971,9 +1263,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cosrou",
-      "type": "Dathomirian Animal Bones",
-      "overallQuality": 875,
+      "name": {
+        "value": "Cosrou"
+      },
+      "type": {
+        "value": "Dathomirian Animal Bones"
+      },
+      "overallQuality": 875.0,
       "stats": {
         "decayResistance": 689,
         "malleability": 339,
@@ -985,9 +1281,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Eyibao",
-      "type": "Endorian Evergreen Wood",
-      "overallQuality": 145,
+      "name": {
+        "value": "Eyibao"
+      },
+      "type": {
+        "value": "Endorian Evergreen Wood"
+      },
+      "overallQuality": 145.0,
       "stats": {
         "decayResistance": 494,
         "malleability": 927,
@@ -999,9 +1299,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Piceci",
-      "type": "Endorian Flower Fruit",
-      "overallQuality": 675,
+      "name": {
+        "value": "Piceci"
+      },
+      "type": {
+        "value": "Endorian Flower Fruit"
+      },
+      "overallQuality": 675.0,
       "stats": {
         "decayResistance": 663,
         "flavor": 938,
@@ -1012,9 +1316,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Cauvae",
-      "type": "Lokian Leathery Hide",
-      "overallQuality": 483,
+      "name": {
+        "value": "Cauvae"
+      },
+      "type": {
+        "value": "Lokian Leathery Hide"
+      },
+      "overallQuality": 483.0,
       "stats": {
         "decayResistance": 536,
         "malleability": 601,
@@ -1026,9 +1334,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Parxae",
-      "type": "Lokian Wild Rice",
-      "overallQuality": 674,
+      "name": {
+        "value": "Parxae"
+      },
+      "type": {
+        "value": "Lokian Wild Rice"
+      },
+      "overallQuality": 674.0,
       "stats": {
         "decayResistance": 258,
         "flavor": 985,
@@ -1039,9 +1351,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Ietaco",
-      "type": "Rori Domesticated Milk",
-      "overallQuality": 60,
+      "name": {
+        "value": "Ietaco"
+      },
+      "type": {
+        "value": "Rori Domesticated Milk"
+      },
+      "overallQuality": 60.0,
       "stats": {
         "decayResistance": 537,
         "flavor": 387,
@@ -1052,9 +1368,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Nicewoe",
-      "type": "Rori Flower Fruit",
-      "overallQuality": 992,
+      "name": {
+        "value": "Nicewoe"
+      },
+      "type": {
+        "value": "Rori Flower Fruit"
+      },
+      "overallQuality": 992.0,
       "stats": {
         "decayResistance": 291,
         "flavor": 876,
@@ -1065,9 +1385,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Geppoi",
-      "type": "Rori Vegetable Fungus",
-      "overallQuality": 588,
+      "name": {
+        "value": "Geppoi"
+      },
+      "type": {
+        "value": "Rori Vegetable Fungus"
+      },
+      "overallQuality": 588.0,
       "stats": {
         "decayResistance": 993,
         "flavor": 24,
@@ -1078,9 +1402,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Gnaki",
-      "type": "Talusian Wild Milk",
-      "overallQuality": 851,
+      "name": {
+        "value": "Gnaki"
+      },
+      "type": {
+        "value": "Talusian Wild Milk"
+      },
+      "overallQuality": 851.0,
       "stats": {
         "decayResistance": 568,
         "flavor": 325,
@@ -1091,9 +1419,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Riothia",
-      "type": "Tatooinian Vegetable Tubers",
-      "overallQuality": 856,
+      "name": {
+        "value": "Riothia"
+      },
+      "type": {
+        "value": "Tatooinian Vegetable Tubers"
+      },
+      "overallQuality": 856.0,
       "stats": {
         "decayResistance": 946,
         "flavor": 779,
@@ -1104,9 +1436,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Ciedli",
-      "type": "Yavinian Conifer Wood",
-      "overallQuality": 154,
+      "name": {
+        "value": "Ciedli"
+      },
+      "type": {
+        "value": "Yavinian Conifer Wood"
+      },
+      "overallQuality": 154.0,
       "stats": {
         "decayResistance": 151,
         "malleability": 900,
@@ -1118,9 +1454,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Yfiate",
-      "type": "Conductive Borcarbitic Copper",
-      "overallQuality": 948,
+      "name": {
+        "value": "Yfiate"
+      },
+      "type": {
+        "value": "Conductive Borcarbitic Copper"
+      },
+      "overallQuality": 948.0,
       "stats": {
         "coldResistance": 39,
         "conductivity": 705,
@@ -1135,9 +1475,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Lemothy",
-      "type": "Corellian Domesticated Wheat",
-      "overallQuality": 836,
+      "name": {
+        "value": "Lemothy"
+      },
+      "type": {
+        "value": "Corellian Domesticated Wheat"
+      },
+      "overallQuality": 836.0,
       "stats": {
         "decayResistance": 774,
         "flavor": 341,
@@ -1148,9 +1492,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Iseyeo",
-      "type": "Corellian Leathery Hide",
-      "overallQuality": 43,
+      "name": {
+        "value": "Iseyeo"
+      },
+      "type": {
+        "value": "Corellian Leathery Hide"
+      },
+      "overallQuality": 43.0,
       "stats": {
         "decayResistance": 23,
         "malleability": 884,
@@ -1162,9 +1510,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Tooche",
-      "type": "Corellian Wild Corn",
-      "overallQuality": 948,
+      "name": {
+        "value": "Tooche"
+      },
+      "type": {
+        "value": "Corellian Wild Corn"
+      },
+      "overallQuality": 948.0,
       "stats": {
         "decayResistance": 378,
         "flavor": 951,
@@ -1175,9 +1527,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Weolla",
-      "type": "Corellian Wild Oats",
-      "overallQuality": 113,
+      "name": {
+        "value": "Weolla"
+      },
+      "type": {
+        "value": "Corellian Wild Oats"
+      },
+      "overallQuality": 113.0,
       "stats": {
         "decayResistance": 525,
         "flavor": 329,
@@ -1188,9 +1544,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Riega",
-      "type": "Dantooine Vegetable Beans",
-      "overallQuality": 152,
+      "name": {
+        "value": "Riega"
+      },
+      "type": {
+        "value": "Dantooine Vegetable Beans"
+      },
+      "overallQuality": 152.0,
       "stats": {
         "decayResistance": 7,
         "flavor": 932,
@@ -1201,9 +1561,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cophaite",
-      "type": "Dantooine Wooly Hide",
-      "overallQuality": 700,
+      "name": {
+        "value": "Cophaite"
+      },
+      "type": {
+        "value": "Dantooine Wooly Hide"
+      },
+      "overallQuality": 700.0,
       "stats": {
         "decayResistance": 444,
         "malleability": 81,
@@ -1215,9 +1579,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Dhadwe",
-      "type": "Dathomirian Herbivore Meat",
-      "overallQuality": 665,
+      "name": {
+        "value": "Dhadwe"
+      },
+      "type": {
+        "value": "Dathomirian Herbivore Meat"
+      },
+      "overallQuality": 665.0,
       "stats": {
         "decayResistance": 131,
         "flavor": 537,
@@ -1228,9 +1596,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Pedwacro",
-      "type": "Endorian Domesticated Corn",
-      "overallQuality": 235,
+      "name": {
+        "value": "Pedwacro"
+      },
+      "type": {
+        "value": "Endorian Domesticated Corn"
+      },
+      "overallQuality": 235.0,
       "stats": {
         "decayResistance": 844,
         "flavor": 567,
@@ -1241,9 +1613,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Vasteadri",
-      "type": "Endorian Vegetable Greens",
-      "overallQuality": 666,
+      "name": {
+        "value": "Vasteadri"
+      },
+      "type": {
+        "value": "Endorian Vegetable Greens"
+      },
+      "overallQuality": 666.0,
       "stats": {
         "decayResistance": 47,
         "flavor": 625,
@@ -1254,9 +1630,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Vecho",
-      "type": "Endorian Wooly Hide",
-      "overallQuality": 479,
+      "name": {
+        "value": "Vecho"
+      },
+      "type": {
+        "value": "Endorian Wooly Hide"
+      },
+      "overallQuality": 479.0,
       "stats": {
         "decayResistance": 158,
         "malleability": 660,
@@ -1268,9 +1648,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Lviga",
-      "type": "Lokian Wild Oats",
-      "overallQuality": 908,
+      "name": {
+        "value": "Lviga"
+      },
+      "type": {
+        "value": "Lokian Wild Oats"
+      },
+      "overallQuality": 908.0,
       "stats": {
         "decayResistance": 546,
         "flavor": 526,
@@ -1281,9 +1665,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Kerkoi",
-      "type": "Talusian Wild Meat",
-      "overallQuality": 655,
+      "name": {
+        "value": "Kerkoi"
+      },
+      "type": {
+        "value": "Talusian Wild Meat"
+      },
+      "overallQuality": 655.0,
       "stats": {
         "decayResistance": 887,
         "flavor": 211,
@@ -1294,9 +1682,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Dodafi",
-      "type": "Yavinian Domesticated Corn",
-      "overallQuality": 651,
+      "name": {
+        "value": "Dodafi"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Corn"
+      },
+      "overallQuality": 651.0,
       "stats": {
         "decayResistance": 45,
         "flavor": 182,
@@ -1307,9 +1699,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Stasho",
-      "type": "Yavinian Horn",
-      "overallQuality": 917,
+      "name": {
+        "value": "Stasho"
+      },
+      "type": {
+        "value": "Yavinian Horn"
+      },
+      "overallQuality": 917.0,
       "stats": {
         "decayResistance": 995,
         "malleability": 475,
@@ -1321,9 +1717,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Snyowhi",
-      "type": "Yavinian Wooly Hide",
-      "overallQuality": 139,
+      "name": {
+        "value": "Snyowhi"
+      },
+      "type": {
+        "value": "Yavinian Wooly Hide"
+      },
+      "overallQuality": 139.0,
       "stats": {
         "decayResistance": 727,
         "malleability": 217,
@@ -1335,9 +1735,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Ioriium",
-      "type": "Crystallized Bicorbantium Steel",
-      "overallQuality": 473,
+      "name": {
+        "value": "Ioriium"
+      },
+      "type": {
+        "value": "Crystallized Bicorbantium Steel"
+      },
+      "overallQuality": 473.0,
       "stats": {
         "coldResistance": 96,
         "conductivity": 567,
@@ -1352,9 +1756,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Wharli",
-      "type": "Dantooine Carnivore Meat",
-      "overallQuality": 942,
+      "name": {
+        "value": "Wharli"
+      },
+      "type": {
+        "value": "Dantooine Carnivore Meat"
+      },
+      "overallQuality": 942.0,
       "stats": {
         "decayResistance": 400,
         "flavor": 637,
@@ -1365,9 +1773,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Thovi",
-      "type": "Dantooine Horn",
-      "overallQuality": 564,
+      "name": {
+        "value": "Thovi"
+      },
+      "type": {
+        "value": "Dantooine Horn"
+      },
+      "overallQuality": 564.0,
       "stats": {
         "decayResistance": 900,
         "malleability": 419,
@@ -1379,9 +1791,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Staomna",
-      "type": "Dathomirian Fruit",
-      "overallQuality": 523,
+      "name": {
+        "value": "Staomna"
+      },
+      "type": {
+        "value": "Dathomirian Fruit"
+      },
+      "overallQuality": 523.0,
       "stats": {
         "decayResistance": 255,
         "flavor": 412,
@@ -1392,9 +1808,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Disqi",
-      "type": "Dathomirian Leathery Hide",
-      "overallQuality": 361,
+      "name": {
+        "value": "Disqi"
+      },
+      "type": {
+        "value": "Dathomirian Leathery Hide"
+      },
+      "overallQuality": 361.0,
       "stats": {
         "decayResistance": 500,
         "malleability": 921,
@@ -1406,9 +1826,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Schaoga",
-      "type": "Dathomirian Vegetable Beans",
-      "overallQuality": 294,
+      "name": {
+        "value": "Schaoga"
+      },
+      "type": {
+        "value": "Dathomirian Vegetable Beans"
+      },
+      "overallQuality": 294.0,
       "stats": {
         "decayResistance": 380,
         "flavor": 945,
@@ -1419,9 +1843,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Taithati",
-      "type": "Dathomirian Wild Rice",
-      "overallQuality": 595,
+      "name": {
+        "value": "Taithati"
+      },
+      "type": {
+        "value": "Dathomirian Wild Rice"
+      },
+      "overallQuality": 595.0,
       "stats": {
         "decayResistance": 634,
         "flavor": 491,
@@ -1432,9 +1860,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Alloiam",
-      "type": "Duralloy Steel",
-      "overallQuality": 136,
+      "name": {
+        "value": "Alloiam"
+      },
+      "type": {
+        "value": "Duralloy Steel"
+      },
+      "overallQuality": 136.0,
       "stats": {
         "coldResistance": 736,
         "conductivity": 617,
@@ -1449,9 +1881,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Daoxe",
-      "type": "Lokian Flower Fruit",
-      "overallQuality": 920,
+      "name": {
+        "value": "Daoxe"
+      },
+      "type": {
+        "value": "Lokian Flower Fruit"
+      },
+      "overallQuality": 920.0,
       "stats": {
         "decayResistance": 677,
         "flavor": 263,
@@ -1462,9 +1898,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Laohi",
-      "type": "Nabooian Animal Bones",
-      "overallQuality": 706,
+      "name": {
+        "value": "Laohi"
+      },
+      "type": {
+        "value": "Nabooian Animal Bones"
+      },
+      "overallQuality": 706.0,
       "stats": {
         "decayResistance": 757,
         "malleability": 495,
@@ -1476,9 +1916,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Nawautha",
-      "type": "Nabooian Deciduous Wood",
-      "overallQuality": 311,
+      "name": {
+        "value": "Nawautha"
+      },
+      "type": {
+        "value": "Nabooian Deciduous Wood"
+      },
+      "overallQuality": 311.0,
       "stats": {
         "decayResistance": 306,
         "malleability": 717,
@@ -1490,9 +1934,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Voarka",
-      "type": "Rori Crustacean Meat",
-      "overallQuality": 491,
+      "name": {
+        "value": "Voarka"
+      },
+      "type": {
+        "value": "Rori Crustacean Meat"
+      },
+      "overallQuality": 491.0,
       "stats": {
         "decayResistance": 111,
         "flavor": 369,
@@ -1503,9 +1951,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Drafe",
-      "type": "Rori Domesticated Rice",
-      "overallQuality": 341,
+      "name": {
+        "value": "Drafe"
+      },
+      "type": {
+        "value": "Rori Domesticated Rice"
+      },
+      "overallQuality": 341.0,
       "stats": {
         "decayResistance": 983,
         "flavor": 663,
@@ -1516,9 +1968,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Ovujja",
-      "type": "Rori Insect Meat",
-      "overallQuality": 58,
+      "name": {
+        "value": "Ovujja"
+      },
+      "type": {
+        "value": "Rori Insect Meat"
+      },
+      "overallQuality": 58.0,
       "stats": {
         "decayResistance": 166,
         "flavor": 381,
@@ -1529,9 +1985,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Pochrei",
-      "type": "Yavinian Crustacean Meat",
-      "overallQuality": 358,
+      "name": {
+        "value": "Pochrei"
+      },
+      "type": {
+        "value": "Yavinian Crustacean Meat"
+      },
+      "overallQuality": 358.0,
       "stats": {
         "decayResistance": 392,
         "flavor": 178,
@@ -1542,9 +2002,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Soistevi",
-      "type": "Yavinian Deciduous Wood",
-      "overallQuality": 494,
+      "name": {
+        "value": "Soistevi"
+      },
+      "type": {
+        "value": "Yavinian Deciduous Wood"
+      },
+      "overallQuality": 494.0,
       "stats": {
         "decayResistance": 658,
         "malleability": 570,
@@ -1556,9 +2020,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Roumeane",
-      "type": "Yavinian Insect Meat",
-      "overallQuality": 335,
+      "name": {
+        "value": "Roumeane"
+      },
+      "type": {
+        "value": "Yavinian Insect Meat"
+      },
+      "overallQuality": 335.0,
       "stats": {
         "decayResistance": 344,
         "flavor": 973,
@@ -1569,9 +2037,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Isliium",
-      "type": "Bronzium Iron",
-      "overallQuality": 124,
+      "name": {
+        "value": "Isliium"
+      },
+      "type": {
+        "value": "Bronzium Iron"
+      },
+      "overallQuality": 124.0,
       "stats": {
         "coldResistance": 397,
         "conductivity": 181,
@@ -1586,9 +2058,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Wamekia",
-      "type": "Bronzium Iron",
-      "overallQuality": 67,
+      "name": {
+        "value": "Wamekia"
+      },
+      "type": {
+        "value": "Bronzium Iron"
+      },
+      "overallQuality": 67.0,
       "stats": {
         "coldResistance": 402,
         "conductivity": 222,
@@ -1603,9 +2079,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Eswoe",
-      "type": "Corellian Animal Bones",
-      "overallQuality": 881,
+      "name": {
+        "value": "Eswoe"
+      },
+      "type": {
+        "value": "Corellian Animal Bones"
+      },
+      "overallQuality": 881.0,
       "stats": {
         "decayResistance": 896,
         "malleability": 5,
@@ -1617,9 +2097,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Sricaso",
-      "type": "Corellian Domesticated Meat",
-      "overallQuality": 352,
+      "name": {
+        "value": "Sricaso"
+      },
+      "type": {
+        "value": "Corellian Domesticated Meat"
+      },
+      "overallQuality": 352.0,
       "stats": {
         "decayResistance": 699,
         "flavor": 620,
@@ -1630,9 +2114,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Lesciy",
-      "type": "Corellian Fish Meat",
-      "overallQuality": 679,
+      "name": {
+        "value": "Lesciy"
+      },
+      "type": {
+        "value": "Corellian Fish Meat"
+      },
+      "overallQuality": 679.0,
       "stats": {
         "decayResistance": 149,
         "flavor": 931,
@@ -1643,9 +2131,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Aotho",
-      "type": "Corellian Insect Meat",
-      "overallQuality": 2,
+      "name": {
+        "value": "Aotho"
+      },
+      "type": {
+        "value": "Corellian Insect Meat"
+      },
+      "overallQuality": 2.0,
       "stats": {
         "decayResistance": 241,
         "flavor": 638,
@@ -1656,9 +2148,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Faowo",
-      "type": "Dantooine Avian Bones",
-      "overallQuality": 168,
+      "name": {
+        "value": "Faowo"
+      },
+      "type": {
+        "value": "Dantooine Avian Bones"
+      },
+      "overallQuality": 168.0,
       "stats": {
         "decayResistance": 421,
         "malleability": 249,
@@ -1670,9 +2166,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Mecodi",
-      "type": "Dantooine Domesticated Corn",
-      "overallQuality": 75,
+      "name": {
+        "value": "Mecodi"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Corn"
+      },
+      "overallQuality": 75.0,
       "stats": {
         "decayResistance": 416,
         "flavor": 123,
@@ -1683,9 +2183,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Kadoba",
-      "type": "Dantooine Fish Meat",
-      "overallQuality": 131,
+      "name": {
+        "value": "Kadoba"
+      },
+      "type": {
+        "value": "Dantooine Fish Meat"
+      },
+      "overallQuality": 131.0,
       "stats": {
         "decayResistance": 664,
         "flavor": 124,
@@ -1696,9 +2200,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Ewano",
-      "type": "Endorian Animal Bones",
-      "overallQuality": 49,
+      "name": {
+        "value": "Ewano"
+      },
+      "type": {
+        "value": "Endorian Animal Bones"
+      },
+      "overallQuality": 49.0,
       "stats": {
         "decayResistance": 651,
         "malleability": 176,
@@ -1710,9 +2218,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Gokave",
-      "type": "Endorian Domesticated Rice",
-      "overallQuality": 477,
+      "name": {
+        "value": "Gokave"
+      },
+      "type": {
+        "value": "Endorian Domesticated Rice"
+      },
+      "overallQuality": 477.0,
       "stats": {
         "decayResistance": 648,
         "flavor": 151,
@@ -1723,9 +2235,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Rfeve",
-      "type": "Endorian Vegetable Beans",
-      "overallQuality": 209,
+      "name": {
+        "value": "Rfeve"
+      },
+      "type": {
+        "value": "Endorian Vegetable Beans"
+      },
+      "overallQuality": 209.0,
       "stats": {
         "decayResistance": 400,
         "flavor": 735,
@@ -1736,9 +2252,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Dreczi",
-      "type": "Lokian Domesticated Corn",
-      "overallQuality": 297,
+      "name": {
+        "value": "Dreczi"
+      },
+      "type": {
+        "value": "Lokian Domesticated Corn"
+      },
+      "overallQuality": 297.0,
       "stats": {
         "decayResistance": 723,
         "flavor": 250,
@@ -1749,9 +2269,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Thiekibeate",
-      "type": "Lokian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Thiekibeate"
+      },
+      "type": {
+        "value": "Lokian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 542,
         "overallQuality": 500
@@ -1760,9 +2284,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Madau",
-      "type": "Rori Avian Meat",
-      "overallQuality": 780,
+      "name": {
+        "value": "Madau"
+      },
+      "type": {
+        "value": "Rori Avian Meat"
+      },
+      "overallQuality": 780.0,
       "stats": {
         "decayResistance": 830,
         "flavor": 324,
@@ -1773,9 +2301,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Isargoe",
-      "type": "Rori Fish Meat",
-      "overallQuality": 899,
+      "name": {
+        "value": "Isargoe"
+      },
+      "type": {
+        "value": "Rori Fish Meat"
+      },
+      "overallQuality": 899.0,
       "stats": {
         "decayResistance": 992,
         "flavor": 910,
@@ -1786,9 +2318,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Beasro",
-      "type": "Rori Mollusk Meat",
-      "overallQuality": 101,
+      "name": {
+        "value": "Beasro"
+      },
+      "type": {
+        "value": "Rori Mollusk Meat"
+      },
+      "overallQuality": 101.0,
       "stats": {
         "decayResistance": 923,
         "flavor": 92,
@@ -1799,9 +2335,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Igigo",
-      "type": "Talusian Fiberplast",
-      "overallQuality": 504,
+      "name": {
+        "value": "Igigo"
+      },
+      "type": {
+        "value": "Talusian Fiberplast"
+      },
+      "overallQuality": 504.0,
       "stats": {
         "decayResistance": 68,
         "malleability": 442,
@@ -1813,9 +2353,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Cooquo",
-      "type": "Talusian Wild Rice",
-      "overallQuality": 949,
+      "name": {
+        "value": "Cooquo"
+      },
+      "type": {
+        "value": "Talusian Wild Rice"
+      },
+      "overallQuality": 949.0,
       "stats": {
         "decayResistance": 195,
         "flavor": 824,
@@ -1826,9 +2370,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Kemetho",
-      "type": "Talusian Wild Wheat",
-      "overallQuality": 571,
+      "name": {
+        "value": "Kemetho"
+      },
+      "type": {
+        "value": "Talusian Wild Wheat"
+      },
+      "overallQuality": 571.0,
       "stats": {
         "decayResistance": 792,
         "flavor": 525,
@@ -1839,9 +2387,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Cadae",
-      "type": "Tatooinian Bristley Hide",
-      "overallQuality": 277,
+      "name": {
+        "value": "Cadae"
+      },
+      "type": {
+        "value": "Tatooinian Bristley Hide"
+      },
+      "overallQuality": 277.0,
       "stats": {
         "decayResistance": 835,
         "malleability": 215,
@@ -1853,9 +2405,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Wrayade",
-      "type": "Tatooinian Horn",
-      "overallQuality": 355,
+      "name": {
+        "value": "Wrayade"
+      },
+      "type": {
+        "value": "Tatooinian Horn"
+      },
+      "overallQuality": 355.0,
       "stats": {
         "decayResistance": 911,
         "malleability": 37,
@@ -1867,9 +2423,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Satwamo",
-      "type": "Tatooinian Vegetable Beans",
-      "overallQuality": 370,
+      "name": {
+        "value": "Satwamo"
+      },
+      "type": {
+        "value": "Tatooinian Vegetable Beans"
+      },
+      "overallQuality": 370.0,
       "stats": {
         "decayResistance": 734,
         "flavor": 728,
@@ -1880,9 +2440,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Bania",
-      "type": "Tatooinian Wild Corn",
-      "overallQuality": 548,
+      "name": {
+        "value": "Bania"
+      },
+      "type": {
+        "value": "Tatooinian Wild Corn"
+      },
+      "overallQuality": 548.0,
       "stats": {
         "decayResistance": 729,
         "flavor": 412,
@@ -1893,9 +2457,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Geubagoiam",
-      "type": "Tatooinian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Geubagoiam"
+      },
+      "type": {
+        "value": "Tatooinian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 179,
         "overallQuality": 500
@@ -1904,9 +2472,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Ildeo",
-      "type": "Unstable Organometallic Reactive Gas",
-      "overallQuality": 634,
+      "name": {
+        "value": "Ildeo"
+      },
+      "type": {
+        "value": "Unstable Organometallic Reactive Gas"
+      },
+      "overallQuality": 634.0,
       "stats": {
         "decayResistance": 784,
         "overallQuality": 634
@@ -1915,9 +2487,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Nitzeiata",
-      "type": "Yavinian Animal Bones",
-      "overallQuality": 485,
+      "name": {
+        "value": "Nitzeiata"
+      },
+      "type": {
+        "value": "Yavinian Animal Bones"
+      },
+      "overallQuality": 485.0,
       "stats": {
         "decayResistance": 651,
         "malleability": 8,
@@ -1929,9 +2505,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Beimeca",
-      "type": "Class 6 Liquid Petro Fuel",
-      "overallQuality": 158,
+      "name": {
+        "value": "Beimeca"
+      },
+      "type": {
+        "value": "Class 6 Liquid Petro Fuel"
+      },
+      "overallQuality": 158.0,
       "stats": {
         "decayResistance": 273,
         "nutrition": 762,
@@ -1941,9 +2521,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Fiepledie",
-      "type": "Dathomirian Deciduous Wood",
-      "overallQuality": 905,
+      "name": {
+        "value": "Fiepledie"
+      },
+      "type": {
+        "value": "Dathomirian Deciduous Wood"
+      },
+      "overallQuality": 905.0,
       "stats": {
         "decayResistance": 169,
         "malleability": 594,
@@ -1955,9 +2539,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Apafe",
-      "type": "Dathomirian Insect Meat",
-      "overallQuality": 489,
+      "name": {
+        "value": "Apafe"
+      },
+      "type": {
+        "value": "Dathomirian Insect Meat"
+      },
+      "overallQuality": 489.0,
       "stats": {
         "decayResistance": 283,
         "flavor": 827,
@@ -1968,9 +2556,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Geloda",
-      "type": "Lokian Carnivore Meat",
-      "overallQuality": 965,
+      "name": {
+        "value": "Geloda"
+      },
+      "type": {
+        "value": "Lokian Carnivore Meat"
+      },
+      "overallQuality": 965.0,
       "stats": {
         "decayResistance": 230,
         "flavor": 483,
@@ -1981,9 +2573,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Firra",
-      "type": "Lokian Insect Meat",
-      "overallQuality": 691,
+      "name": {
+        "value": "Firra"
+      },
+      "type": {
+        "value": "Lokian Insect Meat"
+      },
+      "overallQuality": 691.0,
       "stats": {
         "decayResistance": 450,
         "flavor": 616,
@@ -1994,9 +2590,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Fonoke",
-      "type": "Tatooinian Avian Meat",
-      "overallQuality": 17,
+      "name": {
+        "value": "Fonoke"
+      },
+      "type": {
+        "value": "Tatooinian Avian Meat"
+      },
+      "overallQuality": 17.0,
       "stats": {
         "decayResistance": 386,
         "flavor": 315,
@@ -2007,9 +2607,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Glirfafe",
-      "type": "Tatooinian Berry Fruit",
-      "overallQuality": 401,
+      "name": {
+        "value": "Glirfafe"
+      },
+      "type": {
+        "value": "Tatooinian Berry Fruit"
+      },
+      "overallQuality": 401.0,
       "stats": {
         "decayResistance": 958,
         "flavor": 570,
@@ -2020,9 +2624,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Aphistao",
-      "type": "Tatooinian Wooly Hide",
-      "overallQuality": 975,
+      "name": {
+        "value": "Aphistao"
+      },
+      "type": {
+        "value": "Tatooinian Wooly Hide"
+      },
+      "overallQuality": 975.0,
       "stats": {
         "decayResistance": 161,
         "malleability": 369,
@@ -2034,9 +2642,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Beakoian",
-      "type": "Unknown Gem Type",
-      "overallQuality": 603,
+      "name": {
+        "value": "Beakoian"
+      },
+      "type": {
+        "value": "Unknown Gem Type"
+      },
+      "overallQuality": 603.0,
       "stats": {
         "entangleResistance": 476,
         "coldResistance": 700,
@@ -2051,9 +2663,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Beece",
-      "type": "Yavinian Carnivore Meat",
-      "overallQuality": 206,
+      "name": {
+        "value": "Beece"
+      },
+      "type": {
+        "value": "Yavinian Carnivore Meat"
+      },
+      "overallQuality": 206.0,
       "stats": {
         "decayResistance": 111,
         "flavor": 516,
@@ -2064,9 +2680,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Loborpi",
-      "type": "Agrinium Aluminum",
-      "overallQuality": 380,
+      "name": {
+        "value": "Loborpi"
+      },
+      "type": {
+        "value": "Agrinium Aluminum"
+      },
+      "overallQuality": 380.0,
       "stats": {
         "coldResistance": 218,
         "conductivity": 484,
@@ -2081,9 +2701,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Wogepo",
-      "type": "Bronzium Iron",
-      "overallQuality": 19,
+      "name": {
+        "value": "Wogepo"
+      },
+      "type": {
+        "value": "Bronzium Iron"
+      },
+      "overallQuality": 19.0,
       "stats": {
         "coldResistance": 378,
         "conductivity": 181,
@@ -2098,9 +2722,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Teapyic",
-      "type": "Chromium Aluminum",
-      "overallQuality": 734,
+      "name": {
+        "value": "Teapyic"
+      },
+      "type": {
+        "value": "Chromium Aluminum"
+      },
+      "overallQuality": 734.0,
       "stats": {
         "coldResistance": 293,
         "conductivity": 485,
@@ -2115,9 +2743,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Xile",
-      "type": "Colat Iron",
-      "overallQuality": 931,
+      "name": {
+        "value": "Xile"
+      },
+      "type": {
+        "value": "Colat Iron"
+      },
+      "overallQuality": 931.0,
       "stats": {
         "coldResistance": 392,
         "conductivity": 241,
@@ -2132,9 +2764,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Stobege",
-      "type": "Corellian Herbivore Meat",
-      "overallQuality": 754,
+      "name": {
+        "value": "Stobege"
+      },
+      "type": {
+        "value": "Corellian Herbivore Meat"
+      },
+      "overallQuality": 754.0,
       "stats": {
         "decayResistance": 129,
         "flavor": 432,
@@ -2145,9 +2781,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Rookeu",
-      "type": "Dantooine Herbivore Meat",
-      "overallQuality": 987,
+      "name": {
+        "value": "Rookeu"
+      },
+      "type": {
+        "value": "Dantooine Herbivore Meat"
+      },
+      "overallQuality": 987.0,
       "stats": {
         "decayResistance": 812,
         "flavor": 671,
@@ -2158,9 +2798,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Feaka",
-      "type": "Dantooine Insect Meat",
-      "overallQuality": 963,
+      "name": {
+        "value": "Feaka"
+      },
+      "type": {
+        "value": "Dantooine Insect Meat"
+      },
+      "overallQuality": 963.0,
       "stats": {
         "decayResistance": 204,
         "flavor": 338,
@@ -2171,9 +2815,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Rheho",
-      "type": "Dathomirian Domesticated Wheat",
-      "overallQuality": 742,
+      "name": {
+        "value": "Rheho"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Wheat"
+      },
+      "overallQuality": 742.0,
       "stats": {
         "decayResistance": 566,
         "flavor": 534,
@@ -2184,9 +2832,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Maoda",
-      "type": "Doonium Iron",
-      "overallQuality": 610,
+      "name": {
+        "value": "Maoda"
+      },
+      "type": {
+        "value": "Doonium Iron"
+      },
+      "overallQuality": 610.0,
       "stats": {
         "coldResistance": 696,
         "conductivity": 378,
@@ -2201,9 +2853,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Fefebi",
-      "type": "Duralumin Aluminum",
-      "overallQuality": 930,
+      "name": {
+        "value": "Fefebi"
+      },
+      "type": {
+        "value": "Duralumin Aluminum"
+      },
+      "overallQuality": 930.0,
       "stats": {
         "coldResistance": 405,
         "conductivity": 537,
@@ -2218,9 +2874,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cimanni",
-      "type": "Endorian Wild Rice",
-      "overallQuality": 435,
+      "name": {
+        "value": "Cimanni"
+      },
+      "type": {
+        "value": "Endorian Wild Rice"
+      },
+      "overallQuality": 435.0,
       "stats": {
         "decayResistance": 52,
         "flavor": 841,
@@ -2231,9 +2891,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Sosivy",
-      "type": "Frasium Carbonate Ore",
-      "overallQuality": 41,
+      "name": {
+        "value": "Sosivy"
+      },
+      "type": {
+        "value": "Frasium Carbonate Ore"
+      },
+      "overallQuality": 41.0,
       "stats": {
         "coldResistance": 625,
         "decayResistance": 341,
@@ -2247,9 +2911,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Ssive",
-      "type": "Gravitonic Fiberplast",
-      "overallQuality": 647,
+      "name": {
+        "value": "Ssive"
+      },
+      "type": {
+        "value": "Gravitonic Fiberplast"
+      },
+      "overallQuality": 647.0,
       "stats": {
         "decayResistance": 563,
         "malleability": 713,
@@ -2261,9 +2929,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Eiapo",
-      "type": "Ilimium Extrusive Ore",
-      "overallQuality": 677,
+      "name": {
+        "value": "Eiapo"
+      },
+      "type": {
+        "value": "Ilimium Extrusive Ore"
+      },
+      "overallQuality": 677.0,
       "stats": {
         "coldResistance": 379,
         "decayResistance": 518,
@@ -2277,9 +2949,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Gosofe",
-      "type": "Lokian Avian Bones",
-      "overallQuality": 299,
+      "name": {
+        "value": "Gosofe"
+      },
+      "type": {
+        "value": "Lokian Avian Bones"
+      },
+      "overallQuality": 299.0,
       "stats": {
         "decayResistance": 10,
         "malleability": 268,
@@ -2291,9 +2967,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Krega",
-      "type": "Lokian Bristley Hide",
-      "overallQuality": 751,
+      "name": {
+        "value": "Krega"
+      },
+      "type": {
+        "value": "Lokian Bristley Hide"
+      },
+      "overallQuality": 751.0,
       "stats": {
         "decayResistance": 285,
         "malleability": 620,
@@ -2305,9 +2985,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Staiebe",
-      "type": "Lokian Domesticated Rice",
-      "overallQuality": 85,
+      "name": {
+        "value": "Staiebe"
+      },
+      "type": {
+        "value": "Lokian Domesticated Rice"
+      },
+      "overallQuality": 85.0,
       "stats": {
         "decayResistance": 109,
         "flavor": 35,
@@ -2318,9 +3002,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Girpe",
-      "type": "Nabooian Berry Fruit",
-      "overallQuality": 318,
+      "name": {
+        "value": "Girpe"
+      },
+      "type": {
+        "value": "Nabooian Berry Fruit"
+      },
+      "overallQuality": 318.0,
       "stats": {
         "decayResistance": 410,
         "flavor": 222,
@@ -2331,9 +3019,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Awawi",
-      "type": "Nabooian Conifer Wood",
-      "overallQuality": 707,
+      "name": {
+        "value": "Awawi"
+      },
+      "type": {
+        "value": "Nabooian Conifer Wood"
+      },
+      "overallQuality": 707.0,
       "stats": {
         "decayResistance": 484,
         "malleability": 684,
@@ -2345,9 +3037,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Roeghta",
-      "type": "Nabooian Insect Meat",
-      "overallQuality": 816,
+      "name": {
+        "value": "Roeghta"
+      },
+      "type": {
+        "value": "Nabooian Insect Meat"
+      },
+      "overallQuality": 816.0,
       "stats": {
         "decayResistance": 349,
         "flavor": 439,
@@ -2358,9 +3054,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Rossoo",
-      "type": "Nabooian Wild Oats",
-      "overallQuality": 129,
+      "name": {
+        "value": "Rossoo"
+      },
+      "type": {
+        "value": "Nabooian Wild Oats"
+      },
+      "overallQuality": 129.0,
       "stats": {
         "decayResistance": 826,
         "flavor": 653,
@@ -2371,9 +3071,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Dagaide",
-      "type": "Plumbum Iron",
-      "overallQuality": 596,
+      "name": {
+        "value": "Dagaide"
+      },
+      "type": {
+        "value": "Plumbum Iron"
+      },
+      "overallQuality": 596.0,
       "stats": {
         "coldResistance": 119,
         "conductivity": 67,
@@ -2388,9 +3092,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Whaicrekoe",
-      "type": "Rori Avian Bones",
-      "overallQuality": 660,
+      "name": {
+        "value": "Whaicrekoe"
+      },
+      "type": {
+        "value": "Rori Avian Bones"
+      },
+      "overallQuality": 660.0,
       "stats": {
         "decayResistance": 441,
         "malleability": 411,
@@ -2402,9 +3110,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Roowooheyl",
-      "type": "Skevon Reactive Gas",
-      "overallQuality": 492,
+      "name": {
+        "value": "Roowooheyl"
+      },
+      "type": {
+        "value": "Skevon Reactive Gas"
+      },
+      "overallQuality": 492.0,
       "stats": {
         "decayResistance": 739,
         "overallQuality": 492
@@ -2413,9 +3125,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Pomashi",
-      "type": "Talusian Berry Fruit",
-      "overallQuality": 822,
+      "name": {
+        "value": "Pomashi"
+      },
+      "type": {
+        "value": "Talusian Berry Fruit"
+      },
+      "overallQuality": 822.0,
       "stats": {
         "decayResistance": 411,
         "flavor": 125,
@@ -2426,9 +3142,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Mokoli",
-      "type": "Talusian Carnivore Meat",
-      "overallQuality": 63,
+      "name": {
+        "value": "Mokoli"
+      },
+      "type": {
+        "value": "Talusian Carnivore Meat"
+      },
+      "overallQuality": 63.0,
       "stats": {
         "decayResistance": 795,
         "flavor": 806,
@@ -2439,9 +3159,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Niemogo",
-      "type": "Talusian Domesticated Wheat",
-      "overallQuality": 769,
+      "name": {
+        "value": "Niemogo"
+      },
+      "type": {
+        "value": "Talusian Domesticated Wheat"
+      },
+      "overallQuality": 769.0,
       "stats": {
         "decayResistance": 263,
         "flavor": 82,
@@ -2452,9 +3176,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Vouhetea",
-      "type": "Talusian Evergreen Wood",
-      "overallQuality": 330,
+      "name": {
+        "value": "Vouhetea"
+      },
+      "type": {
+        "value": "Talusian Evergreen Wood"
+      },
+      "overallQuality": 330.0,
       "stats": {
         "decayResistance": 286,
         "malleability": 889,
@@ -2466,9 +3194,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Fakeu",
-      "type": "Talusian Fruit",
-      "overallQuality": 166,
+      "name": {
+        "value": "Fakeu"
+      },
+      "type": {
+        "value": "Talusian Fruit"
+      },
+      "overallQuality": 166.0,
       "stats": {
         "decayResistance": 322,
         "flavor": 755,
@@ -2479,9 +3211,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Ognekee",
-      "type": "Talusian Horn",
-      "overallQuality": 952,
+      "name": {
+        "value": "Ognekee"
+      },
+      "type": {
+        "value": "Talusian Horn"
+      },
+      "overallQuality": 952.0,
       "stats": {
         "decayResistance": 775,
         "malleability": 109,
@@ -2493,9 +3229,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Binace",
-      "type": "Talusian Vegetable Tubers",
-      "overallQuality": 397,
+      "name": {
+        "value": "Binace"
+      },
+      "type": {
+        "value": "Talusian Vegetable Tubers"
+      },
+      "overallQuality": 397.0,
       "stats": {
         "decayResistance": 527,
         "flavor": 273,
@@ -2506,9 +3246,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Douso",
-      "type": "Tatooinian Animal Bones",
-      "overallQuality": 729,
+      "name": {
+        "value": "Douso"
+      },
+      "type": {
+        "value": "Tatooinian Animal Bones"
+      },
+      "overallQuality": 729.0,
       "stats": {
         "decayResistance": 979,
         "malleability": 499,
@@ -2520,9 +3264,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Sroloce",
-      "type": "Tatooinian Crustacean Meat",
-      "overallQuality": 138,
+      "name": {
+        "value": "Sroloce"
+      },
+      "type": {
+        "value": "Tatooinian Crustacean Meat"
+      },
+      "overallQuality": 138.0,
       "stats": {
         "decayResistance": 340,
         "flavor": 875,
@@ -2533,9 +3281,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Chena",
-      "type": "Tatooinian Domesticated Oats",
-      "overallQuality": 573,
+      "name": {
+        "value": "Chena"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Oats"
+      },
+      "overallQuality": 573.0,
       "stats": {
         "decayResistance": 934,
         "flavor": 216,
@@ -2546,9 +3298,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Bebei",
-      "type": "Tatooinian Domesticated Rice",
-      "overallQuality": 703,
+      "name": {
+        "value": "Bebei"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Rice"
+      },
+      "overallQuality": 703.0,
       "stats": {
         "decayResistance": 681,
         "flavor": 327,
@@ -2559,9 +3315,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Maiepta",
-      "type": "Tatooinian Domesticated Wheat",
-      "overallQuality": 30,
+      "name": {
+        "value": "Maiepta"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Wheat"
+      },
+      "overallQuality": 30.0,
       "stats": {
         "decayResistance": 329,
         "flavor": 644,
@@ -2572,9 +3332,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Orchome",
-      "type": "Tatooinian Fruit",
-      "overallQuality": 784,
+      "name": {
+        "value": "Orchome"
+      },
+      "type": {
+        "value": "Tatooinian Fruit"
+      },
+      "overallQuality": 784.0,
       "stats": {
         "decayResistance": 702,
         "flavor": 28,
@@ -2585,9 +3349,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Mmodwobe",
-      "type": "Tatooinian Wild Rice",
-      "overallQuality": 252,
+      "name": {
+        "value": "Mmodwobe"
+      },
+      "type": {
+        "value": "Tatooinian Wild Rice"
+      },
+      "overallQuality": 252.0,
       "stats": {
         "decayResistance": 52,
         "flavor": 365,
@@ -2598,9 +3366,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Neota",
-      "type": "Yavinian Bristley Hide",
-      "overallQuality": 812,
+      "name": {
+        "value": "Neota"
+      },
+      "type": {
+        "value": "Yavinian Bristley Hide"
+      },
+      "overallQuality": 812.0,
       "stats": {
         "decayResistance": 203,
         "malleability": 888,
@@ -2612,9 +3384,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Tolchiba",
-      "type": "Yavinian Vegetable Fungus",
-      "overallQuality": 951,
+      "name": {
+        "value": "Tolchiba"
+      },
+      "type": {
+        "value": "Yavinian Vegetable Fungus"
+      },
+      "overallQuality": 951.0,
       "stats": {
         "decayResistance": 281,
         "flavor": 752,
@@ -2625,9 +3401,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Naumo",
-      "type": "Yavinian Vegetable Tubers",
-      "overallQuality": 237,
+      "name": {
+        "value": "Naumo"
+      },
+      "type": {
+        "value": "Yavinian Vegetable Tubers"
+      },
+      "overallQuality": 237.0,
       "stats": {
         "decayResistance": 604,
         "flavor": 613,
@@ -2638,9 +3418,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Heupo",
-      "type": "Yavinian Water Vapor",
-      "overallQuality": 850,
+      "name": {
+        "value": "Heupo"
+      },
+      "type": {
+        "value": "Yavinian Water Vapor"
+      },
+      "overallQuality": 850.0,
       "stats": {
         "decayResistance": 730,
         "overallQuality": 850
@@ -2649,9 +3433,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Vanave",
-      "type": "Yavinian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Vanave"
+      },
+      "type": {
+        "value": "Yavinian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 108,
         "overallQuality": 500
@@ -2660,9 +3448,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Fomeo",
-      "type": "Class 2 Radioactive",
-      "overallQuality": 941,
+      "name": {
+        "value": "Fomeo"
+      },
+      "type": {
+        "value": "Class 2 Radioactive"
+      },
+      "overallQuality": 941.0,
       "stats": {
         "decayResistance": 440,
         "nutrition": 646,
@@ -2672,9 +3464,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Xosaite",
-      "type": "Class 2 Radioactive",
-      "overallQuality": 762,
+      "name": {
+        "value": "Xosaite"
+      },
+      "type": {
+        "value": "Class 2 Radioactive"
+      },
+      "overallQuality": 762.0,
       "stats": {
         "decayResistance": 524,
         "nutrition": 601,
@@ -2684,9 +3480,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Seseaite",
-      "type": "Class 7 Liquid Petro Fuel",
-      "overallQuality": 234,
+      "name": {
+        "value": "Seseaite"
+      },
+      "type": {
+        "value": "Class 7 Liquid Petro Fuel"
+      },
+      "overallQuality": 234.0,
       "stats": {
         "decayResistance": 405,
         "nutrition": 151,
@@ -2696,9 +3496,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Dathae",
-      "type": "Corellian Horn",
-      "overallQuality": 844,
+      "name": {
+        "value": "Dathae"
+      },
+      "type": {
+        "value": "Corellian Horn"
+      },
+      "overallQuality": 844.0,
       "stats": {
         "decayResistance": 624,
         "malleability": 218,
@@ -2710,9 +3514,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Roesme",
-      "type": "Dantooine Deciduous Wood",
-      "overallQuality": 134,
+      "name": {
+        "value": "Roesme"
+      },
+      "type": {
+        "value": "Dantooine Deciduous Wood"
+      },
+      "overallQuality": 134.0,
       "stats": {
         "decayResistance": 594,
         "malleability": 565,
@@ -2724,9 +3532,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Fojeutia",
-      "type": "Dantooine Domesticated Meat",
-      "overallQuality": 846,
+      "name": {
+        "value": "Fojeutia"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Meat"
+      },
+      "overallQuality": 846.0,
       "stats": {
         "decayResistance": 894,
         "flavor": 654,
@@ -2737,9 +3549,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Glasa",
-      "type": "Dantooine Domesticated Milk",
-      "overallQuality": 114,
+      "name": {
+        "value": "Glasa"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Milk"
+      },
+      "overallQuality": 114.0,
       "stats": {
         "decayResistance": 338,
         "flavor": 591,
@@ -2750,9 +3566,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Esimu",
-      "type": "Dantooine Wild Oats",
-      "overallQuality": 582,
+      "name": {
+        "value": "Esimu"
+      },
+      "type": {
+        "value": "Dantooine Wild Oats"
+      },
+      "overallQuality": 582.0,
       "stats": {
         "decayResistance": 495,
         "flavor": 899,
@@ -2763,9 +3583,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Smepasi",
-      "type": "Dathomirian Vegetable Greens",
-      "overallQuality": 378,
+      "name": {
+        "value": "Smepasi"
+      },
+      "type": {
+        "value": "Dathomirian Vegetable Greens"
+      },
+      "overallQuality": 378.0,
       "stats": {
         "decayResistance": 678,
         "flavor": 813,
@@ -2776,9 +3600,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Feslaovo",
-      "type": "Dathomirian Vegetable Tubers",
-      "overallQuality": 516,
+      "name": {
+        "value": "Feslaovo"
+      },
+      "type": {
+        "value": "Dathomirian Vegetable Tubers"
+      },
+      "overallQuality": 516.0,
       "stats": {
         "decayResistance": 939,
         "flavor": 257,
@@ -2789,9 +3617,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Kuvo",
-      "type": "Endorian Avian Meat",
-      "overallQuality": 374,
+      "name": {
+        "value": "Kuvo"
+      },
+      "type": {
+        "value": "Endorian Avian Meat"
+      },
+      "overallQuality": 374.0,
       "stats": {
         "decayResistance": 526,
         "flavor": 699,
@@ -2802,9 +3634,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Repema",
-      "type": "Endorian Horn",
-      "overallQuality": 797,
+      "name": {
+        "value": "Repema"
+      },
+      "type": {
+        "value": "Endorian Horn"
+      },
+      "overallQuality": 797.0,
       "stats": {
         "decayResistance": 925,
         "malleability": 439,
@@ -2816,9 +3652,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Tetoba",
-      "type": "Endorian Wild Meat",
-      "overallQuality": 960,
+      "name": {
+        "value": "Tetoba"
+      },
+      "type": {
+        "value": "Endorian Wild Meat"
+      },
+      "overallQuality": 960.0,
       "stats": {
         "decayResistance": 559,
         "flavor": 168,
@@ -2829,9 +3669,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Tiwy",
-      "type": "Lokian Berry Fruit",
-      "overallQuality": 356,
+      "name": {
+        "value": "Tiwy"
+      },
+      "type": {
+        "value": "Lokian Berry Fruit"
+      },
+      "overallQuality": 356.0,
       "stats": {
         "decayResistance": 621,
         "flavor": 824,
@@ -2842,9 +3686,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Detake",
-      "type": "Lokian Wild Wheat",
-      "overallQuality": 724,
+      "name": {
+        "value": "Detake"
+      },
+      "type": {
+        "value": "Lokian Wild Wheat"
+      },
+      "overallQuality": 724.0,
       "stats": {
         "decayResistance": 198,
         "flavor": 569,
@@ -2855,9 +3703,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Kisauciide",
-      "type": "Lokian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Kisauciide"
+      },
+      "type": {
+        "value": "Lokian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 141,
         "overallQuality": 500
@@ -2866,9 +3718,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Cregaepeate",
-      "type": "Mirth Inert Gas",
-      "overallQuality": 70,
+      "name": {
+        "value": "Cregaepeate"
+      },
+      "type": {
+        "value": "Mirth Inert Gas"
+      },
+      "overallQuality": 70.0,
       "stats": {
         "decayResistance": 643,
         "overallQuality": 70
@@ -2877,9 +3733,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Stehaic",
-      "type": "Nabooian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Stehaic"
+      },
+      "type": {
+        "value": "Nabooian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 265,
         "overallQuality": 500
@@ -2888,9 +3748,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Apeaco",
-      "type": "Nabooian Vegetable Tubers",
-      "overallQuality": 471,
+      "name": {
+        "value": "Apeaco"
+      },
+      "type": {
+        "value": "Nabooian Vegetable Tubers"
+      },
+      "overallQuality": 471.0,
       "stats": {
         "decayResistance": 423,
         "flavor": 24,
@@ -2901,9 +3765,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Chapesasis",
-      "type": "Nabooian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Chapesasis"
+      },
+      "type": {
+        "value": "Nabooian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 158,
         "overallQuality": 500
@@ -2912,9 +3780,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Goagoeze",
-      "type": "Rori Conifer Wood",
-      "overallQuality": 978,
+      "name": {
+        "value": "Goagoeze"
+      },
+      "type": {
+        "value": "Rori Conifer Wood"
+      },
+      "overallQuality": 978.0,
       "stats": {
         "decayResistance": 531,
         "malleability": 737,
@@ -2926,9 +3798,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Waudwine",
-      "type": "Rori Vegetable Beans",
-      "overallQuality": 893,
+      "name": {
+        "value": "Waudwine"
+      },
+      "type": {
+        "value": "Rori Vegetable Beans"
+      },
+      "overallQuality": 893.0,
       "stats": {
         "decayResistance": 543,
         "flavor": 178,
@@ -2939,9 +3815,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Eotoe",
-      "type": "Rori Wild Oats",
-      "overallQuality": 737,
+      "name": {
+        "value": "Eotoe"
+      },
+      "type": {
+        "value": "Rori Wild Oats"
+      },
+      "overallQuality": 737.0,
       "stats": {
         "decayResistance": 275,
         "flavor": 952,
@@ -2952,9 +3832,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Ssiso",
-      "type": "Rori Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Ssiso"
+      },
+      "type": {
+        "value": "Rori Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 217,
         "overallQuality": 500
@@ -2963,9 +3847,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Deewi",
-      "type": "Seafah Jewel Crystalline Gemstone",
-      "overallQuality": 787,
+      "name": {
+        "value": "Deewi"
+      },
+      "type": {
+        "value": "Seafah Jewel Crystalline Gemstone"
+      },
+      "overallQuality": 787.0,
       "stats": {
         "entangleResistance": 735,
         "coldResistance": 467,
@@ -2980,9 +3868,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Depizi",
-      "type": "Talusian Domesticated Milk",
-      "overallQuality": 800,
+      "name": {
+        "value": "Depizi"
+      },
+      "type": {
+        "value": "Talusian Domesticated Milk"
+      },
+      "overallQuality": 800.0,
       "stats": {
         "decayResistance": 957,
         "flavor": 666,
@@ -2993,9 +3885,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Brola",
-      "type": "Talusian Leathery Hide",
-      "overallQuality": 173,
+      "name": {
+        "value": "Brola"
+      },
+      "type": {
+        "value": "Talusian Leathery Hide"
+      },
+      "overallQuality": 173.0,
       "stats": {
         "decayResistance": 526,
         "malleability": 657,
@@ -3007,9 +3903,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Bapoake",
-      "type": "Talusian Wild Oats",
-      "overallQuality": 260,
+      "name": {
+        "value": "Bapoake"
+      },
+      "type": {
+        "value": "Talusian Wild Oats"
+      },
+      "overallQuality": 260.0,
       "stats": {
         "decayResistance": 759,
         "flavor": 525,
@@ -3020,9 +3920,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Seoldi",
-      "type": "Tatooinian Deciduous Wood",
-      "overallQuality": 979,
+      "name": {
+        "value": "Seoldi"
+      },
+      "type": {
+        "value": "Tatooinian Deciduous Wood"
+      },
+      "overallQuality": 979.0,
       "stats": {
         "decayResistance": 35,
         "malleability": 746,
@@ -3034,9 +3938,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Baovai",
-      "type": "Tatooinian Domesticated Corn",
-      "overallQuality": 706,
+      "name": {
+        "value": "Baovai"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Corn"
+      },
+      "overallQuality": 706.0,
       "stats": {
         "decayResistance": 969,
         "flavor": 508,
@@ -3047,9 +3955,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Slovevi",
-      "type": "Tatooinian Water Vapor",
-      "overallQuality": 665,
+      "name": {
+        "value": "Slovevi"
+      },
+      "type": {
+        "value": "Tatooinian Water Vapor"
+      },
+      "overallQuality": 665.0,
       "stats": {
         "decayResistance": 801,
         "overallQuality": 665
@@ -3058,9 +3970,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Capija",
-      "type": "Yavinian Fiberplast",
-      "overallQuality": 730,
+      "name": {
+        "value": "Capija"
+      },
+      "type": {
+        "value": "Yavinian Fiberplast"
+      },
+      "overallQuality": 730.0,
       "stats": {
         "decayResistance": 369,
         "malleability": 639,
@@ -3072,9 +3988,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Aollaja",
-      "type": "Yavinian Wild Wheat",
-      "overallQuality": 970,
+      "name": {
+        "value": "Aollaja"
+      },
+      "type": {
+        "value": "Yavinian Wild Wheat"
+      },
+      "overallQuality": 970.0,
       "stats": {
         "decayResistance": 683,
         "flavor": 546,
@@ -3085,9 +4005,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Dipoium",
-      "type": "Axidite Iron",
-      "overallQuality": 697,
+      "name": {
+        "value": "Dipoium"
+      },
+      "type": {
+        "value": "Axidite Iron"
+      },
+      "overallQuality": 697.0,
       "stats": {
         "coldResistance": 214,
         "conductivity": 151,
@@ -3102,9 +4026,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Afasei",
-      "type": "Bronzium Iron",
-      "overallQuality": 689,
+      "name": {
+        "value": "Afasei"
+      },
+      "type": {
+        "value": "Bronzium Iron"
+      },
+      "overallQuality": 689.0,
       "stats": {
         "coldResistance": 377,
         "conductivity": 206,
@@ -3119,9 +4047,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Bochtae",
-      "type": "Class 1 Solid Petro Fuel",
-      "overallQuality": 888,
+      "name": {
+        "value": "Bochtae"
+      },
+      "type": {
+        "value": "Class 1 Solid Petro Fuel"
+      },
+      "overallQuality": 888.0,
       "stats": {
         "decayResistance": 95,
         "nutrition": 360,
@@ -3131,9 +4063,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Pohae",
-      "type": "Corellian Deciduous Wood",
-      "overallQuality": 594,
+      "name": {
+        "value": "Pohae"
+      },
+      "type": {
+        "value": "Corellian Deciduous Wood"
+      },
+      "overallQuality": 594.0,
       "stats": {
         "decayResistance": 427,
         "malleability": 634,
@@ -3145,9 +4081,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Veogau",
-      "type": "Corellia Fiberplast",
-      "overallQuality": 38,
+      "name": {
+        "value": "Veogau"
+      },
+      "type": {
+        "value": "Corellia Fiberplast"
+      },
+      "overallQuality": 38.0,
       "stats": {
         "decayResistance": 519,
         "malleability": 332,
@@ -3159,9 +4099,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Deathera",
-      "type": "Corellian Scaley Hide",
-      "overallQuality": 52,
+      "name": {
+        "value": "Deathera"
+      },
+      "type": {
+        "value": "Corellian Scaley Hide"
+      },
+      "overallQuality": 52.0,
       "stats": {
         "decayResistance": 70,
         "malleability": 222,
@@ -3173,9 +4117,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Slapra",
-      "type": "Corellian Wild Wheat",
-      "overallQuality": 416,
+      "name": {
+        "value": "Slapra"
+      },
+      "type": {
+        "value": "Corellian Wild Wheat"
+      },
+      "overallQuality": 416.0,
       "stats": {
         "decayResistance": 600,
         "flavor": 902,
@@ -3186,9 +4134,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Lovauide",
-      "type": "Corellian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Lovauide"
+      },
+      "type": {
+        "value": "Corellian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 200,
         "overallQuality": 500
@@ -3197,9 +4149,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Sreadeika",
-      "type": "Dantooine Leathery Hide",
-      "overallQuality": 710,
+      "name": {
+        "value": "Sreadeika"
+      },
+      "type": {
+        "value": "Dantooine Leathery Hide"
+      },
+      "overallQuality": 710.0,
       "stats": {
         "decayResistance": 112,
         "malleability": 208,
@@ -3211,9 +4167,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Geeki",
-      "type": "Dathomirian Fiberplast",
-      "overallQuality": 289,
+      "name": {
+        "value": "Geeki"
+      },
+      "type": {
+        "value": "Dathomirian Fiberplast"
+      },
+      "overallQuality": 289.0,
       "stats": {
         "decayResistance": 59,
         "malleability": 307,
@@ -3225,9 +4185,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Hoxe",
-      "type": "Dathomirian Wild Milk",
-      "overallQuality": 536,
+      "name": {
+        "value": "Hoxe"
+      },
+      "type": {
+        "value": "Dathomirian Wild Milk"
+      },
+      "overallQuality": 536.0,
       "stats": {
         "decayResistance": 889,
         "flavor": 450,
@@ -3238,9 +4202,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Gigaate",
-      "type": "Dolovite Iron",
-      "overallQuality": 241,
+      "name": {
+        "value": "Gigaate"
+      },
+      "type": {
+        "value": "Dolovite Iron"
+      },
+      "overallQuality": 241.0,
       "stats": {
         "coldResistance": 564,
         "conductivity": 349,
@@ -3255,9 +4223,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Lafau",
-      "type": "Endorian Carnivore Meat",
-      "overallQuality": 525,
+      "name": {
+        "value": "Lafau"
+      },
+      "type": {
+        "value": "Endorian Carnivore Meat"
+      },
+      "overallQuality": 525.0,
       "stats": {
         "decayResistance": 703,
         "flavor": 912,
@@ -3268,9 +4240,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Blema",
-      "type": "Endorian Crustacean Meat",
-      "overallQuality": 567,
+      "name": {
+        "value": "Blema"
+      },
+      "type": {
+        "value": "Endorian Crustacean Meat"
+      },
+      "overallQuality": 567.0,
       "stats": {
         "decayResistance": 568,
         "flavor": 414,
@@ -3281,9 +4257,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Cahoo",
-      "type": "Endorian Fiberplast",
-      "overallQuality": 25,
+      "name": {
+        "value": "Cahoo"
+      },
+      "type": {
+        "value": "Endorian Fiberplast"
+      },
+      "overallQuality": 25.0,
       "stats": {
         "decayResistance": 359,
         "malleability": 601,
@@ -3295,9 +4275,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Mopti",
-      "type": "Frasium Carbonate Ore",
-      "overallQuality": 394,
+      "name": {
+        "value": "Mopti"
+      },
+      "type": {
+        "value": "Frasium Carbonate Ore"
+      },
+      "overallQuality": 394.0,
       "stats": {
         "coldResistance": 582,
         "decayResistance": 260,
@@ -3311,9 +4295,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Speneto",
-      "type": "Lokian Crustacean Meat",
-      "overallQuality": 48,
+      "name": {
+        "value": "Speneto"
+      },
+      "type": {
+        "value": "Lokian Crustacean Meat"
+      },
+      "overallQuality": 48.0,
       "stats": {
         "decayResistance": 793,
         "flavor": 907,
@@ -3324,9 +4312,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Droido",
-      "type": "Lokian Deciduous Wood",
-      "overallQuality": 730,
+      "name": {
+        "value": "Droido"
+      },
+      "type": {
+        "value": "Lokian Deciduous Wood"
+      },
+      "overallQuality": 730.0,
       "stats": {
         "decayResistance": 695,
         "malleability": 570,
@@ -3338,9 +4330,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Troki",
-      "type": "Lokian Domesticated Milk",
-      "overallQuality": 640,
+      "name": {
+        "value": "Troki"
+      },
+      "type": {
+        "value": "Lokian Domesticated Milk"
+      },
+      "overallQuality": 640.0,
       "stats": {
         "decayResistance": 967,
         "flavor": 463,
@@ -3351,9 +4347,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Thiewa",
-      "type": "Lokian Fiberplast",
-      "overallQuality": 245,
+      "name": {
+        "value": "Thiewa"
+      },
+      "type": {
+        "value": "Lokian Fiberplast"
+      },
+      "overallQuality": 245.0,
       "stats": {
         "decayResistance": 654,
         "malleability": 94,
@@ -3365,9 +4365,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Oilo",
-      "type": "Lokian Fish Meat",
-      "overallQuality": 476,
+      "name": {
+        "value": "Oilo"
+      },
+      "type": {
+        "value": "Lokian Fish Meat"
+      },
+      "overallQuality": 476.0,
       "stats": {
         "decayResistance": 982,
         "flavor": 924,
@@ -3378,9 +4382,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Chewa",
-      "type": "Lokian Horn",
-      "overallQuality": 745,
+      "name": {
+        "value": "Chewa"
+      },
+      "type": {
+        "value": "Lokian Horn"
+      },
+      "overallQuality": 745.0,
       "stats": {
         "decayResistance": 720,
         "malleability": 260,
@@ -3392,9 +4400,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Bofla",
-      "type": "Lokian Vegetable Beans",
-      "overallQuality": 251,
+      "name": {
+        "value": "Bofla"
+      },
+      "type": {
+        "value": "Lokian Vegetable Beans"
+      },
+      "overallQuality": 251.0,
       "stats": {
         "decayResistance": 67,
         "flavor": 736,
@@ -3405,9 +4417,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Mnoso",
-      "type": "Nabooian Avian Bones",
-      "overallQuality": 630,
+      "name": {
+        "value": "Mnoso"
+      },
+      "type": {
+        "value": "Nabooian Avian Bones"
+      },
+      "overallQuality": 630.0,
       "stats": {
         "decayResistance": 259,
         "malleability": 569,
@@ -3419,9 +4435,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Ayico",
-      "type": "Nabooian Carnivore Meat",
-      "overallQuality": 463,
+      "name": {
+        "value": "Ayico"
+      },
+      "type": {
+        "value": "Nabooian Carnivore Meat"
+      },
+      "overallQuality": 463.0,
       "stats": {
         "decayResistance": 387,
         "flavor": 946,
@@ -3432,9 +4452,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Lonau",
-      "type": "Nabooian Domesticated Meat",
-      "overallQuality": 469,
+      "name": {
+        "value": "Lonau"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Meat"
+      },
+      "overallQuality": 469.0,
       "stats": {
         "decayResistance": 814,
         "flavor": 403,
@@ -3445,9 +4469,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Mmijio",
-      "type": "Nabooian Domesticated Rice",
-      "overallQuality": 220,
+      "name": {
+        "value": "Mmijio"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Rice"
+      },
+      "overallQuality": 220.0,
       "stats": {
         "decayResistance": 469,
         "flavor": 536,
@@ -3458,9 +4486,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Kofea",
-      "type": "Nabooian Fruit",
-      "overallQuality": 925,
+      "name": {
+        "value": "Kofea"
+      },
+      "type": {
+        "value": "Nabooian Fruit"
+      },
+      "overallQuality": 925.0,
       "stats": {
         "decayResistance": 228,
         "flavor": 424,
@@ -3471,9 +4503,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Pasoide",
-      "type": "Plumbum Iron",
-      "overallQuality": 317,
+      "name": {
+        "value": "Pasoide"
+      },
+      "type": {
+        "value": "Plumbum Iron"
+      },
+      "overallQuality": 317.0,
       "stats": {
         "coldResistance": 16,
         "conductivity": 59,
@@ -3488,9 +4524,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Meafica",
-      "type": "Rori Scaley Hide",
-      "overallQuality": 300,
+      "name": {
+        "value": "Meafica"
+      },
+      "type": {
+        "value": "Rori Scaley Hide"
+      },
+      "overallQuality": 300.0,
       "stats": {
         "decayResistance": 425,
         "malleability": 81,
@@ -3502,9 +4542,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Canaci",
-      "type": "Rori Water Vapor",
-      "overallQuality": 740,
+      "name": {
+        "value": "Canaci"
+      },
+      "type": {
+        "value": "Rori Water Vapor"
+      },
+      "overallQuality": 740.0,
       "stats": {
         "decayResistance": 739,
         "overallQuality": 740
@@ -3513,9 +4557,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Sraspofoo",
-      "type": "Talusian Avian Bones",
-      "overallQuality": 343,
+      "name": {
+        "value": "Sraspofoo"
+      },
+      "type": {
+        "value": "Talusian Avian Bones"
+      },
+      "overallQuality": 343.0,
       "stats": {
         "decayResistance": 187,
         "malleability": 317,
@@ -3527,9 +4575,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Moldodi",
-      "type": "Talusian Conifer Wood",
-      "overallQuality": 630,
+      "name": {
+        "value": "Moldodi"
+      },
+      "type": {
+        "value": "Talusian Conifer Wood"
+      },
+      "overallQuality": 630.0,
       "stats": {
         "decayResistance": 452,
         "malleability": 844,
@@ -3541,9 +4593,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Kehoa",
-      "type": "Talusian Fish Meat",
-      "overallQuality": 512,
+      "name": {
+        "value": "Kehoa"
+      },
+      "type": {
+        "value": "Talusian Fish Meat"
+      },
+      "overallQuality": 512.0,
       "stats": {
         "decayResistance": 982,
         "flavor": 581,
@@ -3554,9 +4610,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Tastewe",
-      "type": "Talusian Mollusk Meat",
-      "overallQuality": 489,
+      "name": {
+        "value": "Tastewe"
+      },
+      "type": {
+        "value": "Talusian Mollusk Meat"
+      },
+      "overallQuality": 489.0,
       "stats": {
         "decayResistance": 827,
         "flavor": 128,
@@ -3567,9 +4627,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Rcetcholfeu",
-      "type": "Tatooinian Scaley Hide",
-      "overallQuality": 342,
+      "name": {
+        "value": "Rcetcholfeu"
+      },
+      "type": {
+        "value": "Tatooinian Scaley Hide"
+      },
+      "overallQuality": 342.0,
       "stats": {
         "decayResistance": 549,
         "malleability": 678,
@@ -3581,9 +4645,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Donti",
-      "type": "Tatooinian Wild Milk",
-      "overallQuality": 512,
+      "name": {
+        "value": "Donti"
+      },
+      "type": {
+        "value": "Tatooinian Wild Milk"
+      },
+      "overallQuality": 512.0,
       "stats": {
         "decayResistance": 891,
         "flavor": 624,
@@ -3594,9 +4662,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Iciate",
-      "type": "Unknown Radioactive",
-      "overallQuality": 347,
+      "name": {
+        "value": "Iciate"
+      },
+      "type": {
+        "value": "Unknown Radioactive"
+      },
+      "overallQuality": 347.0,
       "stats": {
         "decayResistance": 790,
         "nutrition": 916,
@@ -3606,9 +4678,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Zite",
-      "type": "Yavinian Domesticated Wheat",
-      "overallQuality": 367,
+      "name": {
+        "value": "Zite"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Wheat"
+      },
+      "overallQuality": 367.0,
       "stats": {
         "decayResistance": 286,
         "flavor": 328,
@@ -3619,9 +4695,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Etalfa",
-      "type": "Yavinian Evergreen Wood",
-      "overallQuality": 964,
+      "name": {
+        "value": "Etalfa"
+      },
+      "type": {
+        "value": "Yavinian Evergreen Wood"
+      },
+      "overallQuality": 964.0,
       "stats": {
         "decayResistance": 281,
         "malleability": 891,
@@ -3633,9 +4713,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Teabriyio",
-      "type": "Yavinian Flower Fruit",
-      "overallQuality": 939,
+      "name": {
+        "value": "Teabriyio"
+      },
+      "type": {
+        "value": "Yavinian Flower Fruit"
+      },
+      "overallQuality": 939.0,
       "stats": {
         "decayResistance": 64,
         "flavor": 774,
@@ -3646,9 +4730,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Dariabri",
-      "type": "Yavinian Mollusk Meat",
-      "overallQuality": 304,
+      "name": {
+        "value": "Dariabri"
+      },
+      "type": {
+        "value": "Yavinian Mollusk Meat"
+      },
+      "overallQuality": 304.0,
       "stats": {
         "decayResistance": 210,
         "flavor": 369,
@@ -3659,9 +4747,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Deicra",
-      "type": "Yavinian Scaley Hide",
-      "overallQuality": 305,
+      "name": {
+        "value": "Deicra"
+      },
+      "type": {
+        "value": "Yavinian Scaley Hide"
+      },
+      "overallQuality": 305.0,
       "stats": {
         "decayResistance": 456,
         "malleability": 366,
@@ -3673,9 +4765,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Oneia",
-      "type": "Class 7 Radioactive",
-      "overallQuality": 719,
+      "name": {
+        "value": "Oneia"
+      },
+      "type": {
+        "value": "Class 7 Radioactive"
+      },
+      "overallQuality": 719.0,
       "stats": {
         "decayResistance": 800,
         "nutrition": 981,
@@ -3685,9 +4781,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Fijjasis",
-      "type": "Codoan Copper",
-      "overallQuality": 515,
+      "name": {
+        "value": "Fijjasis"
+      },
+      "type": {
+        "value": "Codoan Copper"
+      },
+      "overallQuality": 515.0,
       "stats": {
         "coldResistance": 304,
         "conductivity": 681,
@@ -3702,9 +4802,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Mekaco",
-      "type": "Corellian Conifer Wood",
-      "overallQuality": 110,
+      "name": {
+        "value": "Mekaco"
+      },
+      "type": {
+        "value": "Corellian Conifer Wood"
+      },
+      "overallQuality": 110.0,
       "stats": {
         "decayResistance": 479,
         "malleability": 611,
@@ -3716,9 +4820,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Laise",
-      "type": "Corellian Crustacean Meat",
-      "overallQuality": 850,
+      "name": {
+        "value": "Laise"
+      },
+      "type": {
+        "value": "Corellian Crustacean Meat"
+      },
+      "overallQuality": 850.0,
       "stats": {
         "decayResistance": 515,
         "flavor": 458,
@@ -3729,9 +4837,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Bikeian",
-      "type": "Corellian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Bikeian"
+      },
+      "type": {
+        "value": "Corellian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 475,
         "overallQuality": 500
@@ -3740,9 +4852,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Gowopa",
-      "type": "Corellian Wild Milk",
-      "overallQuality": 321,
+      "name": {
+        "value": "Gowopa"
+      },
+      "type": {
+        "value": "Corellian Wild Milk"
+      },
+      "overallQuality": 321.0,
       "stats": {
         "decayResistance": 902,
         "flavor": 369,
@@ -3753,9 +4869,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Ejoi",
-      "type": "Dantooine Bristley Hide",
-      "overallQuality": 788,
+      "name": {
+        "value": "Ejoi"
+      },
+      "type": {
+        "value": "Dantooine Bristley Hide"
+      },
+      "overallQuality": 788.0,
       "stats": {
         "decayResistance": 121,
         "malleability": 335,
@@ -3767,9 +4887,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Veghti",
-      "type": "Dantooine Wild Rice",
-      "overallQuality": 849,
+      "name": {
+        "value": "Veghti"
+      },
+      "type": {
+        "value": "Dantooine Wild Rice"
+      },
+      "overallQuality": 849.0,
       "stats": {
         "decayResistance": 590,
         "flavor": 728,
@@ -3780,9 +4904,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cunexi",
-      "type": "Dantooine Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Cunexi"
+      },
+      "type": {
+        "value": "Dantooine Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 262,
         "overallQuality": 500
@@ -3791,9 +4919,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Paiewi",
-      "type": "Dathomirian Domesticated Meat",
-      "overallQuality": 380,
+      "name": {
+        "value": "Paiewi"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Meat"
+      },
+      "overallQuality": 380.0,
       "stats": {
         "decayResistance": 29,
         "flavor": 839,
@@ -3804,9 +4936,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Mmage",
-      "type": "Dathomirian Wooly Hide",
-      "overallQuality": 124,
+      "name": {
+        "value": "Mmage"
+      },
+      "type": {
+        "value": "Dathomirian Wooly Hide"
+      },
+      "overallQuality": 124.0,
       "stats": {
         "decayResistance": 476,
         "malleability": 236,
@@ -3818,9 +4954,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Papawaism",
-      "type": "Duralloy Steel",
-      "overallQuality": 940,
+      "name": {
+        "value": "Papawaism"
+      },
+      "type": {
+        "value": "Duralloy Steel"
+      },
+      "overallQuality": 940.0,
       "stats": {
         "coldResistance": 779,
         "conductivity": 591,
@@ -3835,9 +4975,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Chadoa",
-      "type": "Endorian Deciduous Wood",
-      "overallQuality": 360,
+      "name": {
+        "value": "Chadoa"
+      },
+      "type": {
+        "value": "Endorian Deciduous Wood"
+      },
+      "overallQuality": 360.0,
       "stats": {
         "decayResistance": 55,
         "malleability": 524,
@@ -3849,9 +4993,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Rivage",
-      "type": "Endorian Scaley Hide",
-      "overallQuality": 348,
+      "name": {
+        "value": "Rivage"
+      },
+      "type": {
+        "value": "Endorian Scaley Hide"
+      },
+      "overallQuality": 348.0,
       "stats": {
         "decayResistance": 113,
         "malleability": 487,
@@ -3863,9 +5011,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Lkilcoate",
-      "type": "Endorian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Lkilcoate"
+      },
+      "type": {
+        "value": "Endorian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 293,
         "overallQuality": 500
@@ -3874,9 +5026,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Saieho",
-      "type": "Kiirium Steel",
-      "overallQuality": 258,
+      "name": {
+        "value": "Saieho"
+      },
+      "type": {
+        "value": "Kiirium Steel"
+      },
+      "overallQuality": 258.0,
       "stats": {
         "coldResistance": 141,
         "conductivity": 71,
@@ -3891,9 +5047,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Jabevoium",
-      "type": "Link-Steel Aluminum",
-      "overallQuality": 15,
+      "name": {
+        "value": "Jabevoium"
+      },
+      "type": {
+        "value": "Link-Steel Aluminum"
+      },
+      "overallQuality": 15.0,
       "stats": {
         "coldResistance": 598,
         "conductivity": 653,
@@ -3908,9 +5068,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Yoniloo",
-      "type": "Lokian Mollusk Meat",
-      "overallQuality": 639,
+      "name": {
+        "value": "Yoniloo"
+      },
+      "type": {
+        "value": "Lokian Mollusk Meat"
+      },
+      "overallQuality": 639.0,
       "stats": {
         "decayResistance": 83,
         "flavor": 83,
@@ -3921,9 +5085,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Besqueu",
-      "type": "Lokian Wild Corn",
-      "overallQuality": 6,
+      "name": {
+        "value": "Besqueu"
+      },
+      "type": {
+        "value": "Lokian Wild Corn"
+      },
+      "overallQuality": 6.0,
       "stats": {
         "decayResistance": 190,
         "flavor": 611,
@@ -3934,9 +5102,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Aihaneite",
-      "type": "Lubricating Oil",
-      "overallQuality": 888,
+      "name": {
+        "value": "Aihaneite"
+      },
+      "type": {
+        "value": "Lubricating Oil"
+      },
+      "overallQuality": 888.0,
       "stats": {
         "decayResistance": 284,
         "overallQuality": 888
@@ -3945,9 +5117,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Doeho",
-      "type": "Lubricating Oil",
-      "overallQuality": 946,
+      "name": {
+        "value": "Doeho"
+      },
+      "type": {
+        "value": "Lubricating Oil"
+      },
+      "overallQuality": 946.0,
       "stats": {
         "decayResistance": 365,
         "overallQuality": 946
@@ -3956,9 +5132,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Cekaplo",
-      "type": "Nabooian Domesticated Milk",
-      "overallQuality": 688,
+      "name": {
+        "value": "Cekaplo"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Milk"
+      },
+      "overallQuality": 688.0,
       "stats": {
         "decayResistance": 410,
         "flavor": 258,
@@ -3969,9 +5149,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Macocoi",
-      "type": "Nabooian Vegetable Beans",
-      "overallQuality": 875,
+      "name": {
+        "value": "Macocoi"
+      },
+      "type": {
+        "value": "Nabooian Vegetable Beans"
+      },
+      "overallQuality": 875.0,
       "stats": {
         "decayResistance": 409,
         "flavor": 952,
@@ -3982,9 +5166,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Brukeka",
-      "type": "Nabooian Water Vapor",
-      "overallQuality": 695,
+      "name": {
+        "value": "Brukeka"
+      },
+      "type": {
+        "value": "Nabooian Water Vapor"
+      },
+      "overallQuality": 695.0,
       "stats": {
         "decayResistance": 725,
         "overallQuality": 695
@@ -3993,9 +5181,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Fotwi",
-      "type": "Nabooian Wild Rice",
-      "overallQuality": 901,
+      "name": {
+        "value": "Fotwi"
+      },
+      "type": {
+        "value": "Nabooian Wild Rice"
+      },
+      "overallQuality": 901.0,
       "stats": {
         "decayResistance": 744,
         "flavor": 961,
@@ -4006,9 +5198,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Sholo",
-      "type": "Nabooian Wild Wheat",
-      "overallQuality": 823,
+      "name": {
+        "value": "Sholo"
+      },
+      "type": {
+        "value": "Nabooian Wild Wheat"
+      },
+      "overallQuality": 823.0,
       "stats": {
         "decayResistance": 734,
         "flavor": 423,
@@ -4019,9 +5215,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Rhostiism",
-      "type": "Polymer",
-      "overallQuality": 118,
+      "name": {
+        "value": "Rhostiism"
+      },
+      "type": {
+        "value": "Polymer"
+      },
+      "overallQuality": 118.0,
       "stats": {
         "decayResistance": 722,
         "malleability": 656,
@@ -4033,9 +5233,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Bevoe",
-      "type": "Quadranium Steel",
-      "overallQuality": 667,
+      "name": {
+        "value": "Bevoe"
+      },
+      "type": {
+        "value": "Quadranium Steel"
+      },
+      "overallQuality": 667.0,
       "stats": {
         "coldResistance": 603,
         "conductivity": 461,
@@ -4050,9 +5254,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Usco",
-      "type": "Rori Berry Fruit",
-      "overallQuality": 744,
+      "name": {
+        "value": "Usco"
+      },
+      "type": {
+        "value": "Rori Berry Fruit"
+      },
+      "overallQuality": 744.0,
       "stats": {
         "decayResistance": 596,
         "flavor": 724,
@@ -4063,9 +5271,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Srospaki",
-      "type": "Rori Carnivore Meat",
-      "overallQuality": 410,
+      "name": {
+        "value": "Srospaki"
+      },
+      "type": {
+        "value": "Rori Carnivore Meat"
+      },
+      "overallQuality": 410.0,
       "stats": {
         "decayResistance": 239,
         "flavor": 938,
@@ -4076,9 +5288,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Seurgau",
-      "type": "Talusian Vegetable Beans",
-      "overallQuality": 706,
+      "name": {
+        "value": "Seurgau"
+      },
+      "type": {
+        "value": "Talusian Vegetable Beans"
+      },
+      "overallQuality": 706.0,
       "stats": {
         "decayResistance": 817,
         "flavor": 234,
@@ -4089,9 +5305,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Hispie",
-      "type": "Tatooinian Domesticated Milk",
-      "overallQuality": 282,
+      "name": {
+        "value": "Hispie"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Milk"
+      },
+      "overallQuality": 282.0,
       "stats": {
         "decayResistance": 271,
         "flavor": 666,
@@ -4102,9 +5322,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Asmote",
-      "type": "Tatooinian Flower Fruit",
-      "overallQuality": 827,
+      "name": {
+        "value": "Asmote"
+      },
+      "type": {
+        "value": "Tatooinian Flower Fruit"
+      },
+      "overallQuality": 827.0,
       "stats": {
         "decayResistance": 103,
         "flavor": 196,
@@ -4115,9 +5339,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Giveata",
-      "type": "Tatooinian Mollusk Meat",
-      "overallQuality": 854,
+      "name": {
+        "value": "Giveata"
+      },
+      "type": {
+        "value": "Tatooinian Mollusk Meat"
+      },
+      "overallQuality": 854.0,
       "stats": {
         "decayResistance": 998,
         "flavor": 546,
@@ -4128,9 +5356,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Fediclo",
-      "type": "Tatooinian Wild Wheat",
-      "overallQuality": 931,
+      "name": {
+        "value": "Fediclo"
+      },
+      "type": {
+        "value": "Tatooinian Wild Wheat"
+      },
+      "overallQuality": 931.0,
       "stats": {
         "decayResistance": 203,
         "flavor": 435,
@@ -4141,9 +5373,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Tidigoite",
-      "type": "Unknown Solid Petrochem Fuel",
-      "overallQuality": 225,
+      "name": {
+        "value": "Tidigoite"
+      },
+      "type": {
+        "value": "Unknown Solid Petrochem Fuel"
+      },
+      "overallQuality": 225.0,
       "stats": {
         "decayResistance": 833,
         "nutrition": 473,
@@ -4153,9 +5389,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Kacado",
-      "type": "Yavinian Leathery Hide",
-      "overallQuality": 205,
+      "name": {
+        "value": "Kacado"
+      },
+      "type": {
+        "value": "Yavinian Leathery Hide"
+      },
+      "overallQuality": 205.0,
       "stats": {
         "decayResistance": 722,
         "malleability": 233,
@@ -4167,9 +5407,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Togeoge",
-      "type": "Yavinian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Togeoge"
+      },
+      "type": {
+        "value": "Yavinian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 470,
         "overallQuality": 500
@@ -4178,9 +5422,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Ovosto",
-      "type": "Yavinian Vegetable Beans",
-      "overallQuality": 228,
+      "name": {
+        "value": "Ovosto"
+      },
+      "type": {
+        "value": "Yavinian Vegetable Beans"
+      },
+      "overallQuality": 228.0,
       "stats": {
         "decayResistance": 505,
         "flavor": 298,
@@ -4191,9 +5439,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Thmoopoe",
-      "type": "Yavinian Vegetable Greens",
-      "overallQuality": 705,
+      "name": {
+        "value": "Thmoopoe"
+      },
+      "type": {
+        "value": "Yavinian Vegetable Greens"
+      },
+      "overallQuality": 705.0,
       "stats": {
         "decayResistance": 849,
         "flavor": 755,
@@ -4204,9 +5456,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Wredoethmo",
-      "type": "Yavinian Wild Milk",
-      "overallQuality": 627,
+      "name": {
+        "value": "Wredoethmo"
+      },
+      "type": {
+        "value": "Yavinian Wild Milk"
+      },
+      "overallQuality": 627.0,
       "stats": {
         "decayResistance": 443,
         "flavor": 390,
@@ -4217,9 +5473,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Dasme",
-      "type": "Corellian Carnivore Meat",
-      "overallQuality": 393,
+      "name": {
+        "value": "Dasme"
+      },
+      "type": {
+        "value": "Corellian Carnivore Meat"
+      },
+      "overallQuality": 393.0,
       "stats": {
         "decayResistance": 674,
         "flavor": 844,
@@ -4230,9 +5490,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Rgyohi",
-      "type": "Corellian Domesticated Milk",
-      "overallQuality": 294,
+      "name": {
+        "value": "Rgyohi"
+      },
+      "type": {
+        "value": "Corellian Domesticated Milk"
+      },
+      "overallQuality": 294.0,
       "stats": {
         "decayResistance": 4,
         "flavor": 80,
@@ -4243,9 +5507,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Spastau",
-      "type": "Corellian Domesticated Oats",
-      "overallQuality": 132,
+      "name": {
+        "value": "Spastau"
+      },
+      "type": {
+        "value": "Corellian Domesticated Oats"
+      },
+      "overallQuality": 132.0,
       "stats": {
         "decayResistance": 717,
         "flavor": 481,
@@ -4256,9 +5524,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Blaceu",
-      "type": "Corellian Water Vapor",
-      "overallQuality": 737,
+      "name": {
+        "value": "Blaceu"
+      },
+      "type": {
+        "value": "Corellian Water Vapor"
+      },
+      "overallQuality": 737.0,
       "stats": {
         "decayResistance": 119,
         "overallQuality": 737
@@ -4267,9 +5539,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Kibope",
-      "type": "Corintium Intrusive Ore",
-      "overallQuality": 356,
+      "name": {
+        "value": "Kibope"
+      },
+      "type": {
+        "value": "Corintium Intrusive Ore"
+      },
+      "overallQuality": 356.0,
       "stats": {
         "coldResistance": 389,
         "decayResistance": 543,
@@ -4283,9 +5559,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Rathi",
-      "type": "Dantooine Berry Fruit",
-      "overallQuality": 225,
+      "name": {
+        "value": "Rathi"
+      },
+      "type": {
+        "value": "Dantooine Berry Fruit"
+      },
+      "overallQuality": 225.0,
       "stats": {
         "decayResistance": 892,
         "flavor": 648,
@@ -4296,9 +5576,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Klibi",
-      "type": "Dantooine Domesticated Rice",
-      "overallQuality": 730,
+      "name": {
+        "value": "Klibi"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Rice"
+      },
+      "overallQuality": 730.0,
       "stats": {
         "decayResistance": 885,
         "flavor": 545,
@@ -4309,9 +5593,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cidirto",
-      "type": "Dantooine Fiberplast",
-      "overallQuality": 41,
+      "name": {
+        "value": "Cidirto"
+      },
+      "type": {
+        "value": "Dantooine Fiberplast"
+      },
+      "overallQuality": 41.0,
       "stats": {
         "decayResistance": 503,
         "malleability": 726,
@@ -4323,9 +5611,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Wreialce",
-      "type": "Dathomirian Berry Fruit",
-      "overallQuality": 240,
+      "name": {
+        "value": "Wreialce"
+      },
+      "type": {
+        "value": "Dathomirian Berry Fruit"
+      },
+      "overallQuality": 240.0,
       "stats": {
         "decayResistance": 573,
         "flavor": 343,
@@ -4336,9 +5628,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Giofardeian",
-      "type": "Doonium Iron",
-      "overallQuality": 732,
+      "name": {
+        "value": "Giofardeian"
+      },
+      "type": {
+        "value": "Doonium Iron"
+      },
+      "overallQuality": 732.0,
       "stats": {
         "coldResistance": 613,
         "conductivity": 441,
@@ -4353,9 +5649,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Sefeci",
-      "type": "Endorian Avian Bones",
-      "overallQuality": 142,
+      "name": {
+        "value": "Sefeci"
+      },
+      "type": {
+        "value": "Endorian Avian Bones"
+      },
+      "overallQuality": 142.0,
       "stats": {
         "decayResistance": 357,
         "malleability": 427,
@@ -4367,9 +5667,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Syafe",
-      "type": "Endorian Berry Fruit",
-      "overallQuality": 283,
+      "name": {
+        "value": "Syafe"
+      },
+      "type": {
+        "value": "Endorian Berry Fruit"
+      },
+      "overallQuality": 283.0,
       "stats": {
         "decayResistance": 248,
         "flavor": 895,
@@ -4380,9 +5684,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Fohimau",
-      "type": "Endorian Bristley Hide",
-      "overallQuality": 937,
+      "name": {
+        "value": "Fohimau"
+      },
+      "type": {
+        "value": "Endorian Bristley Hide"
+      },
+      "overallQuality": 937.0,
       "stats": {
         "decayResistance": 656,
         "malleability": 192,
@@ -4394,9 +5702,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Grohoevo",
-      "type": "Endorian Domesticated Wheat",
-      "overallQuality": 449,
+      "name": {
+        "value": "Grohoevo"
+      },
+      "type": {
+        "value": "Endorian Domesticated Wheat"
+      },
+      "overallQuality": 449.0,
       "stats": {
         "decayResistance": 407,
         "flavor": 671,
@@ -4407,9 +5719,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Ckopa",
-      "type": "Endorian Insect Meat",
-      "overallQuality": 482,
+      "name": {
+        "value": "Ckopa"
+      },
+      "type": {
+        "value": "Endorian Insect Meat"
+      },
+      "overallQuality": 482.0,
       "stats": {
         "decayResistance": 886,
         "flavor": 679,
@@ -4420,9 +5736,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Meareiraide",
-      "type": "Kammris Iron",
-      "overallQuality": 957,
+      "name": {
+        "value": "Meareiraide"
+      },
+      "type": {
+        "value": "Kammris Iron"
+      },
+      "overallQuality": 957.0,
       "stats": {
         "coldResistance": 720,
         "conductivity": 421,
@@ -4437,9 +5757,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Fociesa",
-      "type": "Lokian Animal Bones",
-      "overallQuality": 922,
+      "name": {
+        "value": "Fociesa"
+      },
+      "type": {
+        "value": "Lokian Animal Bones"
+      },
+      "overallQuality": 922.0,
       "stats": {
         "decayResistance": 819,
         "malleability": 314,
@@ -4451,9 +5775,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Swinu",
-      "type": "Lokian Avian Meat",
-      "overallQuality": 368,
+      "name": {
+        "value": "Swinu"
+      },
+      "type": {
+        "value": "Lokian Avian Meat"
+      },
+      "overallQuality": 368.0,
       "stats": {
         "decayResistance": 373,
         "flavor": 444,
@@ -4464,9 +5792,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Ileho",
-      "type": "Lokian Evergreen Wood",
-      "overallQuality": 911,
+      "name": {
+        "value": "Ileho"
+      },
+      "type": {
+        "value": "Lokian Evergreen Wood"
+      },
+      "overallQuality": 911.0,
       "stats": {
         "decayResistance": 2,
         "malleability": 923,
@@ -4478,9 +5810,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Blyotethao",
-      "type": "Lokian Fruit",
-      "overallQuality": 933,
+      "name": {
+        "value": "Blyotethao"
+      },
+      "type": {
+        "value": "Lokian Fruit"
+      },
+      "overallQuality": 933.0,
       "stats": {
         "decayResistance": 818,
         "flavor": 645,
@@ -4491,9 +5827,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Ratzai",
-      "type": "Lokian Vegetable Greens",
-      "overallQuality": 642,
+      "name": {
+        "value": "Ratzai"
+      },
+      "type": {
+        "value": "Lokian Vegetable Greens"
+      },
+      "overallQuality": 642.0,
       "stats": {
         "decayResistance": 676,
         "flavor": 410,
@@ -4504,9 +5844,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Sotirre",
-      "type": "Lokian Wild Meat",
-      "overallQuality": 62,
+      "name": {
+        "value": "Sotirre"
+      },
+      "type": {
+        "value": "Lokian Wild Meat"
+      },
+      "overallQuality": 62.0,
       "stats": {
         "decayResistance": 512,
         "flavor": 452,
@@ -4517,9 +5861,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Gupa",
-      "type": "Nabooian Domesticated Oats",
-      "overallQuality": 465,
+      "name": {
+        "value": "Gupa"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Oats"
+      },
+      "overallQuality": 465.0,
       "stats": {
         "decayResistance": 206,
         "flavor": 133,
@@ -4530,9 +5878,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Tiahi",
-      "type": "Nabooian Domesticated Wheat",
-      "overallQuality": 311,
+      "name": {
+        "value": "Tiahi"
+      },
+      "type": {
+        "value": "Nabooian Domesticated Wheat"
+      },
+      "overallQuality": 311.0,
       "stats": {
         "decayResistance": 647,
         "flavor": 60,
@@ -4543,9 +5895,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Pibro",
-      "type": "Nabooian Evergreen Wood",
-      "overallQuality": 356,
+      "name": {
+        "value": "Pibro"
+      },
+      "type": {
+        "value": "Nabooian Evergreen Wood"
+      },
+      "overallQuality": 356.0,
       "stats": {
         "decayResistance": 367,
         "malleability": 834,
@@ -4557,9 +5913,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Wifoesai",
-      "type": "Nabooian Mollusk Meat",
-      "overallQuality": 759,
+      "name": {
+        "value": "Wifoesai"
+      },
+      "type": {
+        "value": "Nabooian Mollusk Meat"
+      },
+      "overallQuality": 759.0,
       "stats": {
         "decayResistance": 70,
         "flavor": 492,
@@ -4570,9 +5930,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Saiveu",
-      "type": "Nabooian Wild Meat",
-      "overallQuality": 842,
+      "name": {
+        "value": "Saiveu"
+      },
+      "type": {
+        "value": "Nabooian Wild Meat"
+      },
+      "overallQuality": 842.0,
       "stats": {
         "decayResistance": 823,
         "flavor": 26,
@@ -4583,9 +5947,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Wiqejjai",
-      "type": "Rori Bristley Hide",
-      "overallQuality": 52,
+      "name": {
+        "value": "Wiqejjai"
+      },
+      "type": {
+        "value": "Rori Bristley Hide"
+      },
+      "overallQuality": 52.0,
       "stats": {
         "decayResistance": 804,
         "malleability": 992,
@@ -4597,9 +5965,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Tisianti",
-      "type": "Rori Leathery Hide",
-      "overallQuality": 475,
+      "name": {
+        "value": "Tisianti"
+      },
+      "type": {
+        "value": "Rori Leathery Hide"
+      },
+      "overallQuality": 475.0,
       "stats": {
         "decayResistance": 295,
         "malleability": 311,
@@ -4611,9 +5983,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Creva",
-      "type": "Talusian Bristley Hide",
-      "overallQuality": 469,
+      "name": {
+        "value": "Creva"
+      },
+      "type": {
+        "value": "Talusian Bristley Hide"
+      },
+      "overallQuality": 469.0,
       "stats": {
         "decayResistance": 285,
         "malleability": 716,
@@ -4625,9 +6001,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Tocou",
-      "type": "Talusian Crustacean Meat",
-      "overallQuality": 379,
+      "name": {
+        "value": "Tocou"
+      },
+      "type": {
+        "value": "Talusian Crustacean Meat"
+      },
+      "overallQuality": 379.0,
       "stats": {
         "decayResistance": 401,
         "flavor": 606,
@@ -4638,9 +6018,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Rriozoe",
-      "type": "Tatooinian Avian Bones",
-      "overallQuality": 202,
+      "name": {
+        "value": "Rriozoe"
+      },
+      "type": {
+        "value": "Tatooinian Avian Bones"
+      },
+      "overallQuality": 202.0,
       "stats": {
         "decayResistance": 655,
         "malleability": 190,
@@ -4652,9 +6036,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Nohee",
-      "type": "Tatooinian Domesticated Meat",
-      "overallQuality": 175,
+      "name": {
+        "value": "Nohee"
+      },
+      "type": {
+        "value": "Tatooinian Domesticated Meat"
+      },
+      "overallQuality": 175.0,
       "stats": {
         "decayResistance": 657,
         "flavor": 400,
@@ -4665,9 +6053,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Siwhia",
-      "type": "Tatooinian Fiberplast",
-      "overallQuality": 10,
+      "name": {
+        "value": "Siwhia"
+      },
+      "type": {
+        "value": "Tatooinian Fiberplast"
+      },
+      "overallQuality": 10.0,
       "stats": {
         "decayResistance": 998,
         "malleability": 481,
@@ -4679,9 +6071,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Gatroo",
-      "type": "Tatooinian Vegetable Fungus",
-      "overallQuality": 132,
+      "name": {
+        "value": "Gatroo"
+      },
+      "type": {
+        "value": "Tatooinian Vegetable Fungus"
+      },
+      "overallQuality": 132.0,
       "stats": {
         "decayResistance": 314,
         "flavor": 417,
@@ -4692,9 +6088,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Nadathma",
-      "type": "Yavinian Berry Fruit",
-      "overallQuality": 776,
+      "name": {
+        "value": "Nadathma"
+      },
+      "type": {
+        "value": "Yavinian Berry Fruit"
+      },
+      "overallQuality": 776.0,
       "stats": {
         "decayResistance": 380,
         "flavor": 36,
@@ -4705,9 +6105,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Srakisrou",
-      "type": "Class 6 Solid Petro Fuel",
-      "overallQuality": 869,
+      "name": {
+        "value": "Srakisrou"
+      },
+      "type": {
+        "value": "Class 6 Solid Petro Fuel"
+      },
+      "overallQuality": 869.0,
       "stats": {
         "decayResistance": 627,
         "nutrition": 887,
@@ -4717,9 +6121,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Gnire",
-      "type": "Corellian Domesticated Rice",
-      "overallQuality": 954,
+      "name": {
+        "value": "Gnire"
+      },
+      "type": {
+        "value": "Corellian Domesticated Rice"
+      },
+      "overallQuality": 954.0,
       "stats": {
         "decayResistance": 278,
         "flavor": 192,
@@ -4730,9 +6138,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Posrau",
-      "type": "Dantooine Domesticated Oats",
-      "overallQuality": 206,
+      "name": {
+        "value": "Posrau"
+      },
+      "type": {
+        "value": "Dantooine Domesticated Oats"
+      },
+      "overallQuality": 206.0,
       "stats": {
         "decayResistance": 75,
         "flavor": 616,
@@ -4743,9 +6155,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Weshe",
-      "type": "Dantooine Fruit",
-      "overallQuality": 808,
+      "name": {
+        "value": "Weshe"
+      },
+      "type": {
+        "value": "Dantooine Fruit"
+      },
+      "overallQuality": 808.0,
       "stats": {
         "decayResistance": 547,
         "flavor": 956,
@@ -4756,9 +6172,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Okipo",
-      "type": "Dantooine Water Vapor",
-      "overallQuality": 989,
+      "name": {
+        "value": "Okipo"
+      },
+      "type": {
+        "value": "Dantooine Water Vapor"
+      },
+      "overallQuality": 989.0,
       "stats": {
         "decayResistance": 90,
         "overallQuality": 989
@@ -4767,9 +6187,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Cidoi",
-      "type": "Dantooine Wild Meat",
-      "overallQuality": 713,
+      "name": {
+        "value": "Cidoi"
+      },
+      "type": {
+        "value": "Dantooine Wild Meat"
+      },
+      "overallQuality": 713.0,
       "stats": {
         "decayResistance": 406,
         "flavor": 521,
@@ -4780,9 +6204,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Botha",
-      "type": "Dathomirian Vegetable Fungus",
-      "overallQuality": 263,
+      "name": {
+        "value": "Botha"
+      },
+      "type": {
+        "value": "Dathomirian Vegetable Fungus"
+      },
+      "overallQuality": 263.0,
       "stats": {
         "decayResistance": 208,
         "flavor": 785,
@@ -4793,9 +6221,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Meigeide",
-      "type": "Doonium Iron",
-      "overallQuality": 631,
+      "name": {
+        "value": "Meigeide"
+      },
+      "type": {
+        "value": "Doonium Iron"
+      },
+      "overallQuality": 631.0,
       "stats": {
         "coldResistance": 605,
         "conductivity": 425,
@@ -4810,9 +6242,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Efoha",
-      "type": "Endorian Conifer Wood",
-      "overallQuality": 640,
+      "name": {
+        "value": "Efoha"
+      },
+      "type": {
+        "value": "Endorian Conifer Wood"
+      },
+      "overallQuality": 640.0,
       "stats": {
         "decayResistance": 493,
         "malleability": 781,
@@ -4824,9 +6260,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Ttako",
-      "type": "Endorian Mollusk Meat",
-      "overallQuality": 885,
+      "name": {
+        "value": "Ttako"
+      },
+      "type": {
+        "value": "Endorian Mollusk Meat"
+      },
+      "overallQuality": 885.0,
       "stats": {
         "decayResistance": 813,
         "flavor": 881,
@@ -4837,9 +6277,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Vegasiism",
-      "type": "Endorian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Vegasiism"
+      },
+      "type": {
+        "value": "Endorian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 431,
         "overallQuality": 500
@@ -4848,9 +6292,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Fevise",
-      "type": "Endorian Water Vapor",
-      "overallQuality": 850,
+      "name": {
+        "value": "Fevise"
+      },
+      "type": {
+        "value": "Endorian Water Vapor"
+      },
+      "overallQuality": 850.0,
       "stats": {
         "decayResistance": 957,
         "overallQuality": 850
@@ -4859,9 +6307,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Hothma",
-      "type": "Lokian Wooly Hide",
-      "overallQuality": 525,
+      "name": {
+        "value": "Hothma"
+      },
+      "type": {
+        "value": "Lokian Wooly Hide"
+      },
+      "overallQuality": 525.0,
       "stats": {
         "decayResistance": 312,
         "malleability": 205,
@@ -4873,9 +6325,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Berleze",
-      "type": "Methanagen Inert Gas",
-      "overallQuality": 762,
+      "name": {
+        "value": "Berleze"
+      },
+      "type": {
+        "value": "Methanagen Inert Gas"
+      },
+      "overallQuality": 762.0,
       "stats": {
         "decayResistance": 596,
         "overallQuality": 762
@@ -4884,9 +6340,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Aekreeiam",
-      "type": "Mirth Inert Gas",
-      "overallQuality": 502,
+      "name": {
+        "value": "Aekreeiam"
+      },
+      "type": {
+        "value": "Mirth Inert Gas"
+      },
+      "overallQuality": 502.0,
       "stats": {
         "decayResistance": 607,
         "overallQuality": 502
@@ -4895,9 +6355,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Ttogro",
-      "type": "Rori Domesticated Meat",
-      "overallQuality": 723,
+      "name": {
+        "value": "Ttogro"
+      },
+      "type": {
+        "value": "Rori Domesticated Meat"
+      },
+      "overallQuality": 723.0,
       "stats": {
         "decayResistance": 355,
         "flavor": 482,
@@ -4908,9 +6372,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Celcharfou",
-      "type": "Rori Evergreen Wood",
-      "overallQuality": 338,
+      "name": {
+        "value": "Celcharfou"
+      },
+      "type": {
+        "value": "Rori Evergreen Wood"
+      },
+      "overallQuality": 338.0,
       "stats": {
         "decayResistance": 122,
         "malleability": 985,
@@ -4922,9 +6390,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Adaiium",
-      "type": "Rori Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Adaiium"
+      },
+      "type": {
+        "value": "Rori Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 600,
         "overallQuality": 500
@@ -4933,9 +6405,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Hirkagea",
-      "type": "Rori Wild Corn",
-      "overallQuality": 874,
+      "name": {
+        "value": "Hirkagea"
+      },
+      "type": {
+        "value": "Rori Wild Corn"
+      },
+      "overallQuality": 874.0,
       "stats": {
         "decayResistance": 632,
         "flavor": 679,
@@ -4946,9 +6422,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Thonao",
-      "type": "Rori Wild Meat",
-      "overallQuality": 917,
+      "name": {
+        "value": "Thonao"
+      },
+      "type": {
+        "value": "Rori Wild Meat"
+      },
+      "overallQuality": 917.0,
       "stats": {
         "decayResistance": 142,
         "flavor": 60,
@@ -4959,9 +6439,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Sawoda",
-      "type": "Talusian Herbivore Meat",
-      "overallQuality": 944,
+      "name": {
+        "value": "Sawoda"
+      },
+      "type": {
+        "value": "Talusian Herbivore Meat"
+      },
+      "overallQuality": 944.0,
       "stats": {
         "decayResistance": 843,
         "flavor": 37,
@@ -4972,9 +6456,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Crelio",
-      "type": "Talusian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Crelio"
+      },
+      "type": {
+        "value": "Talusian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 403,
         "overallQuality": 500
@@ -4983,9 +6471,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Rbehi",
-      "type": "Talusian Vegetable Fungus",
-      "overallQuality": 113,
+      "name": {
+        "value": "Rbehi"
+      },
+      "type": {
+        "value": "Talusian Vegetable Fungus"
+      },
+      "overallQuality": 113.0,
       "stats": {
         "decayResistance": 440,
         "flavor": 626,
@@ -4996,9 +6488,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Xawhi",
-      "type": "Tatooinian Carnivore Meat",
-      "overallQuality": 785,
+      "name": {
+        "value": "Xawhi"
+      },
+      "type": {
+        "value": "Tatooinian Carnivore Meat"
+      },
+      "overallQuality": 785.0,
       "stats": {
         "decayResistance": 466,
         "flavor": 496,
@@ -5009,9 +6505,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Omeboic",
-      "type": "Tatooinian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Omeboic"
+      },
+      "type": {
+        "value": "Tatooinian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 348,
         "overallQuality": 500
@@ -5020,9 +6520,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Konellia",
-      "type": "Yavinian Domesticated Meat",
-      "overallQuality": 51,
+      "name": {
+        "value": "Konellia"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Meat"
+      },
+      "overallQuality": 51.0,
       "stats": {
         "decayResistance": 332,
         "flavor": 888,
@@ -5033,9 +6537,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Wamakao",
-      "type": "Yavinian Domesticated Rice",
-      "overallQuality": 192,
+      "name": {
+        "value": "Wamakao"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Rice"
+      },
+      "overallQuality": 192.0,
       "stats": {
         "decayResistance": 603,
         "flavor": 235,
@@ -5046,9 +6554,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Tizonia",
-      "type": "Yavinian Herbivore Meat",
-      "overallQuality": 188,
+      "name": {
+        "value": "Tizonia"
+      },
+      "type": {
+        "value": "Yavinian Herbivore Meat"
+      },
+      "overallQuality": 188.0,
       "stats": {
         "decayResistance": 395,
         "flavor": 380,
@@ -5059,9 +6571,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Toona",
-      "type": "Yavinian Wild Corn",
-      "overallQuality": 657,
+      "name": {
+        "value": "Toona"
+      },
+      "type": {
+        "value": "Yavinian Wild Corn"
+      },
+      "overallQuality": 657.0,
       "stats": {
         "decayResistance": 70,
         "flavor": 853,
@@ -5072,9 +6588,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Dogme",
-      "type": "Yavinian Wild Rice",
-      "overallQuality": 664,
+      "name": {
+        "value": "Dogme"
+      },
+      "type": {
+        "value": "Yavinian Wild Rice"
+      },
+      "overallQuality": 664.0,
       "stats": {
         "decayResistance": 503,
         "flavor": 583,
@@ -5085,9 +6605,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Daseite",
-      "type": "Carbonite Steel",
-      "overallQuality": 74,
+      "name": {
+        "value": "Daseite"
+      },
+      "type": {
+        "value": "Carbonite Steel"
+      },
+      "overallQuality": 74.0,
       "stats": {
         "coldResistance": 694,
         "conductivity": 519,
@@ -5102,9 +6626,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Tosivesis",
-      "type": "Chromium Aluminum",
-      "overallQuality": 719,
+      "name": {
+        "value": "Tosivesis"
+      },
+      "type": {
+        "value": "Chromium Aluminum"
+      },
+      "overallQuality": 719.0,
       "stats": {
         "coldResistance": 422,
         "conductivity": 500,
@@ -5119,9 +6647,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Rfocte",
-      "type": "Corellian Vegetable Greens",
-      "overallQuality": 556,
+      "name": {
+        "value": "Rfocte"
+      },
+      "type": {
+        "value": "Corellian Vegetable Greens"
+      },
+      "overallQuality": 556.0,
       "stats": {
         "decayResistance": 939,
         "flavor": 114,
@@ -5132,9 +6664,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Peine",
-      "type": "Corellian Wooly Hide",
-      "overallQuality": 863,
+      "name": {
+        "value": "Peine"
+      },
+      "type": {
+        "value": "Corellian Wooly Hide"
+      },
+      "overallQuality": 863.0,
       "stats": {
         "decayResistance": 15,
         "malleability": 854,
@@ -5146,9 +6682,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Spuna",
-      "type": "Dantooine Avian Meat",
-      "overallQuality": 870,
+      "name": {
+        "value": "Spuna"
+      },
+      "type": {
+        "value": "Dantooine Avian Meat"
+      },
+      "overallQuality": 870.0,
       "stats": {
         "decayResistance": 260,
         "flavor": 423,
@@ -5159,9 +6699,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Orhahi",
-      "type": "Dantooine Flower Fruit",
-      "overallQuality": 677,
+      "name": {
+        "value": "Orhahi"
+      },
+      "type": {
+        "value": "Dantooine Flower Fruit"
+      },
+      "overallQuality": 677.0,
       "stats": {
         "decayResistance": 115,
         "flavor": 480,
@@ -5172,9 +6716,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Pfebekiiam",
-      "type": "Dantooine Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Pfebekiiam"
+      },
+      "type": {
+        "value": "Dantooine Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 358,
         "overallQuality": 500
@@ -5183,9 +6731,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Igofia",
-      "type": "Dantooine Vegetable Tubers",
-      "overallQuality": 41,
+      "name": {
+        "value": "Igofia"
+      },
+      "type": {
+        "value": "Dantooine Vegetable Tubers"
+      },
+      "overallQuality": 41.0,
       "stats": {
         "decayResistance": 465,
         "flavor": 115,
@@ -5196,9 +6748,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Coime",
-      "type": "Dathomirian Avian Bones",
-      "overallQuality": 636,
+      "name": {
+        "value": "Coime"
+      },
+      "type": {
+        "value": "Dathomirian Avian Bones"
+      },
+      "overallQuality": 636.0,
       "stats": {
         "decayResistance": 197,
         "malleability": 260,
@@ -5210,9 +6766,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Rlati",
-      "type": "Dathomirian Bristley Hide",
-      "overallQuality": 432,
+      "name": {
+        "value": "Rlati"
+      },
+      "type": {
+        "value": "Dathomirian Bristley Hide"
+      },
+      "overallQuality": 432.0,
       "stats": {
         "decayResistance": 373,
         "malleability": 640,
@@ -5224,9 +6784,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Akogi",
-      "type": "Dathomirian Domesticated Corn",
-      "overallQuality": 912,
+      "name": {
+        "value": "Akogi"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Corn"
+      },
+      "overallQuality": 912.0,
       "stats": {
         "decayResistance": 562,
         "flavor": 367,
@@ -5237,9 +6801,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Nipraidoe",
-      "type": "Dathomirian Evergreen Wood",
-      "overallQuality": 633,
+      "name": {
+        "value": "Nipraidoe"
+      },
+      "type": {
+        "value": "Dathomirian Evergreen Wood"
+      },
+      "overallQuality": 633.0,
       "stats": {
         "decayResistance": 267,
         "malleability": 983,
@@ -5251,9 +6819,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Scosy",
-      "type": "Dathomirian Fish Meat",
-      "overallQuality": 1,
+      "name": {
+        "value": "Scosy"
+      },
+      "type": {
+        "value": "Dathomirian Fish Meat"
+      },
+      "overallQuality": 1.0,
       "stats": {
         "decayResistance": 891,
         "flavor": 647,
@@ -5264,9 +6836,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Sotaine",
-      "type": "Dathomirian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Sotaine"
+      },
+      "type": {
+        "value": "Dathomirian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 74,
         "overallQuality": 500
@@ -5275,9 +6851,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Mamiehieiam",
-      "type": "Dylinium Intrusive Ore",
-      "overallQuality": 515,
+      "name": {
+        "value": "Mamiehieiam"
+      },
+      "type": {
+        "value": "Dylinium Intrusive Ore"
+      },
+      "overallQuality": 515.0,
       "stats": {
         "coldResistance": 638,
         "decayResistance": 703,
@@ -5291,9 +6871,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Neheia",
-      "type": "Endorian Fish Meat",
-      "overallQuality": 962,
+      "name": {
+        "value": "Neheia"
+      },
+      "type": {
+        "value": "Endorian Fish Meat"
+      },
+      "overallQuality": 962.0,
       "stats": {
         "decayResistance": 479,
         "flavor": 496,
@@ -5304,9 +6888,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Earce",
-      "type": "Endorian Vegetable Fungus",
-      "overallQuality": 301,
+      "name": {
+        "value": "Earce"
+      },
+      "type": {
+        "value": "Endorian Vegetable Fungus"
+      },
+      "overallQuality": 301.0,
       "stats": {
         "decayResistance": 279,
         "flavor": 708,
@@ -5317,9 +6905,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Gemaute",
-      "type": "Endorian Wild Wheat",
-      "overallQuality": 184,
+      "name": {
+        "value": "Gemaute"
+      },
+      "type": {
+        "value": "Endorian Wild Wheat"
+      },
+      "overallQuality": 184.0,
       "stats": {
         "decayResistance": 959,
         "flavor": 574,
@@ -5330,9 +6922,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Racesxi",
-      "type": "Lokian Scaley Hide",
-      "overallQuality": 856,
+      "name": {
+        "value": "Racesxi"
+      },
+      "type": {
+        "value": "Lokian Scaley Hide"
+      },
+      "overallQuality": 856.0,
       "stats": {
         "decayResistance": 981,
         "malleability": 944,
@@ -5344,9 +6940,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Ripee",
-      "type": "Lokian Vegetable Tubers",
-      "overallQuality": 81,
+      "name": {
+        "value": "Ripee"
+      },
+      "type": {
+        "value": "Lokian Vegetable Tubers"
+      },
+      "overallQuality": 81.0,
       "stats": {
         "decayResistance": 593,
         "flavor": 36,
@@ -5357,9 +6957,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Nosrea",
-      "type": "Lokian Water Vapor",
-      "overallQuality": 652,
+      "name": {
+        "value": "Nosrea"
+      },
+      "type": {
+        "value": "Lokian Water Vapor"
+      },
+      "overallQuality": 652.0,
       "stats": {
         "decayResistance": 685,
         "overallQuality": 652
@@ -5368,9 +6972,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Fiodopou",
-      "type": "Lokian Wild Milk",
-      "overallQuality": 978,
+      "name": {
+        "value": "Fiodopou"
+      },
+      "type": {
+        "value": "Lokian Wild Milk"
+      },
+      "overallQuality": 978.0,
       "stats": {
         "decayResistance": 90,
         "flavor": 359,
@@ -5381,9 +6989,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Greghei",
-      "type": "Nabooian Fiberplast",
-      "overallQuality": 43,
+      "name": {
+        "value": "Greghei"
+      },
+      "type": {
+        "value": "Nabooian Fiberplast"
+      },
+      "overallQuality": 43.0,
       "stats": {
         "decayResistance": 606,
         "malleability": 720,
@@ -5395,9 +7007,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Memei",
-      "type": "Nabooian Flower Fruit",
-      "overallQuality": 498,
+      "name": {
+        "value": "Memei"
+      },
+      "type": {
+        "value": "Nabooian Flower Fruit"
+      },
+      "overallQuality": 498.0,
       "stats": {
         "decayResistance": 625,
         "flavor": 164,
@@ -5408,9 +7024,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Owiga",
-      "type": "Nabooian Wooly Hide",
-      "overallQuality": 343,
+      "name": {
+        "value": "Owiga"
+      },
+      "type": {
+        "value": "Nabooian Wooly Hide"
+      },
+      "overallQuality": 343.0,
       "stats": {
         "decayResistance": 786,
         "malleability": 665,
@@ -5422,9 +7042,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Hileris",
-      "type": "Polymer",
-      "overallQuality": 190,
+      "name": {
+        "value": "Hileris"
+      },
+      "type": {
+        "value": "Polymer"
+      },
+      "overallQuality": 190.0,
       "stats": {
         "decayResistance": 266,
         "malleability": 427,
@@ -5436,9 +7060,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Dohou",
-      "type": "Rori Animal Bones",
-      "overallQuality": 312,
+      "name": {
+        "value": "Dohou"
+      },
+      "type": {
+        "value": "Rori Animal Bones"
+      },
+      "overallQuality": 312.0,
       "stats": {
         "decayResistance": 933,
         "malleability": 222,
@@ -5450,9 +7078,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Vowesna",
-      "type": "Rori Fiberplast",
-      "overallQuality": 311,
+      "name": {
+        "value": "Vowesna"
+      },
+      "type": {
+        "value": "Rori Fiberplast"
+      },
+      "overallQuality": 311.0,
       "stats": {
         "decayResistance": 671,
         "malleability": 519,
@@ -5464,9 +7096,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Thmoekiadi",
-      "type": "Rori Fruit",
-      "overallQuality": 582,
+      "name": {
+        "value": "Thmoekiadi"
+      },
+      "type": {
+        "value": "Rori Fruit"
+      },
+      "overallQuality": 582.0,
       "stats": {
         "decayResistance": 532,
         "flavor": 218,
@@ -5477,9 +7113,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Meano",
-      "type": "Rori Vegetable Tubers",
-      "overallQuality": 106,
+      "name": {
+        "value": "Meano"
+      },
+      "type": {
+        "value": "Rori Vegetable Tubers"
+      },
+      "overallQuality": 106.0,
       "stats": {
         "decayResistance": 276,
         "flavor": 239,
@@ -5490,9 +7130,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Lacha",
-      "type": "Rori Wild Milk",
-      "overallQuality": 744,
+      "name": {
+        "value": "Lacha"
+      },
+      "type": {
+        "value": "Rori Wild Milk"
+      },
+      "overallQuality": 744.0,
       "stats": {
         "decayResistance": 925,
         "flavor": 501,
@@ -5503,9 +7147,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Sreigi",
-      "type": "Rori Wooly Hide",
-      "overallQuality": 676,
+      "name": {
+        "value": "Sreigi"
+      },
+      "type": {
+        "value": "Rori Wooly Hide"
+      },
+      "overallQuality": 676.0,
       "stats": {
         "decayResistance": 121,
         "malleability": 837,
@@ -5517,9 +7165,13 @@
       "planet": "Rori"
     },
     {
-      "name": "Weeklo",
-      "type": "Talusian Domesticated Corn",
-      "overallQuality": 316,
+      "name": {
+        "value": "Weeklo"
+      },
+      "type": {
+        "value": "Talusian Domesticated Corn"
+      },
+      "overallQuality": 316.0,
       "stats": {
         "decayResistance": 817,
         "flavor": 668,
@@ -5530,9 +7182,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Eppaghe",
-      "type": "Talusian Domesticated Meat",
-      "overallQuality": 589,
+      "name": {
+        "value": "Eppaghe"
+      },
+      "type": {
+        "value": "Talusian Domesticated Meat"
+      },
+      "overallQuality": 589.0,
       "stats": {
         "decayResistance": 518,
         "flavor": 719,
@@ -5543,9 +7199,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Stifoge",
-      "type": "Talusian Scaley Hide",
-      "overallQuality": 337,
+      "name": {
+        "value": "Stifoge"
+      },
+      "type": {
+        "value": "Talusian Scaley Hide"
+      },
+      "overallQuality": 337.0,
       "stats": {
         "decayResistance": 88,
         "malleability": 314,
@@ -5557,9 +7217,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Gleko",
-      "type": "Talusian Vegetable Greens",
-      "overallQuality": 481,
+      "name": {
+        "value": "Gleko"
+      },
+      "type": {
+        "value": "Talusian Vegetable Greens"
+      },
+      "overallQuality": 481.0,
       "stats": {
         "decayResistance": 334,
         "flavor": 475,
@@ -5570,9 +7234,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Lliawa",
-      "type": "Talusian Water Vapor",
-      "overallQuality": 749,
+      "name": {
+        "value": "Lliawa"
+      },
+      "type": {
+        "value": "Talusian Water Vapor"
+      },
+      "overallQuality": 749.0,
       "stats": {
         "decayResistance": 169,
         "overallQuality": 749
@@ -5581,9 +7249,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Mamevo",
-      "type": "Tatooinian Insect Meat",
-      "overallQuality": 984,
+      "name": {
+        "value": "Mamevo"
+      },
+      "type": {
+        "value": "Tatooinian Insect Meat"
+      },
+      "overallQuality": 984.0,
       "stats": {
         "decayResistance": 845,
         "flavor": 435,
@@ -5594,9 +7266,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Bisirli",
-      "type": "Tatooinian Wild Oats",
-      "overallQuality": 567,
+      "name": {
+        "value": "Bisirli"
+      },
+      "type": {
+        "value": "Tatooinian Wild Oats"
+      },
+      "overallQuality": 567.0,
       "stats": {
         "decayResistance": 306,
         "flavor": 541,
@@ -5607,9 +7283,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Ekita",
-      "type": "Thoranium Steel",
-      "overallQuality": 500,
+      "name": {
+        "value": "Ekita"
+      },
+      "type": {
+        "value": "Thoranium Steel"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "coldResistance": 306,
         "conductivity": 221,
@@ -5624,9 +7304,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Waelo",
-      "type": "Yavinian Avian Bones",
-      "overallQuality": 407,
+      "name": {
+        "value": "Waelo"
+      },
+      "type": {
+        "value": "Yavinian Avian Bones"
+      },
+      "overallQuality": 407.0,
       "stats": {
         "decayResistance": 608,
         "malleability": 177,
@@ -5638,9 +7322,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Fodati",
-      "type": "Corellian Domesticated Corn",
-      "overallQuality": 202,
+      "name": {
+        "value": "Fodati"
+      },
+      "type": {
+        "value": "Corellian Domesticated Corn"
+      },
+      "overallQuality": 202.0,
       "stats": {
         "decayResistance": 771,
         "flavor": 210,
@@ -5651,9 +7339,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Necti",
-      "type": "Corellian Vegetable Fungus",
-      "overallQuality": 368,
+      "name": {
+        "value": "Necti"
+      },
+      "type": {
+        "value": "Corellian Vegetable Fungus"
+      },
+      "overallQuality": 368.0,
       "stats": {
         "decayResistance": 798,
         "flavor": 377,
@@ -5664,9 +7356,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Dovowo",
-      "type": "Corellian Wild Meat",
-      "overallQuality": 224,
+      "name": {
+        "value": "Dovowo"
+      },
+      "type": {
+        "value": "Corellian Wild Meat"
+      },
+      "overallQuality": 224.0,
       "stats": {
         "decayResistance": 151,
         "flavor": 556,
@@ -5677,9 +7373,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Rikio",
-      "type": "Dantooine Crustacean Meat",
-      "overallQuality": 859,
+      "name": {
+        "value": "Rikio"
+      },
+      "type": {
+        "value": "Dantooine Crustacean Meat"
+      },
+      "overallQuality": 859.0,
       "stats": {
         "decayResistance": 916,
         "flavor": 822,
@@ -5690,9 +7390,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Oucce",
-      "type": "Dantooine Evergreen Wood",
-      "overallQuality": 561,
+      "name": {
+        "value": "Oucce"
+      },
+      "type": {
+        "value": "Dantooine Evergreen Wood"
+      },
+      "overallQuality": 561.0,
       "stats": {
         "decayResistance": 490,
         "malleability": 943,
@@ -5704,9 +7408,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Riafi",
-      "type": "Dantooine Wild Milk",
-      "overallQuality": 223,
+      "name": {
+        "value": "Riafi"
+      },
+      "type": {
+        "value": "Dantooine Wild Milk"
+      },
+      "overallQuality": 223.0,
       "stats": {
         "decayResistance": 481,
         "flavor": 324,
@@ -5717,9 +7425,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Kineyi",
-      "type": "Dathomirian Domesticated Rice",
-      "overallQuality": 536,
+      "name": {
+        "value": "Kineyi"
+      },
+      "type": {
+        "value": "Dathomirian Domesticated Rice"
+      },
+      "overallQuality": 536.0,
       "stats": {
         "decayResistance": 84,
         "flavor": 238,
@@ -5730,9 +7442,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Friawa",
-      "type": "Dathomirian Mollusk Meat",
-      "overallQuality": 868,
+      "name": {
+        "value": "Friawa"
+      },
+      "type": {
+        "value": "Dathomirian Mollusk Meat"
+      },
+      "overallQuality": 868.0,
       "stats": {
         "decayResistance": 72,
         "flavor": 27,
@@ -5743,9 +7459,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Thariian",
-      "type": "Dathomirian Solar Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Thariian"
+      },
+      "type": {
+        "value": "Dathomirian Solar Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 561,
         "overallQuality": 500
@@ -5754,9 +7474,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Woniegro",
-      "type": "Dathomirian Wild Meat",
-      "overallQuality": 273,
+      "name": {
+        "value": "Woniegro"
+      },
+      "type": {
+        "value": "Dathomirian Wild Meat"
+      },
+      "overallQuality": 273.0,
       "stats": {
         "decayResistance": 68,
         "flavor": 511,
@@ -5767,9 +7491,13 @@
       "planet": "Dathomir"
     },
     {
-      "name": "Tirpippei",
-      "type": "Endorian Leathery Hide",
-      "overallQuality": 252,
+      "name": {
+        "value": "Tirpippei"
+      },
+      "type": {
+        "value": "Endorian Leathery Hide"
+      },
+      "overallQuality": 252.0,
       "stats": {
         "decayResistance": 877,
         "malleability": 304,
@@ -5781,9 +7509,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Bocy",
-      "type": "Endorian Wild Oats",
-      "overallQuality": 641,
+      "name": {
+        "value": "Bocy"
+      },
+      "type": {
+        "value": "Endorian Wild Oats"
+      },
+      "overallQuality": 641.0,
       "stats": {
         "decayResistance": 776,
         "flavor": 454,
@@ -5794,9 +7526,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Fibae",
-      "type": "Hardened Arveshium Steel",
-      "overallQuality": 919,
+      "name": {
+        "value": "Fibae"
+      },
+      "type": {
+        "value": "Hardened Arveshium Steel"
+      },
+      "overallQuality": 919.0,
       "stats": {
         "coldResistance": 997,
         "conductivity": 687,
@@ -5811,9 +7547,13 @@
       "planet": "Endor"
     },
     {
-      "name": "Vvahe",
-      "type": "Lokian Domesticated Wheat",
-      "overallQuality": 7,
+      "name": {
+        "value": "Vvahe"
+      },
+      "type": {
+        "value": "Lokian Domesticated Wheat"
+      },
+      "overallQuality": 7.0,
       "stats": {
         "decayResistance": 737,
         "flavor": 5,
@@ -5824,9 +7564,13 @@
       "planet": "Lok"
     },
     {
-      "name": "Menagio",
-      "type": "Mythra Copper",
-      "overallQuality": 114,
+      "name": {
+        "value": "Menagio"
+      },
+      "type": {
+        "value": "Mythra Copper"
+      },
+      "overallQuality": 114.0,
       "stats": {
         "coldResistance": 525,
         "conductivity": 832,
@@ -5841,9 +7585,13 @@
       "planet": "Dantooine"
     },
     {
-      "name": "Rirasis",
-      "type": "Mythra Copper",
-      "overallQuality": 628,
+      "name": {
+        "value": "Rirasis"
+      },
+      "type": {
+        "value": "Mythra Copper"
+      },
+      "overallQuality": 628.0,
       "stats": {
         "coldResistance": 620,
         "conductivity": 886,
@@ -5858,9 +7606,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Dorfi",
-      "type": "Nabooian Fish Meat",
-      "overallQuality": 777,
+      "name": {
+        "value": "Dorfi"
+      },
+      "type": {
+        "value": "Nabooian Fish Meat"
+      },
+      "overallQuality": 777.0,
       "stats": {
         "decayResistance": 373,
         "flavor": 509,
@@ -5871,9 +7623,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Welphe",
-      "type": "Nabooian Wild Corn",
-      "overallQuality": 452,
+      "name": {
+        "value": "Welphe"
+      },
+      "type": {
+        "value": "Nabooian Wild Corn"
+      },
+      "overallQuality": 452.0,
       "stats": {
         "decayResistance": 445,
         "flavor": 609,
@@ -5884,9 +7640,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Yasko",
-      "type": "Nabooian Wild Milk",
-      "overallQuality": 75,
+      "name": {
+        "value": "Yasko"
+      },
+      "type": {
+        "value": "Nabooian Wild Milk"
+      },
+      "overallQuality": 75.0,
       "stats": {
         "decayResistance": 74,
         "flavor": 825,
@@ -5897,9 +7657,13 @@
       "planet": "Naboo"
     },
     {
-      "name": "Negau",
-      "type": "Ryll Amorphous Gemstone",
-      "overallQuality": 319,
+      "name": {
+        "value": "Negau"
+      },
+      "type": {
+        "value": "Ryll Amorphous Gemstone"
+      },
+      "overallQuality": 319.0,
       "stats": {
         "entangleResistance": 387,
         "coldResistance": 561,
@@ -5914,9 +7678,13 @@
       "planet": "Corellia"
     },
     {
-      "name": "Srogelo",
-      "type": "Talusian Animal Bones",
-      "overallQuality": 889,
+      "name": {
+        "value": "Srogelo"
+      },
+      "type": {
+        "value": "Talusian Animal Bones"
+      },
+      "overallQuality": 889.0,
       "stats": {
         "decayResistance": 555,
         "malleability": 28,
@@ -5928,9 +7696,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Chroctoece",
-      "type": "Talusian Domesticated Oats",
-      "overallQuality": 740,
+      "name": {
+        "value": "Chroctoece"
+      },
+      "type": {
+        "value": "Talusian Domesticated Oats"
+      },
+      "overallQuality": 740.0,
       "stats": {
         "decayResistance": 832,
         "flavor": 169,
@@ -5941,9 +7713,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Wodhe",
-      "type": "Talusian Domesticated Rice",
-      "overallQuality": 231,
+      "name": {
+        "value": "Wodhe"
+      },
+      "type": {
+        "value": "Talusian Domesticated Rice"
+      },
+      "overallQuality": 231.0,
       "stats": {
         "decayResistance": 508,
         "flavor": 112,
@@ -5954,9 +7730,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Ceethae",
-      "type": "Talusian Flower Fruit",
-      "overallQuality": 926,
+      "name": {
+        "value": "Ceethae"
+      },
+      "type": {
+        "value": "Talusian Flower Fruit"
+      },
+      "overallQuality": 926.0,
       "stats": {
         "decayResistance": 380,
         "flavor": 141,
@@ -5967,9 +7747,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Frovi",
-      "type": "Talusian Insect Meat",
-      "overallQuality": 995,
+      "name": {
+        "value": "Frovi"
+      },
+      "type": {
+        "value": "Talusian Insect Meat"
+      },
+      "overallQuality": 995.0,
       "stats": {
         "decayResistance": 595,
         "flavor": 24,
@@ -5980,9 +7764,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Haglauite",
-      "type": "Talusian Wind Renewable Energy",
-      "overallQuality": 500,
+      "name": {
+        "value": "Haglauite"
+      },
+      "type": {
+        "value": "Talusian Wind Renewable Energy"
+      },
+      "overallQuality": 500.0,
       "stats": {
         "nutrition": 159,
         "overallQuality": 500
@@ -5991,9 +7779,13 @@
       "planet": "Talus"
     },
     {
-      "name": "Oopou",
-      "type": "Tatooinian Conifer Wood",
-      "overallQuality": 518,
+      "name": {
+        "value": "Oopou"
+      },
+      "type": {
+        "value": "Tatooinian Conifer Wood"
+      },
+      "overallQuality": 518.0,
       "stats": {
         "decayResistance": 423,
         "malleability": 978,
@@ -6005,9 +7797,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Wardo",
-      "type": "Tatooinian Evergreen Wood",
-      "overallQuality": 497,
+      "name": {
+        "value": "Wardo"
+      },
+      "type": {
+        "value": "Tatooinian Evergreen Wood"
+      },
+      "overallQuality": 497.0,
       "stats": {
         "decayResistance": 216,
         "malleability": 920,
@@ -6019,9 +7815,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Wosapi",
-      "type": "Tatooinian Vegetable Greens",
-      "overallQuality": 859,
+      "name": {
+        "value": "Wosapi"
+      },
+      "type": {
+        "value": "Tatooinian Vegetable Greens"
+      },
+      "overallQuality": 859.0,
       "stats": {
         "decayResistance": 751,
         "flavor": 604,
@@ -6032,9 +7832,13 @@
       "planet": "Tatooine"
     },
     {
-      "name": "Tistowe",
-      "type": "Yavinian Domesticated Milk",
-      "overallQuality": 974,
+      "name": {
+        "value": "Tistowe"
+      },
+      "type": {
+        "value": "Yavinian Domesticated Milk"
+      },
+      "overallQuality": 974.0,
       "stats": {
         "decayResistance": 394,
         "flavor": 637,
@@ -6045,9 +7849,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Ergoho",
-      "type": "Yavinian Fish Meat",
-      "overallQuality": 548,
+      "name": {
+        "value": "Ergoho"
+      },
+      "type": {
+        "value": "Yavinian Fish Meat"
+      },
+      "overallQuality": 548.0,
       "stats": {
         "decayResistance": 520,
         "flavor": 230,
@@ -6058,9 +7866,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Fovoethai",
-      "type": "Yavinian Fruit",
-      "overallQuality": 228,
+      "name": {
+        "value": "Fovoethai"
+      },
+      "type": {
+        "value": "Yavinian Fruit"
+      },
+      "overallQuality": 228.0,
       "stats": {
         "decayResistance": 581,
         "flavor": 471,
@@ -6071,9 +7883,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Drorenoa",
-      "type": "Yavinian Water Vapor",
-      "overallQuality": 926,
+      "name": {
+        "value": "Drorenoa"
+      },
+      "type": {
+        "value": "Yavinian Water Vapor"
+      },
+      "overallQuality": 926.0,
       "stats": {
         "decayResistance": 393,
         "overallQuality": 926
@@ -6082,9 +7898,13 @@
       "planet": "Yavin 4"
     },
     {
-      "name": "Jadu",
-      "type": "Yavinian Wild Meat",
-      "overallQuality": 850,
+      "name": {
+        "value": "Jadu"
+      },
+      "type": {
+        "value": "Yavinian Wild Meat"
+      },
+      "overallQuality": 850.0,
       "stats": {
         "decayResistance": 402,
         "flavor": 573,

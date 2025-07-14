@@ -27,14 +27,6 @@ const getQualityColor = (quality: number) => {
   return 'text-gray-400'
 }
 
-const getQualityBadge = (quality: number) => {
-  if (quality >= 900) return 'bg-purple-600/20 text-purple-400 border-purple-500/50'
-  if (quality >= 800) return 'bg-blue-600/20 text-blue-400 border-blue-500/50'
-  if (quality >= 700) return 'bg-green-600/20 text-green-400 border-green-500/50'
-  if (quality >= 600) return 'bg-yellow-600/20 text-yellow-400 border-yellow-500/50'
-  return 'bg-gray-600/20 text-gray-400 border-gray-500/50'
-}
-
 const getPlanetColor = (planet: string) => {
   const planetColors: { [key: string]: string } = {
     'Corellia': 'text-blue-400 bg-blue-600/20',
@@ -191,7 +183,7 @@ export default function ResourcesPage() {
             <div key={resource.name} className="bg-gray-800 rounded-lg p-4 border border-gray-700">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-sm font-bold text-yellow-400">#{index + 1}</span>
-                <span className={`px-2 py-1 rounded text-xs font-medium border ${getQualityBadge(resource.overallQuality)}`}>
+                <span className={`text-sm font-bold ${getQualityColor(resource.overallQuality)}`}>
                   {resource.overallQuality.toFixed(1)}
                 </span>
               </div>
@@ -325,12 +317,6 @@ export default function ResourcesPage() {
                     <div className="flex items-center space-x-2">
                       <span className={`font-bold text-lg ${getQualityColor(resource.overallQuality)}`}>
                         {resource.overallQuality.toFixed(1)}
-                      </span>
-                      <span className={`px-2 py-1 rounded text-xs font-medium border ${getQualityBadge(resource.overallQuality)}`}>
-                        {resource.overallQuality >= 900 ? 'Legendary' : 
-                         resource.overallQuality >= 800 ? 'Excellent' :
-                         resource.overallQuality >= 700 ? 'Great' :
-                         resource.overallQuality >= 600 ? 'Good' : 'Average'}
                       </span>
                     </div>
                   </td>
