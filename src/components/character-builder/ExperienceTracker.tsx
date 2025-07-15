@@ -1,41 +1,50 @@
 "use client";
 
-interface ExperienceTrackerProps {
-  usedSkillPoints: number;
-  maxSkillPoints: number;
+interface SkillBoxForExperience {
+  id: string;
+  xpCost: number;
 }
 
-export function ExperienceTracker({ usedSkillPoints, maxSkillPoints }: ExperienceTrackerProps) {
-  // Calculate percentage used
-  const percentUsed = (usedSkillPoints / maxSkillPoints) * 100;
+interface ExperienceTrackerProps {
+  selectedSkillBoxes: string[];
+  getAllSkillBoxes: () => SkillBoxForExperience[];
+}
 
-  // Determine color based on usage
-  let progressColor = '';
-  if (percentUsed <= 33) {
-    progressColor = 'bg-green-500';
-  } else if (percentUsed <= 66) {
-    progressColor = 'bg-[hsl(var(--swg-accent-gold))]';
-  } else {
-    progressColor = percentUsed === 100 ? 'bg-green-600' : 'bg-orange-500';
-  }
+export function ExperienceTracker({ selectedSkillBoxes, getAllSkillBoxes }: ExperienceTrackerProps) {
+  const calculateExperience = () => {
+    const experienceMap: { [key: string]: number } = {};
+    const allBoxes = getAllSkillBoxes();
+
+    for (const boxId of selectedSkillBoxes) {
+      const box = allBoxes.find((b: SkillBoxForExperience) => b.id === boxId);
+      if (box && box.xpCost > 0) {
+        // Mock experience type - in real implementation this would come from skill data
+        const expType = "Combat";
+        experienceMap[expType] = (experienceMap[expType] || 0) + box.xpCost;
+      }
+    }
+
+    return Object.entries(experienceMap);
+  };
+
+  const experienceEntries = calculateExperience();
 
   return (
-    <div className="bg-[#068ba3] p-3 rounded-md">
-      <h2 className="text-lg font-bold text-white mb-3 text-center">My Experience</h2>
-
-      <div className="bg-[#04444a] rounded p-2">
-        <div className="text-center mb-2">
-          <span className="text-[#b8dce3] text-sm">
-            Used: {usedSkillPoints} / {maxSkillPoints} SP
-          </span>
-        </div>
-
-        <div className="w-full bg-[#063a4a] rounded-full h-2">
-          <div
-            className={`h-2 rounded-full ${progressColor}`}
-            style={{ width: `${percentUsed}%` }}
-          />
-        </div>
+    <div className="bg-[#00434c] border border-[#36b2bc] rounded-2xl p-2 flex-1">
+      <h4 className="text-white text-center mb-2 font-bold text-sm">My Experience</h4>
+      <div className="bg-[#008ca7] border border-[#36b2bc] rounded-2xl p-2 h-full overflow-auto">
+        {experienceEntries.length === 0 ? (
+          <p className="text-white text-sm">No experience gained yet</p>
+        ) : (
+          <div className="space-y-1">
+            {experienceEntries.map(([type, amount]) => (
+              <div key={type} className="flex justify-between border-b border-[#36b2bc] pb-1">
+                <p className="text-white text-sm">{type}</p>
+                <p className="text-white text-sm">+{amount.toLocaleString()}</p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

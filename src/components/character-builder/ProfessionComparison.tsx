@@ -24,7 +24,7 @@ export function ProfessionComparison({
     const modifiers: {[key: string]: number} = {};
 
     // Add novice box modifiers
-    if (profession.noviceBox.grants.modifiers) {
+    if (profession.noviceBox.grants && profession.noviceBox.grants.modifiers) {
       for (const key in profession.noviceBox.grants.modifiers) {
         modifiers[key] = (modifiers[key] || 0) + profession.noviceBox.grants.modifiers[key];
       }

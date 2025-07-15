@@ -1,6 +1,10 @@
 "use client";
 
+import type { Species, SkillModifier } from "./CharacterBuilder";
+
 interface SkillModifiersProps {
+  selectedSpecies: Species | null;
+  skillModifiers: SkillModifier[];
   modifiers: {[key: string]: number};
 }
 

@@ -26,8 +26,10 @@ export function CharacterStatsSummary({
   const totalModifiers: {[key: string]: number} = {};
 
   // Add species modifiers
-  for (const key in species.modifiers) {
-    totalModifiers[key] = (totalModifiers[key] || 0) + species.modifiers[key];
+  if (species.bonuses) {
+    for (const key in species.bonuses) {
+      totalModifiers[key] = (totalModifiers[key] || 0) + species.bonuses[key];
+    }
   }
 
   // Add skill modifiers
@@ -167,7 +169,7 @@ export function CharacterStatsSummary({
               <div className="bg-[#063a4a] rounded p-2">
                 <div className="text-[#6dd9eb] font-medium mb-1">Species ({species.name})</div>
                 <div className="text-[#b8dce3]">
-                  {Object.keys(species.modifiers).length} modifiers
+                  {species.bonuses ? Object.keys(species.bonuses).length : 0} modifiers
                 </div>
               </div>
               <div className="bg-[#063a4a] rounded p-2">
