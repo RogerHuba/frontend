@@ -277,6 +277,9 @@ export function convertProfessionData(professionKey, professionData) {
     'branch_4': getBranchName(professionKey, 4)
   };
 
+  // Get skill benefits for novice box
+  const noviceBenefits = getSkillBenefits(professionData.novice);
+
   const converted = {
     id: professionKey,
     name: professionNames[professionKey] || professionKey,
@@ -286,22 +289,27 @@ export function convertProfessionData(professionKey, professionData) {
       prerequisites: getNovicelinkPrerequisites(professionData.novice_links, professionKey),
       skillPoints: getNoviceSkillPoints(professionKey), // Use helper function for novice skill points
       modifiers: {},
-      commands: [],
-      certifications: [],
+      commands: noviceBenefits.commands,
+      certifications: noviceBenefits.certifications,
+      title: noviceBenefits.title,
       reverseLinks: getReverseLinks(professionKey), // Add reverse links for elite professions
       experience: getExperienceRequirements(professionData.novice)
     },
     skillTrees: {},
-    masterBox: professionData.master ? {
-      id: professionData.master,
-      name: `Master ${professionNames[professionKey] || professionKey}`,
-      prerequisites: [], // Will be filled based on branch_4 skills
-      skillPoints: getMasterSkillPoints(professionKey), // Use helper function for master skill points
-      modifiers: {},
-      commands: [],
-      certifications: [],
-      experience: getExperienceRequirements(professionData.master)
-    } : undefined
+    masterBox: professionData.master ? (() => {
+      const masterBenefits = getSkillBenefits(professionData.master);
+      return {
+        id: professionData.master,
+        name: `Master ${professionNames[professionKey] || professionKey}`,
+        prerequisites: [], // Will be filled based on branch_4 skills
+        skillPoints: getMasterSkillPoints(professionKey), // Use helper function for master skill points
+        modifiers: {},
+        commands: masterBenefits.commands,
+        certifications: masterBenefits.certifications,
+        title: masterBenefits.title,
+        experience: getExperienceRequirements(professionData.master)
+      };
+    })() : undefined
   };
 
   // Convert branches to skill trees
@@ -320,18 +328,22 @@ export function convertProfessionData(professionKey, professionData) {
       
       converted.skillTrees[branchKey] = {
         name: treeName,
-        boxes: branch.skills.map((skillId, index) => ({
-          id: skillId,
-          name: `${treeName} ${['I', 'II', 'III', 'IV'][index]}`,
-          prerequisites: index === 0 ? [professionData.novice] : [branch.skills[index - 1]],
-          skillPoints: getBranchSkillPoints(professionKey, index), // Use helper function for branch skill points
-          modifiers: {},
-          commands: [],
-          certifications: [],
-          // Add elite profession links for the 4th skill (index 3)
-          eliteLinks: index === 3 ? getEliteLinks(branchLinks) : [],
-          experience: getExperienceRequirements(skillId)
-        }))
+        boxes: branch.skills.map((skillId, index) => {
+          const skillBenefits = getSkillBenefits(skillId);
+          return {
+            id: skillId,
+            name: `${treeName} ${['I', 'II', 'III', 'IV'][index]}`,
+            prerequisites: index === 0 ? [professionData.novice] : [branch.skills[index - 1]],
+            skillPoints: getBranchSkillPoints(professionKey, index), // Use helper function for branch skill points
+            modifiers: {},
+            commands: skillBenefits.commands,
+            certifications: skillBenefits.certifications,
+            title: skillBenefits.title,
+            // Add elite profession links for the 4th skill (index 3)
+            eliteLinks: index === 3 ? getEliteLinks(branchLinks) : [],
+            experience: getExperienceRequirements(skillId)
+          };
+        })
       };
     }
   }
@@ -437,6 +449,43 @@ function getExperienceRequirements(skillId) {
     type: experienceType,
     amount: cost,
     id: expId
+  };
+}
+
+// Helper function to get skill benefits (commands, certifications, titles) for a skill
+function getSkillBenefits(skillId) {
+  const skillData = SKILLS[skillId];
+  if (!skillData) {
+    return {
+      commands: [],
+      certifications: [],
+      title: null
+    };
+  }
+  
+  // Extract commands from the skill data, filtering out only internal identifiers
+  const allCommands = skillData.commands || [];
+  const commands = allCommands.filter(command => {
+    // Filter out only internal private identifiers - keep actual user commands
+    return !command.startsWith('private_');
+  });
+  
+  // Extract certifications from schematics, filtering out internal group identifiers
+  const allSchematics = skillData.schematics || [];
+  const certifications = allSchematics.filter(schematic => {
+    // Filter out placeholders and internal group identifiers
+    return schematic !== "_" && 
+           !schematic.includes('Group') &&
+           !schematic.includes('Newbie');
+  });
+  
+  // Extract title
+  const title = skillData.title && skillData.title.trim() !== "" ? skillData.title : null;
+  
+  return {
+    commands,
+    certifications,
+    title
   };
 }
 

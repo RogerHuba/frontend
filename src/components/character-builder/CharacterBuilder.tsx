@@ -27,6 +27,7 @@ export interface SkillBox {
   };
   commands?: string[];
   certifications?: string[];
+  title?: string | null;
   eliteLinks?: string[];
   reverseLinks?: string[];
   experience?: {
@@ -211,11 +212,11 @@ function SkillTree({
     // Enhanced styling for better visibility and differentiation
     let boxStyle: string;
     if (isSelected) {
-      boxStyle = "bg-gradient-to-r from-yellow-600 to-yellow-500 border-2 border-yellow-400 text-black font-bold shadow-lg shadow-yellow-500/50"; // Active - gold gradient with stronger border and glow
+      boxStyle = "bg-gradient-to-r from-yellow-600 to-yellow-500 border-2 border-yellow-400 text-black font-bold shadow-lg shadow-yellow-500/50 hover:from-yellow-500 hover:to-yellow-400 hover:border-yellow-300"; // Active - gold gradient with hover
     } else if ((prerequisitesMet || box.prerequisites.length === 0) && canAffordBox) {
       boxStyle = "bg-gradient-to-b from-[#2a2a6a] to-[#1a1a4a] border-2 border-[#4a4a8a] text-white cursor-pointer hover:bg-gradient-to-b hover:from-[#3a3a7a] hover:to-[#2a2a5a] hover:border-[#5a5a9a] font-medium shadow-md"; // Available - enhanced gradient with stronger borders
     } else {
-      boxStyle = "bg-gradient-to-b from-[#1a1a3a] to-[#0d0d20] border-2 border-[#2a2a4a] text-gray-400 opacity-70 font-medium"; // Not available - darker with more distinct borders
+      boxStyle = "bg-gradient-to-b from-[#1a1a3a] to-[#0d0d20] border-2 border-[#2a2a4a] text-gray-400 opacity-70 font-medium hover:from-[#2a2a4a] hover:to-[#1a1a3a] hover:border-[#3a3a5a] hover:opacity-80"; // Not available - darker with hover
     }
 
     // Simplified name for display
@@ -284,7 +285,7 @@ function SkillTree({
       {/* Skill Points Display */}
       <div className="flex justify-between items-center mb-4 px-4">
         <div className="text-white font-bold">
-          SP: <span>{maxSkillPoints - skillPoints}</span>/<span>{maxSkillPoints}</span>
+          SP: {maxSkillPoints - skillPoints} / {maxSkillPoints}
         </div>
         <button
           onClick={onResetCharacter}
@@ -440,35 +441,48 @@ export function CharacterBuilder() {
 
   // Calculate modifiers, commands, and certifications based on selected skills
   const calculateSkillBenefits = () => {
-    const allBoxes = [
-      selectedProfession.noviceBox,
-      ...(selectedProfession.masterBox ? [selectedProfession.masterBox] : []),
-      ...Object.values(selectedProfession.skillTrees).flatMap(tree => tree.boxes)
-    ];
-
     const modifiers: {[key: string]: number} = {};
     const commands: string[] = [];
     const certifications: string[] = [];
+    const titles: string[] = [];
 
-    // Aggregate benefits from selected skill boxes
-    for (const boxId of selectedSkillBoxes) {
-      const box = allBoxes.find(b => b.id === boxId);
-      if (box) {
-        // Add modifiers
-        if (box.modifiers) {
-          for (const [modifier, value] of Object.entries(box.modifiers)) {
-            modifiers[modifier] = (modifiers[modifier] || 0) + value;
+    // Aggregate benefits from ALL selected skill boxes across ALL professions
+    for (const [professionId, selections] of Object.entries(professionSelections)) {
+      const profession = allProfessions.find((p: Profession) => p.id === professionId);
+      if (!profession) continue;
+      
+      // Get all boxes for this profession
+      const allBoxes = [
+        profession.noviceBox,
+        ...(profession.masterBox ? [profession.masterBox] : []),
+        ...Object.values(profession.skillTrees).flatMap(tree => (tree as SkillTree).boxes)
+      ];
+      
+      // Add benefits from this profession's selected skills
+      for (const boxId of selections) {
+        const box = allBoxes.find(b => b.id === boxId);
+        if (box) {
+          // Add modifiers
+          if (box.modifiers) {
+            for (const [modifier, value] of Object.entries(box.modifiers)) {
+              modifiers[modifier] = (modifiers[modifier] || 0) + value;
+            }
           }
-        }
-        
-        // Add commands
-        if (box.commands) {
-          commands.push(...box.commands);
-        }
-        
-        // Add certifications  
-        if (box.certifications) {
-          certifications.push(...box.certifications);
+          
+          // Add commands
+          if (box.commands) {
+            commands.push(...box.commands);
+          }
+          
+          // Add certifications  
+          if (box.certifications) {
+            certifications.push(...box.certifications);
+          }
+          
+          // Add titles
+          if (box.title) {
+            titles.push(box.title);
+          }
         }
       }
     }
@@ -476,7 +490,8 @@ export function CharacterBuilder() {
     return {
       modifiers,
       commands: [...new Set(commands)], // Remove duplicates
-      certifications: [...new Set(certifications)] // Remove duplicates
+      certifications: [...new Set(certifications)], // Remove duplicates
+      titles: [...new Set(titles)] // Remove duplicates
     };
   };
 
@@ -873,9 +888,22 @@ export function CharacterBuilder() {
           </div>
 
           {/* Titles */}
-          <div className="flex-1 bg-[#1a1a4a] border border-[#2a2a6a] rounded-2xl p-2">
+          <div className="flex-1 bg-[#1a1a4a] border border-[#2a2a6a] rounded-2xl p-2 flex flex-col">
             <h3 className="text-white font-bold text-sm mb-2">Titles</h3>
-            <p className="text-white text-xs">None</p>
+            <div className="space-y-1 text-xs overflow-y-auto flex-1">
+              {skillBenefits.titles.length > 0 ? (
+                skillBenefits.titles.map((title, index) => (
+                  <div
+                    key={index}
+                    className="text-white bg-[#2a2a6a] px-2 py-1 rounded border border-[#3a3a7a]"
+                  >
+                    {title}
+                  </div>
+                ))
+              ) : (
+                <p className="text-white text-xs">No titles</p>
+              )}
+            </div>
           </div>
         </div>
       </div>

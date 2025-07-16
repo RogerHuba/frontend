@@ -79,11 +79,7 @@ export function Navigation() {
       e.preventDefault();
       e.stopPropagation();
     }
-    if (activeDropdown === itemName) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(itemName);
-    }
+    setActiveDropdown(prev => prev === itemName ? null : itemName);
   };
 
   // Close dropdown when clicking outside
@@ -93,15 +89,17 @@ export function Navigation() {
 
   // Close dropdowns when clicking anywhere
   useEffect(() => {
-    const handleClickOutside = () => {
-      setActiveDropdown(null);
+    const handleClickOutside = (event: MouseEvent) => {
+      // Check if the clicked element is part of a dropdown
+      const target = event.target as Element;
+      if (target && !target.closest('.dropdown-container')) {
+        setActiveDropdown(null);
+      }
     };
 
-    if (activeDropdown) {
-      document.addEventListener('click', handleClickOutside);
-      return () => document.removeEventListener('click', handleClickOutside);
-    }
-  }, [activeDropdown]);
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
 
   return (
     <header className="main-nav fixed top-0 left-0 right-0 z-[100] py-2 md:py-3 backdrop-blur-sm bg-black/90 transition-all duration-300">
@@ -161,7 +159,7 @@ export function Navigation() {
           </div>
           {/* Compact Navigation */}
           <div className="flex items-center space-x-1 flex-1 justify-center mx-2 min-w-0 overflow-visible relative">                {navItems.map((item) => (
-                  <div key={item.name} className="relative flex-shrink-0 z-50">
+                  <div key={item.name} className="relative flex-shrink-0 z-50 dropdown-container">
                     {item.submenu ? (
                       <>
                         <button
@@ -277,7 +275,7 @@ export function Navigation() {
               <div className="border-l border-gray-600 h-12 pl-3 lg:pl-4 xl:pl-5 2xl:pl-6">
                 <ul className="flex space-x-0.5 lg:space-x-1 xl:space-x-1.5 2xl:space-x-2 min-w-0 flex-wrap justify-center">
                   {navItems.map((item) => (
-                    <li key={item.name} className="relative flex-shrink-0 min-w-0 z-50">
+                    <li key={item.name} className="relative flex-shrink-0 min-w-0 z-50 dropdown-container">
                       {item.submenu ? (
                         <>
                           <button
