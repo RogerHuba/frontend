@@ -1,5 +1,5 @@
-import { DungeonGuidesPage } from "@/components/guides/DungeonGuidesPage";
+import { AdventureGuidesPage } from "@/components/guides/QuestGuidesPage";
 
 export default function DungeonGuides() {
-  return <DungeonGuidesPage />;
+  return <AdventureGuidesPage />;
 }

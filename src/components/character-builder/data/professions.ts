@@ -24,7 +24,7 @@ export const professionData: Profession[] = [
   {
     id: "brawler",
     name: "Brawler",
-    description: "A profession focused on hand-to-hand combat skills.",
+    description: "Masters of hand-to-hand combat and melee weapons. Brawlers excel in close-quarters fighting, using unarmed combat techniques, swords, clubs, and polearms. They form the foundation for advanced combat professions and specialize in devastating physical attacks.",
     type: "basic",
     noviceBox: createSkillBox("brawler_novice", "Novice Brawler"),
     masterBox: createSkillBox("brawler_master", "Master Brawler", [
@@ -75,7 +75,7 @@ export const professionData: Profession[] = [
   {
     id: "marksman",
     name: "Marksman",
-    description: "A profession focused on ranged combat skills.",
+    description: "Skilled warriors specializing in ranged combat with pistols, rifles, carbines, and heavy weapons. Marksmen provide covering fire, long-range precision shots, and area suppression. Essential foundation for advanced combat professions like Bounty Hunter and Commando.",
     type: "basic",
     noviceBox: createSkillBox("marksman_novice", "Novice Marksman"),
     masterBox: createSkillBox("marksman_master", "Master Marksman", [
@@ -126,7 +126,7 @@ export const professionData: Profession[] = [
   {
     id: "medic",
     name: "Medic",
-    description: "A profession focused on healing and medical skills.",
+    description: "Essential healers who treat wounds, poison, disease, and create medical supplies. Craft stimulants, enhance packs, and provide battlefield support. Master injury treatment, wound healing, and pharmaceutical crafting. Crucial for group combat and exploration.",
     type: "basic",
     noviceBox: createSkillBox("medic_novice", "Novice Medic"),
     masterBox: createSkillBox("medic_master", "Master Medic", [
@@ -177,7 +177,7 @@ export const professionData: Profession[] = [
   {
     id: "artisan",
     name: "Artisan",
-    description: "A profession focused on crafting and resource gathering.",
+    description: "Foundation crafting profession covering engineering, domestic goods, business skills, and resource surveying. Learn to create basic weapons, armor, food, and furniture. Essential stepping stone to specialized Trader professions and vendor management.",
     type: "basic",
     noviceBox: createSkillBox("artisan_novice", "Novice Artisan"),
     masterBox: createSkillBox("artisan_master", "Master Artisan", [
@@ -228,7 +228,7 @@ export const professionData: Profession[] = [
   {
     id: "entertainer",
     name: "Entertainer",
-    description: "A profession focused on music, dancing, and entertainment.",
+    description: "Masters of music and dance who heal battle fatigue and provide crucial social services. Perform in cantinas to heal mind wounds, cure poison, and boost other players' stats. Essential for group activities and community building. Earn tips and build reputation.",
     type: "basic",
     noviceBox: createSkillBox("entertainer_novice", "Novice Entertainer"),
     masterBox: createSkillBox("entertainer_master", "Master Entertainer", [
@@ -279,7 +279,7 @@ export const professionData: Profession[] = [
   {
     id: "scout",
     name: "Scout",
-    description: "A profession focused on wilderness survival and exploration.",
+    description: "Master explorers who excel at terrain navigation, creature tracking, and wilderness survival. Harvest creature resources, set camps, forage materials, and provide enhanced terrain movement. Essential prerequisite for Bounty Hunter and Ranger.",
     type: "basic",
     noviceBox: createSkillBox("scout_novice", "Novice Scout"),
     masterBox: createSkillBox("scout_master", "Master Scout", [
@@ -1268,7 +1268,7 @@ export const professionData: Profession[] = [
   {
     id: "bountyhunter",
     name: "Bounty Hunter",
-    description: "Professional tracker and hunter with investigation and droid control abilities.",
+    description: "Elite hunters who track the galaxy's most dangerous targets. Masters of ambush, assault, and tracking droids. Use devastating attacks like Cripple and Razor Net, healing abilities, and advanced investigation techniques. Hunt player bounties and eliminate high-value NPCs for credits.",
     type: "elite",
     prerequisites: ["marksman_master", "scout_exploration_4"], // Requires Master Marksman and Scout Exploration IV
     noviceBox: createSkillBox("bountyhunter_novice", "Novice Bounty Hunter"),
@@ -1641,7 +1641,7 @@ export const professionData: Profession[] = [
   {
     id: "commando",
     name: "Commando",
-    description: "Elite heavy weapons specialist with expertise in explosives and advanced combat tactics.",
+    description: "Elite heavy weapons specialists who dominate the battlefield with explosives, rocket launchers, and area-of-effect attacks. Masters of thrown weapons, squad tactics, and devastating firepower. The ultimate combat profession for large-scale warfare.",
     type: "elite",
     prerequisites: ["marksman_master", "brawler_unarmed_4"], // Requires Master Marksman and Brawler Unarmed IV
     noviceBox: createSkillBox("commando_novice", "Novice Commando"),
@@ -1963,7 +1963,7 @@ export const professionData: Profession[] = [
   {
     id: "jedi_lightsaber",
     name: "Lightsaber",
-    description: "Master of lightsaber combat with specialized forms and techniques.",
+    description: "Force-wielders who master the legendary lightsaber. Learn classic combat forms like Makashi, Soresu, and Ataru. Master strikes like Shiim and Cho sun, defensive stances, and Force-enhanced abilities. Only accessible to those touched by the Force. The path of the Jedi Knight.",
     type: "jedi",
     prerequisites: [], // Special unlock - requires Jedi training and Force sensitivity
     noviceBox: createSkillBox("jedi_lightsaber_novice", "Novice Lightsaber"),

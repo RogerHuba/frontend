@@ -6,127 +6,157 @@ export function TheWarrenGuide() {
   return (
     <PageLayout
       title="The Warren"
-      subtitle="A complete guide to The Warren dungeon on Dantooine"
+      subtitle="Complete guide to The Warren theme park on Dantooine"
     >
       <h2 className="section-title mb-6">The Warren</h2>
 
       <p className="text-gray-300 mb-8">
-        The Warren is a dungeon located on Dantooine that was once an Imperial research facility.
-        After a biological experiment gone wrong, the facility is now overrun with hostile creatures
-        and rogue droids. This guide will help you navigate through The Warren and complete all the quests.
+        The Warren is a large theme park on Dantooine that can be accomplished rather quickly – being the second fastest theme park after Nym's. 
+        Most players complete The Warren because you can receive two badges (Compassion and Imperial Hero) which count as two separate content badges 
+        (out of the three you need for Jedi unlock).
       </p>
 
       <div className="bg-[rgba(13,20,40,0.8)] p-6 rounded-md border border-[#1a1a4a] mb-8">
         <h3 className="text-white font-semibold text-lg mb-4">Basic Information</h3>
         <ul className="swg-bullet-list">
-          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Location:</span> Dantooine at /way -550 -3825</li>
-          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Difficulty:</span> Medium (CL 30-50 recommended)</li>
-          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Group Size:</span> Solo to small group</li>
-          <li className="text-gray-300"><span className="text-[hsl(var(--swg-accent-gold))]">Quest NPCs:</span> Various NPCs inside and outside the facility</li>
+          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Location:</span> Dantooine at /way -555 -3825</li>
+          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Starting Point:</span> Escapee at /way -558 -3735</li>
+          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Difficulty:</span> Medium - can be soloed</li>
+          <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Badges:</span> Warren: Compassion & Imperial Hero</li>
+          <li className="text-gray-300"><span className="text-[hsl(var(--swg-accent-gold))]">Requirements:</span> 1 Encryption Key, 4 Evidence Disks</li>
         </ul>
       </div>
 
-      <h3 className="text-xl font-bold text-white mb-4">Entrance</h3>
+      <div className="bg-yellow-900 bg-opacity-20 border border-yellow-700 p-4 rounded-md mb-8">
+        <h3 className="text-yellow-300 font-semibold mb-2">⚠️ Important Note</h3>
+        <p className="text-yellow-200 text-sm">
+          You must have the Letter in your inventory prior to speaking to Mirla to receive the Compassion badge. 
+          Upon pickup of required items, they are set on a respawn timer.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-bold text-white mb-4">1. Entering the Warren</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Talk to the <strong>escapee</strong> outside The Warren at <strong>/way -558 -3735</strong> to get the Main Entry Passkey</li>
+        <li>Enter The Warren using the passkey</li>
+        <li>Kill the <strong>Huurton Howlers</strong> in the first room</li>
+        <li>Continue straight down the hallway into the <strong>four doors room</strong></li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">2. Collecting Passkeys</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Go to the <strong>farthest door on your right</strong> and follow until you find a broken droideka at a T intersection</li>
+        <li>Go <strong>RIGHT</strong> to enter a room with lockers and beds</li>
+        <li>Loot the <strong>two corpses</strong>:
+          <ul className="list-disc pl-6 mt-2 space-y-1">
+            <li>One corpse has a <strong>Letter</strong> (needed for Compassion badge)</li>
+            <li>Other corpse has <strong>Master Control Room Elevator Control Passkey One</strong></li>
+          </ul>
+        </li>
+        <li>Loot the <strong>Locker</strong>, <strong>MagSeal Container</strong>, and <strong>Metal Chest</strong> for the other three elevator passkeys</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">3. Deactivating the Turret</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Head back out the door, go straight down the hall and to the <strong>RIGHT</strong></li>
+        <li>Loot the corpse by the elevator to get the <strong>Turret Sequence disk</strong></li>
+        <li>Go back out and turn <strong>RIGHT TWICE</strong> to return to the four doors room</li>
+        <li>Go through the door on your <strong>RIGHT</strong> into the droid room</li>
+        <li>Kill all droids in the room, then turn <strong>LEFT</strong> to enter the turret controls room</li>
+        <li>Stand in front of the <strong>Data Terminal</strong> across the room</li>
+        <li>Open inventory and <strong>inspect the Turret Sequence disk</strong> to get a four-digit code</li>
+        <li><strong>Say the code exactly</strong> in Spatial chat</li>
+        <li>Verify the terminal shows: <span className="text-green-400">"Turret Defense System has been Deactivated"</span></li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">4. Activating the Elevators</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Return to droid room, hug right wall and enter the farthest door to your <strong>RIGHT</strong></li>
+        <li>Take the elevator <strong>UP</strong></li>
+        <li>Go through the turret room (turret will be gone), then through door on your <strong>RIGHT</strong></li>
+        <li>Kill the two hostile droids in the next room</li>
+        <li><strong>Double-click each of the four Passkey Terminals</strong> around the room to activate them</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">5. Downloading Evidence - Part 1</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Return to elevator, go DOWN, navigate back to four doors room</li>
+        <li>Go through door to your <strong>LEFT</strong>, follow hallway to broken droideka, go <strong>LEFT</strong></li>
+        <li>Take the elevator <strong>DOWN</strong> into the locker room</li>
+        <li>Go through door on your <strong>LEFT</strong>, navigate through the cage room</li>
+        <li>Enter door on your <strong>RIGHT</strong>, ignore Dirk Maggin NPC</li>
+        <li>Take door on your <strong>LEFT</strong>, enter the first <strong>X room</strong></li>
+        <li><strong>Download evidence</strong> from the Data Terminal (Evidence Disk - Experiment #1046)</li>
+        <li>Check your Datapad → Data tab to confirm</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">6. Compassion Badge</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>From the Data Terminal, go through the door across the room</li>
+        <li>Take the elevator <strong>DOWN</strong>, kill hostiles</li>
+        <li>Hug left wall, turn <strong>LEFT</strong>, make a <strong>RIGHT</strong></li>
+        <li>Go down ramp through door into droid storage room</li>
+        <li>Go around Binary Load Lifter droid, through door on <strong>LEFT</strong></li>
+        <li>Navigate to small open room, take door on <strong>LEFT</strong></li>
+        <li>Find and speak to <strong>Mirla</strong> (must have Letter in inventory)</li>
+        <li>Receive <span className="text-[hsl(var(--swg-accent-gold))]">"Warren: Compassion"</span> badge</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">7. Downloading Evidence - Part 2</h3>
+      <div className="bg-[rgba(13,20,40,0.6)] p-4 rounded-md mb-4">
+        <p className="text-gray-300 text-sm mb-2">This section involves collecting:</p>
+        <ul className="list-disc pl-6 text-gray-300 text-sm space-y-1">
+          <li>Encryption Key from second X room</li>
+          <li>Evidence Disk - Experiment #1173</li>
+          <li>Evidence Disk - Experiment #1230</li>
+          <li>Evidence Disk - Entry 1784</li>
+          <li>Two Core Control Rods from AT-ST room</li>
+        </ul>
+      </div>
+      
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Exit Mirla's room, return to tank room</li>
+        <li>Enter <strong>second X room</strong> through door on LEFT, kill scientists</li>
+        <li><strong>Download Encryption Key</strong> from Data Terminal</li>
+        <li>Exit and go through door on LEFT, then straight through next door</li>
+        <li><strong>Download second evidence</strong> (Experiment #1173) from Data Terminal</li>
+        <li>Continue through rooms to elevator, go DOWN</li>
+        <li>Enter <strong>AT-ST room</strong>, either kill it or hug left wall to avoid</li>
+        <li><strong>Loot both drums</strong> in small rooms for <strong>Core Control Rods</strong></li>
+        <li>Navigate through multiple rooms and elevators following detailed path</li>
+        <li>Kill <strong>Teraud loyalist cyborg</strong> and <strong>Doctor Knag</strong></li>
+        <li><strong>Download third evidence</strong> (Experiment #1230) from Data Terminal</li>
+        <li>Navigate to reactor area, activate both <strong>Reactor Core Lockdown Overrides</strong></li>
+        <li>Reactor will show: <span className="text-green-400">"REACTOR CORE DEACTIVATED"</span></li>
+        <li>Enter droideka room, navigate to third X room</li>
+        <li><strong>Download fourth evidence</strong> (Entry 1784) from final Data Terminal</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">8. Imperial Hero Badge</h3>
+      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
+        <li>Navigate back through The Warren to exit (detailed path provided in guide)</li>
+        <li>Fly to <strong>Theed on Naboo</strong></li>
+        <li>Go to <strong>Theed Palace</strong> at <strong>/way -5495 4482</strong></li>
+        <li>Enter palace, go up ramp and make U-turn to LEFT</li>
+        <li>Speak to <strong>Captain Heff</strong></li>
+        <li>Tell him you have evidence to automatically receive <span className="text-[hsl(var(--swg-accent-gold))]">"Imperial Hero"</span> badge</li>
+        <li>Data items are removed from Datapad, inventory items remain</li>
+      </ol>
+
+      <h3 className="text-xl font-bold text-white mb-4">Boss Fight (Optional)</h3>
       <p className="text-gray-300 mb-6">
-        The entrance to The Warren is a small bunker door on Dantooine. As you approach, you'll see
-        a quest NPC named Mirla outside. Speak with her to start the main quest line.
+        In the third X room, you can fight <strong>Boris Teraud</strong>, the boss of The Warren. However, 
+        you don't need to kill him to get the Imperial Hero badge. He's located straight ahead from the fourth evidence terminal.
       </p>
-
-      <h3 className="text-xl font-bold text-white mb-4">Quest: Mirla's Husband</h3>
-      <p className="text-gray-300 mb-4">
-        Mirla will ask you to find her husband Trahvin Yuha who is lost somewhere inside The Warren.
-      </p>
-      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
-        <li>Enter The Warren and proceed through the main hallway.</li>
-        <li>Navigate through the facility until you reach the detention area.</li>
-        <li>Find Trahvin in one of the cells and speak with him.</li>
-        <li>Return to Mirla to complete this quest.</li>
-      </ol>
-
-      <h3 className="text-xl font-bold text-white mb-4">Quest: The Warren Pass Code</h3>
-      <p className="text-gray-300 mb-4">
-        Inside the facility, you'll encounter a terminal that requires a passcode to access certain areas.
-      </p>
-      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
-        <li>Find Captain Rikkert inside the facility.</li>
-        <li>Complete his quest to obtain the passcode.</li>
-        <li>Use the passcode at the terminal to unlock secure areas.</li>
-      </ol>
-
-      <h3 className="text-xl font-bold text-white mb-4">Quest: Infected Prisoner</h3>
-      <p className="text-gray-300 mb-4">
-        In the detention area, you'll find a prisoner suffering from a mysterious infection.
-      </p>
-      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
-        <li>Speak to Doctor Sev who is hidden in the medical area.</li>
-        <li>He'll ask you to gather samples from various infected creatures.</li>
-        <li>Collect the samples and return them to Doctor Sev.</li>
-        <li>Take the antidote to the prisoner.</li>
-      </ol>
-
-      <h3 className="text-xl font-bold text-white mb-4">Quest: The Reactor</h3>
-      <p className="text-gray-300 mb-4">
-        The facility's reactor is malfunctioning and threatens to explode.
-      </p>
-      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
-        <li>Find Engineer Manx near the reactor room.</li>
-        <li>He'll ask you to repair several control panels throughout the facility.</li>
-        <li>Locate and repair each panel.</li>
-        <li>Return to Engineer Manx to complete the quest.</li>
-      </ol>
-
-      <h3 className="text-xl font-bold text-white mb-4">Quest: Hostile Takeover</h3>
-      <p className="text-gray-300 mb-4">
-        The final quest involves dealing with the hostile droid that has taken over the facility.
-      </p>
-      <ol className="list-decimal pl-6 text-gray-300 mb-6 space-y-2">
-        <li>Gather intel from various terminals throughout the facility.</li>
-        <li>Find and defeat the rogue security droid in the command center.</li>
-        <li>Recover the data core and bring it to the Imperial officer outside The Warren.</li>
-      </ol>
-
-      <h3 className="text-xl font-bold text-white mb-4">Map and Navigation</h3>
-      <p className="text-gray-300 mb-6">
-        The Warren consists of several key areas:
-      </p>
-      <ul className="swg-bullet-list mb-6">
-        <li className="text-gray-300 mb-2">Entrance Hall: The first area you enter</li>
-        <li className="text-gray-300 mb-2">Detention Area: Where prisoners are held</li>
-        <li className="text-gray-300 mb-2">Medical Bay: Where Doctor Sev is hiding</li>
-        <li className="text-gray-300 mb-2">Reactor Room: Location of the facility's power core</li>
-        <li className="text-gray-300 mb-2">Command Center: The final area with the rogue droid</li>
-      </ul>
-
-      <h3 className="text-xl font-bold text-white mb-4">Enemies</h3>
-      <p className="text-gray-300 mb-4">
-        Inside The Warren, you'll encounter the following enemies:
-      </p>
-      <ul className="swg-bullet-list mb-6">
-        <li className="text-gray-300 mb-2">Infected Workers (CL 30-35)</li>
-        <li className="text-gray-300 mb-2">Malfunctioning Droids (CL 35-40)</li>
-        <li className="text-gray-300 mb-2">Research Specimens (CL 40-45)</li>
-        <li className="text-gray-300 mb-2">Security Droids (CL 45-50)</li>
-        <li className="text-gray-300 mb-2">Cyborg Experiments (CL 50)</li>
-      </ul>
-
-      <h3 className="text-xl font-bold text-white mb-4">Rewards</h3>
-      <p className="text-gray-300 mb-4">
-        Completing all quests in The Warren will reward you with:
-      </p>
-      <ul className="swg-bullet-list mb-6">
-        <li className="text-gray-300 mb-2">Credits and XP</li>
-        <li className="text-gray-300 mb-2">Special Warren-themed items</li>
-        <li className="text-gray-300 mb-2">Rare crafting schematics</li>
-        <li className="text-gray-300 mb-2">Access to a hidden vendor with unique items</li>
-      </ul>
 
       <div className="bg-[rgba(13,20,40,0.6)] p-6 rounded-md border border-[#1a1a4a] mt-12">
-        <h3 className="text-white font-semibold text-lg mb-4">Additional Tips</h3>
+        <h3 className="text-white font-semibold text-lg mb-4">Strategy Tips</h3>
         <ul className="swg-bullet-list">
-          <li className="text-gray-300 mb-2">Bring medic packs and stimpacks, as there are few opportunities to heal inside.</li>
-          <li className="text-gray-300 mb-2">Some doors require specific keycards found throughout the facility.</li>
-          <li className="text-gray-300 mb-2">The command center is the most difficult area, so be prepared for tough enemies.</li>
-          <li className="text-gray-300">Consider bringing a group for the final confrontation with the rogue droid.</li>
+          <li className="text-gray-300 mb-2">Always have the Letter before speaking to Mirla for the Compassion badge</li>
+          <li className="text-gray-300 mb-2">Items are on respawn timers, so plan accordingly if in a group</li>
+          <li className="text-gray-300 mb-2">The turret code changes, so always inspect the disk fresh</li>
+          <li className="text-gray-300 mb-2">You can hug walls to avoid some hostile encounters (like the AT-ST)</li>
+          <li className="text-gray-300">Both badges count toward your three content badges needed for Jedi unlock</li>
         </ul>
       </div>
     </PageLayout>

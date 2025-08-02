@@ -1,20 +1,50 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
 import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import { RandomHeroSection } from "@/components/RandomHeroSection";
+import { PatchNotesSearch } from "@/components/PatchNotesSearch";
+import { PatchNotesSearchResults } from "@/components/PatchNotesSearchResults";
 import { ChevronRight, ChevronDown } from "lucide-react";
 import patchNotesData from '@/data/patchNotes.json';
 import { PatchUpdate, PatchCategory, PatchNote, MonthPatchNotes, YearPatchNotes } from '@/data/patchNotes';
+import { usePatchNotesSearch } from '@/hooks/usePatchNotesSearch';
 
 export function PatchNotesPage() {
   // Cast the imported JSON data to the proper type
   const patchNotes = patchNotesData as YearPatchNotes[];
+  
   // State to track which sections are open
   const [openYears, setOpenYears] = useState<string[]>([]);
   const [openMonths, setOpenMonths] = useState<string[]>([]);
+  
+  // Search functionality
+  const {
+    searchTerm,
+    setSearchTerm,
+    searchResults,
+    hasResults,
+    filterByType,
+    totalResults
+  } = usePatchNotesSearch(patchNotes);
+  
+  // State for filtered results
+  const [filteredResults, setFilteredResults] = useState(searchResults);
+  
+  // Update filtered results when search results change
+  useEffect(() => {
+    setFilteredResults(searchResults);
+  }, [searchResults]);
+
+  const handleFilterByType = (type: 'addition' | 'fix' | 'change' | 'balance' | 'content' | null) => {
+    if (type) {
+      setFilteredResults(filterByType(type));
+    } else {
+      setFilteredResults(searchResults);
+    }
+  };
 
   // Toggle year accordion
   const toggleYear = (yearId: string) => {
@@ -103,116 +133,137 @@ export function PatchNotesPage() {
                 the details.
               </p>
 
-              {/* Latest Patch Note Featured */}
-              {patchNotes[0]?.months[0]?.patches[0] && (
-                <div className="bg-[rgba(13,20,40,0.8)] p-6 rounded-md border border-[#1a1a4a] mb-10">
-                  <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                    <div>
-                      <h3 className="text-white font-bold text-xl">
-                        {formatPatchTitle(patchNotes[0].months[0].patches[0].version, patchNotes[0].months[0].patches[0].date)}
-                      </h3>
-                      <div className="flex items-center mt-1">
-                        <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
-                          Original Title: {patchNotes[0].months[0].patches[0].title}
+              {/* Search Component */}
+              <PatchNotesSearch
+                searchTerm={searchTerm}
+                onSearchChange={setSearchTerm}
+                totalResults={totalResults}
+                hasResults={hasResults}
+                onFilterByType={handleFilterByType}
+              />
+
+              {/* Conditionally show search results or regular patch notes */}
+              {searchTerm ? (
+                <PatchNotesSearchResults
+                  results={filteredResults}
+                  searchTerm={searchTerm}
+                  onFormatPatchTitle={formatPatchTitle}
+                  onRenderPatchUpdate={renderPatchUpdate}
+                />
+              ) : (
+                <>
+                  {/* Latest Patch Note Featured */}
+                  {patchNotes[0]?.months[0]?.patches[0] && (
+                    <div className="bg-[rgba(13,20,40,0.8)] p-6 rounded-md border border-[#1a1a4a] mb-10">
+                      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                        <div>
+                          <h3 className="text-white font-bold text-xl">
+                            {formatPatchTitle(patchNotes[0].months[0].patches[0].version, patchNotes[0].months[0].patches[0].date)}
+                          </h3>
+                          <div className="flex items-center mt-1">
+                            <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
+                              Original Title: {patchNotes[0].months[0].patches[0].title}
+                            </span>
+                          </div>
+                        </div>
+                        <span className="mt-2 md:mt-0 px-3 py-1 bg-[rgba(30,50,100,0.5)] rounded text-sm text-white">
+                          Latest Update
                         </span>
                       </div>
-                    </div>
-                    <span className="mt-2 md:mt-0 px-3 py-1 bg-[rgba(30,50,100,0.5)] rounded text-sm text-white">
-                      Latest Update
-                    </span>
-                  </div>
 
-                  <div className="mt-4 space-y-6">
-                    {patchNotes[0].months[0].patches[0].categories?.map((category, categoryIndex) => (
-                      <div key={categoryIndex} className="space-y-3">
-                        <h4 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-lg border-b border-[#1a1a4a] pb-2">
-                          {category.area}
-                        </h4>
-                        <div className="space-y-3">
-                          {category.updates.map(renderPatchUpdate)}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Collapsible Patch Notes by Year and Month */}
-              <div className="space-y-6">
-                {patchNotes.map((yearData) => (
-                  <div key={yearData.year} className="border border-[#1a1a4a] rounded-md overflow-hidden">
-                    {/* Year Header */}
-                    <button
-                      className="w-full flex items-center justify-between p-4 bg-[rgba(13,20,40,0.9)] text-left"
-                      onClick={() => toggleYear(yearData.year)}
-                    >
-                      <h3 className="text-xl font-bold text-white">{yearData.year}</h3>
-                      {openYears.includes(yearData.year) ? (
-                        <ChevronDown className="h-5 w-5 text-[hsl(var(--swg-accent-gold))]" />
-                      ) : (
-                        <ChevronRight className="h-5 w-5 text-[hsl(var(--swg-accent-gold))]" />
-                      )}
-                    </button>
-
-                    {/* Year Content */}
-                    {openYears.includes(yearData.year) && (
-                      <div className="space-y-2 p-2 bg-[rgba(13,20,40,0.6)]">
-                        {yearData.months.map((monthData) => (
-                          <div key={`${yearData.year}-${monthData.month}`} className="border border-[#1a1a4a] rounded-md overflow-hidden">
-                            {/* Month Header */}
-                            <button
-                              className="w-full flex items-center justify-between p-3 bg-[rgba(13,20,40,0.8)] text-left"
-                              onClick={() => toggleMonth(`${yearData.year}-${monthData.month}`)}
-                            >
-                              <h4 className="text-lg font-semibold text-white">{monthData.month}</h4>
-                              {openMonths.includes(`${yearData.year}-${monthData.month}`) ? (
-                                <ChevronDown className="h-4 w-4 text-[hsl(var(--swg-accent-gold))]" />
-                              ) : (
-                                <ChevronRight className="h-4 w-4 text-[hsl(var(--swg-accent-gold))]" />
-                              )}
-                            </button>
-
-                            {/* Month Content */}
-                            {openMonths.includes(`${yearData.year}-${monthData.month}`) && (
-                              <div className="space-y-6 p-4 bg-[rgba(13,20,40,0.4)]">
-                                {monthData.patches.map((patch) => (
-                                  <div key={patch.id} className="border-b border-[#1a1a4a] pb-6 last:border-0 last:pb-0">
-                                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                                      <div>
-                                        <h5 className="text-white font-bold text-lg">
-                                          {formatPatchTitle(patch.version, patch.date)}
-                                        </h5>
-                                        <div className="flex items-center mt-1">
-                                          <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
-                                            Original Title: {patch.title}
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                    <div className="mt-4 space-y-6">
-                                      {patch.categories?.map((category, categoryIndex) => (
-                                        <div key={categoryIndex} className="space-y-3">
-                                          <h5 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-base border-b border-[#1a1a4a] pb-2">
-                                            {category.area}
-                                          </h5>
-                                          <div className="space-y-3">
-                                            {category.updates.map(renderPatchUpdate)}
-                                          </div>
-                                        </div>
-                                      ))}
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            )}
+                      <div className="mt-4 space-y-6">
+                        {patchNotes[0].months[0].patches[0].categories?.map((category, categoryIndex) => (
+                          <div key={categoryIndex} className="space-y-3">
+                            <h4 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-lg border-b border-[#1a1a4a] pb-2">
+                              {category.area}
+                            </h4>
+                            <div className="space-y-3">
+                              {category.updates.map(renderPatchUpdate)}
+                            </div>
                           </div>
                         ))}
                       </div>
-                    )}
+                    </div>
+                  )}
+
+                  {/* Collapsible Patch Notes by Year and Month */}
+                  <div className="space-y-6">
+                    {patchNotes.map((yearData) => (
+                      <div key={yearData.year} className="border border-[#1a1a4a] rounded-md overflow-hidden">
+                        {/* Year Header */}
+                        <button
+                          className="w-full flex items-center justify-between p-4 bg-[rgba(13,20,40,0.9)] text-left"
+                          onClick={() => toggleYear(yearData.year)}
+                        >
+                          <h3 className="text-xl font-bold text-white">{yearData.year}</h3>
+                          {openYears.includes(yearData.year) ? (
+                            <ChevronDown className="h-5 w-5 text-[hsl(var(--swg-accent-gold))]" />
+                          ) : (
+                            <ChevronRight className="h-5 w-5 text-[hsl(var(--swg-accent-gold))]" />
+                          )}
+                        </button>
+
+                        {/* Year Content */}
+                        {openYears.includes(yearData.year) && (
+                          <div className="space-y-2 p-2 bg-[rgba(13,20,40,0.6)]">
+                            {yearData.months.map((monthData) => (
+                              <div key={`${yearData.year}-${monthData.month}`} className="border border-[#1a1a4a] rounded-md overflow-hidden">
+                                {/* Month Header */}
+                                <button
+                                  className="w-full flex items-center justify-between p-3 bg-[rgba(13,20,40,0.8)] text-left"
+                                  onClick={() => toggleMonth(`${yearData.year}-${monthData.month}`)}
+                                >
+                                  <h4 className="text-lg font-semibold text-white">{monthData.month}</h4>
+                                  {openMonths.includes(`${yearData.year}-${monthData.month}`) ? (
+                                    <ChevronDown className="h-4 w-4 text-[hsl(var(--swg-accent-gold))]" />
+                                  ) : (
+                                    <ChevronRight className="h-4 w-4 text-[hsl(var(--swg-accent-gold))]" />
+                                  )}
+                                </button>
+
+                                {/* Month Content */}
+                                {openMonths.includes(`${yearData.year}-${monthData.month}`) && (
+                                  <div className="space-y-6 p-4 bg-[rgba(13,20,40,0.4)]">
+                                    {monthData.patches.map((patch) => (
+                                      <div key={patch.id} className="border-b border-[#1a1a4a] pb-6 last:border-0 last:pb-0">
+                                        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                                          <div>
+                                            <h5 className="text-white font-bold text-lg">
+                                              {formatPatchTitle(patch.version, patch.date)}
+                                            </h5>
+                                            <div className="flex items-center mt-1">
+                                              <span className="text-[hsl(var(--swg-accent-gold))] text-sm">
+                                                Original Title: {patch.title}
+                                              </span>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div className="mt-4 space-y-6">
+                                          {patch.categories?.map((category, categoryIndex) => (
+                                            <div key={categoryIndex} className="space-y-3">
+                                              <h5 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-base border-b border-[#1a1a4a] pb-2">
+                                                {category.area}
+                                              </h5>
+                                              <div className="space-y-3">
+                                                {category.updates.map(renderPatchUpdate)}
+                                              </div>
+                                            </div>
+                                          ))}
+                                        </div>
+                                      </div>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
+                </>
+              )}
 
               <div className="bg-[rgba(13,20,40,0.6)] p-6 rounded-md border border-[#1a1a4a] mt-12">
                 <h3 className="text-white font-semibold text-lg mb-4">Feedback Welcome</h3>

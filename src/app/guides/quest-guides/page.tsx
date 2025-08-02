@@ -1,5 +1,5 @@
-import { QuestGuidesPage } from "@/components/guides/QuestGuidesPage";
+import { AdventureGuidesPage } from "@/components/guides/QuestGuidesPage";
 
 export default function QuestGuides() {
-  return <QuestGuidesPage />;
+  return <AdventureGuidesPage />;
 }
