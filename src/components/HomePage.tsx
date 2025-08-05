@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Navigation } from "@/components/Navigation";
 import { DiscordSection } from "@/components/DiscordSection";
 import { ServerInfoFooter } from "@/components/ServerInfoFooter";
 import { getRandomHeroClass } from "@/utils/heroService";
@@ -17,9 +16,7 @@ export function HomePage() {
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col">
-      <Navigation />
-      
+    <main className="min-h-screen flex flex-col">      
       <div className="flex-grow">
         {/* Hero Section with Random Background */}
         <section 

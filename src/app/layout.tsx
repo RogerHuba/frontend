@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Coda } from "next/font/google";
 import "./globals.css";
+import { Navigation } from "@/components/Navigation";
 
 const coda = Coda({
   weight: ["400"],
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={coda.className}>
+        <Navigation />
         {children}
       </body>
     </html>
