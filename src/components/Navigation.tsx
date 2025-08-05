@@ -39,8 +39,7 @@ const navItems: NavItem[] = [
     href: "/gameplay-assistance",
     submenu: [
       { name: "Profession Guides", href: "/guides/profession-guides" },
-      { name: "Quest Guides", href: "/guides/quest-guides" },
-      { name: "Dungeon Guides", href: "/guides/dungeon-guides" },
+      { name: "Adventure Guides", href: "/guides/adventure-guides" },
       { name: "Treasure Hunting", href: "/guides/treasure-hunting" },
       { name: "Character Builder", href: "/character-builder" },
     ],

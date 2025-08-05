@@ -68,11 +68,6 @@ export function AdventureGuidesPage() {
       name: "Death Watch Bunker",
       description: "Endor Mandalorian stronghold with elite warriors",
       content: "The Death Watch Bunker on Endor houses some of the galaxy's most dangerous Mandalorian warriors. This challenging dungeon requires careful strategy and coordination to overcome the heavily armed and well-trained Death Watch forces."
-    },
-    {
-      name: "Avatar Platform",
-      description: "Space station adventure with unique challenges",
-      content: "The Avatar Platform is a mysterious space station that presents unique challenges and encounters. Players must adapt to zero-gravity combat and solve complex puzzles while facing unknown threats in this orbital facility."
     }
   ];
 
@@ -84,9 +79,9 @@ export function AdventureGuidesPage() {
       content: "The path to becoming Force-sensitive in SWG requires dedication and completion of specific content badges. Players must complete three different content badges from theme parks, dungeons, or special events to unlock their Force sensitivity and begin their journey as a Jedi."
     },
     {
-      name: "Village of Aurilia",
+      name: "The Village",
       description: "Force-sensitive training and mystical guidance",
-      content: "The Village of Aurilia serves as a hub for Force-sensitive characters, offering specialized training, quests, and vendors. This mystical location provides essential resources for those walking the path of the Force."
+      content: "The Village on Dathomir serves as a hub for Force-sensitive characters, offering specialized training through four distinct phases. This mystical location provides essential progression for those walking the path toward becoming a Jedi."
     },
     {
       name: "The Padawan Trials",
@@ -97,178 +92,6 @@ export function AdventureGuidesPage() {
       name: "The Knight Trials",
       description: "Achieve Jedi Knighthood through wisdom and courage",
       content: "The Knight Trials represent the ultimate test for Padawan learners. These epic challenges require mastery of lightsaber combat, Force powers, and Jedi philosophy to achieve the rank of Jedi Knight."
-    }
-  ];
-
-  // Corvette Adventures
-  const corvetteAdventures: Guide[] = [
-    {
-      name: "Rebel Assault Ship",
-      description: "Imperial boarding mission on captured Rebel vessel",
-      content: "Board and secure a captured Rebel assault ship in this intense close-quarters combat scenario. Imperial forces must work together to clear out entrenched Rebel defenders and secure valuable intelligence and equipment."
-    },
-    {
-      name: "Imperial Corvette",
-      description: "Rebel infiltration of Imperial warship",
-      content: "Rebel operatives must infiltrate and sabotage an Imperial corvette from within. This stealth-based mission requires careful planning and execution to avoid detection while completing critical objectives."
-    },
-    {
-      name: "Corvette Tactics",
-      description: "Team strategies and role assignments for ship assaults",
-      content: "Master the art of coordinated ship-to-ship combat and boarding operations. Learn optimal team compositions, breach tactics, and shipboard combat strategies for both Imperial and Rebel corvette missions."
-    }
-  ];
-
-  // Planetary Quest Lines
-  const planetaryQuests: Guide[] = [
-    {
-      name: "Tatooine Quests",
-      description: "Desert world adventures and moisture farming",
-      content: "Explore the harsh desert world of Tatooine through various quest lines involving moisture farmers, Jawa traders, Tusken Raiders, and the criminal underworld. These quests offer insight into life on the galaxy's most famous desert planet."
-    },
-    {
-      name: "Naboo Quests",
-      description: "Royal palace intrigue and political machinations",
-      content: "Navigate the complex political landscape of Naboo through quests involving royal court intrigue, Trade Federation remnants, and the planet's unique relationship with the Gungans."
-    },
-    {
-      name: "Corellia Quests",
-      description: "Industrial world missions and corporate espionage",
-      content: "Delve into the industrial heart of the galaxy with missions involving corporate espionage, smuggling operations, and the complex relationship between Corellian independence and Imperial control."
-    },
-    {
-      name: "Dantooine Quests",
-      description: "Agricultural frontier stories and ancient ruins",
-      content: "Explore the pastoral world of Dantooine through agricultural missions, ancient Jedi ruins exploration, and encounters with the planet's unique wildlife and settler communities."
-    }
-  ];
-
-  // Force-Sensitive Locations  
-  const forceLocations: Guide[] = [
-    {
-      name: "Ancient Jedi Temple Ruins",
-      description: "Force mysteries and ancient Jedi artifacts",
-      content: "Explore the remnants of ancient Jedi temples scattered across the galaxy. These sacred sites hold powerful Force energies and contain artifacts that can enhance a Force-user's abilities and understanding of the light side."
-    },
-    {
-      name: "Sith Shadow Encounters",
-      description: "Dark side challenges and fallen Jedi confrontations",
-      content: "Face the darkness within and without in encounters with Sith shadows and fallen Jedi. These challenging confrontations test a Jedi's resolve and commitment to the light side of the Force."
-    },
-    {
-      name: "Force Crystal Caves",
-      description: "Lightsaber component hunting in crystal formations",
-      content: "Venture into dangerous crystal caves to harvest rare Force crystals essential for lightsaber construction. These expeditions require both combat skills and Force sensitivity to locate the most powerful crystals."
-    },
-    {
-      name: "Dark Jedi Enclaves",
-      description: "Fallen Jedi strongholds with corrupted Force users",
-      content: "Infiltrate and cleanse dark Jedi enclaves where fallen Force users have established strongholds. These dangerous locations harbor corrupted Jedi who have turned to the dark side."
-    }
-  ];
-
-  // Creature Lairs & Nests
-  const creatureLairs: Guide[] = [
-    {
-      name: "Krayt Dragon Lair",
-      description: "Tatooine's apex predator in its desert stronghold",
-      content: "Face the legendary Krayt Dragon in its desert lair on Tatooine. This massive creature requires a well-coordinated group effort to defeat and offers some of the rarest materials in the galaxy, including krayt dragon scales and pearls."
-    },
-    {
-      name: "Rancor Cave",
-      description: "Dathomir beast encounters in underground caverns",
-      content: "Venture into the dangerous caverns of Dathomir to confront the mighty rancor. These powerful beasts guard valuable resources and pose a significant challenge even to experienced adventurers."
-    },
-    {
-      name: "Nightsister Stronghold",
-      description: "Dathomir witch fortress with dark magic",
-      content: "Infiltrate the mysterious strongholds of the Nightsisters on Dathomir. These dark Force-users employ powerful magic and dangerous creatures to defend their ancient fortresses and arcane secrets."
-    },
-    {
-      name: "Spider Clan Cave",
-      description: "Nightsister arachnid allies in web-filled tunnels",
-      content: "Navigate the treacherous web-filled tunnels where the Nightsisters' spider allies make their homes. These arachnid creatures are both numerous and deadly, requiring careful tactics to overcome."
-    }
-  ];
-
-  // Space Adventures
-  const spaceDungeons: Guide[] = [
-    {
-      name: "Star Destroyer Assault",
-      description: "Capital ship raids requiring coordinated starfighter attacks",
-      content: "Coordinate massive starfighter assaults against Imperial Star Destroyers. These epic space battles require precise teamwork, advanced piloting skills, and strategic coordination to overcome the Empire's most powerful warships."
-    },
-    {
-      name: "Space Station Infiltration",
-      description: "Orbital facility missions with zero-gravity combat",
-      content: "Infiltrate heavily defended orbital facilities in unique zero-gravity combat scenarios. These missions require adaptation to weightless environments and specialized equipment for space-based operations."
-    },
-    {
-      name: "Asteroid Base",
-      description: "Hidden pirate strongholds in asteroid fields",
-      content: "Navigate treacherous asteroid fields to locate and assault hidden pirate bases. These remote strongholds serve as staging areas for criminal operations and contain valuable stolen goods."
-    }
-  ];
-
-  // Elite & Heroic Content
-  const eliteContent: Guide[] = [
-    {
-      name: "Heroic Encounters",
-      description: "Maximum difficulty challenges for elite groups",
-      content: "Face the galaxy's most challenging encounters designed for elite groups of experienced players. These heroic difficulties offer the rarest rewards but require perfect coordination and masterful execution."
-    },
-    {
-      name: "World Bosses",
-      description: "Planetary threats requiring server-wide coordination",
-      content: "Coordinate with other players across the server to take down massive world bosses. These colossal threats require large-scale cooperation and offer server-wide rewards upon defeat."
-    },
-    {
-      name: "Legendary Creatures",
-      description: "Ultra-rare beast encounters with unique mechanics",
-      content: "Hunt down legendary creatures that spawn rarely and possess unique abilities. These encounters provide exclusive rewards and bragging rights for those skilled enough to defeat them."
-    }
-  ];
-
-  // Adventure Preparation
-  const preparation: Guide[] = [
-    {
-      name: "Group Composition",
-      description: "Building the perfect team with balanced roles",
-      content: "Learn how to build effective teams for different types of content. Understanding role synergies, skill combinations, and group dynamics is essential for success in challenging group content."
-    },
-    {
-      name: "Gear Requirements",
-      description: "Equipment recommendations and minimum standards",
-      content: "Understand the gear requirements for different levels of content. From basic equipment for entry-level adventures to specialized gear for elite encounters, proper preparation is key to success."
-    },
-    {
-      name: "Consumables Guide",
-      description: "Buffs, stims, and essential supplies for success",
-      content: "Master the use of consumables, buffs, and stimulants to enhance your performance in challenging content. Learn which items provide the greatest benefit for different types of encounters."
-    },
-    {
-      name: "Loot Tables",
-      description: "Reward breakdowns and drop rate information",
-      content: "Comprehensive information about loot tables, drop rates, and reward structures for various content types. Plan your adventures based on the rewards you seek."
-    }
-  ];
-
-  // Factional Warfare
-  const factionQuests: Guide[] = [
-    {
-      name: "Imperial GCW Missions",
-      description: "Serve the Emperor with military precision",
-      content: "Join the Imperial military machine and participate in Galactic Civil War missions. Fight for order and control across the galaxy while earning Imperial ranks and exclusive rewards."
-    },
-    {
-      name: "Rebel GCW Missions", 
-      description: "Fight the Empire for galactic freedom",
-      content: "Take up arms with the Rebel Alliance in their fight against Imperial tyranny. Participate in guerrilla operations, sabotage missions, and coordinated strikes against Imperial targets."
-    },
-    {
-      name: "Faction Base Assaults",
-      description: "Coordinated attacks on enemy strongholds", 
-      content: "Coordinate large-scale assaults on enemy faction bases. These epic battles require strategic planning, teamwork, and persistence to capture and hold enemy territory."
     }
   ];
 
@@ -334,31 +157,24 @@ export function AdventureGuidesPage() {
 
               <div className="mb-8">
                 <p className="text-gray-300 mb-6">
-                  Star Wars Galaxies features an extensive adventure system combining epic quests, challenging dungeons, 
-                  and group content that require coordination, strategy, and skill to overcome. From theme park adventures 
-                  to ancient temples and high-tech facilities, these guides will help you navigate the galaxy's most 
-                  exciting challenges and discover hidden treasures. Click on any adventure below to learn more about its requirements and rewards.
+                  Star Wars Galaxies features an adventure system combining epic theme park quests, challenging dungeons, 
+                  and Force-sensitive content that require strategy and skill to overcome. From classic theme parks like 
+                  The Warren and Nym's to dangerous dungeons like the Geonosian Bio-Lab, these guides will help you navigate 
+                  the galaxy's most exciting challenges and discover hidden treasures. Click on any adventure below to learn 
+                  more about its requirements and rewards.
                 </p>
               </div>
 
               <GuideSection title="Theme Park Adventures" guides={themeParkQuests} />
               <GuideSection title="Classic Dungeons" guides={classicDungeons} />
               <GuideSection title="Jedi & Force Content" guides={jediQuests} />
-              <GuideSection title="Corvette Adventures" guides={corvetteAdventures} />
-              <GuideSection title="Planetary Quest Lines" guides={planetaryQuests} />
-              <GuideSection title="Force-Sensitive Locations" guides={forceLocations} />
-              <GuideSection title="Creature Lairs & Nests" guides={creatureLairs} />
-              <GuideSection title="Space Adventures" guides={spaceDungeons} />
-              <GuideSection title="Elite & Heroic Content" guides={eliteContent} />
-              <GuideSection title="Factional Warfare" guides={factionQuests} />
-              <GuideSection title="Adventure Preparation" guides={preparation} />
 
               <div className="bg-[rgba(13,20,40,0.6)] p-6 rounded-lg border border-gray-700 mt-8 mb-8">
                 <p className="text-gray-300">
-                  Whether you're seeking adventure, credits, faction points, badges for Jedi unlock, or rare items, 
-                  the galaxy is full of opportunities for those willing to take on the challenge. Many quests and 
-                  dungeons offer unique rewards that cannot be obtained through other means, making them essential 
-                  for dedicated players seeking to experience all that SWG Infinity has to offer.
+                  Whether you're seeking adventure, credits, badges for Jedi unlock, or rare items, these core adventures 
+                  provide the essential experiences that define the SWG journey. From the theme parks of Dantooine and Lok 
+                  to the dangerous dungeons of Yavin IV and Endor, each offers unique rewards and challenges that make them 
+                  essential for dedicated players seeking to experience the best that SWG Infinity has to offer.
                 </p>
               </div>
 

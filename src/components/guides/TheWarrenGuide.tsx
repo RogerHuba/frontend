@@ -1,6 +1,7 @@
 "use client";
 
 import { PageLayout } from "@/components/PageLayout";
+import Link from "next/link";
 
 export function TheWarrenGuide() {
   return (
@@ -8,6 +9,15 @@ export function TheWarrenGuide() {
       title="The Warren"
       subtitle="Complete guide to The Warren theme park on Dantooine"
     >
+      <div className="mb-8">
+        <Link 
+          href="/guides/adventure-guides"
+          className="inline-flex items-center text-[hsl(var(--swg-accent-gold))] hover:text-yellow-400 transition-colors mb-4"
+        >
+          ← Back to Adventure Guides
+        </Link>
+      </div>
+
       <h2 className="section-title mb-6">The Warren</h2>
 
       <p className="text-gray-300 mb-8">

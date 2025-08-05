@@ -26,7 +26,7 @@ export function GeonosianBioLabGuide() {
             <div className="max-w-4xl mx-auto">
               <div className="mb-8">
                 <Link 
-                  href="/guides/quest-guides"
+                  href="/guides/adventure-guides"
                   className="inline-flex items-center text-[hsl(var(--swg-accent-gold))] hover:text-yellow-400 transition-colors mb-4"
                 >
                   ← Back to Adventure Guides

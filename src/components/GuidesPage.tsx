@@ -95,7 +95,7 @@ export function GuidesPage() {
                 </li>
                 <li>
                   <Link href="/guides/the-village" className="text-blue-400 hover:text-blue-300">
-                    The Village of Aurilia
+                    The Village
                   </Link>
                 </li>
                 <li>

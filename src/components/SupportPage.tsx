@@ -66,7 +66,7 @@ export function SupportPage() {
     },
     {
       question: "How do I become a Jedi?",
-      answer: "Becoming a Jedi in SWG Infinity follows a modified version of the Village of Aurilia path. You'll need to find the Force Sensitive Village on Dathomir, complete various tasks and trials, and progress through four phases of Force training. See our detailed Jedi Unlock guide for more information.",
+      answer: "Becoming a Jedi in SWG Infinity follows a modified version of The Village path. You'll need to find the Force Sensitive Village on Dathomir, complete various tasks and trials, and progress through four phases of Force training. See our detailed Jedi Unlock guide for more information.",
       category: "gameplay",
     },
     {
