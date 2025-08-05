@@ -416,7 +416,7 @@ export function TheVillageGuide() {
         </div>
 
         {/* Strategy Tips */}
-        <div className="bg-black/40 border border-purple-500/30 rounded-lg p-8">
+        <div className="bg-black/40 border border-purple-500/30 rounded-lg p-8 mb-8">
           <h2 className="text-2xl font-bold mb-6 flex items-center">
             <Trophy className="h-6 w-6 text-yellow-400 mr-3" />
             Advanced Strategy Tips
@@ -456,6 +456,144 @@ export function TheVillageGuide() {
                 </li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        {/* XP Conversion Table */}
+        <div className="bg-black/40 border border-yellow-500/30 rounded-lg p-8">
+          <h2 className="text-2xl font-bold mb-6 flex items-center">
+            <Zap className="h-6 w-6 text-yellow-400 mr-3" />
+            Experience Conversion Ratios
+          </h2>
+          <p className="text-gray-300 mb-6">
+            Convert regular experience to Force-Sensitive experience using Paemos NPCs in the Village. 
+            The ratio shows how much regular XP is needed to gain 1 FS XP.
+          </p>
+          
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Combat & Reflex */}
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-red-400 flex items-center">
+                <Swords className="h-5 w-5 mr-2" />
+                Combat & Reflex Skills
+              </h3>
+              <div className="bg-black/30 rounded-lg p-4">
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="text-gray-400 font-medium">Skill</div>
+                  <div className="text-gray-400 font-medium text-right">Ratio</div>
+                  <div className="text-gray-300">Bounty Hunter</div>
+                  <div className="text-yellow-400 text-right">5:1</div>
+                  <div className="text-gray-300">Combat General</div>
+                  <div className="text-yellow-400 text-right">3:1</div>
+                  <div className="text-gray-300">Melee Specializations</div>
+                  <div className="text-yellow-400 text-right">30:1</div>
+                  <div className="text-gray-300">Ranged Specializations</div>
+                  <div className="text-yellow-400 text-right">30:1</div>
+                  <div className="text-gray-300">Squad Leader</div>
+                  <div className="text-yellow-400 text-right">90:1</div>
+                  <div className="text-gray-300">Jedi General</div>
+                  <div className="text-yellow-400 text-right">6:1</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Senses */}
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-blue-400 flex items-center">
+                <Target className="h-5 w-5 mr-2" />
+                Senses Skills
+              </h3>
+              <div className="bg-black/30 rounded-lg p-4">
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="text-gray-400 font-medium">Skill</div>
+                  <div className="text-gray-400 font-medium text-right">Ratio</div>
+                  <div className="text-gray-300">Bio-Engineer DNA</div>
+                  <div className="text-yellow-400 text-right">3:1</div>
+                  <div className="text-gray-300">Camp</div>
+                  <div className="text-yellow-400 text-right">5:1</div>
+                  <div className="text-gray-300">Creature Handler</div>
+                  <div className="text-yellow-400 text-right">9:1</div>
+                  <div className="text-gray-300">Dance</div>
+                  <div className="text-yellow-400 text-right">20:1</div>
+                  <div className="text-gray-300">Entertainer Healing</div>
+                  <div className="text-yellow-400 text-right">20:1</div>
+                  <div className="text-gray-300">Image Designer</div>
+                  <div className="text-yellow-400 text-right">7:1</div>
+                  <div className="text-gray-300">Medical</div>
+                  <div className="text-yellow-400 text-right">10:1</div>
+                  <div className="text-gray-300">Merchant</div>
+                  <div className="text-yellow-400 text-right">4:1</div>
+                  <div className="text-gray-300">Music</div>
+                  <div className="text-yellow-400 text-right">20:1</div>
+                  <div className="text-gray-300">Political</div>
+                  <div className="text-yellow-400 text-right">3:1</div>
+                  <div className="text-gray-300">Resource Harvesting</div>
+                  <div className="text-yellow-400 text-right">10:1</div>
+                  <div className="text-gray-300">Scout</div>
+                  <div className="text-yellow-400 text-right">8:1</div>
+                  <div className="text-gray-300">Slicing</div>
+                  <div className="text-yellow-400 text-right">3:1</div>
+                  <div className="text-gray-300">Trapping</div>
+                  <div className="text-yellow-400 text-right">8:1</div>
+                  <div className="text-gray-300">Jedi General</div>
+                  <div className="text-yellow-400 text-right">12:1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Crafting */}
+          <div className="mt-8">
+            <h3 className="text-xl font-semibold mb-4 text-purple-400 flex items-center">
+              <Wrench className="h-5 w-5 mr-2" />
+              Crafting Skills
+            </h3>
+            <div className="bg-black/30 rounded-lg p-4">
+              <div className="grid md:grid-cols-3 gap-4 text-sm">
+                <div>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="text-gray-400 font-medium">Skill</div>
+                    <div className="text-gray-400 font-medium text-right">Ratio</div>
+                    <div className="text-gray-300">Bio-Engineer Creature</div>
+                    <div className="text-yellow-400 text-right">1:1</div>
+                    <div className="text-gray-300">Clothing & Armor</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Droid General</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Food General</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                  </div>
+                </div>
+                <div>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="text-gray-300">Crafting General</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Medicine General</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Spice</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Structures General</div>
+                    <div className="text-yellow-400 text-right">10.5:1</div>
+                  </div>
+                </div>
+                <div>
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="text-gray-300">Weapons General</div>
+                    <div className="text-yellow-400 text-right">1.25:1</div>
+                    <div className="text-gray-300">Jedi General</div>
+                    <div className="text-yellow-400 text-right">12:1</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-blue-900/30 border border-blue-500/30 rounded-lg">
+            <p className="text-blue-200 text-sm">
+              <strong>💡 Tip:</strong> Find Paemos NPCs throughout the Village to convert your experience. 
+              Combat and Reflex use the same conversion table, while Senses and Crafting have their own ratios. 
+              Plan your experience allocation based on which Village skill branches you want to progress.
+            </p>
           </div>
         </div>
       </div>

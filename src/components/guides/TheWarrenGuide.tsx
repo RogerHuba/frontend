@@ -27,6 +27,40 @@ export function TheWarrenGuide() {
       </p>
 
       <div className="bg-[rgba(13,20,40,0.8)] p-6 rounded-md border border-[#1a1a4a] mb-8">
+        <h3 className="text-white font-semibold text-lg mb-4">📺 Video Guides</h3>
+        <div className="space-y-3">
+          <div className="flex items-center space-x-3">
+            <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
+            <div>
+              <a 
+                href="https://www.youtube.com/watch?v=n9zQrs-kxXM" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[hsl(var(--swg-accent-gold))] hover:text-yellow-400 transition-colors font-medium"
+              >
+                Warren YouTube Walkthrough by Mobyus1
+              </a>
+              <p className="text-gray-400 text-sm">Complete video walkthrough of The Warren theme park</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-3">
+            <div className="w-2 h-2 bg-red-500 rounded-full flex-shrink-0"></div>
+            <div>
+              <a 
+                href="https://www.youtube.com/watch?v=p9eWkzgA9_w" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[hsl(var(--swg-accent-gold))] hover:text-yellow-400 transition-colors font-medium"
+              >
+                Alternative 20 Minute Warren Guide
+              </a>
+              <p className="text-gray-400 text-sm">Quick 20-minute guide for efficient completion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-[rgba(13,20,40,0.8)] p-6 rounded-md border border-[#1a1a4a] mb-8">
         <h3 className="text-white font-semibold text-lg mb-4">Basic Information</h3>
         <ul className="swg-bullet-list">
           <li className="text-gray-300 mb-2"><span className="text-[hsl(var(--swg-accent-gold))]">Location:</span> Dantooine at /way -555 -3825</li>
