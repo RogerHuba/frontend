@@ -56,7 +56,7 @@ const navItems: NavItem[] = [
       { name: "Cities", href: "/server-information/cities" },
       { name: "Guilds", href: "/server-information/guilds" },
       { name: "Heritage", href: "/server-information/heritage" },
-      { name: "Game Pictures", href: "/server-information/game-pictures" },
+      { name: "InGame Picture Gallery", href: "/server-information/picture-gallery" },
       { name: "Resources", href: "/server-information/resources" },
       { name: "Schematics", href: "/server-information/schematics" },
       { name: "Galactic Civil War", href: "/server-information/galactic-civil-war" },

@@ -26,7 +26,6 @@ const navItems: NavItem[] = [
     href: "/about-infinity",
     submenu: [
       { name: "Latest Patch Notes", href: "/patchupdates" },
-      { name: "Monthly Spotlight", href: "/monthly-spotlight" },
       { name: "Infinity Specific Rules", href: "/about-infinity/infinity-specific-rules" },
       { name: "Roadmap", href: "/about-infinity/roadmap" },
       { name: "Vision and Mantras", href: "/about-infinity/vision-and-mantras" },
@@ -49,11 +48,8 @@ const navItems: NavItem[] = [
     href: "/server-information",
     submenu: [
       { name: "Cities", href: "/server-information/cities" },
-      { name: "Guilds", href: "/server-information/guilds" },
       { name: "Heritage", href: "/server-information/heritage" },
-      { name: "Game Pictures", href: "/server-information/game-pictures" },
-      { name: "Resources", href: "/server-information/resources" },
-      { name: "Schematics", href: "/server-information/schematics" },
+      { name: "InGame Picture Gallery", href: "/server-information/picture-gallery" },
       { name: "Galactic Civil War", href: "/server-information/galactic-civil-war" },
     ],
   },

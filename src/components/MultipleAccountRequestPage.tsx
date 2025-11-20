@@ -37,21 +37,7 @@ export function MultipleAccountRequestPage() {
     });
   };
 
-  const addAccount = () => {
-    setFormData({
-      ...formData,
-      additionalAccounts: [...formData.additionalAccounts, { username: "", email: "", reason: "" }],
-    });
-  };
 
-  const removeAccount = (index: number) => {
-    const updatedAccounts = [...formData.additionalAccounts];
-    updatedAccounts.splice(index, 1);
-    setFormData({
-      ...formData,
-      additionalAccounts: updatedAccounts,
-    });
-  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -218,16 +204,7 @@ export function MultipleAccountRequestPage() {
                     {formData.additionalAccounts.map((account, index) => (
                       <div key={`account-${index}-${account.username || 'unnamed'}`} className="mb-8 bg-[rgba(20,30,60,0.3)] p-6 rounded-lg border border-gray-700">
                         <div className="flex justify-between items-center mb-4">
-                          <h3 className="text-xl font-bold text-white">Account #{index + 1}</h3>
-                          {index > 0 && (
-                            <button
-                              type="button"
-                              className="text-red-400 hover:text-red-300 text-sm"
-                              onClick={() => removeAccount(index)}
-                            >
-                              Remove
-                            </button>
-                          )}
+                          <h3 className="text-xl font-bold text-white">Additional Account</h3>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -271,7 +248,7 @@ export function MultipleAccountRequestPage() {
                             id={`additional-account-reason-${index}`}
                             name={`additionalAccountReason_${index}`}
                             className="w-full bg-[rgba(13,13,30,0.6)] p-3 rounded-lg border border-gray-700 text-white focus:outline-none focus:border-blue-500 min-h-[100px]"
-                            placeholder="Please explain why you need this additional account (e.g., dedicated crafter, family member, etc.)"
+                            placeholder="Please explain why you need this additional account (e.g., family member, etc.)"
                             value={account.reason}
                             onChange={(e) => handleAdditionalAccountChange(index, 'reason', e.target.value)}
                             required
@@ -279,17 +256,6 @@ export function MultipleAccountRequestPage() {
                         </div>
                       </div>
                     ))}
-
-                    <button
-                      type="button"
-                      className="text-blue-400 hover:text-blue-300 flex items-center"
-                      onClick={addAccount}
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clipRule="evenodd" />
-                      </svg>
-                      Request Another Account (Maximum 3)
-                    </button>
                   </div>
 
                   <div className="mb-8">

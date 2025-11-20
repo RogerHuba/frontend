@@ -27,8 +27,7 @@
       "@/*": [
         "src/*"
       ]
-    },
-    "jsxImportSource": "bippy/dist"
+    }
   },
   "include": [
     ".next/types/**/*.ts",

@@ -3,8 +3,76 @@
     "year": "2025",
     "months": [
       {
+        "month": "August",
+        "patches": [
+          {
+            "id": "Infinity 2.0.99 Patch – 29 August 2025",
+            "version": "2.0.99",
+            "date": "29 August 2025",
+            "title": "Infinity 2.0.99 Patch – 29 August 2025",
+            "categories": [
+              {
+                "area": "Miscellaneous",
+                "updates": [
+                  {
+                    "type": "fix",
+                    "description": "Looted bounty hunter armor arm pieces now reflect if they are right or left in the name"
+                  },
+                  {
+                    "type": "change",
+                    "description": "Miscellaneous TRE updates"
+                  },
+                  {
+                    "type": "change",
+                    "description": "Increased friends/ignore list from 100 to 500"
+                  }
+                ]
+              },
+              {
+                "area": "PVP Adjustments",
+                "updates": [
+                  {
+                    "type": "balance",
+                    "description": "Reduced airstrike maximum range from 264m to 64m"
+                  },
+                  {
+                    "type": "change",
+                    "description": "Old 64m with no Airstrike Range tapes, 264m with +25 Airstrike Range"
+                  },
+                  {
+                    "type": "change",
+                    "description": "New 32m with no Airstrike Range tapes, 64m with +25 Airstrike Range"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "month": "July",
         "patches": [
+          {
+            "id": "Infinity 2.0.98 Patch – 25 July 2025",
+            "version": "2.0.98",
+            "date": "25 July 2025",
+            "title": "Infinity 2.0.98 Patch – 25 July 2025",
+            "categories": [
+              {
+                "area": "Infinity Heritage - Monty Don",
+                "updates": [
+                  {
+                    "type": "fix",
+                    "description": "His quests should be more reliable now"
+                  },
+                  {
+                    "type": "fix",
+                    "description": "The parts that had spawning problems are cleared up now"
+                  }
+                ]
+              }
+            ]
+          },
           {
             "id": "Infinity 2.0.97 Patch – 4 July 2025",
             "version": "2.0.97",

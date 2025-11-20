@@ -56,10 +56,10 @@ export function ServerInformationPage() {
       href: "/server-information/heritage"
     },
     {
-      title: "Game Pictures",
-      description: "View screenshots from events and beautiful locations.",
+      title: "InGame Picture Gallery",
+      description: "Visual showcase of server resources with quality ratings and detailed statistics.",
       icon: <ImageIcon className="h-6 w-6" />,
-      href: "/server-information/game-pictures"
+      href: "/server-information/picture-gallery"
     },
     {
       title: "Resources",
