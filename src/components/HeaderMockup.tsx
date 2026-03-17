@@ -96,7 +96,7 @@ export function HeaderMockup({ variant }: HeaderMockupProps) {
             <div className="flex-shrink-0">
               <Link href="/">
                 <Image
-                  src="https://ext.same-assets.com/906812322/2537617269.png"
+                  src="/swg-logo.png"
                   alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                   width={106}
                   height={56}
@@ -158,7 +158,7 @@ export function HeaderMockup({ variant }: HeaderMockupProps) {
             <div className="flex-shrink-0">
               <Link href="/">
                 <Image
-                  src="https://ext.same-assets.com/906812322/2537617269.png"
+                  src="/swg-logo.png"
                   alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                   width={106}
                   height={56}
@@ -226,7 +226,7 @@ export function HeaderMockup({ variant }: HeaderMockupProps) {
             <div className="flex items-center space-x-6">
               <Link href="/">
                 <Image
-                  src="https://ext.same-assets.com/906812322/2537617269.png"
+                  src="/swg-logo.png"
                   alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                   width={120}
                   height={64}
@@ -290,7 +290,7 @@ export function HeaderMockup({ variant }: HeaderMockupProps) {
             <div className="flex-shrink-0">
               <Link href="/">
                 <Image
-                  src="https://ext.same-assets.com/906812322/2537617269.png"
+                  src="/swg-logo.png"
                   alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                   width={106}
                   height={56}

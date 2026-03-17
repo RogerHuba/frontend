@@ -105,7 +105,7 @@ export function Navigation() {
           <div className="flex items-center space-x-1 flex-shrink-0 min-w-0 ml-4">
             <Link href="/" className="flex-shrink-0">
               <Image
-                src="https://ext.same-assets.com/906812322/2537617269.png"
+                src="/swg-logo.png"
                 alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                 width={60}
                 height={32}
@@ -143,7 +143,7 @@ export function Navigation() {
           <div className="flex-shrink-0 ml-5">
             <Link href="/">
               <Image
-                src="https://ext.same-assets.com/906812322/2537617269.png"
+                src="/swg-logo.png"
                 alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                 width={80}
                 height={42}
@@ -254,7 +254,7 @@ export function Navigation() {
           <div className="flex-shrink-0">
             <Link href="/" className="group">
               <Image
-                src="https://ext.same-assets.com/906812322/2537617269.png"
+                src="/swg-logo.png"
                 alt="SWG Infinity | Play Star Wars Galaxies: An Empire Divided Today!"
                 width={75}
                 height={40}
