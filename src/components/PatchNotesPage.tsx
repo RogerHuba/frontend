@@ -106,26 +106,27 @@ export function PatchNotesPage() {
         </span>
         <div className="text-gray-300 min-w-0 flex-1">
           {(update as any).markdown ? (
-            <ReactMarkdown 
-              remarkPlugins={[remarkGfm]}
-              className="prose prose-invert prose-sm max-w-none"
-              components={{
-                p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
-                strong: ({ children }) => <strong className="font-semibold text-white">{children}</strong>,
-                em: ({ children }) => <em className="italic text-gray-200">{children}</em>,
-                code: ({ children }) => <code className="bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-green-300">{children}</code>,
-                ul: ({ children }) => <ul className="list-disc list-inside space-y-1 ml-2">{children}</ul>,
-                ol: ({ children }) => <ol className="list-decimal list-inside space-y-1 ml-2">{children}</ol>,
-                li: ({ children }) => <li className="text-gray-300">{children}</li>,
-                blockquote: ({ children }) => <blockquote className="border-l-4 border-blue-500 pl-3 italic text-gray-400">{children}</blockquote>,
-                h1: ({ children }) => <h1 className="text-lg font-semibold text-white mb-2">{children}</h1>,
-                h2: ({ children }) => <h2 className="text-base font-semibold text-white mb-1">{children}</h2>,
-                h3: ({ children }) => <h3 className="text-sm font-semibold text-white mb-1">{children}</h3>,
-                a: ({ href, children }) => <a href={href} className="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener noreferrer">{children}</a>
-              }}
-            >
-              {update.description}
-            </ReactMarkdown>
+            <div className="prose prose-invert prose-sm max-w-none">
+              <ReactMarkdown 
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
+                  strong: ({ children }) => <strong className="font-semibold text-white">{children}</strong>,
+                  em: ({ children }) => <em className="italic text-gray-200">{children}</em>,
+                  code: ({ children }) => <code className="bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-green-300">{children}</code>,
+                  ul: ({ children }) => <ul className="list-disc list-inside space-y-1 ml-2">{children}</ul>,
+                  ol: ({ children }) => <ol className="list-decimal list-inside space-y-1 ml-2">{children}</ol>,
+                  li: ({ children }) => <li className="text-gray-300">{children}</li>,
+                  blockquote: ({ children }) => <blockquote className="border-l-4 border-blue-500 pl-3 italic text-gray-400">{children}</blockquote>,
+                  h1: ({ children }) => <h1 className="text-lg font-semibold text-white mb-2">{children}</h1>,
+                  h2: ({ children }) => <h2 className="text-base font-semibold text-white mb-1">{children}</h2>,
+                  h3: ({ children }) => <h3 className="text-sm font-semibold text-white mb-1">{children}</h3>,
+                  a: ({ href, children }) => <a href={href} className="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener noreferrer">{children}</a>
+                }}
+              >
+                {update.description}
+              </ReactMarkdown>
+            </div>
           ) : (
             <p>{update.description}</p>
           )}

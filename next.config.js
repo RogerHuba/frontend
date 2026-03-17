@@ -37,12 +37,14 @@ const nextConfig = {
     ],
   },
   
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  
   typescript: {
     ignoreBuildErrors: false,
+  },
+
+  turbopack: {
+    resolveAlias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
   },
   
   webpack: (config) => {
