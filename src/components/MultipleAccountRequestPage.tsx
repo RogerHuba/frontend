@@ -270,7 +270,7 @@ export function MultipleAccountRequestPage() {
                         required
                       />
                       <label htmlFor="agreeToTerms" className="ml-3 text-gray-300">
-                        I understand that submitting false information or using multiple accounts for exploitative purposes may result in account suspension or termination. I agree to comply with the SWG Infinity <button type="button" className="text-blue-400 hover:text-blue-300 underline bg-transparent border-none cursor-pointer" onClick={() => window.open('/terms-of-service', '_blank')}>Terms of Service</button>.
+                        I understand that submitting false information or using multiple accounts for exploitative purposes may result in account suspension or termination. I agree to comply with the SWG Infinity <button type="button" className="text-blue-400 hover:text-blue-300 underline bg-transparent border-none cursor-pointer" onClick={() => typeof window !== 'undefined' && window.open('/terms-of-service', '_blank')}>Terms of Service</button>.
                       </label>
                     </div>
                   </div>

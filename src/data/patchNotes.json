@@ -3,6 +3,173 @@
     "year": "2025",
     "months": [
       {
+        "month": "November",
+        "patches": [
+          {
+            "id": "Infinity 2.3.0 Patch – 15 December 2025",
+            "version": "2.3.0",
+            "date": "15 December 2025",
+            "title": "Infinity 2.3.0 Patch – 15 December 2025",
+            "categories": [
+              {
+                "area": "Markdown Features Demo",
+                "headings": [
+                  {
+                    "level": 1,
+                    "title": "Enhanced Combat",
+                    "tags": ["New", "Exciting"],
+                    "description": "Revolutionary combat improvements with markdown support.",
+                    "updates": [
+                      {
+                        "type": "addition",
+                        "description": "**Faction-Based Warfare**: Join massive battles with unique objectives for each faction",
+                        "markdown": true
+                      },
+                      {
+                        "type": "addition", 
+                        "description": "High-Stakes Combat featuring *AT-AT walkers*, `advanced turrets`, and **elite battle droids**",
+                        "markdown": true
+                      },
+                      {
+                        "type": "content",
+                        "description": "New weapon types including:\n- Energy rifles\n- Plasma cannons\n- `Experimental prototypes`",
+                        "markdown": true
+                      }
+                    ],
+                    "subHeadings": [
+                      {
+                        "level": 2,
+                        "title": "Weapon Systems",
+                        "tags": ["Updated"],
+                        "updates": [
+                          {
+                            "type": "balance",
+                            "description": "Weapon damage rebalanced for **improved PvP experience**",
+                            "markdown": true
+                          },
+                          {
+                            "type": "fix",
+                            "description": "Fixed issue where `energy weapons` were not dealing proper damage",
+                            "markdown": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "updates": []
+              }
+            ]
+          },
+          {
+            "id": "Infinity 2.1.0 Patch – 20 November 2025",
+            "version": "2.1.0",
+            "date": "20 November 2025",
+            "title": "Infinity 2.1.0 Patch – 20 November 2025",
+            "categories": [
+              {
+                "area": "Battle of Hoth",
+                "description": "A new large-scale conflict has erupted on the frozen planet of Hoth. Imperial and Rebel forces clash in an epic battle that will test your combat skills, tactical thinking, and faction loyalty.",
+                "headings": [
+                  {
+                    "level": 1,
+                    "title": "Battle Mechanics",
+                    "tags": ["New"],
+                    "description": "Core battle systems that drive the conflict on Hoth.",
+                    "updates": [
+                      {
+                        "type": "addition",
+                        "description": "**Faction-Based Warfare**: Join massive battles with unique objectives for each faction",
+                        "markdown": true
+                      },
+                      {
+                        "type": "addition",
+                        "description": "**High-Stakes Combat**: Face *AT-AT walkers*, `advanced turrets`, and **elite battle droids**",
+                        "markdown": true
+                      },
+                      {
+                        "type": "addition",
+                        "description": "Real-time tactical decision making with `enhanced AI systems`",
+                        "markdown": true
+                      }
+                    ],
+                    "subHeadings": [
+                      {
+                        "level": 2,
+                        "title": "Imperial Operations",
+                        "tags": ["Exclusive"],
+                        "updates": [
+                          {
+                            "type": "addition",
+                            "description": "Command **AT-AT walkers** in ground assault missions",
+                            "markdown": true
+                          },
+                          {
+                            "type": "addition",
+                            "description": "Deploy `probe droids` for reconnaissance operations",
+                            "markdown": true
+                          },
+                          {
+                            "type": "addition",
+                            "description": "Access to *Imperial staging area* on Hoth with full command facilities",
+                            "markdown": true
+                          }
+                        ]
+                      },
+                      {
+                        "level": 2,
+                        "title": "Rebel Operations",
+                        "tags": ["Exclusive"],
+                        "updates": [
+                          {
+                            "type": "addition",
+                            "description": "Coordinate **defensive positions** against Imperial forces",
+                            "markdown": true
+                          },
+                          {
+                            "type": "addition",
+                            "description": "Use `speeders` and **defensive turrets** for hit-and-run tactics",
+                            "markdown": true
+                          },
+                          {
+                            "type": "addition",
+                            "description": "Access to *Rebel staging area* on Hoth with medical facilities",
+                            "markdown": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "level": 1,
+                    "title": "Rewards and Progression",
+                    "tags": ["Updated"],
+                    "updates": [
+                      {
+                        "type": "addition",
+                        "description": "**Delta Base Operations**: Prove your worth in battle for classified mission access",
+                        "markdown": true
+                      },
+                      {
+                        "type": "addition",
+                        "description": "Exclusive *performance-based rewards* for battle participants including:\n- Unique armor sets\n- Rare weapon modifications\n- Special titles and badges",
+                        "markdown": true
+                      },
+                      {
+                        "type": "addition",
+                        "description": "New **battle ranking system** with `seasonal rewards`",
+                        "markdown": true
+                      }
+                    ]
+                  }
+                ],
+                "updates": []
+              }
+            ]
+          }
+        ]
+      },
+      {
         "month": "August",
         "patches": [
           {
@@ -16,15 +183,18 @@
                 "updates": [
                   {
                     "type": "fix",
-                    "description": "Looted bounty hunter armor arm pieces now reflect if they are right or left in the name"
+                    "description": "Looted **bounty hunter armor** arm pieces now reflect if they are *right* or *left* in the name",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "Miscellaneous TRE updates"
+                    "description": "Miscellaneous `TRE updates` for improved performance",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "Increased friends/ignore list from 100 to 500"
+                    "description": "Increased **friends/ignore list** from `100` to `500` entries",
+                    "markdown": true
                   }
                 ]
               },
@@ -33,15 +203,18 @@
                 "updates": [
                   {
                     "type": "balance",
-                    "description": "Reduced airstrike maximum range from 264m to 64m"
+                    "description": "Reduced **airstrike maximum range** from `264m` to `64m`",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "Old 64m with no Airstrike Range tapes, 264m with +25 Airstrike Range"
+                    "description": "**Old system**: `64m` with no Airstrike Range tapes, `264m` with *+25 Airstrike Range*",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "New 32m with no Airstrike Range tapes, 64m with +25 Airstrike Range"
+                    "description": "**New system**: `32m` with no Airstrike Range tapes, `64m` with *+25 Airstrike Range*",
+                    "markdown": true
                   }
                 ]
               }
@@ -63,11 +236,13 @@
                 "updates": [
                   {
                     "type": "fix",
-                    "description": "His quests should be more reliable now"
+                    "description": "**Monty Don quests** should be more reliable now with improved spawn mechanics",
+                    "markdown": true
                   },
                   {
                     "type": "fix",
-                    "description": "The parts that had spawning problems are cleared up now"
+                    "description": "The quest parts that had *spawning problems* are cleared up now",
+                    "markdown": true
                   }
                 ]
               }
@@ -84,15 +259,13 @@
                 "updates": [
                   {
                     "type": "addition",
-                    "description": "Added new advanced exception handling to log screenplay (quest code) errors and prevent server crashes if invalid objects are encountered"
+                    "description": "Added new **advanced exception handling** to log `screenplay (quest code)` errors and prevent server crashes if invalid objects are encountered",
+                    "markdown": true
                   },
                   {
                     "type": "fix",
-                    "description": "Hero of TatooineFixed bug with Sennex cave escort mission"
-                  },
-                  {
-                    "type": "fix",
-                    "description": "Fixed bug with Sennex cave escort mission"
+                    "description": "Fixed bug with **Sennex cave escort mission** not completing properly",
+                    "markdown": true
                   }
                 ]
               },
@@ -123,19 +296,18 @@
                 "updates": [
                   {
                     "type": "balance",
-                    "description": "The Force Absorb cooldown for Master Powers/Master Healer in PVP has been reduced from 500ms to 333ms, i.e. can now absorb 3 times per second up from 2 times per second"
+                    "description": "The **Force Absorb cooldown** for `Master Powers/Master Healer` in PVP has been reduced from `500ms` to `333ms` - can now absorb *3 times per second* up from *2 times per second*",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "When a Jedi leaves the FRS, their Jedi state will be set to 2 (Padawan)"
+                    "description": "When a **Jedi leaves the FRS**, their Jedi state will be set to `2 (Padawan)`",
+                    "markdown": true
                   },
                   {
                     "type": "change",
-                    "description": "Rejoining the FRS at a Force Shrine will now require a confirmation box that will notify you which council you will be joining based on current faction"
-                  },
-                  {
-                    "type": "change",
-                    "description": "Staff Commands"
+                    "description": "Rejoining the **FRS at a Force Shrine** will now require a *confirmation box* that notifies you which council you'll be joining based on current faction",
+                    "markdown": true
                   }
                 ]
               },
@@ -144,15 +316,8 @@
                 "updates": [
                   {
                     "type": "addition",
-                    "description": "Added /snoop guild command to check player guild when they are offline / not in range"
-                  },
-                  {
-                    "type": "addition",
-                    "description": "Added /snoop guild command to check player guild when they are offline / not in range"
-                  },
-                  {
-                    "type": "addition",
-                    "description": "Added /snoop guild command to check player guild when they are offline / not in range"
+                    "description": "Added `/snoop guild` command to check player guild when they are *offline* or *not in range*",
+                    "markdown": true
                   }
                 ]
               }

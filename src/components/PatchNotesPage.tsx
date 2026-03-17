@@ -8,6 +8,8 @@ import { RandomHeroSection } from "@/components/RandomHeroSection";
 import { PatchNotesSearch } from "@/components/PatchNotesSearch";
 import { PatchNotesSearchResults } from "@/components/PatchNotesSearchResults";
 import { ChevronRight, ChevronDown } from "lucide-react";
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import patchNotesData from '@/data/patchNotes.json';
 import { PatchUpdate, PatchCategory, PatchNote, MonthPatchNotes, YearPatchNotes } from '@/data/patchNotes';
 import { usePatchNotesSearch } from '@/hooks/usePatchNotesSearch';
@@ -99,10 +101,90 @@ export function PatchNotesPage() {
 
     return (
       <div key={index} className="flex items-start mb-3">
-        <span className={`inline-block rounded px-2 py-1 text-xs font-medium mr-3 ${badgeColor}`}>
+        <span className={`inline-block rounded px-2 py-1 text-xs font-medium mr-3 flex-shrink-0 ${badgeColor}`}>
           {badgeText}
         </span>
-        <p className="text-gray-300">{update.description}</p>
+        <div className="text-gray-300 min-w-0 flex-1">
+          {(update as any).markdown ? (
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              className="prose prose-invert prose-sm max-w-none"
+              components={{
+                p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
+                strong: ({ children }) => <strong className="font-semibold text-white">{children}</strong>,
+                em: ({ children }) => <em className="italic text-gray-200">{children}</em>,
+                code: ({ children }) => <code className="bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-green-300">{children}</code>,
+                ul: ({ children }) => <ul className="list-disc list-inside space-y-1 ml-2">{children}</ul>,
+                ol: ({ children }) => <ol className="list-decimal list-inside space-y-1 ml-2">{children}</ol>,
+                li: ({ children }) => <li className="text-gray-300">{children}</li>,
+                blockquote: ({ children }) => <blockquote className="border-l-4 border-blue-500 pl-3 italic text-gray-400">{children}</blockquote>,
+                h1: ({ children }) => <h1 className="text-lg font-semibold text-white mb-2">{children}</h1>,
+                h2: ({ children }) => <h2 className="text-base font-semibold text-white mb-1">{children}</h2>,
+                h3: ({ children }) => <h3 className="text-sm font-semibold text-white mb-1">{children}</h3>,
+                a: ({ href, children }) => <a href={href} className="text-blue-400 hover:text-blue-300 underline" target="_blank" rel="noopener noreferrer">{children}</a>
+              }}
+            >
+              {update.description}
+            </ReactMarkdown>
+          ) : (
+            <p>{update.description}</p>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  const renderHeading = (heading: any, level: 1 | 2 | 3 = 1) => {
+    const headingClasses: Record<1 | 2 | 3, string> = {
+      1: "text-xl font-semibold text-[hsl(var(--swg-accent-gold))] border-b border-[#1a1a4a] pb-2 mb-4",
+      2: "text-lg font-medium text-blue-300 border-l-4 border-blue-500 pl-3 mb-3",
+      3: "text-base font-medium text-green-300 border-l-2 border-green-500 pl-3 mb-2"
+    };
+
+    const marginClasses: Record<1 | 2 | 3, string> = {
+      1: "",
+      2: "ml-4",
+      3: "ml-8"
+    };
+
+    return (
+      <div key={`${heading.title}-${level}`} className={`space-y-3 ${marginClasses[level]}`}>
+        <div className="flex items-center gap-2 flex-wrap">
+          <h4 className={headingClasses[level]}>
+            {heading.title}
+          </h4>
+          {heading.tags && heading.tags.map((tag: string, tagIndex: number) => (
+            <span 
+              key={tagIndex} 
+              className="inline-block bg-[hsl(var(--swg-accent-gold))]/20 text-[hsl(var(--swg-accent-gold))] px-2 py-1 rounded-full text-xs font-medium border border-[hsl(var(--swg-accent-gold))]/30"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+        
+        {heading.description && (
+          <div className="bg-[rgba(20,30,60,0.3)] p-4 rounded-lg border-l-4 border-[hsl(var(--swg-accent-gold))] mb-4">
+            <p className="text-gray-300 italic leading-relaxed">
+              {heading.description}
+            </p>
+          </div>
+        )}
+        
+        {heading.updates && heading.updates.length > 0 && (
+          <div className="space-y-3 mb-4">
+            {heading.updates.map(renderPatchUpdate)}
+          </div>
+        )}
+        
+        {heading.subHeadings && heading.subHeadings.length > 0 && (
+          <div className="space-y-4">
+            {heading.subHeadings.map((subHeading: any) => {
+              const nextLevel = (level < 3 ? level + 1 : 3) as 1 | 2 | 3;
+              return renderHeading(subHeading, nextLevel);
+            })}
+          </div>
+        )}
       </div>
     );
   };
@@ -177,9 +259,31 @@ export function PatchNotesPage() {
                             <h4 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-lg border-b border-[#1a1a4a] pb-2">
                               {category.area}
                             </h4>
-                            <div className="space-y-3">
-                              {category.updates.map(renderPatchUpdate)}
-                            </div>
+                            {category.description && (
+                              <div className="bg-[rgba(20,30,60,0.3)] p-4 rounded-lg border-l-4 border-[hsl(var(--swg-accent-gold))] mb-4">
+                                <p className="text-gray-300 italic leading-relaxed">
+                                  {category.description}
+                                </p>
+                              </div>
+                            )}
+                            
+                            {/* Render new hierarchical headings */}
+                            {(category as any).headings && (category as any).headings.length > 0 && (
+                              <div className="space-y-6">
+                                {(category as any).headings.map((heading: any, headingIndex: number) => (
+                                  <div key={headingIndex}>
+                                    {renderHeading(heading, 1)}
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                            
+                            {/* Render legacy flat updates */}
+                            {category.updates && category.updates.length > 0 && (
+                              <div className="space-y-3">
+                                {category.updates.map(renderPatchUpdate)}
+                              </div>
+                            )}
                           </div>
                         ))}
                       </div>
@@ -245,9 +349,31 @@ export function PatchNotesPage() {
                                               <h5 className="text-[hsl(var(--swg-accent-gold))] font-semibold text-base border-b border-[#1a1a4a] pb-2">
                                                 {category.area}
                                               </h5>
-                                              <div className="space-y-3">
-                                                {category.updates.map(renderPatchUpdate)}
-                                              </div>
+                                              {category.description && (
+                                                <div className="bg-[rgba(20,30,60,0.3)] p-4 rounded-lg border-l-4 border-[hsl(var(--swg-accent-gold))] mb-4">
+                                                  <p className="text-gray-300 italic leading-relaxed">
+                                                    {category.description}
+                                                  </p>
+                                                </div>
+                                              )}
+                                              
+                                              {/* Render new hierarchical headings */}
+                                              {(category as any).headings && (category as any).headings.length > 0 && (
+                                                <div className="space-y-6">
+                                                  {(category as any).headings.map((heading: any, headingIndex: number) => (
+                                                    <div key={headingIndex}>
+                                                      {renderHeading(heading, 1)}
+                                                    </div>
+                                                  ))}
+                                                </div>
+                                              )}
+                                              
+                                              {/* Render legacy flat updates */}
+                                              {category.updates && category.updates.length > 0 && (
+                                                <div className="space-y-3">
+                                                  {category.updates.map(renderPatchUpdate)}
+                                                </div>
+                                              )}
                                             </div>
                                           ))}
                                         </div>

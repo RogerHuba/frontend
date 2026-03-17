@@ -139,19 +139,19 @@ export function ServerStatus({ className = "", showRefresh = false }: ServerStat
               </button>
             )}
           </div>
-          {status === "online" || status === "high-traffic" ? (
-            <span className="text-xs text-gray-400 whitespace-nowrap transition-all duration-300 group-hover:text-green-300">
-              Up Time: {calculateUptime()}
-            </span>
-          ) : status === "maintenance" && maintenanceMessage ? (
+          {status === "maintenance" && maintenanceMessage ? (
             <span className="text-xs text-gray-400 transition-colors duration-300">
               {maintenanceMessage}
             </span>
-          ) : (
+          ) : status === "maintenance" ? (
             <span className="text-xs text-gray-400 transition-colors duration-300">
-              {status === "maintenance" ? "Scheduled maintenance" : "Please try again later"}
+              Scheduled maintenance
             </span>
-          )}
+          ) : status === "offline" ? (
+            <span className="text-xs text-gray-400 transition-colors duration-300">
+              Please try again later
+            </span>
+          ) : null}
         </div>
         
         {/* Tooltip for last updated time */}

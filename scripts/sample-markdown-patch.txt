@@ -1,0 +1,54 @@
+Version: 2.3.0
+Date: December 15, 2025
+
+BATTLE OF HOTH:
+-D A new large-scale conflict has erupted on the frozen planet of Hoth. Imperial and Rebel forces clash in an epic battle that will test your combat skills, tactical thinking, and faction loyalty.
+
+> Battle Mechanics +>New
+-D Core battle systems that drive the conflict on Hoth.
+
+[NEW] **Faction-Based Warfare**: Join massive battles with unique objectives for each faction
+[NEW] High-Stakes Combat featuring *AT-AT walkers*, `turrets`, and **elite battle droids**
+[NEW] Real-time tactical decision making with `advanced AI systems`
+
+>> Imperial Operations +>Exclusive
+[NEW] Command **AT-AT walkers** in ground assault missions
+[NEW] Deploy `probe droids` for reconnaissance operations
+[NEW] Access to *Imperial staging area* on Hoth with full facilities
+
+>> Rebel Operations +>Exclusive  
+[NEW] Coordinate defensive positions against Imperial forces
+[NEW] Use **speeders** and `defensive turrets` for hit-and-run tactics
+[NEW] Access to *Rebel staging area* on Hoth with medical facilities
+
+>>> Special Missions +>Elite
+[CONTENT] Infiltrate enemy bases during battle chaos
+[CONTENT] Rescue operations behind enemy lines with **high risk/reward**
+[CONTENT] Covert operations requiring `advanced tactics`
+
+> Rewards and Progression +>Updated
+[NEW] **Delta Base Operations**: Prove your worth in battle for classified mission access
+[NEW] Exclusive performance-based rewards including:
+  - Unique armor sets
+  - Rare weapon modifications  
+  - Special titles and badges
+[CHANGE] New battle ranking system with *seasonal rewards*
+
+JEDI:
+> Force Powers +>Rebalanced
+[FIX] Fixed Force Lightning not working properly in combat scenarios
+[CHANGE] Force Jump range increased from `10m` to `15m` for better mobility
+[NEW] Added new Force abilities for **enhanced combat scenarios**
+
+> Lightsaber Combat +>Enhanced  
+[NEW] Enhanced lightsaber combat with improved *blocking mechanics*
+[NEW] **Crystal system overhaul** with rare crystal types:
+  - Krayt Dragon Pearls
+  - Compressed crystals
+  - Ancient Jedi crystals
+[BALANCE] Improved parrying system for better PvP balance
+
+LEGACY ITEMS:
++ Simple addition using old format
+- Bug fix using old format  
+* Change using old format

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Calendar, Users, Clock, ExternalLink } from "lucide-react";
+import { Calendar, Users, ExternalLink } from "lucide-react";
 
 export function ServerInfoFooter() {
   return (
@@ -19,10 +19,6 @@ export function ServerInfoFooter() {
               <div className="flex items-center text-gray-300 text-sm">
                 <Calendar className="h-4 w-4 mr-2 text-green-400" />
                 <span>Online Since 2017</span>
-              </div>
-              <div className="flex items-center text-gray-300 text-sm">
-                <Clock className="h-4 w-4 mr-2 text-yellow-400" />
-                <span>99.9% Uptime</span>
               </div>
             </div>
           </div>

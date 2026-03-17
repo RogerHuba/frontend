@@ -1,0 +1,47 @@
+Version: 2.2.0
+Date: December 1, 2025
+
+BATTLE OF HOTH:
+-D A new large-scale conflict has erupted on the frozen planet of Hoth. Imperial and Rebel forces clash in an epic battle that will test your combat skills, tactical thinking, and faction loyalty.
+
+> Battle Mechanics +>New
+-D Core battle systems that drive the conflict on Hoth.
++ Faction-Based Warfare: Join massive battles with unique objectives
++ High-Stakes Combat: Face AT-ATs, turrets, and elite battle droids
++ Real-time tactical decision making
+
+>> Imperial Operations +>Exclusive
++ Command AT-AT walkers in ground assault missions
++ Deploy probe droids for reconnaissance
++ Access to Imperial staging area on Hoth
+
+>> Rebel Operations +>Exclusive
++ Coordinate defensive positions against Imperial forces
++ Use speeders and turrets for hit-and-run tactics  
++ Access to Rebel staging area on Hoth
+
+>>> Special Missions +>Elite
++ Infiltrate enemy bases during battle chaos
++ Rescue operations behind enemy lines
++ High-risk, high-reward covert operations
+
+> Rewards and Progression +>Updated
++ Delta Base Operations: Prove worth in battle for classified mission access
++ Exclusive performance-based rewards for battle participants
++ New battle ranking system with seasonal rewards
+
+> Getting Started
++ Faction instructors added at Imperial and Rebel staging areas
++ Battle terminals available to initiate faction conflicts
++ Travel to Hoth available from Endor with strategic landing locations
+
+JEDI:
+> Force Powers +>Rebalanced
+- Fixed Force Lightning not working properly
+* Changed Force Jump range from 10m to 15m
++ Added new Force abilities for combat scenarios
+
+> Lightsaber Combat +>Enhanced
++ New combat animations and effects
++ Improved lightsaber crystal system
++ Enhanced blocking and parrying mechanics

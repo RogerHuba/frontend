@@ -1,0 +1,23 @@
+Version: 2.1.0
+Date: November 20, 2025
+
+BATTLE OF HOTH:
+-D A new large-scale conflict has erupted on the frozen planet of Hoth. Imperial and Rebel forces clash in an epic battle that will test your combat skills, tactical thinking, and faction loyalty.
++ Faction-Based Warfare: Join massive battles with unique objectives for each faction
++ High-Stakes Combat: Face AT-ATs, turrets, and elite battle droids
++ Delta Base Operations: Prove worth in battle for classified mission access
++ Exclusive Rewards: Performance-based rewards for battle participants
++ Faction instructors added at Imperial and Rebel staging areas on Hoth
++ Battle terminals available to initiate faction conflicts
++ Travel to Hoth available from Endor with strategic landing locations
+
+BIG GAME HUNTER & ETYYY BEASTLORD:
+-D New content for specialized hunters in the harsh northwestern regions of Hoth.
++ NPCs now provide new information to qualified hunters
++ Northwestern Hoth region restricted to cold-resistant professions only
++ New survival content available for qualified hunters
+
+JEDI:
+- Fixed Force Lightning not working properly
+* Changed Force Jump range from 10m to 15m
++ Added new lightsaber crystal types

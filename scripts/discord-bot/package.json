@@ -1,0 +1,17 @@
+{
+  "name": "swg-patch-notes-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to automatically process patch notes for SWG Infinity website",
+  "main": "discord-bot.js",
+  "scripts": {
+    "start": "node discord-bot.js",
+    "dev": "node --watch discord-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["discord", "bot", "patch-notes", "swg", "automation"],
+  "author": "SWG Infinity Team",
+  "license": "MIT"
+}

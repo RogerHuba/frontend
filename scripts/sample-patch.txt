@@ -1,0 +1,26 @@
+Version: 2.1.0
+Date: November 20, 2025
+
+JEDI:
++ Added new lightsaber crystal types
+- Fixed Force Lightning not working properly
+* Changed Force Jump range from 10m to 15m
+- Fixed Jedi robe clipping issues
+
+COMBAT:
+- Fixed rifle accuracy bug
+* Reduced pistol damage by 5%
++ Added new combat animations
+* Increased melee weapon durability
+
+CRAFTING:
++ New armor crafting recipes
+- Fixed resource spawning issue
+* Changed crafting experience gains
++ Added rare material drops
+
+MISCELLANEOUS:
+- Fixed chat system lag
+* Updated UI responsiveness
++ Added new emotes
+- Fixed memory leak in cantina areas
